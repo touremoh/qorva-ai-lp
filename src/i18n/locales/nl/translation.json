@@ -1,0 +1,122 @@
+{
+  "header": {
+    "features": "Functies",
+    "howItWorks": "Hoe het werkt",
+    "pricing": "Prijzen",
+    "about": "Over ons",
+    "signIn": "Inloggen",
+    "startTrial": "Gratis proberen"
+  },
+  "hero": {
+    "title": "Werf slimmer, sneller en nauwkeuriger met Qorva AI",
+    "subtitle": "AI-gestuurde CV-screening voor HR-managers, recruiters en startups",
+    "cta": {
+      "trial": "Gratis proberen",
+      "demo": "Demo aanvragen"
+    }
+  },
+  "features": {
+    "title": "Belangrijkste functies",
+    "subtitle": "Alles wat je nodig hebt om je wervingsproces te revolutioneren",
+    "parsing": {
+      "title": "AI-gestuurde CV-analyse",
+      "description": "Geen handmatige gegevensinvoer meer! Sleep tot 10 CV's tegelijk."
+    },
+    "matching": {
+      "title": "AI-gestuurde kandidaat matching",
+      "description": "Vind de beste kandidaat in je talentpool voor een nieuwe functie."
+    },
+    "interview": {
+      "title": "Op maat gemaakte interviewvragen",
+      "description": "Voor elk kandidaatrapport genereert het systeem gepersonaliseerde interviewvragen."
+    }
+  },
+  "howItWorks": {
+    "title": "Hoe het werkt",
+    "subtitle": "Begin met Qorva in drie eenvoudige stappen",
+    "steps": {
+      "account": {
+        "title": "Maak een account aan",
+        "description": "Maak een account aan en begin met het gebruik van onze diensten."
+      },
+      "upload": {
+        "title": "Upload je CV's",
+        "description": "Upload je CV en maak je CV-bibliotheek en vacatures aan."
+      },
+      "insights": {
+        "title": "Krijg inzichten",
+        "description": "Begin met het screenen van je CV-bibliotheek."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Eenvoudige, transparante prijzen",
+    "subtitle": "Kies het plan dat het beste bij je past",
+    "monthly": "Maandelijks",
+    "yearly": "Jaarlijks",
+    "plans": {
+      "starter": {
+        "title": "Starter",
+        "price": "49",
+        "period": "/maand",
+        "description": "Perfect voor kleine bedrijven",
+        "features": [
+          "Tot 50 CV-analyses per maand",
+          "Basis kandidaat matching",
+          "E-mail ondersteuning"
+        ]
+      },
+      "professional": {
+        "title": "Professional",
+        "price": "99",
+        "period": "/maand",
+        "description": "Voor groeiende bedrijven",
+        "features": [
+          "Tot 200 CV-analyses per maand",
+          "Geavanceerde kandidaat matching",
+          "Prioriteit ondersteuning",
+          "Aanpasbare scoringscriteria"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "Op maat",
+        "period": "",
+        "description": "Voor grote organisaties",
+        "features": [
+          "Onbeperkte CV-analyses",
+          "Aangepaste integraties",
+          "Toegewijde accountmanager",
+          "Aangepaste AI-model training"
+        ]
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "Bedrijf",
+      "about": "Over ons",
+      "careers": "Carrières",
+      "contact": "Contact"
+    },
+    "product": {
+      "title": "Product",
+      "features": "Functies",
+      "pricing": "Prijzen",
+      "security": "Beveiliging"
+    },
+    "resources": {
+      "title": "Bronnen",
+      "blog": "Blog",
+      "documentation": "Documentatie",
+      "support": "Ondersteuning"
+    },
+    "legal": {
+      "title": "Juridisch",
+      "privacy": "Privacybeleid",
+      "terms": "Servicevoorwaarden",
+      "cookies": "Cookiebeleid"
+    },
+    "copyright": "© 2024 Qorva AI. Alle rechten voorbehouden."
+  }
+} 

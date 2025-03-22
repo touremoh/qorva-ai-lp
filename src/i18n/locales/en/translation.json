@@ -1,0 +1,122 @@
+{
+  "header": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "about": "About",
+    "signIn": "Sign In",
+    "startTrial": "Start Free Trial"
+  },
+  "hero": {
+    "title": "Hire Smarter, Faster, and More Accurately with Qorva AI",
+    "subtitle": "AI-Powered Resume Screening Solution for HR Managers, Recruiters, and Startups",
+    "cta": {
+      "trial": "Start Free Trial",
+      "demo": "Schedule Demo"
+    }
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Everything you need to revolutionize your hiring process",
+    "parsing": {
+      "title": "AI-Powered Resume Parsing",
+      "description": "No more manual data entry! Simply drag and drop up to 10 resumes at once, and Qorva AI will automatically extract and store candidate information in the system."
+    },
+    "matching": {
+      "title": "AI-Driven Candidate Matching",
+      "description": "Need to find the best candidate in your talent pool for a new job post? Just run a CV analysis, and Qorva AI will scan, match, and rank candidates based on relevance."
+    },
+    "interview": {
+      "title": "Tailored Interview Questions",
+      "description": "For every candidate report, the system generates a personalized set of interview questions based on their experience, skills, and weaknesses, ensuring structured and insightful interviews."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Get started with Qorva in three simple steps",
+    "steps": {
+      "account": {
+        "title": "Create an account",
+        "description": "Create an account and start using our services."
+      },
+      "upload": {
+        "title": "Drop your CVs",
+        "description": "Upload your CV and create your CV library and job posts."
+      },
+      "insights": {
+        "title": "Get Insights",
+        "description": "Start screening your resumes library."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that works best for you",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "plans": {
+      "starter": {
+        "title": "Starter",
+        "price": "49",
+        "period": "/month",
+        "description": "Perfect for small businesses",
+        "features": [
+          "Up to 50 CV analyses per month",
+          "Basic candidate matching",
+          "Email support"
+        ]
+      },
+      "professional": {
+        "title": "Professional",
+        "price": "99",
+        "period": "/month",
+        "description": "For growing companies",
+        "features": [
+          "Up to 200 CV analyses per month",
+          "Advanced candidate matching",
+          "Priority support",
+          "Custom scoring criteria"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "description": "For large organizations",
+        "features": [
+          "Unlimited CV analyses",
+          "Custom integrations",
+          "Dedicated account manager",
+          "Custom AI model training"
+        ]
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "security": "Security"
+    },
+    "resources": {
+      "title": "Resources",
+      "blog": "Blog",
+      "documentation": "Documentation",
+      "support": "Support"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© 2024 Qorva AI. All rights reserved."
+  }
+} 

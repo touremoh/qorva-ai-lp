@@ -1,0 +1,122 @@
+{
+  "header": {
+    "features": "Funzionalità",
+    "howItWorks": "Come funziona",
+    "pricing": "Prezzi",
+    "about": "Chi siamo",
+    "signIn": "Accedi",
+    "startTrial": "Prova gratuita"
+  },
+  "hero": {
+    "title": "Assumi in modo più intelligente, veloce e preciso con Qorva AI",
+    "subtitle": "Analisi CV basata su IA per HR manager, recruiter e startup",
+    "cta": {
+      "trial": "Prova gratuita",
+      "demo": "Richiedi demo"
+    }
+  },
+  "features": {
+    "title": "Funzionalità principali",
+    "subtitle": "Tutto ciò di cui hai bisogno per rivoluzionare il tuo processo di assunzione",
+    "parsing": {
+      "title": "Analisi CV con IA",
+      "description": "Basta con l'inserimento manuale dei dati! Trascina e rilascia fino a 10 CV alla volta."
+    },
+    "matching": {
+      "title": "Matching candidati con IA",
+      "description": "Trova il candidato migliore nel tuo pool di talenti per una nuova posizione."
+    },
+    "interview": {
+      "title": "Domande per colloquio personalizzate",
+      "description": "Per ogni report del candidato, il sistema genera domande personalizzate per il colloquio."
+    }
+  },
+  "howItWorks": {
+    "title": "Come funziona",
+    "subtitle": "Inizia con Qorva in tre semplici passaggi",
+    "steps": {
+      "account": {
+        "title": "Crea un account",
+        "description": "Crea un account e inizia a utilizzare i nostri servizi."
+      },
+      "upload": {
+        "title": "Carica i tuoi CV",
+        "description": "Carica il tuo CV e crea la tua libreria CV e annunci di lavoro."
+      },
+      "insights": {
+        "title": "Ottieni insights",
+        "description": "Inizia ad analizzare la tua libreria CV."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Prezzi semplici e trasparenti",
+    "subtitle": "Scegli il piano più adatto a te",
+    "monthly": "Mensile",
+    "yearly": "Annuale",
+    "plans": {
+      "starter": {
+        "title": "Base",
+        "price": "49",
+        "period": "/mese",
+        "description": "Perfetto per piccole imprese",
+        "features": [
+          "Fino a 50 analisi CV al mese",
+          "Matching candidati base",
+          "Supporto via email"
+        ]
+      },
+      "professional": {
+        "title": "Professionale",
+        "price": "99",
+        "period": "/mese",
+        "description": "Per aziende in crescita",
+        "features": [
+          "Fino a 200 analisi CV al mese",
+          "Matching candidati avanzato",
+          "Supporto prioritario",
+          "Criteri di valutazione personalizzati"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "Personalizzato",
+        "period": "",
+        "description": "Per grandi organizzazioni",
+        "features": [
+          "Analisi CV illimitate",
+          "Integrazioni personalizzate",
+          "Account manager dedicato",
+          "Training modello IA personalizzato"
+        ]
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "Azienda",
+      "about": "Chi siamo",
+      "careers": "Lavora con noi",
+      "contact": "Contatti"
+    },
+    "product": {
+      "title": "Prodotto",
+      "features": "Funzionalità",
+      "pricing": "Prezzi",
+      "security": "Sicurezza"
+    },
+    "resources": {
+      "title": "Risorse",
+      "blog": "Blog",
+      "documentation": "Documentazione",
+      "support": "Supporto"
+    },
+    "legal": {
+      "title": "Legale",
+      "privacy": "Privacy Policy",
+      "terms": "Termini di servizio",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© 2024 Qorva AI. Tutti i diritti riservati."
+  }
+} 

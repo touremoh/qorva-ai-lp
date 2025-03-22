@@ -1,0 +1,122 @@
+{
+  "header": {
+    "features": "Funktionen",
+    "howItWorks": "So funktioniert's",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "signIn": "Anmelden",
+    "startTrial": "Kostenlos testen"
+  },
+  "hero": {
+    "title": "Stellen Sie mit Qorva AI intelligenter, schneller und präziser ein",
+    "subtitle": "KI-gestützte Lebenslauf-Analyse für HR-Manager, Recruiter und Startups",
+    "cta": {
+      "trial": "Kostenlos testen",
+      "demo": "Demo vereinbaren"
+    }
+  },
+  "features": {
+    "title": "Hauptfunktionen",
+    "subtitle": "Alles, was Sie brauchen, um Ihren Einstellungsprozess zu revolutionieren",
+    "parsing": {
+      "title": "KI-gestützte Lebenslauf-Analyse",
+      "description": "Keine manuelle Dateneingabe mehr! Laden Sie einfach bis zu 10 Lebensläufe gleichzeitig hoch."
+    },
+    "matching": {
+      "title": "KI-gestütztes Kandidaten-Matching",
+      "description": "Finden Sie den besten Kandidaten in Ihrem Talent-Pool für eine neue Stelle."
+    },
+    "interview": {
+      "title": "Maßgeschneiderte Interviewfragen",
+      "description": "Für jeden Kandidatenbericht generiert das System personalisierte Interviewfragen."
+    }
+  },
+  "howItWorks": {
+    "title": "So funktioniert's",
+    "subtitle": "Starten Sie mit Qorva in drei einfachen Schritten",
+    "steps": {
+      "account": {
+        "title": "Konto erstellen",
+        "description": "Erstellen Sie ein Konto und nutzen Sie unsere Dienste."
+      },
+      "upload": {
+        "title": "Lebensläufe hochladen",
+        "description": "Laden Sie Ihren Lebenslauf hoch und erstellen Sie Ihre CV-Bibliothek und Stellenanzeigen."
+      },
+      "insights": {
+        "title": "Einblicke gewinnen",
+        "description": "Beginnen Sie mit der Analyse Ihrer Lebenslauf-Bibliothek."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Wählen Sie den Plan, der am besten zu Ihnen passt",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "plans": {
+      "starter": {
+        "title": "Starter",
+        "price": "49",
+        "period": "/Monat",
+        "description": "Perfekt für kleine Unternehmen",
+        "features": [
+          "Bis zu 50 CV-Analysen pro Monat",
+          "Basis-Kandidatenabgleich",
+          "E-Mail-Support"
+        ]
+      },
+      "professional": {
+        "title": "Professional",
+        "price": "99",
+        "period": "/Monat",
+        "description": "Für wachsende Unternehmen",
+        "features": [
+          "Bis zu 200 CV-Analysen pro Monat",
+          "Erweiterter Kandidatenabgleich",
+          "Prioritäts-Support",
+          "Anpassbare Bewertungskriterien"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "Individuell",
+        "period": "",
+        "description": "Für große Organisationen",
+        "features": [
+          "Unbegrenzte CV-Analysen",
+          "Individuelle Integrationen",
+          "Persönlicher Account Manager",
+          "Individuelles KI-Modell-Training"
+        ]
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "careers": "Karriere",
+      "contact": "Kontakt"
+    },
+    "product": {
+      "title": "Produkt",
+      "features": "Funktionen",
+      "pricing": "Preise",
+      "security": "Sicherheit"
+    },
+    "resources": {
+      "title": "Ressourcen",
+      "blog": "Blog",
+      "documentation": "Dokumentation",
+      "support": "Support"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutzerklärung",
+      "terms": "Nutzungsbedingungen",
+      "cookies": "Cookie-Richtlinie"
+    },
+    "copyright": "© 2024 Qorva AI. Alle Rechte vorbehalten."
+  }
+} 
