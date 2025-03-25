@@ -40,7 +40,7 @@ function Hero() {
   const { t } = useTranslation();
 
   return (
-    <HeroSection>
+    <HeroSection id="about">
       <Container maxWidth="lg">
         <Stack spacing={4} alignItems="center" textAlign="center">
           <Typography variant="h1" component="h1">
@@ -78,21 +78,19 @@ function Hero() {
 
           <HighlightPaper elevation={0}>
             <Typography variant="h6" gutterBottom color="primary.main">
-              What is Qorva AI?
+              {t('hero.about.title')}
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ maxWidth: '800px', mx: 'auto' }}>
-              Qorva AI is an AI-powered resume screening software that intelligently matches candidates' resumes to job postings. 
-              Unlike traditional ATS, Qorva AI goes beyond keywords—it analyzes meaning and context to generate a matching score 
-              and a detailed CV assessment report explaining why a candidate is a strong (or weak) fit.
+              {t('hero.about.description')}
             </Typography>
           </HighlightPaper>
           
-          <Box sx={{ mt: 8, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
-            <Typography variant="subtitle1" color="text.secondary">
-              Trusted by innovative companies worldwide
-            </Typography>
-            {/* Add company logos here */}
-          </Box>
+          {/*<Box sx={{ mt: 8, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>*/}
+          {/*  <Typography variant="subtitle1" color="text.secondary">*/}
+          {/*    Trusted by innovative companies worldwide*/}
+          {/*  </Typography>*/}
+          {/*  /!* Add company logos here *!/*/}
+          {/*</Box>*/}
         </Stack>
       </Container>
     </HeroSection>

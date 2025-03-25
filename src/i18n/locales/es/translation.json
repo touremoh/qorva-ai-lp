@@ -13,6 +13,10 @@
     "cta": {
       "trial": "Prueba gratuita",
       "demo": "Programar demo"
+    },
+    "about": {
+      "title": "Acerca de Qorva AI",
+      "description": "Qorva AI es una solución impulsada por inteligencia artificial para analizar currículums que empareja inteligentemente a candidatos con ofertas de empleo. A diferencia de los ATS tradicionales, Qorva AI va más allá de palabras clave: analiza significado y contexto para generar una puntuación de compatibilidad y un informe detallado de evaluación del CV, explicando por qué un candidato encaja fuertemente (o débilmente) con el puesto."
     }
   },
   "features": {
@@ -20,15 +24,21 @@
     "subtitle": "Todo lo que necesitas para revolucionar tu proceso de contratación",
     "parsing": {
       "title": "Análisis de CV con IA",
-      "description": "¡No más entrada manual de datos! Simplemente arrastra y suelta hasta 10 CV a la vez."
+      "description": "¡No más entrada manual de datos! Simplemente arrastra y suelta hasta 10 currículums a la vez, y Qorva AI extraerá y almacenará automáticamente la información de los candidatos en el sistema.\n"
     },
     "matching": {
       "title": "Matching de candidatos con IA",
-      "description": "Encuentra al mejor candidato en tu base de talentos para un nuevo puesto."
+      "description": "¿Necesita encontrar al mejor candidato en su base de talentos para un nuevo puesto? Simplemente realice un análisis de CV, y Qorva AI escaneará, comparará y clasificará a los candidatos según su relevancia.\n"
     },
     "interview": {
       "title": "Preguntas de entrevista personalizadas",
-      "description": "Para cada informe de candidato, el sistema genera preguntas de entrevista personalizadas."
+      "description": "Para cada informe de candidato, el sistema genera un conjunto personalizado de preguntas de entrevista basadas en su experiencia, habilidades y debilidades, garantizando entrevistas estructuradas y profundas.\n"
+    },
+    "whyChooseQorva": {
+      "title": "¿Por qué elegir Qorva AI?",
+      "saveTime": "Ahorra tiempo – Automatiza la revisión de currículums y enfócate únicamente en los mejores candidatos.",
+      "hiringAccuracy": "Mejora la precisión en la contratación – Ve más allá de las palabras clave con análisis semántico impulsado por IA.",
+      "streamlinedInterviews": "Optimiza entrevistas – Obtén información basada en datos y preguntas personalizadas para cada candidato."
     }
   },
   "howItWorks": {
@@ -51,45 +61,48 @@
   },
   "pricing": {
     "title": "Precios simples y transparentes",
-    "subtitle": "Elige el plan que mejor se adapte a ti",
+    "subtitle": "Elige el plan que mejor se adapte a tus necesidades",
     "monthly": "Mensual",
     "yearly": "Anual",
-    "plans": {
-      "starter": {
-        "title": "Inicial",
-        "price": "49",
-        "period": "/mes",
-        "description": "Perfecto para pequeñas empresas",
-        "features": [
-          "Hasta 50 análisis de CV por mes",
-          "Matching de candidatos básico",
-          "Soporte por email"
-        ]
-      },
-      "professional": {
-        "title": "Profesional",
-        "price": "99",
-        "period": "/mes",
-        "description": "Para empresas en crecimiento",
-        "features": [
-          "Hasta 200 análisis de CV por mes",
-          "Matching de candidatos avanzado",
-          "Soporte prioritario",
-          "Criterios de puntuación personalizados"
-        ]
-      },
-      "enterprise": {
-        "title": "Empresarial",
-        "price": "Personalizado",
-        "period": "",
-        "description": "Para grandes organizaciones",
-        "features": [
-          "Análisis de CV ilimitados",
-          "Integraciones personalizadas",
-          "Gestor de cuenta dedicado",
-          "Entrenamiento de modelo IA personalizado"
-        ]
-      }
+    "periodMonthly": "/mes",
+    "periodYearly": "/año",
+    "button": {
+      "freeTrial": "Comenzar prueba gratis"
+    },
+    "features": {
+      "freeTrial": "Prueba gratuita de 7 días con acceso a todas las funciones",
+      "aiQuestions": "Preguntas de entrevista generadas por IA",
+      "accountManager": "Gestor de cuenta dedicado",
+      "sla": "Garantías SLA"
+    },
+    "analytics": {
+      "basic": "Panel básico de análisis",
+      "advanced": "Panel avanzado de análisis"
+    },
+    "support": {
+      "email24h": "Soporte por correo electrónico (respuesta garantizada en 24 horas)",
+      "priority8h": "Soporte prioritario por correo electrónico (respuesta garantizada en 8 horas)",
+      "priority4h": "Soporte prioritario por correo electrónico (respuesta garantizada en 4 horas)"
+    },
+    "starter": {
+      "title": "Inicial",
+      "description": "Perfecto para individuos o equipos pequeños",
+      "cvs": "Hasta 500 CV"
+    },
+    "growth": {
+      "title": "Crecimiento",
+      "description": "Ideal para equipos en crecimiento",
+      "cvs": "Hasta 2500 CV"
+    },
+    "professional": {
+      "title": "Profesional",
+      "description": "Ideal para equipos establecidos",
+      "cvs": "Hasta 10.000 CV"
+    },
+    "enterprise": {
+      "title": "Empresarial",
+      "description": "Para grandes organizaciones",
+      "cvs": "CV ilimitados"
     }
   },
   "footer": {

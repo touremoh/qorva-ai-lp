@@ -13,6 +13,10 @@
     "cta": {
       "trial": "Start Free Trial",
       "demo": "Schedule Demo"
+    },
+    "about": {
+      "title": "About Qorva AI",
+      "description": "Qorva AI is an AI-powered resume screening software that intelligently matches candidates' resumes to job postings. \n Unlike traditional ATS, Qorva AI goes beyond keywords—it analyzes meaning and context to generate a matching score \n and a detailed CV assessment report explaining why a candidate is a strong (or weak) fit."
     }
   },
   "features": {
@@ -29,6 +33,12 @@
     "interview": {
       "title": "Tailored Interview Questions",
       "description": "For every candidate report, the system generates a personalized set of interview questions based on their experience, skills, and weaknesses, ensuring structured and insightful interviews."
+    },
+    "whyChooseQorva": {
+      "title": "Why Choose Qorva AI?",
+      "saveTime": "Save Time – Automate resume screening and focus only on the best candidates.",
+      "hiringAccuracy": "Improve Hiring Accuracy – Go beyond keywords with AI-powered semantic analysis.",
+      "streamlinedInterviews": "Streamline Interviews – Get data-driven insights and tailored interview questions for every candidate."
     }
   },
   "howItWorks": {
@@ -51,45 +61,48 @@
   },
   "pricing": {
     "title": "Simple, Transparent Pricing",
-    "subtitle": "Choose the plan that works best for you",
+    "subtitle": "Choose the plan that best fits your needs",
     "monthly": "Monthly",
     "yearly": "Yearly",
-    "plans": {
-      "starter": {
-        "title": "Starter",
-        "price": "49",
-        "period": "/month",
-        "description": "Perfect for small businesses",
-        "features": [
-          "Up to 50 CV analyses per month",
-          "Basic candidate matching",
-          "Email support"
-        ]
-      },
-      "professional": {
-        "title": "Professional",
-        "price": "99",
-        "period": "/month",
-        "description": "For growing companies",
-        "features": [
-          "Up to 200 CV analyses per month",
-          "Advanced candidate matching",
-          "Priority support",
-          "Custom scoring criteria"
-        ]
-      },
-      "enterprise": {
-        "title": "Enterprise",
-        "price": "Custom",
-        "period": "",
-        "description": "For large organizations",
-        "features": [
-          "Unlimited CV analyses",
-          "Custom integrations",
-          "Dedicated account manager",
-          "Custom AI model training"
-        ]
-      }
+    "periodMonthly": "/month",
+    "periodYearly": "/year",
+    "button": {
+      "freeTrial": "Start Free Trial"
+    },
+    "features": {
+      "freeTrial": "7-days free trial with access to all features",
+      "aiQuestions": "AI-Generated interview questions",
+      "accountManager": "Dedicated Account Manager",
+      "sla": "SLA guarantees"
+    },
+    "analytics": {
+      "basic": "Basic analytics dashboard",
+      "advanced": "Advanced analytics dashboard"
+    },
+    "support": {
+      "email24h": "Email support (24 hours guaranteed response)",
+      "priority8h": "Priority email support (8 hours guaranteed response)",
+      "priority4h": "Priority email support (4 hours guaranteed response)"
+    },
+    "starter": {
+      "title": "Starter",
+      "description": "Perfect for individuals or small teams",
+      "cvs": "Up to 500 CVs"
+    },
+    "growth": {
+      "title": "Growth",
+      "description": "Ideal for growing teams",
+      "cvs": "Up to 2500 CVs"
+    },
+    "professional": {
+      "title": "Professional",
+      "description": "Great for established teams",
+      "cvs": "Up to 10,000 CVs"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "Best suited for large organizations",
+      "cvs": "Unlimited CVs"
     }
   },
   "footer": {

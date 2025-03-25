@@ -8,11 +8,15 @@
     "startTrial": "Essai gratuit"
   },
   "hero": {
-    "title": "Recrutez plus intelligemment, plus rapidement et plus précisément avec Qorva AI",
-    "subtitle": "Solution d'Analyse de CV à base d'IA pour les RH, recruteurs et startups",
+    "title": "Recrutez vite, Recrutez mieux avec Qorva AI",
+    "subtitle": "Solution d'analyse de CV à base d'Intelligence Artificielle pour les RH, recruteurs et startups",
     "cta": {
       "trial": "Essai gratuit",
       "demo": "Demander une démo"
+    },
+    "about": {
+      "title": "À propos de Qorva AI",
+      "description": "Qorva AI est une solution de présélection de CV alimentée par l'IA qui associe intelligemment les candidatures aux offres d'emploi. Contrairement aux ATS traditionnels, Qorva AI va au-delà des mots-clés : il analyse le sens et le contexte afin de générer un score de correspondance ainsi qu'un rapport détaillé d'évaluation du CV, expliquant pourquoi un candidat est particulièrement adapté (ou non) au poste."
     }
   },
   "features": {
@@ -20,15 +24,21 @@
     "subtitle": "Tout ce dont vous avez besoin pour révolutionner votre processus de recrutement",
     "parsing": {
       "title": "Analyse de CV par IA",
-      "description": "Plus de saisie manuelle ! Glissez-déposez jusqu'à 10 CV à la fois."
+      "description": "Fini la saisie manuelle des données ! Glissez-déposez simplement jusqu'à 10 CV à la fois, et Qorva AI extraira et stockera automatiquement les informations des candidats dans le système.\n"
     },
     "matching": {
       "title": "Matching de candidats par IA",
-      "description": "Trouvez le meilleur candidat dans votre vivier de talents pour un nouveau poste."
+      "description": "Vous souhaitez trouver le meilleur candidat dans votre vivier de talents pour un nouveau poste ? Lancez simplement une analyse de CV, et Qorva AI scannera, comparera et classera les candidats selon leur pertinence.\n"
     },
     "interview": {
       "title": "Questions d'entretien personnalisées",
-      "description": "Pour chaque rapport de candidat, le système génère des questions d'entretien personnalisées."
+      "description": "Pour chaque rapport candidat, le système génère une série personnalisée de questions d’entretien basées sur son expérience, ses compétences et ses points faibles, assurant ainsi des entretiens structurés et pertinents.\n"
+    },
+    "whyChooseQorva": {
+      "title": "Pourquoi choisir Qorva AI ?",
+      "saveTime": "Gagnez du temps – Automatisez le tri des CV et concentrez-vous uniquement sur les meilleurs candidats.",
+      "hiringAccuracy": "Améliorez la précision du recrutement – Allez au-delà des mots-clés grâce à l’analyse sémantique basée sur l’IA.",
+      "streamlinedInterviews": "Rationalisez les entretiens – Obtenez des informations basées sur les données et des questions adaptées à chaque candidat."
     }
   },
   "howItWorks": {
@@ -51,45 +61,48 @@
   },
   "pricing": {
     "title": "Tarification simple et transparente",
-    "subtitle": "Choisissez le plan qui vous convient le mieux",
+    "subtitle": "Choisissez le plan qui correspond le mieux à vos besoins",
     "monthly": "Mensuel",
     "yearly": "Annuel",
-    "plans": {
-      "starter": {
-        "title": "Débutant",
-        "price": "49",
-        "period": "/mois",
-        "description": "Parfait pour les petites entreprises",
-        "features": [
-          "Jusqu'à 50 analyses de CV par mois",
-          "Matching de candidats basique",
-          "Support par email"
-        ]
-      },
-      "professional": {
-        "title": "Professionnel",
-        "price": "99",
-        "period": "/mois",
-        "description": "Pour les entreprises en croissance",
-        "features": [
-          "Jusqu'à 200 analyses de CV par mois",
-          "Matching de candidats avancé",
-          "Support prioritaire",
-          "Critères de scoring personnalisés"
-        ]
-      },
-      "enterprise": {
-        "title": "Entreprise",
-        "price": "Sur mesure",
-        "period": "",
-        "description": "Pour les grandes organisations",
-        "features": [
-          "Analyses de CV illimitées",
-          "Intégrations personnalisées",
-          "Gestionnaire de compte dédié",
-          "Formation de modèle IA personnalisé"
-        ]
-      }
+    "periodMonthly": "/mois",
+    "periodYearly": "/an",
+    "button": {
+      "freeTrial": "Démarrer l'essai gratuit"
+    },
+    "features": {
+      "freeTrial": "Essai gratuit de 7 jours avec accès à toutes les fonctionnalités",
+      "aiQuestions": "Questions d'entretien générées par l'IA",
+      "accountManager": "Gestionnaire de compte dédié",
+      "sla": "Garanties SLA"
+    },
+    "analytics": {
+      "basic": "Tableau de bord analytique basique",
+      "advanced": "Tableau de bord analytique avancé"
+    },
+    "support": {
+      "email24h": "Support email (réponse garantie en 24 heures)",
+      "priority8h": "Support email prioritaire (réponse garantie en 8 heures)",
+      "priority4h": "Support email prioritaire (réponse garantie en 4 heures)"
+    },
+    "starter": {
+      "title": "Starter",
+      "description": "Idéal pour les particuliers ou petites équipes",
+      "cvs": "Jusqu'à 500 CV"
+    },
+    "growth": {
+      "title": "Croissance",
+      "description": "Parfait pour les équipes en croissance",
+      "cvs": "Jusqu'à 2500 CV"
+    },
+    "professional": {
+      "title": "Professionnel",
+      "description": "Idéal pour les équipes établies",
+      "cvs": "Jusqu'à 10 000 CV"
+    },
+    "enterprise": {
+      "title": "Entreprise",
+      "description": "Adapté aux grandes organisations",
+      "cvs": "CV illimités"
     }
   },
   "footer": {

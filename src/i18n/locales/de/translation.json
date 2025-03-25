@@ -13,6 +13,10 @@
     "cta": {
       "trial": "Kostenlos testen",
       "demo": "Demo vereinbaren"
+    },
+    "about": {
+      "title": "Über Qorva AI",
+      "description": "Qorva AI ist eine KI-gestützte Lösung zur Lebenslaufanalyse, die Kandidaten intelligent mit Stellenangeboten abgleicht. Im Gegensatz zu herkömmlichen ATS geht Qorva AI über Schlüsselwörter hinaus – es analysiert Bedeutung und Kontext, um eine Übereinstimmungsbewertung sowie einen detaillierten Bericht zur Lebenslaufbewertung zu generieren, der erläutert, warum ein Kandidat besonders gut (oder weniger gut) geeignet ist."
     }
   },
   "features": {
@@ -20,15 +24,21 @@
     "subtitle": "Alles, was Sie brauchen, um Ihren Einstellungsprozess zu revolutionieren",
     "parsing": {
       "title": "KI-gestützte Lebenslauf-Analyse",
-      "description": "Keine manuelle Dateneingabe mehr! Laden Sie einfach bis zu 10 Lebensläufe gleichzeitig hoch."
+      "description": "Keine manuelle Dateneingabe mehr! Ziehen Sie einfach bis zu 10 Lebensläufe gleichzeitig per Drag-and-drop, und Qorva AI extrahiert und speichert automatisch die Kandidateninformationen im System.\n"
     },
     "matching": {
       "title": "KI-gestütztes Kandidaten-Matching",
-      "description": "Finden Sie den besten Kandidaten in Ihrem Talent-Pool für eine neue Stelle."
+      "description": "Sie möchten den besten Kandidaten in Ihrem Talentpool für eine neue Stelle finden? Führen Sie einfach eine Lebenslaufanalyse durch, und Qorva AI scannt, vergleicht und bewertet Kandidaten nach Relevanz.\n"
     },
     "interview": {
       "title": "Maßgeschneiderte Interviewfragen",
-      "description": "Für jeden Kandidatenbericht generiert das System personalisierte Interviewfragen."
+      "description": "Für jeden Kandidatenbericht erstellt das System eine individuelle Reihe von Interviewfragen, die auf Erfahrung, Fähigkeiten und Schwächen basieren, um strukturierte und aussagekräftige Interviews zu gewährleisten.\n"
+    },
+    "whyChooseQorva": {
+      "title": "Warum Qorva AI wählen?",
+      "saveTime": "Zeit sparen – Automatisieren Sie die Lebenslaufprüfung und konzentrieren Sie sich nur auf die besten Kandidaten.",
+      "hiringAccuracy": "Einstellungstreffsicherheit erhöhen – Gehen Sie über Schlüsselwörter hinaus mit einer KI-gestützten semantischen Analyse.",
+      "streamlinedInterviews": "Interviews optimieren – Erhalten Sie datenbasierte Einblicke und maßgeschneiderte Interviewfragen für jeden Kandidaten."
     }
   },
   "howItWorks": {
@@ -50,46 +60,49 @@
     }
   },
   "pricing": {
-    "title": "Einfache, transparente Preise",
+    "title": "Einfache, transparente Preisgestaltung",
     "subtitle": "Wählen Sie den Plan, der am besten zu Ihnen passt",
     "monthly": "Monatlich",
     "yearly": "Jährlich",
-    "plans": {
-      "starter": {
-        "title": "Starter",
-        "price": "49",
-        "period": "/Monat",
-        "description": "Perfekt für kleine Unternehmen",
-        "features": [
-          "Bis zu 50 CV-Analysen pro Monat",
-          "Basis-Kandidatenabgleich",
-          "E-Mail-Support"
-        ]
-      },
-      "professional": {
-        "title": "Professional",
-        "price": "99",
-        "period": "/Monat",
-        "description": "Für wachsende Unternehmen",
-        "features": [
-          "Bis zu 200 CV-Analysen pro Monat",
-          "Erweiterter Kandidatenabgleich",
-          "Prioritäts-Support",
-          "Anpassbare Bewertungskriterien"
-        ]
-      },
-      "enterprise": {
-        "title": "Enterprise",
-        "price": "Individuell",
-        "period": "",
-        "description": "Für große Organisationen",
-        "features": [
-          "Unbegrenzte CV-Analysen",
-          "Individuelle Integrationen",
-          "Persönlicher Account Manager",
-          "Individuelles KI-Modell-Training"
-        ]
-      }
+    "periodMonthly": "/Monat",
+    "periodYearly": "/Jahr",
+    "button": {
+      "freeTrial": "Kostenlos testen"
+    },
+    "features": {
+      "freeTrial": "7 Tage kostenloser Test mit Zugriff auf alle Funktionen",
+      "aiQuestions": "KI-generierte Interviewfragen",
+      "accountManager": "Persönlicher Kundenbetreuer",
+      "sla": "SLA-Garantien"
+    },
+    "analytics": {
+      "basic": "Basis-Analyse Dashboard",
+      "advanced": "Erweitertes Analyse Dashboard"
+    },
+    "support": {
+      "email24h": "E-Mail-Support (Antwort innerhalb 24 Stunden garantiert)",
+      "priority8h": "Priorisierter E-Mail-Support (Antwort innerhalb 8 Stunden garantiert)",
+      "priority4h": "Priorisierter E-Mail-Support (Antwort innerhalb 4 Stunden garantiert)"
+    },
+    "starter": {
+      "title": "Starter",
+      "description": "Ideal für Einzelpersonen oder kleine Teams",
+      "cvs": "Bis zu 500 Lebensläufe"
+    },
+    "growth": {
+      "title": "Wachstum",
+      "description": "Ideal für wachsende Teams",
+      "cvs": "Bis zu 2500 Lebensläufe"
+    },
+    "professional": {
+      "title": "Professional",
+      "description": "Ideal für etablierte Teams",
+      "cvs": "Bis zu 10.000 Lebensläufe"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "Ideal für große Organisationen",
+      "cvs": "Unbegrenzte Lebensläufe"
     }
   },
   "footer": {

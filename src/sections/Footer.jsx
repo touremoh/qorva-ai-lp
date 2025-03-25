@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography, Link, Stack, IconButton } from '@mui/material';
+import { Box, Container, Grid2, Typography, Link, Stack, IconButton } from '@mui/material';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -46,12 +46,10 @@ function Footer() {
       }}
     >
       <Container maxWidth="lg">
-        <Grid container spacing={4}>
-          <Grid item xs={12} md={4}>
+        <Grid2 container spacing={4}>
+          <Grid2 item xs={12} md={4}>
             <Box sx={{ mb: 4 }}>
-              <Typography variant="h6" gutterBottom>
-                Qorva
-              </Typography>
+              <Typography variant="h6" gutterBottom>Qorva</Typography>
               <Typography variant="body2" color="grey.400">
                 Transform your business with AI-powered solutions. Get started today and see the difference.
               </Typography>
@@ -73,19 +71,11 @@ function Footer() {
               >
                 <LinkedInIcon />
               </IconButton>
-              <IconButton
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                sx={{ color: 'grey.400', '&:hover': { color: 'white' } }}
-              >
-                <GitHubIcon />
-              </IconButton>
             </Stack>
-          </Grid>
+          </Grid2>
 
           {Object.values(footerLinks).map((section) => (
-            <Grid item xs={12} sm={6} md={2} key={section.title}>
+            <Grid2 item xs={12} sm={6} md={2} key={section.title}>
               <Typography variant="subtitle1" color="white" gutterBottom>
                 {section.title}
               </Typography>
@@ -103,10 +93,10 @@ function Footer() {
                   </Link>
                 ))}
               </Stack>
-            </Grid>
+            </Grid2>
           ))}
 
-          <Grid item xs={12} md={2}>
+          <Grid2 item xs={12} md={2}>
             <Typography variant="subtitle1" color="white" gutterBottom>
               Contact
             </Typography>
@@ -114,12 +104,9 @@ function Footer() {
               <Typography variant="body2" color="grey.400">
                 contact@qorva.ai
               </Typography>
-              <Typography variant="body2" color="grey.400">
-                +1 (555) 123-4567
-              </Typography>
             </Stack>
-          </Grid>
-        </Grid>
+          </Grid2>
+        </Grid2>
 
         <Box sx={{ mt: 8, pt: 4, borderTop: '1px solid', borderColor: 'grey.800' }}>
           <Typography variant="body2" color="grey.400" align="center">

@@ -13,6 +13,10 @@
     "cta": {
       "trial": "Gratis proberen",
       "demo": "Demo aanvragen"
+    },
+    "about": {
+      "title": "Over Qorva AI",
+      "description": "Qorva AI is een AI-gestuurde oplossing voor het screenen van cv's die kandidaten op intelligente wijze koppelt aan vacatures. Anders dan traditionele ATS gaat Qorva AI verder dan trefwoorden—het analyseert betekenis en context om een matchscore en een gedetailleerd beoordelingsrapport van het cv te genereren, waarin wordt uitgelegd waarom een kandidaat sterk (of zwak) past bij de functie."
     }
   },
   "features": {
@@ -20,15 +24,21 @@
     "subtitle": "Alles wat je nodig hebt om je wervingsproces te revolutioneren",
     "parsing": {
       "title": "AI-gestuurde CV-analyse",
-      "description": "Geen handmatige gegevensinvoer meer! Sleep tot 10 CV's tegelijk."
+      "description": "Geen handmatige gegevensinvoer meer! Sleep eenvoudigweg tot 10 cv's tegelijk, en Qorva AI extraheert en bewaart automatisch kandidaatgegevens in het systeem."
     },
     "matching": {
       "title": "AI-gestuurde kandidaat matching",
-      "description": "Vind de beste kandidaat in je talentpool voor een nieuwe functie."
+      "description": "Wilt u de beste kandidaat vinden in uw talentenpool voor een nieuwe functie? Voer gewoon een cv-analyse uit, en Qorva AI scant, vergelijkt en rangschikt kandidaten op basis van relevantie."
     },
     "interview": {
       "title": "Op maat gemaakte interviewvragen",
-      "description": "Voor elk kandidaatrapport genereert het systeem gepersonaliseerde interviewvragen."
+      "description": "Voor elk kandidatenrapport genereert het systeem een gepersonaliseerde reeks interviewvragen op basis van hun ervaring, vaardigheden en zwakke punten, wat zorgt voor gestructureerde en inzichtelijke gesprekken."
+    },
+    "whyChooseQorva": {
+      "title": "Waarom kiezen voor Qorva AI?",
+      "saveTime": "Bespaar tijd – Automatiseer cv-screening en focus alleen op de beste kandidaten.",
+      "hiringAccuracy": "Verbeter de nauwkeurigheid van werving – Ga verder dan trefwoorden met semantische analyse aangedreven door AI.",
+      "streamlinedInterviews": "Stroomlijn sollicitatiegesprekken – Ontvang datagestuurde inzichten en op maat gemaakte interviewvragen voor elke kandidaat."
     }
   },
   "howItWorks": {
@@ -54,42 +64,45 @@
     "subtitle": "Kies het plan dat het beste bij je past",
     "monthly": "Maandelijks",
     "yearly": "Jaarlijks",
-    "plans": {
-      "starter": {
-        "title": "Starter",
-        "price": "49",
-        "period": "/maand",
-        "description": "Perfect voor kleine bedrijven",
-        "features": [
-          "Tot 50 CV-analyses per maand",
-          "Basis kandidaat matching",
-          "E-mail ondersteuning"
-        ]
-      },
-      "professional": {
-        "title": "Professional",
-        "price": "99",
-        "period": "/maand",
-        "description": "Voor groeiende bedrijven",
-        "features": [
-          "Tot 200 CV-analyses per maand",
-          "Geavanceerde kandidaat matching",
-          "Prioriteit ondersteuning",
-          "Aanpasbare scoringscriteria"
-        ]
-      },
-      "enterprise": {
-        "title": "Enterprise",
-        "price": "Op maat",
-        "period": "",
-        "description": "Voor grote organisaties",
-        "features": [
-          "Onbeperkte CV-analyses",
-          "Aangepaste integraties",
-          "Toegewijde accountmanager",
-          "Aangepaste AI-model training"
-        ]
-      }
+    "periodMonthly": "/maand",
+    "periodYearly": "/jaar",
+    "button": {
+      "freeTrial": "Start gratis proefperiode"
+    },
+    "features": {
+      "freeTrial": "7 dagen gratis proefperiode met toegang tot alle functies",
+      "aiQuestions": "Door AI gegenereerde interviewvragen",
+      "accountManager": "Toegewijde accountmanager",
+      "sla": "SLA-garanties"
+    },
+    "analytics": {
+      "basic": "Basis analytics dashboard",
+      "advanced": "Geavanceerd analytics dashboard"
+    },
+    "support": {
+      "email24h": "E-mailondersteuning (antwoord gegarandeerd binnen 24 uur)",
+      "priority8h": "Prioritaire e-mailondersteuning (antwoord gegarandeerd binnen 8 uur)",
+      "priority4h": "Prioritaire e-mailondersteuning (antwoord gegarandeerd binnen 4 uur)"
+    },
+    "starter": {
+      "title": "Starter",
+      "description": "Perfect voor individuen of kleine teams",
+      "cvs": "Tot 500 CV's"
+    },
+    "growth": {
+      "title": "Groei",
+      "description": "Ideaal voor groeiende teams",
+      "cvs": "Tot 2500 CV's"
+    },
+    "professional": {
+      "title": "Professioneel",
+      "description": "Perfect voor gevestigde teams",
+      "cvs": "Tot 10.000 CV's"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "Geschikt voor grote organisaties",
+      "cvs": "Onbeperkt aantal CV's"
     }
   },
   "footer": {

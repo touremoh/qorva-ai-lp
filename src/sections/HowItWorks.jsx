@@ -30,7 +30,7 @@ function HowItWorks() {
   const { t } = useTranslation();
 
   return (
-    <Box sx={{ py: 12, background: '#ffffff' }}>
+    <Box sx={{ py: 12, background: '#ffffff' }} id="how-it-works">
       <Container maxWidth="lg">
         <Box sx={{ textAlign: 'center', mb: 8 }}>
           <Typography variant="h2" component="h2" gutterBottom>
