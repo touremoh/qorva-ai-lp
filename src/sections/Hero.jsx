@@ -56,24 +56,24 @@ function Hero() {
               variant="contained"
               size="large"
               sx={{
-                px: 4,
-                py: 1.5,
+                px: 10,
+                py: 2,
                 fontSize: '1.1rem',
               }}
             >
               {t('hero.cta.trial')}
             </Button>
-            <Button
-              variant="outlined"
-              size="large"
-              sx={{
-                px: 4,
-                py: 1.5,
-                fontSize: '1.1rem',
-              }}
-            >
-              {t('hero.cta.demo')}
-            </Button>
+            {/*<Button*/}
+            {/*  variant="outlined"*/}
+            {/*  size="large"*/}
+            {/*  sx={{*/}
+            {/*    px: 4,*/}
+            {/*    py: 1.5,*/}
+            {/*    fontSize: '1.1rem',*/}
+            {/*  }}*/}
+            {/*>*/}
+            {/*  {t('hero.cta.demo')}*/}
+            {/*</Button>*/}
           </Stack>
 
           <HighlightPaper elevation={0}>

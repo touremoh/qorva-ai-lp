@@ -16,7 +16,7 @@
     },
     "about": {
       "title": "About Qorva AI",
-      "description": "Qorva AI is an AI-powered resume screening software that intelligently matches candidates' resumes to job postings. \n Unlike traditional ATS, Qorva AI goes beyond keywords—it analyzes meaning and context to generate a matching score \n and a detailed CV assessment report explaining why a candidate is a strong (or weak) fit."
+      "description": "Qorva AI is an AI-powered resume screening solution that intelligently matches candidates' resumes to job postings. \n Unlike traditional ATS, Qorva AI goes beyond keywords—it analyzes meaning and context to generate a matching score \n and a detailed CV assessment report explaining why a candidate is a strong (or weak) fit."
     }
   },
   "features": {

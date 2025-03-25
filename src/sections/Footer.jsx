@@ -26,25 +26,16 @@ function Footer() {
     legal: {
       title: t('footer.legal.title'),
       items: [
-        { name: t('footer.legal.privacyPolicy'), href: '#privacy' },
-        { name: t('footer.legal.termsOfService'), href: '#terms' },
-        { name: t('footer.legal.security'), href: '#security' },
-        { name: t('footer.legal.compliance'), href: '#compliance' },
+        { name: t('footer.legal.privacyPolicy'), href: '/privacy-policy.md' },
+        { name: t('footer.legal.termsOfService'), href: '/terms-of-service.md' },
+        { name: t('footer.legal.security'), href: '/security.md' },
+        { name: t('footer.legal.compliance'), href: '/compliance.md' },
       ],
     },
   };
 
   return (
-      <Box
-          component="footer"
-          sx={{
-            py: 8,
-            px: 2,
-            mt: 'auto',
-            backgroundColor: (theme) => theme.palette.grey[900],
-            color: 'white',
-          }}
-      >
+      <Box component="footer" sx={{ py: 8, px: 2, mt: 'auto', backgroundColor: (theme) => theme.palette.grey[900], color: 'white' }}>
         <Container maxWidth="lg">
           <Grid container spacing={4}>
             <Grid item xs={12} md={4}>

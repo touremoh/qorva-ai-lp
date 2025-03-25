@@ -113,10 +113,10 @@ function Header() {
                 </MenuItem>
               ))}
             </Select>
-            <Button variant="outlined" color="primary">
+            <Button variant="outlined" color="primary" href={"https://app.qorva.ai"}>
               {t('header.signIn')}
             </Button>
-            <Button variant="contained" color="primary">
+            <Button variant="contained" color="primary" href={"https://app.qorva.ai/register"}>
               {t('header.startTrial')}
             </Button>
           </Stack>
