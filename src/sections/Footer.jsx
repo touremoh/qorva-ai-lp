@@ -1,121 +1,103 @@
-import { Box, Container, Grid2, Typography, Link, Stack, IconButton } from '@mui/material';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-
-const footerLinks = {
-  product: {
-    title: 'Product',
-    items: [
-      { name: 'Features', href: '#features' },
-      { name: 'Pricing', href: '#pricing' },
-      { name: 'Documentation', href: '#docs' },
-      { name: 'API Reference', href: '#api' },
-    ],
-  },
-  company: {
-    title: 'Company',
-    items: [
-      { name: 'About Us', href: '#about' },
-      { name: 'Blog', href: '#blog' },
-      { name: 'Careers', href: '#careers' },
-      { name: 'Contact', href: '#contact' },
-    ],
-  },
-  legal: {
-    title: 'Legal',
-    items: [
-      { name: 'Privacy Policy', href: '#privacy' },
-      { name: 'Terms of Service', href: '#terms' },
-      { name: 'Security', href: '#security' },
-      { name: 'Compliance', href: '#compliance' },
-    ],
-  },
-};
+import { useTranslation } from 'react-i18next';
+import { Box, Container, Grid, Typography, Link, Stack } from '@mui/material';
 
 function Footer() {
-  return (
-    <Box
-      component="footer"
-      sx={{
-        py: 8,
-        px: 2,
-        mt: 'auto',
-        backgroundColor: (theme) => theme.palette.grey[900],
-        color: 'white',
-      }}
-    >
-      <Container maxWidth="lg">
-        <Grid2 container spacing={4}>
-          <Grid2 item xs={12} md={4}>
-            <Box sx={{ mb: 4 }}>
-              <Typography variant="h6" gutterBottom>Qorva</Typography>
-              <Typography variant="body2" color="grey.400">
-                Transform your business with AI-powered solutions. Get started today and see the difference.
-              </Typography>
-            </Box>
-            <Stack direction="row" spacing={1}>
-              <IconButton
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                sx={{ color: 'grey.400', '&:hover': { color: 'white' } }}
-              >
-                <TwitterIcon />
-              </IconButton>
-              <IconButton
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                sx={{ color: 'grey.400', '&:hover': { color: 'white' } }}
-              >
-                <LinkedInIcon />
-              </IconButton>
-            </Stack>
-          </Grid2>
+  const { t } = useTranslation();
 
-          {Object.values(footerLinks).map((section) => (
-            <Grid2 item xs={12} sm={6} md={2} key={section.title}>
+  const footerLinks = {
+    product: {
+      title: t('footer.product.title'),
+      items: [
+        { name: t('footer.product.features'), href: '#features' },
+        { name: t('footer.product.pricing'), href: '#pricing' },
+        { name: t('footer.product.documentation'), href: '#docs' },
+        { name: t('footer.product.apiReference'), href: '#api' },
+      ],
+    },
+    company: {
+      title: t('footer.company.title'),
+      items: [
+        { name: t('footer.company.aboutUs'), href: '#about' },
+        { name: t('footer.company.blog'), href: '#blog' },
+        { name: t('footer.company.careers'), href: '#careers' },
+        { name: t('footer.company.contact'), href: '#contact' },
+      ],
+    },
+    legal: {
+      title: t('footer.legal.title'),
+      items: [
+        { name: t('footer.legal.privacyPolicy'), href: '#privacy' },
+        { name: t('footer.legal.termsOfService'), href: '#terms' },
+        { name: t('footer.legal.security'), href: '#security' },
+        { name: t('footer.legal.compliance'), href: '#compliance' },
+      ],
+    },
+  };
+
+  return (
+      <Box
+          component="footer"
+          sx={{
+            py: 8,
+            px: 2,
+            mt: 'auto',
+            backgroundColor: (theme) => theme.palette.grey[900],
+            color: 'white',
+          }}
+      >
+        <Container maxWidth="lg">
+          <Grid container spacing={4}>
+            <Grid item xs={12} md={4}>
+              <Box sx={{ mb: 4 }}>
+                <Typography variant="h6" gutterBottom>{t('footer.brand')}</Typography>
+                <Typography variant="body2" color="grey.400">
+                  {t('footer.description')}
+                </Typography>
+              </Box>
+            </Grid>
+
+            {Object.values(footerLinks).map((section) => (
+                <Grid item xs={12} sm={6} md={2} key={section.title}>
+                  <Typography variant="subtitle1" color="white" gutterBottom>
+                    {section.title}
+                  </Typography>
+                  <Stack spacing={2}>
+                    {section.items.map((item) => (
+                        <Link
+                            key={item.name}
+                            href={item.href}
+                            variant="body2"
+                            color="grey.400"
+                            sx={{ '&:hover': { color: 'white' } }}
+                            underline="none"
+                        >
+                          {item.name}
+                        </Link>
+                    ))}
+                  </Stack>
+                </Grid>
+            ))}
+
+            <Grid item xs={12} md={2}>
               <Typography variant="subtitle1" color="white" gutterBottom>
-                {section.title}
+                {t('footer.contact.title')}
               </Typography>
               <Stack spacing={2}>
-                {section.items.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    variant="body2"
-                    color="grey.400"
-                    sx={{ '&:hover': { color: 'white' } }}
-                    underline="none"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
+                <Typography variant="body2" color="grey.400">
+                  {t('footer.contact.email')}
+                </Typography>
               </Stack>
-            </Grid2>
-          ))}
+            </Grid>
+          </Grid>
 
-          <Grid2 item xs={12} md={2}>
-            <Typography variant="subtitle1" color="white" gutterBottom>
-              Contact
+          <Box sx={{ mt: 8, pt: 4, borderTop: '1px solid', borderColor: 'grey.800' }}>
+            <Typography variant="body2" color="grey.400" align="center">
+              © {new Date().getFullYear()} Qorva. {t('footer.copyright')}
             </Typography>
-            <Stack spacing={2}>
-              <Typography variant="body2" color="grey.400">
-                contact@qorva.ai
-              </Typography>
-            </Stack>
-          </Grid2>
-        </Grid2>
-
-        <Box sx={{ mt: 8, pt: 4, borderTop: '1px solid', borderColor: 'grey.800' }}>
-          <Typography variant="body2" color="grey.400" align="center">
-            © {new Date().getFullYear()} Qorva. All rights reserved.
-          </Typography>
-        </Box>
-      </Container>
-    </Box>
+          </Box>
+        </Container>
+      </Box>
   );
 }
 
-export default Footer; 
+export default Footer;

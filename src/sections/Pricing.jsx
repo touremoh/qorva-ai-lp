@@ -143,7 +143,7 @@ const Pricing = () => {
             </ToggleButtonGroup>
           </Box>
 
-          <Grid container spacing={4} alignItems="stretch">
+          <Grid container spacing={2} alignItems="stretch">
             {plans.map((plan, index) => (
                 <Grid item key={index} xs={12} md={3}>
                   <PricingCard featured={plan.featured} recommended={plan.recommended}>

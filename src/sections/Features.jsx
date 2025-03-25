@@ -1,4 +1,4 @@
-import {Box, Container, Grid2, Typography, Card, CardContent} from '@mui/material';
+import {Box, Container, Grid, Typography, Card, CardContent} from '@mui/material';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
@@ -70,10 +70,10 @@ function Features() {
             </Typography>
           </Box>
 
-          <Grid2 container spacing={4} >
+          <Grid container spacing={4} >
             {features.map((feature, index) => (
-                <Grid2 item xs={12} md={4} key={index}>
-                  <FeatureCard sx={{maxWidth: '350px', mx: 'auto'}}>
+                <Grid item xs={12} md={4} key={index}>
+                  <FeatureCard>
                     <CardContent sx={{ textAlign: 'center', p: 4 }}>
                       <IconWrapper>
                         {feature.icon}
@@ -86,9 +86,9 @@ function Features() {
                       </Typography>
                     </CardContent>
                   </FeatureCard>
-                </Grid2>
+                </Grid>
             ))}
-          </Grid2>
+          </Grid>
 
           <Box sx={{ mt: 8, textAlign: 'center' }}>
             <Typography variant="h3" component="h3" gutterBottom>

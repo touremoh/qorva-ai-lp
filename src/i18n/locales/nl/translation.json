@@ -106,30 +106,33 @@
     }
   },
   "footer": {
-    "company": {
-      "title": "Bedrijf",
-      "about": "Over ons",
-      "careers": "Carrières",
-      "contact": "Contact"
-    },
+    "brand": "Qorva",
+    "description": "Transformeer uw bedrijf met AI-gedreven oplossingen. Start vandaag en ervaar het verschil.",
     "product": {
       "title": "Product",
-      "features": "Functies",
+      "features": "Kenmerken",
       "pricing": "Prijzen",
-      "security": "Beveiliging"
-    },
-    "resources": {
-      "title": "Bronnen",
-      "blog": "Blog",
       "documentation": "Documentatie",
-      "support": "Ondersteuning"
+      "apiReference": "API Referentie"
+    },
+    "company": {
+      "title": "Bedrijf",
+      "aboutUs": "Over ons",
+      "blog": "Blog",
+      "careers": "Carrière",
+      "contact": "Contact"
     },
     "legal": {
       "title": "Juridisch",
-      "privacy": "Privacybeleid",
-      "terms": "Servicevoorwaarden",
-      "cookies": "Cookiebeleid"
+      "privacyPolicy": "Privacybeleid",
+      "termsOfService": "Algemene voorwaarden",
+      "security": "Beveiliging",
+      "compliance": "Compliance"
     },
-    "copyright": "© 2024 Qorva AI. Alle rechten voorbehouden."
+    "contact": {
+      "title": "Contact",
+      "email": "contact@qorva.ai"
+    },
+    "copyright": "Alle rechten voorbehouden."
   }
 } 

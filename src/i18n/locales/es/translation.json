@@ -106,30 +106,33 @@
     }
   },
   "footer": {
-    "company": {
-      "title": "Empresa",
-      "about": "Acerca de",
-      "careers": "Carreras",
-      "contact": "Contacto"
-    },
+    "brand": "Qorva",
+    "description": "Transforma tu negocio con soluciones impulsadas por IA. Empieza hoy mismo y nota la diferencia.",
     "product": {
       "title": "Producto",
       "features": "Características",
       "pricing": "Precios",
-      "security": "Seguridad"
-    },
-    "resources": {
-      "title": "Recursos",
-      "blog": "Blog",
       "documentation": "Documentación",
-      "support": "Soporte"
+      "apiReference": "Referencia API"
+    },
+    "company": {
+      "title": "Empresa",
+      "aboutUs": "Sobre nosotros",
+      "blog": "Blog",
+      "careers": "Carreras",
+      "contact": "Contacto"
     },
     "legal": {
       "title": "Legal",
-      "privacy": "Política de privacidad",
-      "terms": "Términos de servicio",
-      "cookies": "Política de cookies"
+      "privacyPolicy": "Política de privacidad",
+      "termsOfService": "Términos del servicio",
+      "security": "Seguridad",
+      "compliance": "Cumplimiento"
     },
-    "copyright": "© 2024 Qorva AI. Todos los derechos reservados."
+    "contact": {
+      "title": "Contacto",
+      "email": "contact@qorva.ai"
+    },
+    "copyright": "Todos los derechos reservados."
   }
 } 
