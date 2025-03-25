@@ -1,6 +1,6 @@
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
 import Header from './sections/Header';
 import Hero from './sections/Hero';
 import Features from './sections/Features';
@@ -8,6 +8,8 @@ import HowItWorks from './sections/HowItWorks';
 import Pricing from './sections/Pricing';
 import Footer from './sections/Footer';
 import MarkdownPage from './sections/MarkdownPage';
+import {initGA, logPageView} from "./utils/analytics.js";
+import {useEffect} from "react";
 
 const theme = createTheme({
   palette: {
@@ -54,7 +56,7 @@ const theme = createTheme({
   },
 });
 
-function MainPage() {
+const  MainPage = () => {
   return (
       <>
         <Header />
@@ -69,11 +71,26 @@ function MainPage() {
   );
 }
 
+const Analytics = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    logPageView();
+  }, [location]);
+
+  return null;
+};
+
 function App() {
+  useEffect(() => {
+    initGA();
+  }, []);
+
   return (
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Router>
+          <Analytics />
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/privacy-policy" element={<MarkdownPage filePath="/privacy-policy.md" />} />
