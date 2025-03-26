@@ -8,37 +8,37 @@
     "startTrial": "Prueba gratuita"
   },
   "hero": {
-    "title": "Contrata de forma más inteligente, rápida y precisa con Qorva AI",
-    "subtitle": "Análisis de CV con IA para gerentes de RRHH, reclutadores y startups",
+    "title": "Contrata con más inteligencia, rapidez y precisión gracias a Qorva AI",
+    "subtitle": "La solución inteligente basada en IA para el análisis automático de currículums, diseñada para gerentes de RRHH, reclutadores y startups",
     "cta": {
-      "trial": "Prueba gratuita",
-      "demo": "Programar demo"
+      "trial": "¡Regístrate y prueba gratis durante 7 días – Sin necesidad de tarjeta de crédito!",
+      "demo": "Programar una demo"
     },
     "about": {
-      "title": "Acerca de Qorva AI",
-      "description": "Qorva AI es una solución impulsada por inteligencia artificial para analizar currículums que empareja inteligentemente a candidatos con ofertas de empleo. A diferencia de los ATS tradicionales, Qorva AI va más allá de palabras clave: analiza significado y contexto para generar una puntuación de compatibilidad y un informe detallado de evaluación del CV, explicando por qué un candidato encaja fuertemente (o débilmente) con el puesto."
+      "title": "¿Te cuesta encontrar candidatos realmente adecuados?",
+      "description": "Los sistemas ATS tradicionales ya no logran filtrar currículums de calidad porque los candidatos optimizan sus CV usando herramientas de inteligencia artificial. El resultado es una gran cantidad de solicitudes que parecen perfectas sobre papel, pero carecen de verdadera relevancia. Qorva AI transforma radicalmente este proceso. Nuestra solución inteligente analiza semánticamente cada currículum, clasificando a los candidatos según sus competencias reales, experiencia y ajuste con el puesto.\nA diferencia de los ATS tradicionales, Qorva AI no se limita a palabras clave—analiza el contexto y genera una puntuación precisa de compatibilidad junto con un informe detallado que explica claramente por qué un candidato encaja o no con el puesto."
     }
   },
   "features": {
-    "title": "Características principales",
-    "subtitle": "Todo lo que necesitas para revolucionar tu proceso de contratación",
+    "title": "Cómo Qorva AI te ayuda a contratar a los mejores talentos",
+    "subtitle": "Todo lo que necesitas para revolucionar tu proceso de selección",
     "parsing": {
-      "title": "Análisis de CV con IA",
-      "description": "¡No más entrada manual de datos! Simplemente arrastra y suelta hasta 10 currículums a la vez, y Qorva AI extraerá y almacenará automáticamente la información de los candidatos en el sistema.\n"
+      "title": "Extracción inteligente de datos de currículums mediante IA",
+      "description": "Ahorra tiempo – ¡Olvídate de introducir datos manualmente! Solo arrastra y suelta los currículums, y Qorva AI extraerá y almacenará automáticamente la información de los candidatos en segundos."
     },
     "matching": {
-      "title": "Matching de candidatos con IA",
-      "description": "¿Necesita encontrar al mejor candidato en su base de talentos para un nuevo puesto? Simplemente realice un análisis de CV, y Qorva AI escaneará, comparará y clasificará a los candidatos según su relevancia.\n"
+      "title": "Coincidencia inteligente de candidatos basada en IA",
+      "description": "Clasifica instantáneamente a los candidatos según su relevancia real para el puesto. Obtén informes detallados generados por IA que explican claramente los puntos fuertes y débiles de cada candidato. Descarta automáticamente los currículums irrelevantes sin esfuerzo."
     },
     "interview": {
       "title": "Preguntas de entrevista personalizadas",
-      "description": "Para cada informe de candidato, el sistema genera un conjunto personalizado de preguntas de entrevista basadas en su experiencia, habilidades y debilidades, garantizando entrevistas estructuradas y profundas.\n"
+      "description": "Basta de entrevistas genéricas. Recibe preguntas personalizadas generadas por IA, adaptadas a las competencias, experiencia y áreas de mejora de cada candidato. Realiza entrevistas más inteligentes que conduzcan a mejores contrataciones."
     },
     "whyChooseQorva": {
       "title": "¿Por qué elegir Qorva AI?",
-      "saveTime": "Ahorra tiempo – Automatiza la revisión de currículums y enfócate únicamente en los mejores candidatos.",
-      "hiringAccuracy": "Mejora la precisión en la contratación – Ve más allá de las palabras clave con análisis semántico impulsado por IA.",
-      "streamlinedInterviews": "Optimiza entrevistas – Obtén información basada en datos y preguntas personalizadas para cada candidato."
+      "saveTime": "Ahorra tiempo – Automatiza la selección de currículums y céntrate exclusivamente en los mejores candidatos.",
+      "hiringAccuracy": "Mayor precisión en la contratación – Ve más allá de las palabras clave gracias al análisis semántico inteligente.",
+      "streamlinedInterviews": "Entrevistas optimizadas – Obtén información basada en datos y preguntas personalizadas para cada candidato."
     }
   },
   "howItWorks": {

@@ -11,28 +11,28 @@
     "title": "Hire Smarter, Faster, and More Accurately with Qorva AI",
     "subtitle": "AI-Powered Resume Screening Solution for HR Managers, Recruiters, and Startups",
     "cta": {
-      "trial": "Start Free Trial",
+      "trial": "Sign up for a 7-day FREE trial – No credit card required!",
       "demo": "Schedule Demo"
     },
     "about": {
-      "title": "About Qorva AI",
-      "description": "Qorva AI is an AI-powered resume screening solution that intelligently matches candidates' resumes to job postings. \n Unlike traditional ATS, Qorva AI goes beyond keywords—it analyzes meaning and context to generate a matching score \n and a detailed CV assessment report explaining why a candidate is a strong (or weak) fit."
+      "title": "Struggling to Find the Right Candidates?",
+      "description": "Traditional ATS systems fail to filter quality resumes because candidates now optimize their CVs with AI. You end up with a pile of applications that look great on paper but lack real relevance. Qorva AI changes the game. Our AI-powered resume screening solution analyzes resumes semantically, ranking applicants based on actual skills, experience, and job relevance. \n Unlike traditional ATS, Qorva AI goes beyond keywords matching— it analyzes meaning and context to generate a matching score \n and a detailed CV assessment report explaining why a candidate is a strong (or weak) fit."
     }
   },
   "features": {
-    "title": "Key Features",
+    "title": "How Qorva AI Helps You Hire the Best Candidates",
     "subtitle": "Everything you need to revolutionize your hiring process",
     "parsing": {
       "title": "AI-Powered Resume Parsing",
-      "description": "No more manual data entry! Simply drag and drop up to 10 resumes at once, and Qorva AI will automatically extract and store candidate information in the system."
+      "description": "Save time – No manual entry required! Simply drag & drop your resumes, and Qorva AI automatically extracts and stores candidate data in seconds."
     },
     "matching": {
       "title": "AI-Driven Candidate Matching",
-      "description": "Need to find the best candidate in your talent pool for a new job post? Just run a CV analysis, and Qorva AI will scan, match, and rank candidates based on relevance."
+      "description": "Instantly rank candidates based on actual job relevance. Get detailed AI-powered reports explaining why a candidate is a strong (or weak) fit. Filter out unqualified resumes without lifting a finger."
     },
     "interview": {
       "title": "Tailored Interview Questions",
-      "description": "For every candidate report, the system generates a personalized set of interview questions based on their experience, skills, and weaknesses, ensuring structured and insightful interviews."
+      "description": "No more generic interviews. Get AI-generated questions tailored to each candidate’s skills, experience, and weaknesses. Conduct smarter interviews that lead to better hires."
     },
     "whyChooseQorva": {
       "title": "Why Choose Qorva AI?",

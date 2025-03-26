@@ -8,37 +8,37 @@
     "startTrial": "Gratis proberen"
   },
   "hero": {
-    "title": "Werf slimmer, sneller en nauwkeuriger met Qorva AI",
-    "subtitle": "AI-gestuurde CV-screening voor HR-managers, recruiters en startups",
+    "title": "Slimmer, sneller en beter werven dankzij Qorva AI",
+    "subtitle": "De intelligente AI-oplossing voor automatische CV-screening, speciaal ontwikkeld voor HR-managers, recruiters en startups",
     "cta": {
-      "trial": "Gratis proberen",
-      "demo": "Demo aanvragen"
+      "trial": "Meld je aan voor een GRATIS proefperiode van 7 dagen – Geen creditcard nodig!",
+      "demo": "Plan een demo"
     },
     "about": {
-      "title": "Over Qorva AI",
-      "description": "Qorva AI is een AI-gestuurde oplossing voor het screenen van cv's die kandidaten op intelligente wijze koppelt aan vacatures. Anders dan traditionele ATS gaat Qorva AI verder dan trefwoorden—het analyseert betekenis en context om een matchscore en een gedetailleerd beoordelingsrapport van het cv te genereren, waarin wordt uitgelegd waarom een kandidaat sterk (of zwak) past bij de functie."
+      "title": "Vind je het lastig om écht geschikte kandidaten te vinden?",
+      "description": "Traditionele ATS-systemen slagen er steeds minder in om kwaliteitsvolle CV's te herkennen, omdat kandidaten hun CV optimaliseren met behulp van AI-tools. Het resultaat is een stapel sollicitaties die op papier perfect lijken, maar in werkelijkheid weinig relevant zijn. Qorva AI verandert dit proces volledig. Onze intelligente oplossing analyseert elk CV semantisch en rangschikt kandidaten op basis van echte vaardigheden, ervaring en geschiktheid voor de functie.\nIn tegenstelling tot klassieke ATS-systemen beperkt Qorva AI zich niet tot simpele trefwoorden – ons systeem begrijpt context, genereert een nauwkeurige match-score en levert een uitgebreid rapport waarin duidelijk wordt toegelicht waarom een kandidaat wel of niet past."
     }
   },
   "features": {
-    "title": "Belangrijkste functies",
-    "subtitle": "Alles wat je nodig hebt om je wervingsproces te revolutioneren",
+    "title": "Hoe Qorva AI je helpt de beste kandidaten te selecteren",
+    "subtitle": "Alles wat je nodig hebt om je recruitmentproces te revolutioneren",
     "parsing": {
-      "title": "AI-gestuurde CV-analyse",
-      "description": "Geen handmatige gegevensinvoer meer! Sleep eenvoudigweg tot 10 cv's tegelijk, en Qorva AI extraheert en bewaart automatisch kandidaatgegevens in het systeem."
+      "title": "Intelligente CV-extractie met AI",
+      "description": "Bespaar tijd – Geen handmatige invoer meer nodig! Sleep simpelweg de CV's naar het systeem en Qorva AI extraheert en bewaart direct alle kandidaatgegevens."
     },
     "matching": {
-      "title": "AI-gestuurde kandidaat matching",
-      "description": "Wilt u de beste kandidaat vinden in uw talentenpool voor een nieuwe functie? Voer gewoon een cv-analyse uit, en Qorva AI scant, vergelijkt en rangschikt kandidaten op basis van relevantie."
+      "title": "AI-gestuurde kandidaatmatching",
+      "description": "Rangschik direct kandidaten op basis van echte relevantie. Ontvang gedetailleerde rapporten, aangestuurd door AI, waarin precies wordt uitgelegd waarom een kandidaat wel of niet geschikt is. Filter automatisch ongeschikte CV's zonder enige moeite."
     },
     "interview": {
       "title": "Op maat gemaakte interviewvragen",
-      "description": "Voor elk kandidatenrapport genereert het systeem een gepersonaliseerde reeks interviewvragen op basis van hun ervaring, vaardigheden en zwakke punten, wat zorgt voor gestructureerde en inzichtelijke gesprekken."
+      "description": "Geen standaard interviews meer. Ontvang gepersonaliseerde, door AI gegenereerde vragen die zijn afgestemd op de vaardigheden, ervaring en verbeterpunten van elke kandidaat. Voer gerichtere gesprekken die leiden tot betere aanwervingen."
     },
     "whyChooseQorva": {
       "title": "Waarom kiezen voor Qorva AI?",
-      "saveTime": "Bespaar tijd – Automatiseer cv-screening en focus alleen op de beste kandidaten.",
-      "hiringAccuracy": "Verbeter de nauwkeurigheid van werving – Ga verder dan trefwoorden met semantische analyse aangedreven door AI.",
-      "streamlinedInterviews": "Stroomlijn sollicitatiegesprekken – Ontvang datagestuurde inzichten en op maat gemaakte interviewvragen voor elke kandidaat."
+      "saveTime": "Bespaar tijd – Automatiseer CV-screening en focus je alleen nog op de beste kandidaten.",
+      "hiringAccuracy": "Meer nauwkeurigheid in je werving – Kijk verder dan trefwoorden dankzij semantische AI-analyse.",
+      "streamlinedInterviews": "Efficiëntere sollicitatiegesprekken – Ontvang inzichten op basis van data en op maat gemaakte vragen voor elke kandidaat."
     }
   },
   "howItWorks": {

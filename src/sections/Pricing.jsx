@@ -188,7 +188,13 @@ const Pricing = () => {
                         ))}
                       </List>
                       <Box sx={{ mt: 'auto', textAlign: 'center' }}>
-                        <Button fullWidth variant={plan.buttonVariant} color="primary" size="large">
+                        <Button
+                            fullWidth
+                            variant={plan.buttonVariant}
+                            color="primary"
+                            size="large"
+                            onClick={() => location.href="https://www.app.qorva.ai/register" }
+                        >
                           {plan.buttonText}
                         </Button>
                       </Box>

@@ -8,37 +8,37 @@
     "startTrial": "Kostenlos testen"
   },
   "hero": {
-    "title": "Stellen Sie mit Qorva AI intelligenter, schneller und präziser ein",
-    "subtitle": "KI-gestützte Lebenslauf-Analyse für HR-Manager, Recruiter und Startups",
+    "title": "Mit Qorva AI schneller, präziser und intelligenter einstellen",
+    "subtitle": "Die intelligente KI-Lösung zur automatisierten Lebenslaufanalyse für HR-Manager, Recruiter und Startups",
     "cta": {
-      "trial": "Kostenlos testen",
+      "trial": "Starten Sie Ihre 7-tägige kostenlose Testphase – Keine Kreditkarte erforderlich!",
       "demo": "Demo vereinbaren"
     },
     "about": {
-      "title": "Über Qorva AI",
-      "description": "Qorva AI ist eine KI-gestützte Lösung zur Lebenslaufanalyse, die Kandidaten intelligent mit Stellenangeboten abgleicht. Im Gegensatz zu herkömmlichen ATS geht Qorva AI über Schlüsselwörter hinaus – es analysiert Bedeutung und Kontext, um eine Übereinstimmungsbewertung sowie einen detaillierten Bericht zur Lebenslaufbewertung zu generieren, der erläutert, warum ein Kandidat besonders gut (oder weniger gut) geeignet ist."
+      "title": "Haben Sie Schwierigkeiten, die richtigen Kandidaten zu finden?",
+      "description": "Traditionelle ATS-Systeme scheitern zunehmend daran, hochwertige Bewerbungen zu identifizieren, da Kandidaten ihre Lebensläufe mithilfe von KI optimieren. Dadurch erhalten Sie eine Flut an Bewerbungen, die zwar auf den ersten Blick überzeugend wirken, jedoch oft wenig relevant sind. Qorva AI verändert den Recruiting-Prozess grundlegend. Unsere intelligente KI-Lösung analysiert Lebensläufe semantisch und bewertet Bewerber anhand ihrer tatsächlichen Kompetenzen, Erfahrungen und Eignung für die Stelle.\nIm Gegensatz zu herkömmlichen ATS-Systemen geht Qorva AI weit über eine reine Schlagwortsuche hinaus – das System versteht Zusammenhänge, generiert einen aussagekräftigen Match-Score und liefert einen detaillierten Bewertungsbericht, der klar erläutert, weshalb ein Kandidat besonders gut oder weniger geeignet ist."
     }
   },
   "features": {
-    "title": "Hauptfunktionen",
-    "subtitle": "Alles, was Sie brauchen, um Ihren Einstellungsprozess zu revolutionieren",
+    "title": "So unterstützt Qorva AI Sie dabei, die besten Kandidaten zu finden",
+    "subtitle": "Alles, was Sie brauchen, um Ihre Personalbeschaffung zu revolutionieren",
     "parsing": {
-      "title": "KI-gestützte Lebenslauf-Analyse",
-      "description": "Keine manuelle Dateneingabe mehr! Ziehen Sie einfach bis zu 10 Lebensläufe gleichzeitig per Drag-and-drop, und Qorva AI extrahiert und speichert automatisch die Kandidateninformationen im System.\n"
+      "title": "Intelligente Lebenslauf-Auswertung durch KI",
+      "description": "Sparen Sie Zeit – Schluss mit der manuellen Dateneingabe! Einfach Lebensläufe per Drag-and-Drop hochladen, und Qorva AI extrahiert und speichert sämtliche Bewerberinformationen automatisch in Sekundenschnelle."
     },
     "matching": {
-      "title": "KI-gestütztes Kandidaten-Matching",
-      "description": "Sie möchten den besten Kandidaten in Ihrem Talentpool für eine neue Stelle finden? Führen Sie einfach eine Lebenslaufanalyse durch, und Qorva AI scannt, vergleicht und bewertet Kandidaten nach Relevanz.\n"
+      "title": "KI-gestütztes Bewerber-Matching",
+      "description": "Rangieren Sie Bewerber sofort nach tatsächlicher Relevanz für Ihre Stellen. Erhalten Sie detaillierte, KI-generierte Berichte, die klar zeigen, weshalb ein Kandidat gut oder weniger gut passt. Filtern Sie ungeeignete Bewerbungen automatisch und mühelos aus."
     },
     "interview": {
       "title": "Maßgeschneiderte Interviewfragen",
-      "description": "Für jeden Kandidatenbericht erstellt das System eine individuelle Reihe von Interviewfragen, die auf Erfahrung, Fähigkeiten und Schwächen basieren, um strukturierte und aussagekräftige Interviews zu gewährleisten.\n"
+      "description": "Schluss mit generischen Interviews. Erhalten Sie durch KI generierte, individuelle Fragen, die auf die Stärken, Schwächen und Erfahrungen jedes einzelnen Kandidaten zugeschnitten sind. Führen Sie effizientere Interviews, um bessere Entscheidungen zu treffen."
     },
     "whyChooseQorva": {
-      "title": "Warum Qorva AI wählen?",
-      "saveTime": "Zeit sparen – Automatisieren Sie die Lebenslaufprüfung und konzentrieren Sie sich nur auf die besten Kandidaten.",
-      "hiringAccuracy": "Einstellungstreffsicherheit erhöhen – Gehen Sie über Schlüsselwörter hinaus mit einer KI-gestützten semantischen Analyse.",
-      "streamlinedInterviews": "Interviews optimieren – Erhalten Sie datenbasierte Einblicke und maßgeschneiderte Interviewfragen für jeden Kandidaten."
+      "title": "Warum sollten Sie sich für Qorva AI entscheiden?",
+      "saveTime": "Zeitersparnis – Automatisieren Sie die Lebenslauf-Auswertung und konzentrieren Sie sich nur noch auf die besten Kandidaten.",
+      "hiringAccuracy": "Höhere Präzision bei Einstellungen – Analysieren Sie Lebensläufe über bloße Schlagwörter hinaus mit semantischer KI-Analyse.",
+      "streamlinedInterviews": "Effizientere Interviews – Erhalten Sie datenbasierte Erkenntnisse und individuell zugeschnittene Fragen für jeden Kandidaten."
     }
   },
   "howItWorks": {

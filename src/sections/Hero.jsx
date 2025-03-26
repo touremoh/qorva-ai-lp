@@ -60,6 +60,7 @@ function Hero() {
                 py: 2,
                 fontSize: '1.1rem',
               }}
+              href={"https://www.app.qorva.ai/register"}
             >
               {t('hero.cta.trial')}
             </Button>
