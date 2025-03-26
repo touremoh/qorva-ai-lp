@@ -7,7 +7,7 @@ import Features from './sections/Features';
 import HowItWorks from './sections/HowItWorks';
 import Pricing from './sections/Pricing';
 import Footer from './sections/Footer';
-import MarkdownPage from './sections/MarkdownPage';
+import MarkdownPage from "./sections/MarkdownPage.jsx";
 import {initGA, logPageView} from "./utils/analytics.js";
 import {useEffect} from "react";
 
