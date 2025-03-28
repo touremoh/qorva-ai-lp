@@ -36,9 +36,22 @@
     },
     "whyChooseQorva": {
       "title": "Perché scegliere Qorva AI?",
-      "saveTime": "Risparmia tempo – Automatizza lo screening dei CV e concentrati solo sui candidati migliori.",
-      "hiringAccuracy": "Assumi con più precisione – Vai oltre le semplici parole chiave grazie all’analisi semantica intelligente.",
-      "streamlinedInterviews": "Colloqui più efficaci – Ottieni insight basati sui dati e domande su misura per ogni candidato."
+      "saveTime": {
+        "title": "Riduci drasticamente i tempi di assunzione",
+        "description": "Moltiplica la tua produttività eliminando la noiosa selezione manuale dei CV. Lascia che Qorva AI svolga il lavoro di routine e dedica il tuo tempo esclusivamente ai migliori candidati."
+      },
+      "reduceCost": {
+        "title": "Abbassa significativamente i costi di recruiting",
+        "description": "Ottimizza il tuo processo di selezione riducendo sensibilmente le spese. Accorciando i tempi di assunzione, avrai più risorse e budget da dedicare a iniziative strategiche fondamentali."
+      },
+      "accuracy": {
+        "title": "Aumenta la precisione e la qualità delle assunzioni",
+        "description": "Riduci al minimo gli errori costosi. La nostra valutazione dei candidati basata sull’intelligenza artificiale garantisce una corrispondenza precisa e coerente, portando chiarezza e fiducia in ogni decisione."
+      },
+      "fairness": {
+        "title": "Favorisci l’equità nei processi di selezione",
+        "description": "Elimina i pregiudizi inconsapevoli dal processo di recruiting. Assicurati decisioni obiettive ed eque, libere da discriminazioni basate su provenienza, genere, religione o orientamento sessuale."
+      }
     }
   },
   "howItWorks": {
@@ -87,22 +100,22 @@
     "starter": {
       "title": "Starter",
       "description": "Perfetto per singoli o piccoli team",
-      "cvs": "Fino a 500 CV"
+      "cvs": "Fino a 500 CV analisi di CV al mese"
     },
     "growth": {
       "title": "Crescita",
       "description": "Ideale per team in espansione",
-      "cvs": "Fino a 2500 CV"
+      "cvs": "Fino a 2.000 analisi di CV al mese"
     },
     "professional": {
       "title": "Professionale",
       "description": "Perfetto per team consolidati",
-      "cvs": "Fino a 10.000 CV"
+      "cvs": "Fino a 5.000 analisi di CV al mese"
     },
     "enterprise": {
       "title": "Enterprise",
       "description": "Adatto per grandi organizzazioni",
-      "cvs": "CV illimitati"
+      "cvs": "Analisi illimitate di CV al mese"
     }
   },
   "footer": {

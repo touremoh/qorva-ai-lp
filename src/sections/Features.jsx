@@ -4,6 +4,10 @@ import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import { styled } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import SavingsIcon from '@mui/icons-material/Savings';
+import GpsFixedIcon from '@mui/icons-material/GpsFixed';
+import Diversity1Icon from '@mui/icons-material/Diversity1';
 
 const FeatureCard = styled(Card)(({ theme }) => ({
   height: '100%',
@@ -52,10 +56,33 @@ const features = [
 function Features() {
   const { t } = useTranslation();
 
+  // const benefits = [
+  //   `${t('features.whyChooseQorva.saveTime')}`,
+  //   `${t('features.whyChooseQorva.hiringAccuracy')}`,
+  //   `${t('features.whyChooseQorva.streamlinedInterviews')}`
+  // ];
+
   const benefits = [
-    `${t('features.whyChooseQorva.saveTime')}`,
-    `${t('features.whyChooseQorva.hiringAccuracy')}`,
-    `${t('features.whyChooseQorva.streamlinedInterviews')}`
+    {
+      icon: <AccessTimeIcon sx={{ fontSize: 32 }} />,
+      title: `${t('features.whyChooseQorva.saveTime.title')}`,
+      description: `${t('features.whyChooseQorva.saveTime.description')}`,
+    },
+    {
+      icon: <SavingsIcon sx={{ fontSize: 32 }} />,
+      title: `${t('features.whyChooseQorva.reduceCost.title')}`,
+      description: `${t('features.whyChooseQorva.reduceCost.description')}`,
+    },
+    {
+      icon: <GpsFixedIcon sx={{ fontSize: 32 }} />,
+      title: `${t('features.whyChooseQorva.accuracy.title')}`,
+      description: `${t('features.whyChooseQorva.accuracy.description')}`,
+    },
+    {
+      icon: <Diversity1Icon sx={{ fontSize: 32 }} />,
+      title: `${t('features.whyChooseQorva.fairness.title')}`,
+      description: `${t('features.whyChooseQorva.fairness.description')}`,
+    }
   ];
 
   return (
@@ -74,7 +101,7 @@ function Features() {
             {features.map((feature, index) => (
                 <Grid item xs={12} md={4} key={index}>
                   <FeatureCard>
-                    <CardContent sx={{ textAlign: 'center', p: 4 }}>
+                    <CardContent sx={{ textAlign: 'left', p: 4 }}>
                       <IconWrapper>
                         {feature.icon}
                       </IconWrapper>
@@ -94,34 +121,25 @@ function Features() {
             <Typography variant="h3" component="h3" gutterBottom>
               {t('features.whyChooseQorva.title')}
             </Typography>
-            <Box sx={{ mt: 4 }}>
+            <Grid container spacing={4} >
               {benefits.map((benefit, index) => (
-                  <Typography
-                      key={index}
-                      variant="h6"
-                      component="div"
-                      color="text.secondary"
-                      sx={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: 1,
-                        mb: 2,
-                      }}
-                  >
-                    <Box
-                        component="span"
-                        sx={{
-                          color: 'primary.main',
-                          fontWeight: 'bold',
-                        }}
-                    >
-                      ✓
-                    </Box>
-                    {benefit}
-                  </Typography>
+                  <Grid item xs={12} md={3} key={index}>
+                    <FeatureCard>
+                      <CardContent sx={{ textAlign: 'left', p: 4 }}>
+                        <IconWrapper>
+                          {benefit.icon}
+                        </IconWrapper>
+                        <Typography variant="h6" component="h3" gutterBottom>
+                          {benefit.title}
+                        </Typography>
+                        <Typography variant="body1" color="text.secondary">
+                          {benefit.description}
+                        </Typography>
+                      </CardContent>
+                    </FeatureCard>
+                  </Grid>
               ))}
-            </Box>
+            </Grid>
           </Box>
         </Container>
       </Box>
