@@ -36,9 +36,22 @@
     },
     "whyChooseQorva": {
       "title": "Why Choose Qorva AI?",
-      "saveTime": "Save Time – Automate resume screening and focus only on the best candidates.",
-      "hiringAccuracy": "Improve Hiring Accuracy – Go beyond keywords with AI-powered semantic analysis.",
-      "streamlinedInterviews": "Streamline Interviews – Get data-driven insights and tailored interview questions for every candidate."
+      "saveTime": {
+        "title": "Reduce Time to Hire",
+        "description": "Boost your productivity tenfold by eliminating tedious manual screening. Let Qorva AI handle the busywork, so you can focus on connecting with top-tier talent."
+      },
+      "reduceCost": {
+        "title": "Cut Hiring Costs",
+        "description": "Streamline your hiring process to significantly reduce costs. By slashing your time-to-hire, you'll free up valuable resources, giving you more time and budget for strategic initiatives."
+      },
+      "accuracy": {
+        "title": "Enhance Hiring Accuracy and Quality",
+        "description": "Minimize costly mistakes. Our AI-driven candidate evaluation ensures precise, consistent matching, bringing clarity and confidence to your hiring decisions."
+      },
+      "fairness": {
+        "title": "Promote Fairness in Hiring Process",
+        "description": "Eliminate unconscious biases in your recruitment process. Ensure your hiring decisions remain objective, equitable, and free from discrimination based on race, gender, religion, or sexual orientation."
+      }
     }
   },
   "howItWorks": {
@@ -87,22 +100,22 @@
     "starter": {
       "title": "Starter",
       "description": "Perfect for individuals or small teams",
-      "cvs": "Up to 500 CVs"
+      "cvs": "Up to 500 CVs analyses per month"
     },
     "growth": {
       "title": "Growth",
       "description": "Ideal for growing teams",
-      "cvs": "Up to 2500 CVs"
+      "cvs": "Up to 2,000 CVs analyses per month"
     },
     "professional": {
       "title": "Professional",
       "description": "Great for established teams",
-      "cvs": "Up to 10,000 CVs"
+      "cvs": "Up to 5,000 CVs analyses per month"
     },
     "enterprise": {
       "title": "Enterprise",
       "description": "Best suited for large organizations",
-      "cvs": "Unlimited CVs"
+      "cvs": "Unlimited CVs analyses per month"
     }
   },
   "footer": {

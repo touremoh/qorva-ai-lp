@@ -36,9 +36,22 @@
     },
     "whyChooseQorva": {
       "title": "Waarom kiezen voor Qorva AI?",
-      "saveTime": "Bespaar tijd – Automatiseer CV-screening en focus je alleen nog op de beste kandidaten.",
-      "hiringAccuracy": "Meer nauwkeurigheid in je werving – Kijk verder dan trefwoorden dankzij semantische AI-analyse.",
-      "streamlinedInterviews": "Efficiëntere sollicitatiegesprekken – Ontvang inzichten op basis van data en op maat gemaakte vragen voor elke kandidaat."
+      "saveTime": {
+        "title": "Verkort je wervingstijd aanzienlijk",
+        "description": "Verhoog je productiviteit enorm door afscheid te nemen van het tijdrovende, handmatige screenen van CV’s. Laat Qorva AI het routinematige werk doen, zodat jij je volledig kunt richten op het contact met topkandidaten."
+      },
+      "reduceCost": {
+        "title": "Verlaag aanzienlijk je wervingskosten",
+        "description": "Optimaliseer je wervingsproces en bespaar aanzienlijk op kosten. Door je time-to-hire drastisch te verminderen, creëer je ruimte in je budget en agenda voor strategische HR-initiatieven."
+      },
+      "accuracy": {
+        "title": "Verhoog de nauwkeurigheid en kwaliteit van je selecties",
+        "description": "Vermijd kostbare vergissingen. Onze AI-gestuurde evaluatie van kandidaten zorgt voor een precieze en consistente matching, zodat je met vertrouwen de beste beslissingen kunt nemen."
+      },
+      "fairness": {
+        "title": "Garandeer eerlijkheid in je wervingsproces",
+        "description": "Verminder onbewuste vooroordelen tijdens het werven. Maak objectieve en rechtvaardige beslissingen zonder discriminatie op basis van afkomst, geslacht, religie of seksuele oriëntatie."
+      }
     }
   },
   "howItWorks": {
@@ -87,22 +100,22 @@
     "starter": {
       "title": "Starter",
       "description": "Perfect voor individuen of kleine teams",
-      "cvs": "Tot 500 CV's"
+      "cvs": "Tot 500 cv-analyses per maand"
     },
     "growth": {
       "title": "Groei",
       "description": "Ideaal voor groeiende teams",
-      "cvs": "Tot 2500 CV's"
+      "cvs": "Tot 2.000 cv-analyses per maand"
     },
     "professional": {
       "title": "Professioneel",
       "description": "Perfect voor gevestigde teams",
-      "cvs": "Tot 10.000 CV's"
+      "cvs": "Tot 5.000 cv-analyses per maand"
     },
     "enterprise": {
       "title": "Enterprise",
       "description": "Geschikt voor grote organisaties",
-      "cvs": "Onbeperkt aantal CV's"
+      "cvs": "Ongelimiteerde cv-analyses per maand"
     }
   },
   "footer": {
