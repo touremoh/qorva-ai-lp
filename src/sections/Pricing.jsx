@@ -50,7 +50,7 @@ const Pricing = () => {
   const plans = [
     {
       title: t('pricing.starter.title'),
-      price: billing === 'monthly' ? '$29' : '$279',
+      price: billing === 'monthly' ? '$49' : '$469',
       period: billing === 'monthly' ? t('pricing.periodMonthly') : t('pricing.periodYearly'),
       discount: billing === 'yearly' ? '-20%' : '',
       description: t('pricing.starter.description'),
@@ -68,7 +68,7 @@ const Pricing = () => {
     },
     {
       title: t('pricing.growth.title'),
-      price: billing === 'monthly' ? '$59' : '$566',
+      price: billing === 'monthly' ? '$99' : '$949',
       period: billing === 'monthly' ? t('pricing.periodMonthly') : t('pricing.periodYearly'),
       discount: billing === 'yearly' ? '-20%' : '',
       description: t('pricing.growth.description'),
@@ -87,7 +87,7 @@ const Pricing = () => {
     },
     {
       title: t('pricing.professional.title'),
-      price: billing === 'monthly' ? '$99' : '$950',
+      price: billing === 'monthly' ? '$199' : '$1909',
       period: billing === 'monthly' ? t('pricing.periodMonthly') : t('pricing.periodYearly'),
       discount: billing === 'yearly' ? '-20%' : '',
       description: t('pricing.professional.description'),
@@ -105,7 +105,7 @@ const Pricing = () => {
     },
     {
       title: t('pricing.enterprise.title'),
-      price: billing === 'monthly' ? '$299' : '$2870',
+      price: billing === 'monthly' ? '$449' : '$4309',
       period: billing === 'monthly' ? t('pricing.periodMonthly') : t('pricing.periodYearly'),
       discount: billing === 'yearly' ? '-20%' : '',
       description: t('pricing.enterprise.description'),
