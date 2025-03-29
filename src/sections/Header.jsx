@@ -54,7 +54,7 @@ function Header() {
             <Link href="/" underline="none">
               <Box
                 component="img"
-                src="/favicon.svg"
+                src="/logo.svg"
                 alt="Qorva Logo"
                 sx={{ height: 32, width: 32, mr: 1 }}
               />

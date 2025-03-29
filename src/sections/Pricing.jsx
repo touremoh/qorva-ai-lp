@@ -41,7 +41,7 @@ const PricingCard = styled(Card)(({ theme, featured, recommended }) => ({
 
 const Pricing = () => {
   const { t } = useTranslation();
-  const [billing, setBilling] = useState('monthly');
+  const [billing, setBilling] = useState('yearly');
 
   const handleBillingChange = (event, newBilling) => {
     if (newBilling !== null) setBilling(newBilling);
@@ -50,8 +50,9 @@ const Pricing = () => {
   const plans = [
     {
       title: t('pricing.starter.title'),
-      price: billing === 'monthly' ? '$49' : '$469',
-      period: billing === 'monthly' ? t('pricing.periodMonthly') : t('pricing.periodYearly'),
+      originalPrice: '$49',
+      price: billing === 'monthly' ? '$49' : '$39',
+      period: t('pricing.periodMonthly'),
       discount: billing === 'yearly' ? '-20%' : '',
       description: t('pricing.starter.description'),
       features: [
@@ -68,8 +69,9 @@ const Pricing = () => {
     },
     {
       title: t('pricing.growth.title'),
-      price: billing === 'monthly' ? '$99' : '$949',
-      period: billing === 'monthly' ? t('pricing.periodMonthly') : t('pricing.periodYearly'),
+      originalPrice: '$99',
+      price: billing === 'monthly' ? '$99' : '$79',
+      period: t('pricing.periodMonthly'),
       discount: billing === 'yearly' ? '-20%' : '',
       description: t('pricing.growth.description'),
       features: [
@@ -87,8 +89,9 @@ const Pricing = () => {
     },
     {
       title: t('pricing.professional.title'),
-      price: billing === 'monthly' ? '$199' : '$1909',
-      period: billing === 'monthly' ? t('pricing.periodMonthly') : t('pricing.periodYearly'),
+      originalPrice: '$199',
+      price: billing === 'monthly' ? '$199' : '$159',
+      period: t('pricing.periodMonthly'),
       discount: billing === 'yearly' ? '-20%' : '',
       description: t('pricing.professional.description'),
       features: [
@@ -105,8 +108,9 @@ const Pricing = () => {
     },
     {
       title: t('pricing.enterprise.title'),
-      price: billing === 'monthly' ? '$449' : '$4309',
-      period: billing === 'monthly' ? t('pricing.periodMonthly') : t('pricing.periodYearly'),
+      originalPrice: '$449',
+      price: billing === 'monthly' ? '$449' : `$359`,
+      period: t('pricing.periodMonthly'),
       discount: billing === 'yearly' ? '-20%' : '',
       description: t('pricing.enterprise.description'),
       features: [
@@ -138,8 +142,8 @@ const Pricing = () => {
                 onChange={handleBillingChange}
                 sx={{ mt: 4 }}
             >
+              <ToggleButton value="yearly">{t('pricing.yearly')} -20% </ToggleButton>
               <ToggleButton value="monthly">{t('pricing.monthly')}</ToggleButton>
-              <ToggleButton value="yearly">{t('pricing.yearly')}</ToggleButton>
             </ToggleButtonGroup>
           </Box>
 
@@ -160,9 +164,7 @@ const Pricing = () => {
                     />
                     <CardContent sx={{ flexGrow: 1, pt: 0 }}>
                       <Box sx={{ textAlign: 'center', mb: 3 }}>
-                        <Typography component="h3" variant="h3">
-                          {plan.price}
-                        </Typography>
+                        <Typography component="h3" variant="h3">{plan.price}</Typography>
                         <Typography variant="subtitle1" color={plan.discount ? 'orange' : 'text.primary'}>
                           {plan.period} {plan.discount && `(${plan.discount})`}
                         </Typography>
