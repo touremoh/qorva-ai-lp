@@ -11,7 +11,7 @@
     "title": "Slimmer, sneller en beter werven dankzij Qorva AI",
     "subtitle": "De intelligente AI-oplossing voor automatische CV-screening, speciaal ontwikkeld voor HR-managers, recruiters en startups",
     "cta": {
-      "trial": "Meld je aan voor een GRATIS proefperiode van 7 dagen – Geen creditcard nodig!",
+      "trial": "Meld je aan voor een GRATIS proefperiode van 7 dagen",
       "demo": "Plan een demo"
     },
     "about": {
@@ -30,9 +30,9 @@
       "title": "AI-gestuurde kandidaatmatching",
       "description": "Rangschik direct kandidaten op basis van echte relevantie. Ontvang gedetailleerde rapporten, aangestuurd door AI, waarin precies wordt uitgelegd waarom een kandidaat wel of niet geschikt is. Filter automatisch ongeschikte CV's zonder enige moeite."
     },
-    "interview": {
-      "title": "Op maat gemaakte interviewvragen",
-      "description": "Geen standaard interviews meer. Ontvang gepersonaliseerde, door AI gegenereerde vragen die zijn afgestemd op de vaardigheden, ervaring en verbeterpunten van elke kandidaat. Voer gerichtere gesprekken die leiden tot betere aanwervingen."
+    "aiChat": {
+      "title": "AI CV-Chat",
+      "description": "Verspil geen uren meer met het doorlezen van cv’s. Met AI CV-Chat kunt u direct in gesprek gaan met het profiel van elke kandidaat, vragen stellen in gewone taal en inzichten krijgen die verder gaan dan functietitels en trefwoorden. Ontdek verborgen talenten, signaleer vroegtijdig risico’s en begeleid vol vertrouwen de beste kandidaten in uw proces."
     },
     "whyChooseQorva": {
       "title": "Waarom kiezen voor Qorva AI?",
@@ -102,18 +102,18 @@
       "description": "Perfect voor individuen of kleine teams",
       "cvs": "Tot 500 cv-analyses per maand"
     },
-    "growth": {
-      "title": "Groei",
+    "scout": {
+      "title": "Scout",
       "description": "Ideaal voor groeiende teams",
       "cvs": "Tot 2.000 cv-analyses per maand"
     },
-    "professional": {
-      "title": "Professioneel",
+    "matchmaker": {
+      "title": "Matchmaker",
       "description": "Perfect voor gevestigde teams",
       "cvs": "Tot 5.000 cv-analyses per maand"
     },
-    "enterprise": {
-      "title": "Enterprise",
+    "visionary": {
+      "title": "Visionary",
       "description": "Geschikt voor grote organisaties",
       "cvs": "Ongelimiteerde cv-analyses per maand"
     }

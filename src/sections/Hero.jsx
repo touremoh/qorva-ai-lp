@@ -64,17 +64,6 @@ function Hero() {
             >
               {t('hero.cta.trial')}
             </Button>
-            {/*<Button*/}
-            {/*  variant="outlined"*/}
-            {/*  size="large"*/}
-            {/*  sx={{*/}
-            {/*    px: 4,*/}
-            {/*    py: 1.5,*/}
-            {/*    fontSize: '1.1rem',*/}
-            {/*  }}*/}
-            {/*>*/}
-            {/*  {t('hero.cta.demo')}*/}
-            {/*</Button>*/}
           </Stack>
 
           <HighlightPaper elevation={0}>
@@ -85,13 +74,7 @@ function Hero() {
               {t('hero.about.description')}
             </Typography>
           </HighlightPaper>
-          
-          {/*<Box sx={{ mt: 8, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>*/}
-          {/*  <Typography variant="subtitle1" color="text.secondary">*/}
-          {/*    Trusted by innovative companies worldwide*/}
-          {/*  </Typography>*/}
-          {/*  /!* Add company logos here *!/*/}
-          {/*</Box>*/}
+
         </Stack>
       </Container>
     </HeroSection>

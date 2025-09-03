@@ -48,27 +48,27 @@ const Pricing = () => {
   };
 
   const plans = [
+    // {
+    //   title: t('pricing.starter.title'),
+    //   originalPrice: '$49',
+    //   price: billing === 'monthly' ? '$49' : '$39',
+    //   period: t('pricing.periodMonthly'),
+    //   discount: billing === 'yearly' ? '-20%' : '',
+    //   description: t('pricing.starter.description'),
+    //   features: [
+    //     { text: t('pricing.features.freeTrial'), included: true },
+    //     { text: t('pricing.starter.cvs'), included: true },
+    //     { text: t('pricing.analytics.basic'), included: true },
+    //     { text: t('pricing.support.email24h'), included: true },
+    //     { text: t('pricing.features.aiQuestions'), included: false },
+    //     { text: t('pricing.features.accountManager'), included: false },
+    //     { text: t('pricing.features.sla'), included: false },
+    //   ],
+    //   buttonText: t('pricing.button.freeTrial'),
+    //   buttonVariant: 'outlined',
+    // },
     {
-      title: t('pricing.starter.title'),
-      originalPrice: '$49',
-      price: billing === 'monthly' ? '$49' : '$39',
-      period: t('pricing.periodMonthly'),
-      discount: billing === 'yearly' ? '-20%' : '',
-      description: t('pricing.starter.description'),
-      features: [
-        { text: t('pricing.features.freeTrial'), included: true },
-        { text: t('pricing.starter.cvs'), included: true },
-        { text: t('pricing.analytics.basic'), included: true },
-        { text: t('pricing.support.email24h'), included: true },
-        { text: t('pricing.features.aiQuestions'), included: false },
-        { text: t('pricing.features.accountManager'), included: false },
-        { text: t('pricing.features.sla'), included: false },
-      ],
-      buttonText: t('pricing.button.freeTrial'),
-      buttonVariant: 'outlined',
-    },
-    {
-      title: t('pricing.growth.title'),
+      title: t('pricing.scout.title'),
       originalPrice: '$99',
       price: billing === 'monthly' ? '$99' : '$79',
       period: t('pricing.periodMonthly'),
@@ -84,11 +84,10 @@ const Pricing = () => {
         { text: t('pricing.features.sla'), included: false },
       ],
       buttonText: t('pricing.button.freeTrial'),
-      buttonVariant: 'contained',
-      recommended: true,
+      buttonVariant: 'outlined',
     },
     {
-      title: t('pricing.professional.title'),
+      title: t('pricing.matchmaker.title'),
       originalPrice: '$199',
       price: billing === 'monthly' ? '$199' : '$159',
       period: t('pricing.periodMonthly'),
@@ -104,10 +103,11 @@ const Pricing = () => {
         { text: t('pricing.features.sla'), included: false },
       ],
       buttonText: t('pricing.button.freeTrial'),
-      buttonVariant: 'outlined',
+      buttonVariant: 'contained',
+      recommended: true,
     },
     {
-      title: t('pricing.enterprise.title'),
+      title: t('pricing.visionary.title'),
       originalPrice: '$449',
       price: billing === 'monthly' ? '$449' : `$359`,
       period: t('pricing.periodMonthly'),
@@ -149,7 +149,7 @@ const Pricing = () => {
 
           <Grid container spacing={2} alignItems="stretch">
             {plans.map((plan, index) => (
-                <Grid item key={index} xs={12} md={3}>
+                <Grid item key={index} xs={12} md={4}>
                   <PricingCard featured={plan.featured} recommended={plan.recommended}>
                     <CardHeader
                         title={plan.title}

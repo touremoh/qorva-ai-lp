@@ -46,21 +46,15 @@ const features = [
     description: 'Need to find the best candidate in your talent pool for a new job post? Just run a CV analysis, and Qorva AI will scan, match, and rank candidates based on relevance.',
   },
   {
-    translationKey: "interview",
+    translationKey: "aiChat",
     icon: <QuestionAnswerIcon sx={{ fontSize: 32 }} />,
-    title: 'Tailored Interview Questions',
+    title: 'AI-Resume Chat',
     description: 'For every candidate report, the system generates a personalized set of interview questions based on their experience, skills, and weaknesses, ensuring structured and insightful interviews.',
   },
 ];
 
 function Features() {
   const { t } = useTranslation();
-
-  // const benefits = [
-  //   `${t('features.whyChooseQorva.saveTime')}`,
-  //   `${t('features.whyChooseQorva.hiringAccuracy')}`,
-  //   `${t('features.whyChooseQorva.streamlinedInterviews')}`
-  // ];
 
   const benefits = [
     {

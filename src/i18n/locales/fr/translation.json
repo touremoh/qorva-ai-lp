@@ -11,7 +11,7 @@
     "title": "Recrutez mieux, plus vite et avec plus de précision grâce à Qorva AI",
     "subtitle": "La solution intelligente de tri de CV par IA dédiée aux RH, recruteurs et startups",
     "cta": {
-      "trial": "Essayez gratuitement pendant 7 jours – Sans carte bancaire !",
+      "trial": "Essayez gratuitement pendant 7 jours",
       "demo": "Planifier une démo"
     },
     "about": {
@@ -30,9 +30,9 @@
       "title": "Correspondance intelligente des candidats",
       "description": "Classez instantanément les candidats selon leur véritable pertinence pour le poste. Recevez des rapports détaillés générés par l'IA expliquant précisément les forces et faiblesses de chaque profil. Écartez automatiquement les CV non pertinents sans aucun effort."
     },
-    "interview": {
-      "title": "Questions d'entretien sur-mesure",
-      "description": "Fini les entretiens génériques. Obtenez des questions personnalisées générées par l'IA en fonction des compétences, expériences et points faibles de chaque candidat. Réalisez des entretiens plus ciblés pour recruter plus efficacement."
+    "aiChat": {
+      "title": "Chat CV avec IA",
+      "description": "Ne perdez plus des heures à parcourir des CV. Avec le Chat CV, échangez immédiatement avec le profil de chaque candidat, posez vos questions en langage naturel et accédez à des insights précis qui vont bien au-delà des intitulés de poste et des mots-clés. Identifiez les forces cachées, détectez les signaux d’alerte dès le départ et avancez en toute confiance avec les meilleurs talents."
     },
     "whyChooseQorva": {
       "title": "Pourquoi choisir Qorva AI ?",
@@ -102,18 +102,18 @@
       "description": "Idéal pour les particuliers ou petites équipes",
       "cvs": "Jusqu'à 500 analyses de CV par mois"
     },
-    "growth": {
-      "title": "Croissance",
+    "scout": {
+      "title": "Scout",
       "description": "Parfait pour les équipes en croissance",
       "cvs": "Jusqu'à 2.000 analyses de CV par mois"
     },
-    "professional": {
-      "title": "Professionnel",
+    "matchmaker": {
+      "title": "Matchmaker",
       "description": "Idéal pour les équipes établies",
       "cvs": "Jusqu'à 5.000 analyses de CV par mois"
     },
-    "enterprise": {
-      "title": "Entreprise",
+    "visionary": {
+      "title": "Visionary",
       "description": "Adapté aux grandes organisations",
       "cvs": "Analyses de CV illimitées par mois"
     }
