@@ -195,7 +195,7 @@ const Pricing = () => {
                             variant={plan.buttonVariant}
                             color="primary"
                             size="large"
-                            onClick={() => location.href="https://www.app.qorva.ai/register" }
+                            onClick={() => location.href="https://app.qorva.ai/register" }
                         >
                           {plan.buttonText}
                         </Button>
