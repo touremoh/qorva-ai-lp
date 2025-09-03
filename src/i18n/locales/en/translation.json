@@ -11,7 +11,7 @@
     "title": "Hire Smarter, Faster, and More Accurately with Qorva AI",
     "subtitle": "AI-Powered Resume Screening Solution for HR Managers, Recruiters, and Startups",
     "cta": {
-      "trial": "Sign up for a 7-day FREE trial – No credit card required!",
+      "trial": "Sign up for a 7-day FREE trial",
       "demo": "Schedule Demo"
     },
     "about": {
@@ -30,9 +30,9 @@
       "title": "AI-Driven Candidate Matching",
       "description": "Instantly rank candidates based on actual job relevance. Get detailed AI-powered reports explaining why a candidate is a strong (or weak) fit. Filter out unqualified resumes without lifting a finger."
     },
-    "interview": {
-      "title": "Tailored Interview Questions",
-      "description": "No more generic interviews. Get AI-generated questions tailored to each candidate’s skills, experience, and weaknesses. Conduct smarter interviews that lead to better hires."
+    "aiChat": {
+      "title": "AI Resume Chat",
+      "description": "Stop wasting hours skimming resumes. With AI Resume Chat, you can instantly interact with any candidate’s profile, ask questions in plain English, and get deep insights that go far beyond job titles and keywords. Discover hidden strengths, spot red flags early, and confidently move the best candidates forward."
     },
     "whyChooseQorva": {
       "title": "Why Choose Qorva AI?",
@@ -102,18 +102,18 @@
       "description": "Perfect for individuals or small teams",
       "cvs": "Up to 500 CVs analyses per month"
     },
-    "growth": {
-      "title": "Growth",
+    "scout": {
+      "title": "Scout",
       "description": "Ideal for growing teams",
       "cvs": "Up to 2,000 CVs analyses per month"
     },
-    "professional": {
-      "title": "Professional",
+    "matchmaker": {
+      "title": "Matchmaker",
       "description": "Great for established teams",
       "cvs": "Up to 5,000 CVs analyses per month"
     },
-    "enterprise": {
-      "title": "Enterprise",
+    "visionary": {
+      "title": "Visionary",
       "description": "Best suited for large organizations",
       "cvs": "Unlimited CVs analyses per month"
     }

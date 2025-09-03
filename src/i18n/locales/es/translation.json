@@ -11,7 +11,7 @@
     "title": "Contrata con más inteligencia, rapidez y precisión gracias a Qorva AI",
     "subtitle": "La solución inteligente basada en IA para el análisis automático de currículums, diseñada para gerentes de RRHH, reclutadores y startups",
     "cta": {
-      "trial": "¡Regístrate y prueba gratis durante 7 días – Sin necesidad de tarjeta de crédito!",
+      "trial": "¡Regístrate y prueba gratis durante 7 días",
       "demo": "Programar una demo"
     },
     "about": {
@@ -27,10 +27,10 @@
       "description": "Ahorra tiempo – ¡Olvídate de introducir datos manualmente! Solo arrastra y suelta los currículums, y Qorva AI extraerá y almacenará automáticamente la información de los candidatos en segundos."
     },
     "matching": {
-      "title": "Coincidencia inteligente de candidatos basada en IA",
-      "description": "Clasifica instantáneamente a los candidatos según su relevancia real para el puesto. Obtén informes detallados generados por IA que explican claramente los puntos fuertes y débiles de cada candidato. Descarta automáticamente los currículums irrelevantes sin esfuerzo."
+      "title": "Chat de CV con IA",
+      "description": "Olvídate de pasar horas revisando currículums. Con el Chat de CV con IA puedes interactuar al instante con el perfil de cualquier candidato, hacer preguntas en lenguaje natural y obtener información valiosa más allá de títulos y palabras clave. Descubre fortalezas ocultas, detecta señales de alerta desde el inicio y avanza con seguridad a los mejores candidatos."
     },
-    "interview": {
+    "aiChat": {
       "title": "Preguntas de entrevista personalizadas",
       "description": "Basta de entrevistas genéricas. Recibe preguntas personalizadas generadas por IA, adaptadas a las competencias, experiencia y áreas de mejora de cada candidato. Realiza entrevistas más inteligentes que conduzcan a mejores contrataciones."
     },
@@ -102,18 +102,18 @@
       "description": "Perfecto para individuos o equipos pequeños",
       "cvs": "Hasta 500 análisis de CV al mes"
     },
-    "growth": {
-      "title": "Crecimiento",
+    "scout": {
+      "title": "Scout",
       "description": "Ideal para equipos en crecimiento",
       "cvs": "Hasta 2.000 análisis de CV al mes"
     },
-    "professional": {
-      "title": "Profesional",
+    "matchmaker": {
+      "title": "Matchmaker",
       "description": "Ideal para equipos establecidos",
       "cvs": "Hasta 5.000 análisis de CV al mes"
     },
-    "enterprise": {
-      "title": "Empresarial",
+    "visionary": {
+      "title": "Visionary",
       "description": "Para grandes organizaciones",
       "cvs": "Análisis de CV ilimitados por mes"
     }

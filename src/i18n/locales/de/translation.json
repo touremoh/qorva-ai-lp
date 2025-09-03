@@ -11,7 +11,7 @@
     "title": "Mit Qorva AI schneller, präziser und intelligenter einstellen",
     "subtitle": "Die intelligente KI-Lösung zur automatisierten Lebenslaufanalyse für HR-Manager, Recruiter und Startups",
     "cta": {
-      "trial": "Starten Sie Ihre 7-tägige kostenlose Testphase – Keine Kreditkarte erforderlich!",
+      "trial": "Starten Sie Ihre 7",
       "demo": "Demo vereinbaren"
     },
     "about": {
@@ -30,9 +30,9 @@
       "title": "KI-gestütztes Bewerber-Matching",
       "description": "Rangieren Sie Bewerber sofort nach tatsächlicher Relevanz für Ihre Stellen. Erhalten Sie detaillierte, KI-generierte Berichte, die klar zeigen, weshalb ein Kandidat gut oder weniger gut passt. Filtern Sie ungeeignete Bewerbungen automatisch und mühelos aus."
     },
-    "interview": {
-      "title": "Maßgeschneiderte Interviewfragen",
-      "description": "Schluss mit generischen Interviews. Erhalten Sie durch KI generierte, individuelle Fragen, die auf die Stärken, Schwächen und Erfahrungen jedes einzelnen Kandidaten zugeschnitten sind. Führen Sie effizientere Interviews, um bessere Entscheidungen zu treffen."
+    "aiChat": {
+      "title": "KI-gestützter Lebenslauf-Chat",
+      "description": "Vergeuden Sie keine Stunden mehr mit dem Durchsehen von Lebensläufen. Mit dem Lebenslauf-Chat können Sie sofort mit den Profilen Ihrer Kandidaten interagieren, gezielte Fragen stellen und tiefe Einblicke gewinnen, die weit über Jobtitel und Schlagwörter hinausgehen. Entdecken Sie verborgene Stärken, erkennen Sie Risiken frühzeitig und bringen Sie die besten Talente sicher voran."
     },
     "whyChooseQorva": {
       "title": "Warum sollten Sie sich für Qorva AI entscheiden?",
@@ -102,18 +102,18 @@
       "description": "Ideal für Einzelpersonen oder kleine Teams",
       "cvs": "Bis zu 500 Lebenslaufanalysen pro Monat"
     },
-    "growth": {
-      "title": "Wachstum",
+    "scout": {
+      "title": "Scout",
       "description": "Ideal für wachsende Teams",
       "cvs": "Bis zu 2.500 Lebenslaufanalysen pro Monat"
     },
-    "professional": {
-      "title": "Professional",
+    "matchmaker": {
+      "title": "Matchmaker",
       "description": "Ideal für etablierte Teams",
       "cvs": "Bis zu 5.000 Lebenslaufanalysen pro Monat"
     },
-    "enterprise": {
-      "title": "Enterprise",
+    "visionary": {
+      "title": "Visionary",
       "description": "Ideal für große Organisationen",
       "cvs": "Unbegrenzte Lebenslaufanalysen pro Monat"
     }

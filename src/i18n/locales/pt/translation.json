@@ -11,7 +11,7 @@
     "title": "Contrate com mais inteligência, rapidez e precisão com o Qorva AI",
     "subtitle": "A solução inteligente com IA para triagem automática de currículos, ideal para gestores de RH, recrutadores e startups",
     "cta": {
-      "trial": "Cadastre-se para uma avaliação GRATUITA de 7 dias – Não é necessário cartão de crédito!",
+      "trial": "Cadastre-se para uma avaliação GRATUITA de 7 dias",
       "demo": "Agendar Demonstração"
     },
     "about": {
@@ -30,9 +30,9 @@
       "title": "Correspondência inteligente de candidatos por IA",
       "description": "Classifique candidatos instantaneamente com base em relevância real à vaga. Receba relatórios detalhados, gerados pela IA, explicando claramente por que um candidato é ou não adequado. Filtre automaticamente currículos irrelevantes, sem esforço."
     },
-    "interview": {
-      "title": "Perguntas de entrevista personalizadas",
-      "description": "Chega de entrevistas genéricas. Receba perguntas personalizadas geradas pela IA, baseadas nas habilidades, experiência e pontos fracos específicos de cada candidato. Realize entrevistas mais inteligentes e faça contratações melhores."
+    "aiChat": {
+      "title": "Chat de Currículo com IA",
+      "description": "Chega de perder horas analisando currículos. Com o Chat de Currículo com IA você interage instantaneamente com o perfil de qualquer candidato, faz perguntas em linguagem natural e obtém insights que vão muito além de cargos e palavras-chave. Descubra pontos fortes ocultos, identifique alertas logo no início e avance com segurança com os melhores talentos."
     },
     "whyChooseQorva": {
       "title": "Por que escolher o Qorva AI?",
@@ -102,18 +102,18 @@
       "description": "Ideal para indivíduos ou pequenas equipes",
       "cvs": "Até 500 análises de currículos por mês"
     },
-    "growth": {
-      "title": "Crescimento",
+    "scout": {
+      "title": "Scout",
       "description": "Ideal para equipes em crescimento",
       "cvs": "Até 2.000 análises de currículos por mês"
     },
-    "professional": {
-      "title": "Profissional",
+    "matchmaker": {
+      "title": "Matchmaker",
       "description": "Ótimo para equipes consolidadas",
       "cvs": "Até 5.000 análises de currículos por mês"
     },
-    "enterprise": {
-      "title": "Corporativo",
+    "visionary": {
+      "title": "Visionary",
       "description": "Melhor para grandes organizações",
       "cvs": "Análises ilimitadas de currículos por mês"
     }
