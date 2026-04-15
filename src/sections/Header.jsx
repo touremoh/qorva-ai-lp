@@ -2,12 +2,13 @@ import { AppBar, Toolbar, Container, Button, Box, Link, Stack, Typography, MenuI
 import { styled } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
 
-const StyledAppBar = styled(AppBar)(({ theme }) => ({
-  backgroundColor: 'transparent',
+const StyledAppBar = styled(AppBar)(() => ({
+  backgroundColor: 'rgba(255, 255, 255, 0.8)',
   boxShadow: 'none',
-  borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
-  backdropFilter: 'blur(8px)',
+  borderBottom: '1px solid rgba(0, 0, 0, 0.05)',
+  backdropFilter: 'blur(12px)',
   position: 'fixed',
+  transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
 }));
 
 const NavLink = styled(Link)(({ theme }) => ({
@@ -85,7 +86,7 @@ function Header() {
             <NavLink onClick={() => scrollToSection('features')}>{t('header.features')}</NavLink>
             <NavLink onClick={() => scrollToSection('how-it-works')}>{t('header.howItWorks')}</NavLink>
             <NavLink onClick={() => scrollToSection('pricing')}>{t('header.pricing')}</NavLink>
-            <NavLink onClick={() => scrollToSection('about')}>{t('header.about')}</NavLink>
+            <NavLink onClick={() => scrollToSection('hero')}>{t('header.about')}</NavLink>
           </Stack>
 
           <Stack

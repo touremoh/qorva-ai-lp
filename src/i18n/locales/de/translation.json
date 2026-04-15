@@ -8,10 +8,14 @@
     "startTrial": "Kostenlos testen"
   },
   "hero": {
-    "title": "Mit Qorva AI schneller, präziser und intelligenter einstellen",
-    "subtitle": "Die intelligente KI-Lösung zur automatisierten Lebenslaufanalyse für HR-Manager, Recruiter und Startups",
+    "badge": "Einstellen ohne ATS oder Personalvermittler",
+    "title": "Schnell einstellen. Richtig einstellen. Kein ATS nötig.",
+    "subtitle": "Qorva AI bewertet alle Bewerbungen sofort und zeigt Ihnen exakt, wen Sie einladen sollten — kein manuelles Lesen, nur die richtigen Kandidaten.",
+    "metric1": { "value": "10x", "label": "Schneller" },
+    "metric2": { "value": "90%", "label": "Zeitersparnis" },
+    "metric3": { "value": "100%", "label": "Vorurteilsfrei" },
     "cta": {
-      "trial": "Starten Sie Ihre 7",
+      "trial": "7-tägige kostenlose Testversion starten",
       "demo": "Demo vereinbaren"
     },
     "about": {

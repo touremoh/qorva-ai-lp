@@ -1,4 +1,4 @@
-import {Box, Container, Grid, Typography, Card, CardContent} from '@mui/material';
+import {Box, Container, Grid, Typography, Card, CardContent, Button} from '@mui/material';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
@@ -11,25 +11,28 @@ import Diversity1Icon from '@mui/icons-material/Diversity1';
 
 const FeatureCard = styled(Card)(({ theme }) => ({
   height: '100%',
-  transition: 'transform 0.3s ease-in-out',
+  transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
   '&:hover': {
-    transform: 'translateY(-8px)',
+    transform: 'translateY(-12px)',
+    boxShadow: '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
   },
   background: theme.palette.background.paper,
-  borderRadius: '16px',
-  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.05)',
+  borderRadius: '24px',
+  border: '1px solid rgba(0, 0, 0, 0.05)',
+  boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
 }));
 
 const IconWrapper = styled(Box)(({ theme }) => ({
-  width: '64px',
-  height: '64px',
-  borderRadius: '12px',
+  width: '56px',
+  height: '56px',
+  borderRadius: '16px',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  marginBottom: theme.spacing(2),
-  background: `linear-gradient(135deg, ${theme.palette.primary.light}, ${theme.palette.primary.main})`,
+  marginBottom: theme.spacing(3),
+  background: `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.primary.dark} 100%)`,
   color: theme.palette.common.white,
+  boxShadow: '0 10px 15px -3px rgba(37, 99, 235, 0.3)',
 }));
 
 const features = [
@@ -134,6 +137,16 @@ function Features() {
                   </Grid>
               ))}
             </Grid>
+          </Box>
+          <Box sx={{ mt: 8, textAlign: 'center' }}>
+            <Button
+              variant="contained"
+              size="large"
+              sx={{ px: 5, py: 1.75, fontSize: '1rem' }}
+              href="https://app.qorva.ai/register"
+            >
+              {t('features.cta')}
+            </Button>
           </Box>
         </Container>
       </Box>

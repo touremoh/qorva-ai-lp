@@ -8,10 +8,14 @@
     "startTrial": "Essai gratuit"
   },
   "hero": {
-    "title": "Recrutez mieux, plus vite et avec plus de précision grâce à Qorva AI",
-    "subtitle": "La solution intelligente de tri de CV par IA dédiée aux RH, recruteurs et startups",
+    "badge": "Recrutez vite, sans ATS ni cabinet RH",
+    "title": "Recrutez vite. Recrutez bien. Sans ATS.",
+    "subtitle": "Qorva AI trie et classe instantanément vos candidats — zéro lecture de CV, juste les bonnes personnes à rencontrer.",
+    "metric1": { "value": "10x", "label": "Plus rapide" },
+    "metric2": { "value": "90%", "label": "Temps économisé" },
+    "metric3": { "value": "100%", "label": "Sans biais" },
     "cta": {
-      "trial": "Essayez gratuitement pendant 7 jours",
+      "trial": "Démarrer l'essai gratuit de 7 jours",
       "demo": "Planifier une démo"
     },
     "about": {

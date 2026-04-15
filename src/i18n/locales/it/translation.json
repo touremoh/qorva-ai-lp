@@ -8,10 +8,14 @@
     "startTrial": "Prova gratuita"
   },
   "hero": {
-    "title": "Assumi con più rapidità, precisione e intelligenza grazie a Qorva AI",
-    "subtitle": "La soluzione intelligente basata su IA per lo screening automatico dei CV, pensata per responsabili HR, recruiter e startup",
+    "badge": "Assumi velocemente, senza ATS né agenzie",
+    "title": "Assumi veloce. Assumi bene. Senza ATS.",
+    "subtitle": "Qorva AI classifica istantaneamente i tuoi candidati — nessun CV da leggere, solo le persone giuste da incontrare.",
+    "metric1": { "value": "10x", "label": "Più veloce" },
+    "metric2": { "value": "90%", "label": "Tempo risparmiato" },
+    "metric3": { "value": "100%", "label": "Senza pregiudizi" },
     "cta": {
-      "trial": "Registrati per una prova GRATUITA di 7 giorni",
+      "trial": "Inizia la prova gratuita di 7 giorni",
       "demo": "Prenota una Demo"
     },
     "about": {

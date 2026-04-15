@@ -1,10 +1,14 @@
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
+import { Box } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 import {BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
 import Header from './sections/Header';
 import Hero from './sections/Hero';
+import Stats from './sections/Stats';
 import Features from './sections/Features';
 import HowItWorks from './sections/HowItWorks';
+import TrustCompliance from './sections/TrustCompliance';
+import FAQ from './sections/FAQ';
 import Pricing from './sections/Pricing';
 import Footer from './sections/Footer';
 import MarkdownPage from "./sections/MarkdownPage.jsx";
@@ -13,35 +17,105 @@ import {useEffect} from "react";
 
 const theme = createTheme({
   palette: {
+    mode: 'light',
     primary: {
       main: '#2563eb',
       light: '#60a5fa',
       dark: '#1e40af',
+      contrastText: '#fff',
     },
     secondary: {
       main: '#10b981',
       light: '#34d399',
       dark: '#059669',
+      contrastText: '#fff',
     },
     background: {
       default: '#ffffff',
       paper: '#f8fafc',
     },
+    text: {
+      primary: '#0f172a',
+      secondary: '#475569',
+    },
   },
   typography: {
-    fontFamily: '"Inter", "Helvetica", "Arial", sans-serif',
-    h1: { fontSize: '3.5rem', fontWeight: 700, lineHeight: 1.2 },
-    h2: { fontSize: '2.5rem', fontWeight: 600, lineHeight: 1.3 },
-    h3: { fontSize: '2rem', fontWeight: 600, lineHeight: 1.4 },
+    fontFamily: '"Inter", "system-ui", "-apple-system", sans-serif',
+    h1: {
+      fontSize: 'clamp(2.5rem, 5vw, 4rem)',
+      fontWeight: 800,
+      lineHeight: 1.1,
+      letterSpacing: '-0.02em',
+    },
+    h2: {
+      fontSize: 'clamp(2rem, 4vw, 3rem)',
+      fontWeight: 700,
+      lineHeight: 1.2,
+      letterSpacing: '-0.01em',
+    },
+    h3: {
+      fontSize: 'clamp(1.5rem, 3vw, 2.25rem)',
+      fontWeight: 600,
+      lineHeight: 1.3,
+    },
+    body1: {
+      fontSize: '1.125rem',
+      lineHeight: 1.6,
+    },
   },
+  shape: {
+    borderRadius: 12,
+  },
+  shadows: [
+    'none',
+    '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
+    '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
+    '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
+    '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
+    ...Array(20).fill('none'), // Fill the rest to satisfy MUI's shadow array requirement
+  ],
   components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        html: {
+          scrollBehavior: 'smooth',
+        },
+        body: {
+          scrollbarWidth: 'thin',
+          '&::-webkit-scrollbar': {
+            width: '8px',
+          },
+          '&::-webkit-scrollbar-track': {
+            background: '#f1f1f1',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            background: '#cbd5e1',
+            borderRadius: '10px',
+          },
+          '&::-webkit-scrollbar-thumb:hover': {
+            background: '#94a3b8',
+          },
+        },
+      },
+    },
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: '8px',
+          borderRadius: '10px',
           textTransform: 'none',
           fontWeight: 600,
-          padding: '0.75rem 1.5rem',
+          padding: '0.75rem 1.75rem',
+          transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+          '&:hover': {
+            transform: 'translateY(-2px)',
+            boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)',
+          },
+          '&:active': {
+            transform: 'translateY(0)',
+          },
+        },
+        containedPrimary: {
+          background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)',
         },
       },
     },
@@ -49,24 +123,45 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           backgroundColor: 'rgba(255, 255, 255, 0.8)',
-          backdropFilter: 'blur(8px)',
+          backdropFilter: 'blur(12px)',
+          borderBottom: '1px solid rgba(0, 0, 0, 0.05)',
+          color: '#0f172a',
+          transition: 'all 0.3s ease-in-out',
         },
+      },
+    },
+    MuiContainer: {
+      defaultProps: {
+        maxWidth: 'lg',
       },
     },
   },
 });
 
-const  MainPage = () => {
+const MainContent = styled(Box)(({ theme }) => ({
+  position: 'relative',
+  '& > section': {
+    padding: theme.spacing(10, 0),
+    [theme.breakpoints.down('md')]: {
+      padding: theme.spacing(8, 0),
+    },
+  },
+}));
+
+const MainPage = () => {
   return (
       <>
         <Header />
-        <main>
+        <MainContent component="main">
           <Hero />
+          <Stats />
           <Features />
           <HowItWorks />
+          <TrustCompliance />
+          <FAQ />
           <Pricing />
           <Footer />
-        </main>
+        </MainContent>
       </>
   );
 }

@@ -8,10 +8,14 @@
     "startTrial": "Prueba gratuita"
   },
   "hero": {
-    "title": "Contrata con más inteligencia, rapidez y precisión gracias a Qorva AI",
-    "subtitle": "La solución inteligente basada en IA para el análisis automático de currículums, diseñada para gerentes de RRHH, reclutadores y startups",
+    "badge": "Contrata rápido, sin ATS ni agencias",
+    "title": "Contrata rápido. Contrata bien. Sin ATS.",
+    "subtitle": "Qorva AI clasifica a tus candidatos al instante — sin leer CVs, solo las personas correctas para entrevistar.",
+    "metric1": { "value": "10x", "label": "Más rápido" },
+    "metric2": { "value": "90%", "label": "Tiempo ahorrado" },
+    "metric3": { "value": "100%", "label": "Sin sesgos" },
     "cta": {
-      "trial": "¡Regístrate y prueba gratis durante 7 días",
+      "trial": "Comenzar prueba gratis de 7 días",
       "demo": "Programar una demo"
     },
     "about": {

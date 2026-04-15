@@ -8,10 +8,14 @@
     "startTrial": "Gratis proberen"
   },
   "hero": {
-    "title": "Slimmer, sneller en beter werven dankzij Qorva AI",
-    "subtitle": "De intelligente AI-oplossing voor automatische CV-screening, speciaal ontwikkeld voor HR-managers, recruiters en startups",
+    "badge": "Snel werven, zonder ATS of bureau",
+    "title": "Snel werven. Goed werven. Zonder ATS.",
+    "subtitle": "Qorva AI rangschikt je kandidaten direct — geen cv's doorlezen, alleen de juiste mensen uitnodigen.",
+    "metric1": { "value": "10x", "label": "Sneller" },
+    "metric2": { "value": "90%", "label": "Tijdsbesparing" },
+    "metric3": { "value": "100%", "label": "Onbevooroordeeld" },
     "cta": {
-      "trial": "Meld je aan voor een GRATIS proefperiode van 7 dagen",
+      "trial": "Start gratis proefperiode van 7 dagen",
       "demo": "Plan een demo"
     },
     "about": {
