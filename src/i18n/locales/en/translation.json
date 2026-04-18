@@ -8,9 +8,9 @@
     "startTrial": "Start Free Trial"
   },
   "hero": {
-    "badge": "Hiring made simple for growing businesses",
-    "title": "Hire Fast. Hire Right. No ATS Required.",
-    "subtitle": "Qorva AI screens every applicant and ranks them instantly — so you spend zero time on resumes and all your time on the right people.",
+    "badge": "For growing businesses without a full HR team",
+    "title": "AI Resume Ranking for Busy SMBs",
+    "subtitle": "Save hours of manual review and get a shortlist of the most relevant candidates in just a few minutes.",
     "metric1": { "value": "10x", "label": "Faster Screening" },
     "metric2": { "value": "90%", "label": "Time Saved" },
     "metric3": { "value": "100%", "label": "Bias-Free" },
@@ -41,6 +41,10 @@
     "aiChat": {
       "title": "Ask Anything About a Candidate",
       "description": "Not sure if someone's a fit? Just ask. AI Resume Chat lets you query any candidate profile in plain language — 'Does this person have B2B sales experience?' — and get an instant, honest answer. No more rereading the same resume three times."
+    },
+    "criteria": {
+      "title": "Custom Role Criteria",
+      "description": "Define what matters most for each role — required skills, years of experience, specific qualifications — and Qorva AI ranks every candidate accordingly, with a clear explanation for each score."
     },
     "whyChooseQorva": {
       "title": "Why SMBs Choose Qorva AI",
@@ -126,7 +130,7 @@
     },
     "item6": {
       "question": "Is there a free trial?",
-      "answer": "Yes — 7 days, full access, no credit card required. Upload real candidates for a real role and see exactly what Qorva AI can do before you commit to a plan."
+      "answer": "Yes — 7 days, full access. Upload real candidates for a real role and see exactly what Qorva AI can do before you commit to a plan."
     }
   },
   "pricing": {
@@ -141,7 +145,7 @@
     },
     "features": {
       "freeTrial": "7-days free trial with access to all features",
-      "aiQuestions": "AI-Generated interview questions",
+      "aiResumeChat": "AI Resume Chat",
       "accountManager": "Dedicated Account Manager",
       "sla": "SLA guarantees"
     },
@@ -160,31 +164,31 @@
       "cvs": "Up to 500 CVs analyses per month"
     },
     "scout": {
-      "title": "Scout",
+      "title": "Starter",
       "description": "Ideal for growing teams",
       "cvs": "Up to 2,000 CVs analyses per month"
     },
     "growth": {
-      "description": "Ideal for growing teams",
-      "cvs": "Up to 2,000 CVs analyses per month"
+      "description": "Perfect for small teams getting started with AI hiring",
+      "cvs": "Up to 500 CVs analyses per month"
     },
     "matchmaker": {
-      "title": "Matchmaker",
+      "title": "Pro",
       "description": "Great for established teams",
       "cvs": "Up to 5,000 CVs analyses per month"
     },
     "professional": {
-      "description": "Great for established teams",
-      "cvs": "Up to 5,000 CVs analyses per month"
+      "description": "Ideal for growing teams hiring regularly",
+      "cvs": "Up to 2,000 CVs analyses per month"
     },
     "visionary": {
-      "title": "Visionary",
+      "title": "Scale",
       "description": "Best suited for large organizations",
       "cvs": "Unlimited CVs analyses per month"
     },
     "enterprise": {
-      "description": "Best suited for large organizations",
-      "cvs": "Unlimited CVs analyses per month"
+      "description": "Built for high-volume hiring at scale",
+      "cvs": "Up to 6,000 CVs analyses per month"
     }
   },
   "footer": {

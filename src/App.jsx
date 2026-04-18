@@ -19,20 +19,20 @@ const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#2563eb',
-      light: '#60a5fa',
-      dark: '#1e40af',
+      main: '#629C44',
+      light: '#a8d878',
+      dark: '#3d6b28',
       contrastText: '#fff',
     },
     secondary: {
-      main: '#10b981',
-      light: '#34d399',
-      dark: '#059669',
+      main: '#3d6b28',
+      light: '#629C44',
+      dark: '#2a4d1c',
       contrastText: '#fff',
     },
     background: {
-      default: '#ffffff',
-      paper: '#f8fafc',
+      default: '#f8fdf4',
+      paper: '#ffffff',
     },
     text: {
       primary: '#0f172a',
@@ -89,11 +89,11 @@ const theme = createTheme({
             background: '#f1f1f1',
           },
           '&::-webkit-scrollbar-thumb': {
-            background: '#cbd5e1',
+            background: '#a8d878',
             borderRadius: '10px',
           },
           '&::-webkit-scrollbar-thumb:hover': {
-            background: '#94a3b8',
+            background: '#629C44',
           },
         },
       },
@@ -115,16 +115,17 @@ const theme = createTheme({
           },
         },
         containedPrimary: {
-          background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)',
+          background: 'linear-gradient(135deg, #629C44 0%, #a8d878 100%)',
         },
       },
     },
     MuiAppBar: {
       styleOverrides: {
         root: {
-          backgroundColor: 'rgba(255, 255, 255, 0.8)',
-          backdropFilter: 'blur(12px)',
-          borderBottom: '1px solid rgba(0, 0, 0, 0.05)',
+          backgroundColor: 'rgba(248, 253, 244, 0.88)',
+          backdropFilter: 'blur(16px)',
+          WebkitBackdropFilter: 'blur(16px)',
+          borderBottom: '1px solid rgba(98, 156, 68, 0.2)',
           color: '#0f172a',
           transition: 'all 0.3s ease-in-out',
         },

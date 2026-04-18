@@ -8,9 +8,9 @@
     "startTrial": "Essai gratuit"
   },
   "hero": {
-    "badge": "Recrutez vite, sans ATS ni cabinet RH",
-    "title": "Recrutez vite. Recrutez bien. Sans ATS.",
-    "subtitle": "Qorva AI trie et classe instantanément vos candidats — zéro lecture de CV, juste les bonnes personnes à rencontrer.",
+    "badge": "Pour les dirigeants qui recrutent sans département RH",
+    "title": "Classement de CV par IA pour les PME débordées",
+    "subtitle": "Économisez des heures de tri manuel et obtenez une sélection des candidats les plus pertinents en quelques minutes.",
     "metric1": { "value": "10x", "label": "Plus rapide" },
     "metric2": { "value": "90%", "label": "Temps économisé" },
     "metric3": { "value": "100%", "label": "Sans biais" },
@@ -22,6 +22,14 @@
       "title": "Vous avez du mal à trouver les bons candidats ?",
       "description": "Les systèmes ATS classiques ne parviennent plus à identifier les meilleurs profils car les candidats optimisent désormais leur CV avec des outils d'IA. Résultat : une montagne de candidatures séduisantes sur papier mais peu pertinentes dans les faits. Qorva AI change radicalement la donne. Notre solution intelligente analyse sémantiquement chaque CV et classe les candidats selon leurs réelles compétences, leur expérience et leur adéquation avec le poste. \n Contrairement aux ATS traditionnels, Qorva AI va au delà de la simple recherche de mots-clés – l'outil comprend le contexte et génère un score précis d'adéquation, accompagné d'un rapport détaillé expliquant clairement pourquoi un candidat est pertinent ou non."
     }
+  },
+  "stats": {
+    "title": "Conçu pour les entreprises qui avancent vite",
+    "subtitle": "Pas d'équipe RH dédiée ? Pas de problème. Qorva AI donne aux petites entreprises la puissance de recrutement d'une équipe complète — à une fraction du coût.",
+    "item1": { "value": "90%", "label": "Moins de temps sur le tri", "description": "Arrêtez de lire chaque CV. Qorva AI classe les candidats instantanément pour aller droit aux meilleurs profils." },
+    "item2": { "value": "10x", "label": "Recrutement plus rapide", "description": "De l'offre à la sélection en quelques minutes, pas en jours. Pourvoyez les postes avant vos concurrents." },
+    "item3": { "value": "500+", "label": "CV traités par heure", "description": "Gérez un afflux de candidatures sans recruter un recruteur ni ralentir vos opérations." },
+    "item4": { "value": "100%", "label": "Score basé sur critères", "description": "Évaluation objective axée sur les compétences — sans intuition, sans biais, juste le meilleur profil pour votre poste." }
   },
   "features": {
     "title": "Découvrez comment Qorva AI vous aide à recruter les meilleurs talents",
@@ -37,6 +45,10 @@
     "aiChat": {
       "title": "Chat CV avec IA",
       "description": "Ne perdez plus des heures à parcourir des CV. Avec le Chat CV, échangez immédiatement avec le profil de chaque candidat, posez vos questions en langage naturel et accédez à des insights précis qui vont bien au-delà des intitulés de poste et des mots-clés. Identifiez les forces cachées, détectez les signaux d’alerte dès le départ et avancez en toute confiance avec les meilleurs talents."
+    },
+    "criteria": {
+      "title": "Critères personnalisés par poste",
+      "description": "Définissez ce qui compte le plus pour chaque poste — compétences requises, années d'expérience, qualifications spécifiques — et Qorva AI classe chaque candidat en conséquence, avec une explication claire pour chaque score."
     },
     "whyChooseQorva": {
       "title": "Pourquoi choisir Qorva AI ?",
@@ -76,6 +88,54 @@
       }
     }
   },
+  "trust": {
+    "title": "Sécurisé, conforme et prêt à l'emploi",
+    "subtitle": "Vous traitez des données de personnes réelles. Nous prenons cela au sérieux — pour que vous n'ayez pas à vous en soucier.",
+    "gdpr": {
+      "title": "Conforme au RGPD",
+      "description": "Conformité totale avec les réglementations européennes de protection des données. Stockez et traitez les données des candidats en toute confiance."
+    },
+    "security": {
+      "title": "Sécurisé par défaut",
+      "description": "Chiffrement de bout en bout et stockage sécurisé des données — aucune configuration requise de votre côté."
+    },
+    "fairness": {
+      "title": "Équité IA vérifiée",
+      "description": "Notre IA évalue les candidats uniquement sur des critères pertinents pour le poste — aucun signal démographique, jamais."
+    },
+    "privacy": {
+      "title": "Confidentialité avant tout",
+      "description": "Les données des candidats ne sont jamais vendues ni partagées. Supprimées sur demande, sans question posée."
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir avant de commencer.",
+    "item1": {
+      "question": "Ai-je besoin d'un ATS ou d'un logiciel RH pour utiliser Qorva AI ?",
+      "answer": "Non. Qorva AI est un outil autonome conçu pour les entreprises qui ne souhaitent pas la complexité d'un ATS complet. Créez simplement un compte, téléchargez vos CV et la description du poste, et vous aurez une sélection classée en quelques minutes — sans intégration ni configuration technique."
+    },
+    "item2": {
+      "question": "Combien de temps faut-il pour commencer à évaluer des candidats ?",
+      "answer": "Immédiatement. Inscrivez-vous, téléchargez vos CV, et Qorva AI commence à classer les candidats aussitôt. La plupart des utilisateurs ont une sélection prête en quelques minutes dès leur première connexion."
+    },
+    "item3": {
+      "question": "Qorva AI est-il uniquement pour les recrutements en volume ?",
+      "answer": "Pas du tout. Que vous recrutiez une personne ou cinquante, Qorva AI vous fait gagner du temps. Il est conçu pour les entreprises qui souhaitent prendre des décisions de recrutement rapides et éclairées sans passer des heures sur chaque candidature."
+    },
+    "item4": {
+      "question": "Puis-je définir ce qui compte le plus pour mon poste spécifique ?",
+      "answer": "Oui. Vous indiquez à Qorva AI ce qu'il faut prioriser — compétences requises, années d'expérience, qualifications spécifiques — et il classe chaque candidat en conséquence. Chaque score est accompagné d'une explication claire pour que vous sachiez toujours pourquoi quelqu'un a été classé à telle position."
+    },
+    "item5": {
+      "question": "Les données des candidats sont-elles sécurisées et conformes au RGPD ?",
+      "answer": "Oui. Toutes les données sont chiffrées en transit et au repos. Qorva AI est conforme au RGPD — les données des candidats ne sont jamais vendues ni partagées avec des tiers, et peuvent être supprimées à tout moment sur demande."
+    },
+    "item6": {
+      "question": "Y a-t-il un essai gratuit ?",
+      "answer": "Oui — 7 jours, accès complet. Téléchargez de vrais candidats pour un vrai poste et voyez exactement ce que Qorva AI peut faire avant de vous engager dans un plan."
+    }
+  },
   "pricing": {
     "title": "Tarification simple et transparente",
     "subtitle": "Choisissez le plan qui correspond le mieux à vos besoins",
@@ -88,7 +148,7 @@
     },
     "features": {
       "freeTrial": "Essai gratuit de 7 jours avec accès à toutes les fonctionnalités",
-      "aiQuestions": "Questions d'entretien générées par l'IA",
+      "aiResumeChat": "Chat IA sur les CV",
       "accountManager": "Gestionnaire de compte dédié",
       "sla": "Garanties SLA"
     },
@@ -107,19 +167,31 @@
       "cvs": "Jusqu'à 500 analyses de CV par mois"
     },
     "scout": {
-      "title": "Scout",
+      "title": "Starter",
       "description": "Parfait pour les équipes en croissance",
       "cvs": "Jusqu'à 2.000 analyses de CV par mois"
     },
+    "growth": {
+      "description": "Idéal pour les petites équipes qui commencent à recruter",
+      "cvs": "Jusqu'à 500 analyses de CV par mois"
+    },
     "matchmaker": {
-      "title": "Matchmaker",
+      "title": "Pro",
       "description": "Idéal pour les équipes établies",
-      "cvs": "Jusqu'à 5.000 analyses de CV par mois"
+      "cvs": "Jusqu'à 2.000 analyses de CV par mois"
+    },
+    "professional": {
+      "description": "Idéal pour les équipes en croissance qui recrutent régulièrement",
+      "cvs": "Jusqu'à 2.000 analyses de CV par mois"
     },
     "visionary": {
-      "title": "Visionary",
-      "description": "Adapté aux grandes organisations",
-      "cvs": "Analyses de CV illimitées par mois"
+      "title": "Scale",
+      "description": "Conçu pour les recrutements à fort volume",
+      "cvs": "Jusqu'à 6.000 analyses de CV par mois"
+    },
+    "enterprise": {
+      "description": "Conçu pour les recrutements à fort volume",
+      "cvs": "Jusqu'à 6.000 analyses de CV par mois"
     }
   },
   "footer": {

@@ -8,9 +8,9 @@
     "startTrial": "Gratis proberen"
   },
   "hero": {
-    "badge": "Snel werven, zonder ATS of bureau",
-    "title": "Snel werven. Goed werven. Zonder ATS.",
-    "subtitle": "Qorva AI rangschikt je kandidaten direct — geen cv's doorlezen, alleen de juiste mensen uitnodigen.",
+    "badge": "Voor groeiende bedrijven die werven zonder HR-afdeling",
+    "title": "AI-cv-ranking voor drukke kmo's",
+    "subtitle": "Bespaar uren handmatig nakijken en krijg in enkele minuten een shortlist van de meest relevante kandidaten.",
     "metric1": { "value": "10x", "label": "Sneller" },
     "metric2": { "value": "90%", "label": "Tijdsbesparing" },
     "metric3": { "value": "100%", "label": "Onbevooroordeeld" },
@@ -22,6 +22,14 @@
       "title": "Vind je het lastig om écht geschikte kandidaten te vinden?",
       "description": "Traditionele ATS-systemen slagen er steeds minder in om kwaliteitsvolle CV's te herkennen, omdat kandidaten hun CV optimaliseren met behulp van AI-tools. Het resultaat is een stapel sollicitaties die op papier perfect lijken, maar in werkelijkheid weinig relevant zijn. Qorva AI verandert dit proces volledig. Onze intelligente oplossing analyseert elk CV semantisch en rangschikt kandidaten op basis van echte vaardigheden, ervaring en geschiktheid voor de functie.\nIn tegenstelling tot klassieke ATS-systemen beperkt Qorva AI zich niet tot simpele trefwoorden – ons systeem begrijpt context, genereert een nauwkeurige match-score en levert een uitgebreid rapport waarin duidelijk wordt toegelicht waarom een kandidaat wel of niet past."
     }
+  },
+  "stats": {
+    "title": "Gebouwd voor bedrijven die snel bewegen",
+    "subtitle": "Geen dedicated HR-team? Geen probleem. Qorva AI geeft kleine en groeiende bedrijven de wervingskracht van een volledig team — voor een fractie van de kosten.",
+    "item1": { "value": "90%", "label": "Minder tijd aan screening", "description": "Stop met elk cv te lezen. Qorva AI rangschikt kandidaten direct zodat je meteen naar de beste profielen gaat." },
+    "item2": { "value": "10x", "label": "Sneller aanwerven", "description": "Van vacature naar shortlist in minuten, niet dagen. Vul rollen in voor je concurrenten dat doen." },
+    "item3": { "value": "500+", "label": "Cv's verwerkt per uur", "description": "Verwerk een stroom sollicitaties zonder een recruiter aan te nemen of de werking te vertragen." },
+    "item4": { "value": "100%", "label": "Criteriumgebaseerde score", "description": "Objectieve, competentiegerichte evaluatie — geen onderbuikgevoel, geen vooroordelen, alleen de beste match voor je functie." }
   },
   "features": {
     "title": "Hoe Qorva AI je helpt de beste kandidaten te selecteren",
@@ -37,6 +45,10 @@
     "aiChat": {
       "title": "AI CV-Chat",
       "description": "Verspil geen uren meer met het doorlezen van cv’s. Met AI CV-Chat kunt u direct in gesprek gaan met het profiel van elke kandidaat, vragen stellen in gewone taal en inzichten krijgen die verder gaan dan functietitels en trefwoorden. Ontdek verborgen talenten, signaleer vroegtijdig risico’s en begeleid vol vertrouwen de beste kandidaten in uw proces."
+    },
+    "criteria": {
+      "title": "Aangepaste functiecriteria",
+      "description": "Bepaal wat het belangrijkst is voor elke functie — vereiste vaardigheden, jaren ervaring, specifieke kwalificaties — en Qorva AI rangschikt elke kandidaat dienovereenkomstig, met een duidelijke uitleg bij elke score."
     },
     "whyChooseQorva": {
       "title": "Waarom kiezen voor Qorva AI?",
@@ -76,6 +88,54 @@
       }
     }
   },
+  "trust": {
+    "title": "Veilig, conform en klaar voor gebruik",
+    "subtitle": "Je verwerkt gegevens van echte mensen. Wij nemen dat serieus — zodat jij je daar geen zorgen over hoeft te maken.",
+    "gdpr": {
+      "title": "AVG-conform",
+      "description": "Volledige naleving van de Europese gegevensbeschermingsregels. Sla kandidaatgegevens op en verwerk ze met vertrouwen."
+    },
+    "security": {
+      "title": "Standaard veilig",
+      "description": "End-to-end encryptie en veilige gegevensopslag — geen extra configuratie vereist van jouw kant."
+    },
+    "fairness": {
+      "title": "AI-eerlijkheid getest",
+      "description": "Onze AI beoordeelt kandidaten uitsluitend op functiegerelateerde criteria — nooit op demografische signalen."
+    },
+    "privacy": {
+      "title": "Privacy voorop",
+      "description": "Kandidaatgegevens worden nooit verkocht of gedeeld. Op verzoek verwijderd, zonder vragen."
+    }
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "subtitle": "Alles wat je moet weten voor je begint.",
+    "item1": {
+      "question": "Heb ik een ATS of HR-software nodig om Qorva AI te gebruiken?",
+      "answer": "Nee. Qorva AI is een zelfstandig hulpmiddel voor bedrijven die de complexiteit van een volledig ATS willen vermijden. Maak gewoon een account aan, upload je cv's en de functiebeschrijving, en je hebt binnen minuten een gerangschikte shortlist — geen integraties of IT-configuratie nodig."
+    },
+    "item2": {
+      "question": "Hoe snel kan ik beginnen met het screenen van kandidaten?",
+      "answer": "Meteen. Registreer je, upload je cv's en Qorva AI begint direct met het rangschikken. De meeste gebruikers hebben binnen minuten na hun eerste aanmelding een shortlist klaar."
+    },
+    "item3": {
+      "question": "Is Qorva AI alleen voor grootschalige werving?",
+      "answer": "Helemaal niet. Of je nu één persoon of vijftig aanwerft, Qorva AI bespaart je tijd. Het is ontworpen voor bedrijven die snel en zeker willen beslissen zonder uren elke sollicitatie te moeten doornemen."
+    },
+    "item4": {
+      "question": "Kan ik bepalen wat het belangrijkst is voor mijn specifieke functie?",
+      "answer": "Ja. Jij vertelt Qorva AI wat geprioriteerd moet worden — vereiste vaardigheden, jaren ervaring, specifieke kwalificaties — en het rangschikt elke kandidaat dienovereenkomstig. Elke score wordt vergezeld van een duidelijke uitleg zodat je altijd weet waarom iemand zo gerangschikt werd."
+    },
+    "item5": {
+      "question": "Zijn kandidaatgegevens veilig en AVG-conform?",
+      "answer": "Ja. Alle gegevens zijn versleuteld tijdens overdracht en in rust. Qorva AI voldoet aan de AVG — kandidaatgegevens worden nooit verkocht of gedeeld met derden, en kunnen op elk moment op verzoek worden verwijderd."
+    },
+    "item6": {
+      "question": "Is er een gratis proefperiode?",
+      "answer": "Ja — 7 dagen, volledige toegang. Upload echte kandidaten voor een echte functie en zie precies wat Qorva AI kan doen voor je je vastlegt op een plan."
+    }
+  },
   "pricing": {
     "title": "Eenvoudige, transparante prijzen",
     "subtitle": "Kies het plan dat het beste bij je past",
@@ -88,7 +148,7 @@
     },
     "features": {
       "freeTrial": "7 dagen gratis proefperiode met toegang tot alle functies",
-      "aiQuestions": "Door AI gegenereerde interviewvragen",
+      "aiResumeChat": "AI CV-chat",
       "accountManager": "Toegewijde accountmanager",
       "sla": "SLA-garanties"
     },
@@ -107,19 +167,31 @@
       "cvs": "Tot 500 cv-analyses per maand"
     },
     "scout": {
-      "title": "Scout",
+      "title": "Starter",
       "description": "Ideaal voor groeiende teams",
       "cvs": "Tot 2.000 cv-analyses per maand"
     },
+    "growth": {
+      "description": "Perfect voor kleine teams die starten met AI-werving",
+      "cvs": "Tot 500 cv-analyses per maand"
+    },
     "matchmaker": {
-      "title": "Matchmaker",
+      "title": "Pro",
       "description": "Perfect voor gevestigde teams",
-      "cvs": "Tot 5.000 cv-analyses per maand"
+      "cvs": "Tot 2.000 cv-analyses per maand"
+    },
+    "professional": {
+      "description": "Ideaal voor groeiende teams die regelmatig aannemen",
+      "cvs": "Tot 2.000 cv-analyses per maand"
     },
     "visionary": {
-      "title": "Visionary",
-      "description": "Geschikt voor grote organisaties",
-      "cvs": "Ongelimiteerde cv-analyses per maand"
+      "title": "Scale",
+      "description": "Voor teams met een hoog wervingsvolume",
+      "cvs": "Tot 6.000 cv-analyses per maand"
+    },
+    "enterprise": {
+      "description": "Voor teams met een hoog wervingsvolume",
+      "cvs": "Tot 6.000 cv-analyses per maand"
     }
   },
   "footer": {

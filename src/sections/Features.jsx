@@ -4,6 +4,7 @@ import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import { styled } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
+import TuneIcon from '@mui/icons-material/Tune';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import SavingsIcon from '@mui/icons-material/Savings';
 import GpsFixedIcon from '@mui/icons-material/GpsFixed';
@@ -47,6 +48,12 @@ const features = [
     icon: <PersonSearchIcon sx={{ fontSize: 32 }} />,
     title: 'AI-Driven Candidate Matching',
     description: 'Need to find the best candidate in your talent pool for a new job post? Just run a CV analysis, and Qorva AI will scan, match, and rank candidates based on relevance.',
+  },
+  {
+    translationKey: "criteria",
+    icon: <TuneIcon sx={{ fontSize: 32 }} />,
+    title: 'Custom Role Criteria',
+    description: 'Define what matters most for each role — required skills, years of experience, specific qualifications — and Qorva AI ranks every candidate accordingly, with a clear explanation for each score.',
   },
   {
     translationKey: "aiChat",
@@ -96,7 +103,7 @@ function Features() {
 
           <Grid container spacing={4} >
             {features.map((feature, index) => (
-                <Grid item xs={12} md={4} key={index}>
+                <Grid item xs={12} md={3} key={index}>
                   <FeatureCard>
                     <CardContent sx={{ textAlign: 'left', p: 4 }}>
                       <IconWrapper>

@@ -8,9 +8,9 @@
     "startTrial": "Kostenlos testen"
   },
   "hero": {
-    "badge": "Einstellen ohne ATS oder Personalvermittler",
-    "title": "Schnell einstellen. Richtig einstellen. Kein ATS nötig.",
-    "subtitle": "Qorva AI bewertet alle Bewerbungen sofort und zeigt Ihnen exakt, wen Sie einladen sollten — kein manuelles Lesen, nur die richtigen Kandidaten.",
+    "badge": "Für wachsende Unternehmen ohne eigene Personalabteilung",
+    "title": "KI-Bewerbungsranking für vielbeschäftigte KMUs",
+    "subtitle": "Sparen Sie Stunden manueller Sichtung und erhalten Sie in wenigen Minuten eine Shortlist der relevantesten Kandidaten.",
     "metric1": { "value": "10x", "label": "Schneller" },
     "metric2": { "value": "90%", "label": "Zeitersparnis" },
     "metric3": { "value": "100%", "label": "Vorurteilsfrei" },
@@ -22,6 +22,14 @@
       "title": "Haben Sie Schwierigkeiten, die richtigen Kandidaten zu finden?",
       "description": "Traditionelle ATS-Systeme scheitern zunehmend daran, hochwertige Bewerbungen zu identifizieren, da Kandidaten ihre Lebensläufe mithilfe von KI optimieren. Dadurch erhalten Sie eine Flut an Bewerbungen, die zwar auf den ersten Blick überzeugend wirken, jedoch oft wenig relevant sind. Qorva AI verändert den Recruiting-Prozess grundlegend. Unsere intelligente KI-Lösung analysiert Lebensläufe semantisch und bewertet Bewerber anhand ihrer tatsächlichen Kompetenzen, Erfahrungen und Eignung für die Stelle.\nIm Gegensatz zu herkömmlichen ATS-Systemen geht Qorva AI weit über eine reine Schlagwortsuche hinaus – das System versteht Zusammenhänge, generiert einen aussagekräftigen Match-Score und liefert einen detaillierten Bewertungsbericht, der klar erläutert, weshalb ein Kandidat besonders gut oder weniger geeignet ist."
     }
+  },
+  "stats": {
+    "title": "Für Unternehmen gemacht, die schnell handeln",
+    "subtitle": "Kein eigenes HR-Team? Kein Problem. Qorva AI gibt kleinen und wachsenden Unternehmen die Recruiting-Power eines vollständigen Teams — zu einem Bruchteil der Kosten.",
+    "item1": { "value": "90%", "label": "Weniger Zeit für die Vorauswahl", "description": "Hören Sie auf, jeden Lebenslauf manuell zu lesen. Qorva AI rankt Bewerber sofort, damit Sie direkt zu den besten Kandidaten springen." },
+    "item2": { "value": "10x", "label": "Schnellere Einstellung", "description": "Von der Stellenausschreibung zur Shortlist in Minuten, nicht Tagen. Besetzen Sie Stellen, bevor Ihre Konkurrenz es tut." },
+    "item3": { "value": "500+", "label": "Lebensläufe pro Stunde", "description": "Bewältigen Sie einen Ansturm von Bewerbungen, ohne einen Recruiter einzustellen oder den Betrieb zu verlangsamen." },
+    "item4": { "value": "100%", "label": "Kriterienbasierte Bewertung", "description": "Objektive, kompetenzbasierte Auswertung — kein Bauchgefühl, keine Vorurteile, nur die beste Übereinstimmung für Ihre Stelle." }
   },
   "features": {
     "title": "So unterstützt Qorva AI Sie dabei, die besten Kandidaten zu finden",
@@ -37,6 +45,10 @@
     "aiChat": {
       "title": "KI-gestützter Lebenslauf-Chat",
       "description": "Vergeuden Sie keine Stunden mehr mit dem Durchsehen von Lebensläufen. Mit dem Lebenslauf-Chat können Sie sofort mit den Profilen Ihrer Kandidaten interagieren, gezielte Fragen stellen und tiefe Einblicke gewinnen, die weit über Jobtitel und Schlagwörter hinausgehen. Entdecken Sie verborgene Stärken, erkennen Sie Risiken frühzeitig und bringen Sie die besten Talente sicher voran."
+    },
+    "criteria": {
+      "title": "Individuelle Rollenanforderungen",
+      "description": "Legen Sie fest, was für jede Stelle am wichtigsten ist — erforderliche Fähigkeiten, Berufserfahrung, spezifische Qualifikationen — und Qorva AI rankt jeden Kandidaten entsprechend, mit einer klaren Begründung für jede Bewertung."
     },
     "whyChooseQorva": {
       "title": "Warum sollten Sie sich für Qorva AI entscheiden?",
@@ -76,6 +88,54 @@
       }
     }
   },
+  "trust": {
+    "title": "Sicher, konform und sofort einsatzbereit",
+    "subtitle": "Sie verarbeiten Daten echter Menschen. Das nehmen wir ernst — damit Sie sich keine Sorgen machen müssen.",
+    "gdpr": {
+      "title": "DSGVO-konform",
+      "description": "Vollständige Konformität mit den EU-Datenschutzvorschriften. Kandidatendaten sicher speichern und verarbeiten."
+    },
+    "security": {
+      "title": "Standardmäßig sicher",
+      "description": "Ende-zu-Ende-Verschlüsselung und sichere Datenspeicherung — kein Einrichtungsaufwand Ihrerseits."
+    },
+    "fairness": {
+      "title": "KI-Fairness geprüft",
+      "description": "Unsere KI bewertet Kandidaten ausschließlich nach stellenrelevanten Kriterien — keine demografischen Merkmale, niemals."
+    },
+    "privacy": {
+      "title": "Datenschutz zuerst",
+      "description": "Kandidatendaten werden niemals verkauft oder weitergegeben. Auf Anfrage gelöscht, keine Fragen gestellt."
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Alles, was Sie vor dem Start wissen müssen.",
+    "item1": {
+      "question": "Benötige ich ein ATS oder HR-Software, um Qorva AI zu nutzen?",
+      "answer": "Nein. Qorva AI ist ein eigenständiges Tool für Unternehmen, die die Komplexität eines vollständigen ATS vermeiden möchten. Einfach ein Konto erstellen, Lebensläufe und Stellenbeschreibung hochladen — und in Minuten liegt eine priorisierte Shortlist vor, ohne Integrationen oder IT-Einrichtung."
+    },
+    "item2": {
+      "question": "Wie schnell kann ich mit der Kandidatensichtung beginnen?",
+      "answer": "Sofort. Registrieren, Lebensläufe hochladen, und Qorva AI beginnt direkt mit dem Ranking. Die meisten Nutzer haben innerhalb von Minuten nach dem ersten Login eine Shortlist parat."
+    },
+    "item3": {
+      "question": "Ist Qorva AI nur für die Massenrekrutierung geeignet?",
+      "answer": "Überhaupt nicht. Ob Sie eine oder fünfzig Stellen besetzen — Qorva AI spart Ihnen Zeit. Es ist für Unternehmen entwickelt, die schnelle und fundierte Einstellungsentscheidungen treffen möchten, ohne stundenlang jede Bewerbung zu prüfen."
+    },
+    "item4": {
+      "question": "Kann ich festlegen, was für meine Stelle besonders wichtig ist?",
+      "answer": "Ja. Sie teilen Qorva AI mit, was priorisiert werden soll — erforderliche Fähigkeiten, Berufserfahrung, spezifische Qualifikationen — und es rankt jeden Kandidaten entsprechend. Jede Bewertung enthält eine klare Begründung, damit Sie immer wissen, warum jemand so eingestuft wurde."
+    },
+    "item5": {
+      "question": "Sind Kandidatendaten sicher und DSGVO-konform?",
+      "answer": "Ja. Alle Daten sind bei der Übertragung und im Ruhezustand verschlüsselt. Qorva AI ist DSGVO-konform — Kandidatendaten werden niemals verkauft oder an Dritte weitergegeben und können jederzeit auf Anfrage gelöscht werden."
+    },
+    "item6": {
+      "question": "Gibt es eine kostenlose Testversion?",
+      "answer": "Ja — 7 Tage, voller Zugang. Echte Kandidaten für eine echte Stelle hochladen und genau sehen, was Qorva AI kann, bevor Sie sich für einen Plan entscheiden."
+    }
+  },
   "pricing": {
     "title": "Einfache, transparente Preisgestaltung",
     "subtitle": "Wählen Sie den Plan, der am besten zu Ihnen passt",
@@ -88,7 +148,7 @@
     },
     "features": {
       "freeTrial": "7 Tage kostenloser Test mit Zugriff auf alle Funktionen",
-      "aiQuestions": "KI-generierte Interviewfragen",
+      "aiResumeChat": "KI-Lebenslauf-Chat",
       "accountManager": "Persönlicher Kundenbetreuer",
       "sla": "SLA-Garantien"
     },
@@ -107,19 +167,31 @@
       "cvs": "Bis zu 500 Lebenslaufanalysen pro Monat"
     },
     "scout": {
-      "title": "Scout",
+      "title": "Starter",
       "description": "Ideal für wachsende Teams",
       "cvs": "Bis zu 2.500 Lebenslaufanalysen pro Monat"
     },
+    "growth": {
+      "description": "Ideal für kleine Teams, die mit KI-Recruiting starten",
+      "cvs": "Bis zu 500 Lebenslaufanalysen pro Monat"
+    },
     "matchmaker": {
-      "title": "Matchmaker",
+      "title": "Pro",
       "description": "Ideal für etablierte Teams",
-      "cvs": "Bis zu 5.000 Lebenslaufanalysen pro Monat"
+      "cvs": "Bis zu 2.000 Lebenslaufanalysen pro Monat"
+    },
+    "professional": {
+      "description": "Ideal für wachsende Teams, die regelmäßig einstellen",
+      "cvs": "Bis zu 2.000 Lebenslaufanalysen pro Monat"
     },
     "visionary": {
-      "title": "Visionary",
-      "description": "Ideal für große Organisationen",
-      "cvs": "Unbegrenzte Lebenslaufanalysen pro Monat"
+      "title": "Scale",
+      "description": "Für Unternehmen mit hohem Einstellungsvolumen",
+      "cvs": "Bis zu 6.000 Lebenslaufanalysen pro Monat"
+    },
+    "enterprise": {
+      "description": "Für Unternehmen mit hohem Einstellungsvolumen",
+      "cvs": "Bis zu 6.000 Lebenslaufanalysen pro Monat"
     }
   },
   "footer": {

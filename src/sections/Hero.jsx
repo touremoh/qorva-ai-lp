@@ -2,9 +2,10 @@ import { Box, Container, Typography, Button, Stack, Chip } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+import DashboardPreview from './DashboardPreview';
 
-const GradientText = styled('span')(({ theme }) => ({
-  background: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
+const GradientText = styled('span')(() => ({
+  background: `linear-gradient(135deg, #3d6b28 0%, #2a4d1c 100%)`,
   WebkitBackgroundClip: 'text',
   WebkitTextFillColor: 'transparent',
 }));
@@ -143,19 +144,9 @@ function Hero() {
             ))}
           </Stack>
 
-          <ScreenshotContainer>
-            <Box
-              component="img"
-              src="/test.png"
-              alt="Qorva AI Dashboard"
-              sx={{
-                width: '100%',
-                height: 'auto',
-                backgroundColor: 'rgba(0,0,0,0.05)',
-                minHeight: { xs: '200px', md: '500px' },
-              }}
-            />
-          </ScreenshotContainer>
+          <Box sx={{ mt: { xs: 6, md: 8 }, width: '100%' }}>
+            <DashboardPreview />
+          </Box>
         </Stack>
       </Container>
     </HeroSection>
