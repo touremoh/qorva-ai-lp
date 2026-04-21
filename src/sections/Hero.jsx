@@ -56,25 +56,6 @@ const MetricBox = styled(Box)(({ theme }) => ({
   minWidth: '120px',
 }));
 
-const ScreenshotContainer = styled(Box)(({ theme }) => ({
-  marginTop: theme.spacing(8),
-  width: '100%',
-  maxWidth: '1000px',
-  position: 'relative',
-  borderRadius: '24px',
-  overflow: 'hidden',
-  boxShadow: '0 40px 80px -20px rgba(37, 99, 235, 0.2), 0 0 0 1px rgba(37, 99, 235, 0.05)',
-  border: '1px solid rgba(255, 255, 255, 0.6)',
-  '& img': {
-    width: '100%',
-    height: 'auto',
-    display: 'block',
-  },
-  [theme.breakpoints.down('md')]: {
-    marginTop: theme.spacing(6),
-    borderRadius: '16px',
-  },
-}));
 
 function Hero() {
   const { t } = useTranslation();
