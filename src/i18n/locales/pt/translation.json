@@ -8,128 +8,200 @@
     "startTrial": "Teste grátis"
   },
   "hero": {
-    "badge": "Para empresas em crescimento que contratam sem equipa de RH",
-    "title": "Classificação de CVs com IA para PMEs ocupadas",
-    "subtitle": "Poupe horas de triagem manual e obtenha uma shortlist dos candidatos mais relevantes em poucos minutos.",
-    "metric1": { "value": "10x", "label": "Mais rápido" },
-    "metric2": { "value": "90%", "label": "Tempo poupado" },
-    "metric3": { "value": "100%", "label": "Sem vieses" },
+    "badge": "Plataforma de Inteligência de Talentos com IA",
+    "title": "Transforme o seu banco de CVs num motor de",
+    "titleAccent": "Talent Intelligence.",
+    "subtitle": "Extraia, estruture e analise currículos em escala. Construa correspondências perfeitas de candidatos com as suas próprias regras de pontuação personalizadas e interrogue toda a sua base de dados via IA conversacional. Zero entrada manual de dados.",
     "cta": {
-      "trial": "Iniciar teste grátis de 7 dias",
-      "demo": "Agendar Demonstração"
+      "trial": "Inicie o seu teste gratuito de 7 dias",
+      "tour": "Ver Tour do Produto de 2 Minutos"
     },
-    "about": {
-      "title": "Está difícil encontrar os candidatos certos?",
-      "description": "Os sistemas ATS tradicionais não conseguem mais filtrar currículos com eficácia, pois os candidatos otimizam seus CVs usando inteligência artificial. O resultado: muitas candidaturas que parecem excelentes no papel, mas com pouca relevância real. O Qorva AI revoluciona esse processo. Nossa solução analisa semanticamente cada currículo, classificando candidatos com base em habilidades reais, experiência e aderência à vaga.\nDiferente dos sistemas ATS tradicionais, o Qorva AI vai além de palavras-chave – compreende contexto, gera uma pontuação precisa de compatibilidade e entrega um relatório detalhado que explica claramente por que um candidato é ou não é adequado."
+    "trialNote": "Sem Risco · Configuração Instantânea",
+    "splitScreen": {
+      "queryLabel": "Consulte a sua base de dados",
+      "queryText": "Quantos developers sénior reconvertidos a gestores de projeto com experiência em fintech que falam inglês e francês temos?",
+      "resultsLabel": "Resposta Qorva AI",
+      "candidatesFound": "Candidatos Encontrados",
+      "topMatches": "Top Correspondências Classificadas",
+      "metric1": { "label": "Distribuição de Senioridade", "value": "Sénior 67%" },
+      "metric2": { "label": "Fit ao Ambiente Fintech", "value": "Alto 83%" }
     }
   },
-  "stats": {
-    "title": "Criado para empresas que se movem rápido",
-    "subtitle": "Sem equipa de RH dedicada? Sem problema. O Qorva AI dá às pequenas e médias empresas o poder de recrutamento de uma equipa completa — a uma fração do custo.",
-    "item1": { "value": "90%", "label": "Menos tempo na triagem", "description": "Pare de ler cada currículo. O Qorva AI classifica os candidatos instantaneamente para ir direto aos melhores perfis." },
-    "item2": { "value": "10x", "label": "Contratação mais rápida", "description": "Da oferta à shortlist em minutos, não dias. Preencha vagas antes dos seus concorrentes." },
-    "item3": { "value": "500+", "label": "CVs processados por hora", "description": "Gira um pico de candidaturas sem contratar um recrutador ou abrandar as operações." },
-    "item4": { "value": "100%", "label": "Pontuação baseada em critérios", "description": "Avaliação objetiva e baseada em competências — sem intuição, sem vieses, apenas o melhor perfil para a sua vaga." }
+  "dashboardPreview": {
+    "label": "Pré-visualização da plataforma",
+    "title": "Todo o seu pool de talentos, visualizado.",
+    "subtitle": "O dashboard do Qorva AI oferece-lhe uma vista de centro de comando instantânea da sua base de dados de candidatos — distribuição de competências, clusters de senioridade, top perfis e estado do pipeline de relance.",
+    "matchReportLabel": "Relatório de matching",
+    "matchReportTitle": "Shortlists classificadas com total transparência de pontuação.",
+    "matchReportSubtitle": "Cada relatório de matching decompõe a adequação do candidato segundo os seus critérios personalizados — competências obrigatórias, senioridade, fit ao ambiente — para que a sua equipa saiba sempre exatamente porque alguém ficou nessa posição."
   },
-  "features": {
-    "title": "Como o Qorva AI ajuda você a contratar os melhores talentos",
-    "subtitle": "Tudo o que você precisa para revolucionar o seu processo de recrutamento",
-    "parsing": {
-      "title": "Extração inteligente de currículos com IA",
-      "description": "Economize tempo – Chega de digitação manual! Basta arrastar e soltar os currículos, e o Qorva AI extrai e armazena automaticamente os dados dos candidatos em segundos."
+  "featureShowcase": {
+    "label": "Em ação",
+    "title": "Veja o Qorva AI em ação.",
+    "subtitle": "Do carregamento em massa à shortlist classificada — três vistas que mostram exatamente como o Qorva AI transforma currículos brutos em talent intelligence acionável.",
+    "feature1": {
+      "caption": "Análise de distribuição de competências",
+      "query": "Analisa a distribuição de competências do nosso pool de engenheiros de machine learning",
+      "description": "Saiba exatamente que competências tem antes de qualquer conversa com um cliente. O Qorva AI analisa todo o seu pool e devolve um resumo classificado de competências com contagens de candidatos e percentagens de cobertura — para apresentar as suas capacidades com dados, não suposições."
     },
-    "matching": {
-      "title": "Correspondência inteligente de candidatos por IA",
-      "description": "Classifique candidatos instantaneamente com base em relevância real à vaga. Receba relatórios detalhados, gerados pela IA, explicando claramente por que um candidato é ou não adequado. Filtre automaticamente currículos irrelevantes, sem esforço."
+    "feature2": {
+      "caption": "Classificação de candidatos com IA",
+      "query": "Mostra-me engenheiros de machine learning reconvertidos a gestores de projeto com experiência fintech que falam inglês e francês",
+      "description": "Combine senioridade, transições de carreira, expertise setorial e requisitos de idioma numa única frase. O Qorva AI pesquisa toda a sua base de dados instantaneamente e devolve uma shortlist classificada com pontuações e perfis de candidatos clicáveis — sem filtros, sem sintaxe booleana."
     },
-    "aiChat": {
-      "title": "Chat de Currículo com IA",
-      "description": "Chega de perder horas analisando currículos. Com o Chat de Currículo com IA você interage instantaneamente com o perfil de qualquer candidato, faz perguntas em linguagem natural e obtém insights que vão muito além de cargos e palavras-chave. Descubra pontos fortes ocultos, identifique alertas logo no início e avance com segurança com os melhores talentos."
+    "feature3": {
+      "caption": "Clustering de talentos multidimensional",
+      "query": "Analisa a distribuição de senioridade no nosso pool de engenheiros de machine learning",
+      "description": "Compreenda de relance a distribuição de senioridade, os perfis de profundidade de competências, os estilos de liderança e a velocidade de aprendizagem do seu pool. Quatro dimensões críticas de talent intelligence visualizadas numa única vista — para conhecer sempre a verdadeira força do seu banco antes de ir ao mercado."
     },
-    "criteria": {
-      "title": "Critérios personalizados por função",
-      "description": "Defina o que é mais importante para cada função — competências necessárias, anos de experiência, qualificações específicas — e o Qorva AI classifica cada candidato em conformidade, com uma explicação clara para cada pontuação."
-    },
-    "whyChooseQorva": {
-      "title": "Por que escolher o Qorva AI?",
-      "saveTime": {
-        "title": "Reduza drasticamente o tempo de contratação",
-        "description": "Multiplique sua produtividade ao eliminar a triagem manual tediosa de currículos. Deixe o trabalho repetitivo com o Qorva AI e concentre-se em estabelecer conexões significativas com os melhores talentos."
-      },
-      "reduceCost": {
-        "title": "Diminua significativamente os custos de recrutamento",
-        "description": "Otimize seu processo seletivo reduzindo consideravelmente as despesas. Ao encurtar o tempo de contratação, você libera recursos importantes para iniciativas estratégicas e focadas no crescimento da sua empresa."
-      },
-      "accuracy": {
-        "title": "Aumente a precisão e a qualidade das contratações",
-        "description": "Evite erros caros. Nossa avaliação de candidatos impulsionada por inteligência artificial garante correspondências precisas e consistentes, proporcionando clareza e segurança em todas as suas decisões de recrutamento."
-      },
-      "fairness": {
-        "title": "Promova equidade no processo de seleção",
-        "description": "Elimine preconceitos inconscientes em seu processo seletivo. Garanta decisões objetivas, justas e inclusivas, livres de discriminação por raça, gênero, religião ou orientação sexual."
-      }
+    "feature4": {
+      "caption": "Comparação direta de candidatos",
+      "query": "Qual dos candidatos referenciados como REF-001 e REF-002 é mais adequado para uma posição de engenheiro sénior de machine learning?",
+      "description": "Pare de hesitar nas decisões de shortlist. Peça ao Qorva AI para comparar dois candidatos diretamente — avalia competências diferenciadoras, senioridade, certificações e adequação ao cargo em múltiplas dimensões, e diz-lhe exatamente quem está melhor posicionado e porquê. Entre em cada debriefing com uma recomendação clara e fundamentada."
     }
   },
-  "howItWorks": {
-    "title": "Como funciona",
-    "subtitle": "Comece com Qorva em três passos simples",
+  "problem": {
+    "title": "O seu ATS armazena candidatos. O Qorva AI ajuda-o a monetizá-los.",
+    "subtitle": "Passou anos e milhares de euros a construir uma base de dados de candidatos, mas a maior parte do seu valor é invisível. As pesquisas padrão por palavras-chave são demasiado rígidas, e a triagem manual consome horas de produtividade dos recrutadores.",
+    "item1": {
+      "title": "A Base de Dados 'Buraco Negro'",
+      "description": "Candidatos excelentes são esquecidos no momento em que uma vaga fecha. O seu melhor talento é invisível dentro de uma base de dados que já pagou para construir."
+    },
+    "item2": {
+      "title": "Formatos Inconsistentes e Desorganizados",
+      "description": "Currículos não estruturados tornam a comparação objetiva impossível. Cada revisão transforma-se num jogo de adivinha subjetivo e demorado."
+    },
+    "item3": {
+      "title": "Poluição de Dados",
+      "description": "Duplicatas e ficheiros desatualizados contaminam os resultados de pesquisa, desperdiçam tempo dos recrutadores e distorcem a sua inteligência de talentos."
+    },
+    "item4": {
+      "title": "Correspondência Subjetiva",
+      "description": "Os recrutadores dependem da memória ou de correspondência falha por palavras-chave, perdendo perfis não óbvios e ignorando sistematicamente os melhores talentos."
+    }
+  },
+  "workflow": {
+    "title": "De Currículos Brutos a Shortlists Classificadas em 4 Passos Simples.",
+    "subtitle": "Sem necessidade de formação. Sem configuração complexa. Carregue os seus CVs e deixe o Qorva AI fazer o trabalho de inteligência.",
     "steps": {
-      "account": {
-        "title": "Crie uma conta",
-        "description": "Crie uma conta e comece a usar nossos serviços."
-      },
       "upload": {
-        "title": "Envie seus currículos",
-        "description": "Envie seu currículo e crie sua biblioteca de CVs e vagas."
+        "label": "Passo 1",
+        "title": "Carregamento em Massa",
+        "description": "Carregue até 100 CVs de uma vez em qualquer formato — PDF, Word ou texto simples."
       },
-      "insights": {
-        "title": "Obtenha insights",
-        "description": "Comece a analisar sua biblioteca de currículos."
+      "enrich": {
+        "label": "Passo 2",
+        "title": "Enriquecer & Grafar",
+        "description": "O Qorva extrai métricas aprofundadas de candidatos: Velocidade, Senioridade, Fit ao Ambiente, Clusters e mais."
+      },
+      "interrogate": {
+        "label": "Passo 3",
+        "title": "Perguntar & Interrogar",
+        "description": "Consulte toda a sua base de dados em linguagem natural, exatamente como um headhunter humano faria."
+      },
+      "score": {
+        "label": "Passo 4",
+        "title": "Pontuar & Exportar",
+        "description": "Classifique candidatos com as suas regras de pontuação personalizadas e exporte shortlists limpas e estruturadas instantaneamente."
       }
+    }
+  },
+  "pillars": {
+    "title": "Seis Camadas de Inteligência. Uma Plataforma Unificada.",
+    "subtitle": "O Qorva AI constrói um grafo de talentos multidimensional a partir dos seus dados existentes — entregando correspondência de precisão e insights que não consegue obter de pesquisas planas por palavras-chave.",
+    "a": {
+      "label": "Inteligência Aprofundada de Currículos",
+      "title": "Normalize e enriqueça cada CV automaticamente.",
+      "description": "Carregue até 100 CVs de uma vez. O Qorva deteta automaticamente duplicatas, normaliza layouts e deriva pontos de dados avançados de candidatos em 8 dimensões.",
+      "points": "Clusters Primários & Secundários · Profundidade de Competências · Nível de Senioridade · Potencial de Liderança · Velocidade de Aprendizagem · Expertise Funcional · Domínios de Setor · Fit ao Ambiente"
+    },
+    "b": {
+      "label": "Dashboard Estratégico de Talentos",
+      "title": "Veja o seu pool de talentos como um ativo empresarial.",
+      "description": "Obtenha visibilidade instantânea de alto nível sobre toda a sua base de dados. Identifique as principais competências, clusters de talentos, densidade geográfica e disponibilidade de candidatos para que a sua equipa possa apresentar capacidades de staffing a clientes com confiança."
+    },
+    "c": {
+      "label": "Correspondência por Regras Personalizadas",
+      "title": "Gere shortlists com base nas suas prioridades de contratação.",
+      "description": "Marque competências como Obrigatórias, Importantes ou Desejáveis e defina pesos de pontuação personalizados. O Qorva produz um Relatório de Correspondência classificado com análises explícitas de pontos fortes, lacunas e alinhamento global."
+    },
+    "d": {
+      "label": "IA Conversacional",
+      "title": "Fale diretamente com a sua base de dados de candidatos.",
+      "description": "Salte os filtros. Use linguagem natural para executar lógica complexa de talentos instantaneamente em 8 categorias de intenção especializadas.",
+      "intentHeader1": "Categoria de Intenção",
+      "intentHeader2": "O que Pode Perguntar ao Qorva AI",
+      "intents": {
+        "talent":      { "category": "Inteligência do Pool de Talentos", "example": "\"Estamos prontos para staffing de um novo cliente bancário em Bruxelas?\"" },
+        "gap":         { "category": "Análise de Lacunas de Competências", "example": "\"Que competências críticas estão em falta no nosso pool de cibersegurança?\"" },
+        "ranking":     { "category": "Classificação de Candidatos",       "example": "\"Quais são os nossos top 10 candidatos para uma função sénior de DevOps?\"" },
+        "rediscovery": { "category": "Redescoberta de Candidatos",        "example": "\"Encontre candidatos que rejeitámos no ano passado e que correspondem a esta nova posição.\"" },
+        "clustering":  { "category": "Clustering de Talentos",            "example": "\"Agrupe os nossos candidatos técnicos ativos em especializações de engenharia.\"" },
+        "skills":      { "category": "Distribuição de Competências",      "example": "\"Quais são as tech stacks mais comuns no nosso pool aeroespacial?\"" },
+        "comparison":  { "category": "Comparação de Candidatos",          "example": "\"Compare REF-001 e REF-002 em liderança e fit ao ambiente.\"" },
+        "rules":       { "category": "Regras Gerais de Recrutamento",     "example": "\"Quais são boas perguntas de entrevista técnica para um engenheiro backend?\"" }
+      }
+    },
+    "e": {
+      "label": "Chat IA de Currículos",
+      "title": "Nunca mais realize uma entrevista sem preparação.",
+      "description": "Aceda ao Chat IA de Currículos diretamente a partir do menu principal para aprofundar o historial de qualquer candidato. Faça perguntas direcionadas em linguagem natural, explore casos de carreira invulgares, desafie lacunas técnicas e gere perguntas de entrevista personalizadas e de alto impacto — antes de se sentar para a entrevista."
+    },
+    "f": {
+      "label": "Exportação ATS",
+      "title": "Integra-se perfeitamente no seu fluxo de trabalho existente.",
+      "description": "O Qorva não o obriga a substituir o seu stack de software atual. Exporte instantaneamente as suas shortlists mais bem classificadas em formato CSV padrão para sincronizar diretamente com o seu ATS favorito."
     }
   },
   "trust": {
-    "title": "Seguro, conforme e pronto a usar",
-    "subtitle": "Está a gerir dados de pessoas reais. Levamos isso a sério — para que não tenha de se preocupar com isso.",
+    "title": "Fluxos de Trabalho de IA Transparentes e Controlados pelo Recrutador.",
+    "subtitle": "O Qorva AI funciona como um motor de inteligência aumentada, não como um decisor de caixa negra. Concebido em torno da transparência e validação humana no ciclo.",
+    "explainability": {
+      "title": "Explicabilidade Total",
+      "description": "Cada classificação de correspondência é sustentada por raciocínio claro e auditável com base nas suas próprias regras de pontuação — sem pontuações misteriosas, sem algoritmos opacos."
+    },
+    "control": {
+      "title": "Os Recrutadores Decidem",
+      "description": "O sistema recomenda; os humanos tomam as decisões finais de contratação. O controlo total permanece com a sua equipa em cada etapa do fluxo de trabalho."
+    },
+    "integrity": {
+      "title": "Integridade dos Dados",
+      "description": "Todos os dados de candidatos são logicamente segregados por organização com controlos de acesso rigorosos, garantindo que os seus dados de talento permanecem privados e visíveis apenas para os membros autorizados da sua equipa."
+    },
     "gdpr": {
-      "title": "Conforme com o RGPD",
-      "description": "Total conformidade com os regulamentos europeus de proteção de dados. Armazene e processe dados de candidatos com confiança."
-    },
-    "security": {
-      "title": "Seguro por padrão",
-      "description": "Encriptação de ponta a ponta e armazenamento seguro de dados — sem configuração adicional da sua parte."
-    },
-    "fairness": {
-      "title": "Equidade de IA testada",
-      "description": "A nossa IA avalia candidatos apenas com base em critérios relevantes para a função — sem sinais demográficos, nunca."
-    },
-    "privacy": {
-      "title": "Privacidade em primeiro lugar",
-      "description": "Os dados dos candidatos nunca são vendidos ou partilhados. Eliminados a pedido, sem perguntas."
+      "title": "Conformidade Certificada",
+      "description": "Totalmente conforme com o RGPD, CCPA e a Lei de IA da UE. Construído com princípios de privacidade por design e fluxos de processamento de dados transparentes e auditáveis para cumprir os padrões de conformidade de recrutamento atuais."
     }
+  },
+  "finalCta": {
+    "title": "Pare de fazer sourcing do zero.",
+    "titleAccent": "Desbloqueie hoje a sua rede de talentos oculta.",
+    "subtitle": "Obtenha acesso total e irrestrito ao Qorva AI durante 7 dias. Carregue o seu primeiro lote de currículos, consulte os seus dados e gere shortlists classificadas em minutos.",
+    "cta": "Iniciar a Minha Avaliação Gratuita de 7 Dias",
+    "note": "Operacional em 60 segundos."
   },
   "faq": {
     "title": "Perguntas frequentes",
     "subtitle": "Tudo o que precisa de saber antes de começar.",
     "item1": {
       "question": "Preciso de um ATS ou software de RH para usar o Qorva AI?",
-      "answer": "Não. O Qorva AI é uma ferramenta autónoma criada para empresas que não querem a complexidade de um ATS completo. Basta criar uma conta, carregar os CVs e a descrição da função, e terá uma shortlist classificada em minutos — sem integrações ou configuração técnica."
+      "answer": "Não. O Qorva AI é uma plataforma autónoma criada para equipas de recrutamento que querem mais inteligência do que o seu ATS oferece. Basta criar uma conta, carregar os seus currículos e a descrição da função, e terá uma shortlist classificada em minutos — sem integrações ou configuração de TI."
     },
     "item2": {
       "question": "Quanto tempo demora a começar a avaliar candidatos?",
-      "answer": "Imediatamente. Registe-se, carregue os CVs, e o Qorva AI começa a classificar candidatos de imediato. A maioria dos utilizadores tem uma shortlist pronta em minutos após o primeiro início de sessão."
+      "answer": "Imediatamente. Registe-se, carregue os seus currículos e o Qorva AI começa a processar candidatos de imediato. A maioria dos utilizadores tem uma shortlist classificada pronta em minutos após o primeiro início de sessão."
     },
     "item3": {
       "question": "O Qorva AI é apenas para recrutamento em grande volume?",
-      "answer": "De forma alguma. Quer esteja a contratar uma pessoa ou cinquenta, o Qorva AI poupa-lhe tempo. Foi concebido para empresas que querem tomar decisões de contratação rápidas e seguras sem passarem horas a rever cada candidatura."
+      "answer": "De forma alguma. Quer esteja a gerir 50 ou 5.000 candidatos, o Qorva AI transforma a sua base de dados existente num ativo ativo e pesquisável. Foi concebido para equipas que querem tomar decisões de colocação rápidas e confiantes."
     },
     "item4": {
-      "question": "Posso definir o que é mais importante para a minha função específica?",
-      "answer": "Sim. Diz ao Qorva AI o que priorizar — competências necessárias, anos de experiência, qualificações específicas — e este classifica cada candidato em conformidade. Cada pontuação vem acompanhada de uma explicação clara para que saiba sempre porque é que alguém ficou nessa posição."
+      "question": "Posso definir o que é mais importante para cada função específica?",
+      "answer": "Sim. Você define as regras de pontuação — competências necessárias, nível de senioridade, domínios de experiência — e o Qorva AI classifica cada candidato em conformidade. Cada pontuação vem acompanhada de uma explicação clara para que saiba sempre porque é que alguém ficou nessa posição."
     },
     "item5": {
       "question": "Os dados dos candidatos são seguros e conformes com o RGPD?",
-      "answer": "Sim. Todos os dados são encriptados em trânsito e em repouso. O Qorva AI é conforme com o RGPD — os dados dos candidatos nunca são vendidos nem partilhados com terceiros, e podem ser eliminados a qualquer momento a pedido."
+      "answer": "Sim. Todos os dados são encriptados em trânsito e em repouso. O Qorva AI é conforme com o RGPD — os dados dos candidatos nunca são vendidos nem partilhados com terceiros, processados em espaços de tenant isolados e podem ser eliminados a qualquer momento a pedido."
     },
     "item6": {
       "question": "Existe um período de avaliação gratuito?",
@@ -149,7 +221,7 @@
     "features": {
       "freeTrial": "Teste gratuito de 7 dias com acesso a todos os recursos",
       "aiResumeChat": "Chat IA de currículos",
-      "accountManager": "Gerente de conta dedicado",
+      "accountManager": "Gestor de conta dedicado",
       "sla": "Garantias de SLA"
     },
     "analytics": {
@@ -162,41 +234,41 @@
       "priority4h": "Suporte prioritário por e-mail (resposta garantida em 4 horas)"
     },
     "starter": {
-      "title": "Inicial",
-      "description": "Ideal para indivíduos ou pequenas equipes",
+      "title": "Starter",
+      "description": "Ideal para indivíduos ou pequenas equipas",
       "cvs": "Até 500 análises de currículos por mês"
     },
     "scout": {
       "title": "Starter",
-      "description": "Ideal para equipes em crescimento",
+      "description": "Ideal para equipas em crescimento",
       "cvs": "Até 2.000 análises de currículos por mês"
     },
     "growth": {
-      "description": "Perfeito para pequenas equipes que estão começando a contratar com IA",
+      "description": "Perfeito para pequenas equipas que estão a começar a contratar com IA",
       "cvs": "Até 500 análises de currículos por mês"
     },
     "matchmaker": {
       "title": "Pro",
-      "description": "Ótimo para equipes consolidadas",
-      "cvs": "Até 2.000 análises de currículos por mês"
+      "description": "Excelente para equipas consolidadas",
+      "cvs": "Até 5.000 análises de currículos por mês"
     },
     "professional": {
-      "description": "Ideal para equipes em crescimento que contratam com frequência",
+      "description": "Ideal para equipas em crescimento que contratam regularmente",
       "cvs": "Até 2.000 análises de currículos por mês"
     },
     "visionary": {
       "title": "Scale",
-      "description": "Criado para contratações de alto volume",
-      "cvs": "Até 6.000 análises de currículos por mês"
+      "description": "Mais adequado para grandes organizações",
+      "cvs": "Análises de currículos ilimitadas por mês"
     },
     "enterprise": {
-      "description": "Criado para contratações de alto volume",
+      "description": "Construído para contratação de alto volume em escala",
       "cvs": "Até 6.000 análises de currículos por mês"
     }
   },
   "footer": {
     "brand": "Qorva",
-    "description": "Transforme o seu negócio com soluções impulsionadas por IA. Comece hoje e veja a diferença.",
+    "description": "Plataforma de Inteligência & Correspondência de Talentos com IA. Transforme a sua biblioteca de CVs num ativo pesquisável e gerador de receita.",
     "product": {
       "title": "Produto",
       "features": "Funcionalidades",
@@ -209,7 +281,7 @@
       "aboutUs": "Sobre nós",
       "blog": "Blog",
       "careers": "Carreiras",
-      "contact": "Contato"
+      "contact": "Contacto"
     },
     "legal": {
       "title": "Jurídico",
@@ -219,9 +291,9 @@
       "compliance": "Conformidade"
     },
     "contact": {
-      "title": "Contato",
+      "title": "Contacto",
       "email": "contact@qorva.ai"
     },
     "copyright": "Todos os direitos reservados."
   }
-} 
+}

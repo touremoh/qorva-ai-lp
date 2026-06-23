@@ -7,7 +7,10 @@ import Hero from './sections/Hero';
 import Stats from './sections/Stats';
 import Features from './sections/Features';
 import HowItWorks from './sections/HowItWorks';
+import DashboardPreview from './sections/DashboardPreview';
+import FeatureShowcase from './sections/FeatureShowcase';
 import TrustCompliance from './sections/TrustCompliance';
+import FinalCTA from './sections/FinalCTA';
 import FAQ from './sections/FAQ';
 import Pricing from './sections/Pricing';
 import Footer from './sections/Footer';
@@ -25,13 +28,13 @@ const theme = createTheme({
       contrastText: '#fff',
     },
     secondary: {
-      main: '#3d6b28',
-      light: '#629C44',
-      dark: '#2a4d1c',
+      main: '#1e3a5f',
+      light: '#2563eb',
+      dark: '#0f2547',
       contrastText: '#fff',
     },
     background: {
-      default: '#f8fdf4',
+      default: '#f8fafe',
       paper: '#ffffff',
     },
     text: {
@@ -115,7 +118,7 @@ const theme = createTheme({
           },
         },
         containedPrimary: {
-          background: 'linear-gradient(135deg, #629C44 0%, #a8d878 100%)',
+          background: 'linear-gradient(135deg, #629C44 0%, #3d6b28 100%)',
         },
       },
     },
@@ -155,10 +158,13 @@ const MainPage = () => {
         <Header />
         <MainContent component="main">
           <Hero />
+          <DashboardPreview />
           <Stats />
           <Features />
+          <FeatureShowcase />
           <HowItWorks />
           <TrustCompliance />
+          <FinalCTA />
           <FAQ />
           <Pricing />
           <Footer />
