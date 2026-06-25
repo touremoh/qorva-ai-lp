@@ -10,10 +10,15 @@ import HowItWorks from './sections/HowItWorks';
 import DashboardPreview from './sections/DashboardPreview';
 import FeatureShowcase from './sections/FeatureShowcase';
 import TrustCompliance from './sections/TrustCompliance';
+import MetricsStrip from './sections/MetricsStrip';
+import ICPSection from './sections/ICPSection';
+import IntegrationStrip from './sections/IntegrationStrip';
+import SocialProof from './sections/SocialProof';
 import FinalCTA from './sections/FinalCTA';
 import FAQ from './sections/FAQ';
 import Pricing from './sections/Pricing';
 import Footer from './sections/Footer';
+import CookieConsent from './components/CookieConsent';
 import MarkdownPage from "./sections/MarkdownPage.jsx";
 import {initGA, logPageView} from "./utils/analytics.js";
 import {useEffect} from "react";
@@ -158,12 +163,16 @@ const MainPage = () => {
         <Header />
         <MainContent component="main">
           <Hero />
+          <MetricsStrip />
           <DashboardPreview />
           <Stats />
+          <ICPSection />
           <Features />
           <FeatureShowcase />
           <HowItWorks />
+          <IntegrationStrip />
           <TrustCompliance />
+          {false && <SocialProof />}
           <FinalCTA />
           <FAQ />
           <Pricing />
@@ -193,12 +202,14 @@ function App() {
         <CssBaseline />
         <Router>
           <Analytics />
+          <CookieConsent />
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/privacy-policy" element={<MarkdownPage filePath="/privacy-policy.md" />} />
             <Route path="/terms-of-service" element={<MarkdownPage filePath="/terms-of-service.md" />} />
             <Route path="/security" element={<MarkdownPage filePath="/security.md" />} />
             <Route path="/compliance" element={<MarkdownPage filePath="/compliance.md" />} />
+            <Route path="/accessibility" element={<MarkdownPage filePath="/accessibility.md" />} />
           </Routes>
         </Router>
       </ThemeProvider>

@@ -225,39 +225,121 @@
   },
   "pricing": {
     "title": "Precios simples y transparentes",
-    "subtitle": "Elige el plan que mejor se adapte a tus necesidades",
+    "subtitle": "Elige el plan que se adapte a tu equipo",
     "monthly": "Mensual",
     "yearly": "Anual",
     "periodMonthly": "/mes",
-    "periodYearly": "/año",
-    "button": { "freeTrial": "Comenzar prueba gratis" },
+    "savePercent": "Ahorra 20%",
+    "mostPopular": "Más popular",
+    "matchingActionNote": "1 acción de matching = 1 extracción de CV o 1 informe de coincidencia",
+    "button": { "freeTrial": "Iniciar prueba gratuita" },
     "features": {
-      "freeTrial": "Prueba gratuita de 7 días con acceso a todas las funciones",
-      "aiResumeChat": "Chat IA de currículos",
+      "freeTrial": "7 días de prueba gratuita",
+      "brandedCvExport": "Exportaciones de CV con marca",
+      "brandedMatchReport": "Informes de coincidencia con marca",
       "accountManager": "Gestor de cuenta dedicado",
       "sla": "Garantías SLA"
     },
-    "analytics": { "basic": "Panel básico de análisis", "advanced": "Panel avanzado de análisis" },
-    "support": {
-      "email24h": "Soporte por correo electrónico (respuesta garantizada en 24 horas)",
-      "priority8h": "Soporte prioritario por correo electrónico (respuesta garantizada en 8 horas)",
-      "priority4h": "Soporte prioritario por correo electrónico (respuesta garantizada en 4 horas)"
+    "starter": {
+      "title": "Starter",
+      "description": "Para reclutadores independientes y equipos pequeños",
+      "users": "2 usuarios",
+      "matchingActions": "1.000 acciones de matching / mes",
+      "aiChat": "300 mensajes AI Resume Chat / mes",
+      "queries": "500 consultas Talent Intelligence / mes"
     },
-    "starter": { "title": "Inicial", "description": "Perfecto para individuos o equipos pequeños", "cvs": "Hasta 500 análisis de CV al mes" },
-    "scout": { "title": "Starter", "description": "Ideal para equipos en crecimiento", "cvs": "Hasta 2 000 análisis de CV al mes" },
-    "growth": { "description": "Perfecto para pequeños equipos que empiezan a contratar con IA", "cvs": "Hasta 500 análisis de CV al mes" },
-    "matchmaker": { "title": "Pro", "description": "Ideal para equipos establecidos", "cvs": "Hasta 5 000 análisis de CV al mes" },
-    "professional": { "description": "Ideal para equipos en crecimiento que contratan con frecuencia", "cvs": "Hasta 2 000 análisis de CV al mes" },
-    "visionary": { "title": "Scale", "description": "Diseñado para grandes organizaciones", "cvs": "Análisis de CV ilimitados al mes" },
-    "enterprise": { "description": "Diseñado para contratación de alto volumen", "cvs": "Hasta 6 000 análisis de CV al mes" }
+    "pro": {
+      "title": "Pro",
+      "description": "Para agencias en crecimiento con pipelines de candidatos activos",
+      "users": "5 usuarios",
+      "matchingActions": "5.000 acciones de matching / mes",
+      "aiChat": "700 mensajes AI Resume Chat / mes",
+      "queries": "1.500 consultas Talent Intelligence / mes"
+    },
+    "scale": {
+      "title": "Scale",
+      "description": "Para agencias establecidas que trabajan a gran volumen",
+      "users": "10 usuarios",
+      "matchingActions": "12.000 acciones de matching / mes",
+      "aiChat": "2.000 mensajes AI Resume Chat / mes",
+      "queries": "4.000 consultas Talent Intelligence / mes"
+    }
   },
   "footer": {
     "brand": "Qorva",
     "description": "Plataforma de Talent Intelligence y Matching con IA. Convierte tu biblioteca de CVs en un activo consultable y generador de ingresos.",
     "product": { "title": "Producto", "features": "Características", "pricing": "Precios", "documentation": "Documentación", "apiReference": "Referencia API" },
     "company": { "title": "Empresa", "aboutUs": "Sobre nosotros", "blog": "Blog", "careers": "Carreras", "contact": "Contacto" },
-    "legal": { "title": "Legal", "privacyPolicy": "Política de privacidad", "termsOfService": "Términos del servicio", "security": "Seguridad", "compliance": "Cumplimiento" },
+    "legal": { "title": "Legal", "privacyPolicy": "Política de privacidad", "termsOfService": "Términos del servicio", "security": "Seguridad", "compliance": "Cumplimiento", "accessibility": "Accesibilidad" },
     "contact": { "title": "Contacto", "email": "contact@qorva.ai" },
-    "copyright": "Todos los derechos reservados."
+    "copyright": "Todos los derechos reservados.",
+    "legalEntity": "Logicasoft, LLC · EIN 38-4349843",
+    "dataResidency": "United States"
+  },
+  "metrics": {
+    "stat1": { "value": "10×", "label": "Más Rápido", "context": "vs. selección manual" },
+    "stat2": { "value": "85%", "label": "Menos Tiempo", "context": "para completar una shortlist" },
+    "stat3": { "value": "60s", "label": "Primeros Resultados", "context": "desde tu primera consulta" },
+    "stat4": { "value": "3×", "label": "Más Candidatos", "context": "desde tu base de datos existente" }
+  },
+  "cookieConsent": {
+    "title": "Utilizamos cookies",
+    "description": "Utilizamos cookies para garantizarle la mejor experiencia en nuestro sitio web. Algunas son esenciales para el funcionamiento del sitio; otras nos ayudan a entender cómo se utiliza.",
+    "acceptAll": "Aceptar todo",
+    "essentialOnly": "Solo esenciales",
+    "learnMore": "Política de privacidad"
+  },
+  "icp": {
+    "label": "Diseñado Para",
+    "title": "Diseñado para equipos de talento que se mueven rápido.",
+    "subtitle": "Ya sea una agencia boutique o una red global de dotación de personal, Qorva AI se adapta a su flujo de trabajo.",
+    "agency": {
+      "title": "Agencias de Personal y Reclutamiento",
+      "description": "Convierta su base de datos de candidatos en un activo generador de ingresos. Deje de buscar desde cero y empiece a colocar desde su inventario.",
+      "check1": "Generación rápida de shortlists desde CVs almacenados",
+      "check2": "Análisis de cobertura de habilidades antes de presentaciones a clientes",
+      "check3": "Gestión del banco de talento para múltiples clientes"
+    },
+    "inhouse": {
+      "title": "Equipos de Adquisición de Talento Interno",
+      "description": "Elimine los cuellos de botella en el cribado manual y devuelva a sus reclutadores el tiempo que dedican a tareas repetitivas.",
+      "check1": "Clasificación automatizada de candidatos por criterios de rol",
+      "check2": "Búsqueda en lenguaje natural en sus exportaciones de ATS",
+      "check3": "Comparaciones estructuradas de candidatos para paneles de contratación"
+    },
+    "executive": {
+      "title": "Firmas de Búsqueda de Ejecutivos",
+      "description": "Descubra candidatos no obvios en su red y presente a los clientes shortlists respaldados por datos.",
+      "check1": "Perfilado profundo de candidatos en 8 dimensiones",
+      "check2": "Comparación directa para decisiones de ronda final",
+      "check3": "Informes de match exportables para presentaciones a clientes"
+    }
+  },
+  "integration": {
+    "eyebrow": "Integraciones",
+    "title": "Su cerebro de IA. No su reemplazo de ATS.",
+    "subtitle": "Qorva AI se sitúa encima de su flujo de trabajo existente. Busque más inteligentemente, clasifique más rápido — luego envíe los resultados directamente a su ATS mediante exportación CSV. Sin cambio de sistema.",
+    "worksAlongside": "Funciona junto a:",
+    "exportNote": "Exportación a cualquier ATS mediante CSV estándar — sin contrato de API ni proyecto de TI requerido."
+  },
+  "socialProof": {
+    "label": "Dicen los Reclutadores",
+    "title": "De confianza para equipos de talento en todo el mundo.",
+    "subtitle": "Resultados reales de equipos de reclutamiento que usan Qorva AI para colocar más rápido e inteligente.",
+    "testimonial1": {
+      "quote": "Qorva AI redujo nuestro tiempo de preselección de dos días a menos de una hora. Ahora presentamos a los clientes con datos, no con intuición.",
+      "name": "Sarah C.",
+      "role": "Jefa de Delivery, Agencia de Reclutamiento"
+    },
+    "testimonial2": {
+      "quote": "La función de comparación de candidatos cambió la forma en que presentamos a los gerentes de contratación. Clara, defendible, estructurada.",
+      "name": "Marc R.",
+      "role": "Reclutador Senior, Equipo TA Interno"
+    },
+    "testimonial3": {
+      "quote": "Redescubrimos 40 candidatos calificados de nuestra propia base de datos que nuestra búsqueda en ATS había pasado por alto por completo.",
+      "name": "Ana P.",
+      "role": "Socia, Firma de Búsqueda de Ejecutivos"
+    }
   }
 }

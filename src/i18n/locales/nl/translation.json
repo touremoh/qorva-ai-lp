@@ -210,60 +210,44 @@
   },
   "pricing": {
     "title": "Eenvoudige, transparante prijzen",
-    "subtitle": "Kies het plan dat het beste bij je past",
+    "subtitle": "Kies het plan dat bij uw team past",
     "monthly": "Maandelijks",
     "yearly": "Jaarlijks",
     "periodMonthly": "/maand",
-    "periodYearly": "/jaar",
-    "button": {
-      "freeTrial": "Start gratis proefperiode"
-    },
+    "savePercent": "Bespaar 20%",
+    "mostPopular": "Meest populair",
+    "matchingActionNote": "1 matchingactie = 1 cv-extractie of 1 matchingrapport",
+    "button": { "freeTrial": "Gratis proefperiode starten" },
     "features": {
-      "freeTrial": "7 dagen gratis proefperiode met toegang tot alle functies",
-      "aiResumeChat": "AI CV-chat",
-      "accountManager": "Toegewijde accountmanager",
+      "freeTrial": "7 dagen gratis proefperiode",
+      "brandedCvExport": "Merkgebonden cv-exports",
+      "brandedMatchReport": "Merkgebonden matchingrapporten",
+      "accountManager": "Dedicated accountmanager",
       "sla": "SLA-garanties"
-    },
-    "analytics": {
-      "basic": "Basis analytics dashboard",
-      "advanced": "Geavanceerd analytics dashboard"
-    },
-    "support": {
-      "email24h": "E-mailondersteuning (antwoord gegarandeerd binnen 24 uur)",
-      "priority8h": "Prioritaire e-mailondersteuning (antwoord gegarandeerd binnen 8 uur)",
-      "priority4h": "Prioritaire e-mailondersteuning (antwoord gegarandeerd binnen 4 uur)"
     },
     "starter": {
       "title": "Starter",
-      "description": "Perfect voor individuen of kleine teams",
-      "cvs": "Tot 500 cv-analyses per maand"
+      "description": "Voor solo-recruiters en kleine teams",
+      "users": "2 gebruikers",
+      "matchingActions": "1.000 matchingacties / maand",
+      "aiChat": "300 AI Resume Chat-berichten / maand",
+      "queries": "500 Talent Intelligence-zoekopdrachten / maand"
     },
-    "scout": {
-      "title": "Starter",
-      "description": "Ideaal voor groeiende teams",
-      "cvs": "Tot 2.000 cv-analyses per maand"
-    },
-    "growth": {
-      "description": "Perfect voor kleine teams die starten met AI-werving",
-      "cvs": "Tot 500 cv-analyses per maand"
-    },
-    "matchmaker": {
+    "pro": {
       "title": "Pro",
-      "description": "Perfect voor gevestigde teams",
-      "cvs": "Tot 5.000 cv-analyses per maand"
+      "description": "Voor groeiende bureaus met actieve kandidatenpipelines",
+      "users": "5 gebruikers",
+      "matchingActions": "5.000 matchingacties / maand",
+      "aiChat": "700 AI Resume Chat-berichten / maand",
+      "queries": "1.500 Talent Intelligence-zoekopdrachten / maand"
     },
-    "professional": {
-      "description": "Ideaal voor groeiende teams die regelmatig aannemen",
-      "cvs": "Tot 2.000 cv-analyses per maand"
-    },
-    "visionary": {
+    "scale": {
       "title": "Scale",
-      "description": "Het meest geschikt voor grote organisaties",
-      "cvs": "Onbeperkte cv-analyses per maand"
-    },
-    "enterprise": {
-      "description": "Gebouwd voor werving op grote schaal",
-      "cvs": "Tot 6.000 cv-analyses per maand"
+      "description": "Voor gevestigde bureaus die op hoog volume leveren",
+      "users": "10 gebruikers",
+      "matchingActions": "12.000 matchingacties / maand",
+      "aiChat": "2.000 AI Resume Chat-berichten / maand",
+      "queries": "4.000 Talent Intelligence-zoekopdrachten / maand"
     }
   },
   "footer": {
@@ -288,12 +272,81 @@
       "privacyPolicy": "Privacybeleid",
       "termsOfService": "Algemene voorwaarden",
       "security": "Beveiliging",
-      "compliance": "Compliance"
+      "compliance": "Compliance",
+      "accessibility": "Toegankelijkheid"
     },
     "contact": {
       "title": "Contact",
       "email": "contact@qorva.ai"
     },
-    "copyright": "Alle rechten voorbehouden."
+    "copyright": "Alle rechten voorbehouden.",
+    "legalEntity": "Logicasoft, LLC · EIN 38-4349843",
+    "dataResidency": "United States"
+  },
+  "metrics": {
+    "stat1": { "value": "10×", "label": "Snellere Shortlists", "context": "vs. handmatige selectie" },
+    "stat2": { "value": "85%", "label": "Minder Tijd", "context": "voor een complete shortlist" },
+    "stat3": { "value": "60s", "label": "Eerste Resultaten", "context": "vanaf uw eerste zoekopdracht" },
+    "stat4": { "value": "3×", "label": "Meer Kandidaten", "context": "uit uw bestaande database" }
+  },
+  "cookieConsent": {
+    "title": "Wij gebruiken cookies",
+    "description": "Wij gebruiken cookies om u de beste ervaring op onze website te bieden. Sommige zijn essentieel voor het functioneren van de site; andere helpen ons te begrijpen hoe de site wordt gebruikt.",
+    "acceptAll": "Alles accepteren",
+    "essentialOnly": "Alleen essentiële",
+    "learnMore": "Privacybeleid"
+  },
+  "icp": {
+    "label": "Gebouwd Voor",
+    "title": "Ontworpen voor talentteams die snel bewegen.",
+    "subtitle": "Of u nu een boutique recruiter of een globaal staffingnetwerk bent, Qorva AI past zich aan uw workflow aan.",
+    "agency": {
+      "title": "Staffing- en Wervingsbureaus",
+      "description": "Zet uw bestaande kandidatendatabase om in een inkomsten genererende asset. Stop met van nul af aan sourcen en begin vanuit uw inventaris te plaatsen.",
+      "check1": "Snelle shortlist-generatie vanuit opgeslagen cv's",
+      "check2": "Analyse van vaardighedendekking voor klantpresentaties",
+      "check3": "Multi-client talentpool beheer"
+    },
+    "inhouse": {
+      "title": "Interne Talent Acquisition Teams",
+      "description": "Elimineer knelpunten bij handmatige screening en geef uw recruiters de tijd terug die ze besteden aan repetitieve taken.",
+      "check1": "Geautomatiseerde kandidaatvolgorde op rolcriteria",
+      "check2": "Zoekopdrachten in natuurlijke taal in uw ATS-exports",
+      "check3": "Gestructureerde kandidaatvergelijkingen voor aanwervingspanels"
+    },
+    "executive": {
+      "title": "Executive Search Bureaus",
+      "description": "Ontdek niet-voor-de-hand-liggende kandidaten in uw netwerk en presenteer klanten datagedreven shortlists.",
+      "check1": "Diepgaande kandidaatprofilering over 8 dimensies",
+      "check2": "Directe vergelijking voor eindbeslissingen",
+      "check3": "Exporteerbare match-rapporten voor klantpresentaties"
+    }
+  },
+  "integration": {
+    "eyebrow": "Integraties",
+    "title": "Uw AI-brein. Geen ATS-vervanging.",
+    "subtitle": "Qorva AI werkt boven op uw bestaande workflow. Zoek slimmer, rangschik sneller — en exporteer resultaten direct naar uw ATS via CSV. Geen systeem-wissel nodig.",
+    "worksAlongside": "Werkt samen met:",
+    "exportNote": "Export naar elk ATS via standaard CSV — geen API-contract of IT-project vereist."
+  },
+  "socialProof": {
+    "label": "Wat Recruiters Zeggen",
+    "title": "Vertrouwd door talentteams wereldwijd.",
+    "subtitle": "Echte resultaten van wervingsteams die Qorva AI gebruiken om sneller en slimmer te plaatsen.",
+    "testimonial1": {
+      "quote": "Qorva AI verkortte onze preselectietijd van twee dagen naar minder dan een uur. We presenteren klanten nu met data, niet met buikgevoel.",
+      "name": "Sarah C.",
+      "role": "Head of Delivery, Wervingsbureau"
+    },
+    "testimonial2": {
+      "quote": "De kandidaatvergelijkingsfunctie veranderde hoe we aan hiring managers presenteren. Helder, verdedigbaar, gestructureerd.",
+      "name": "Marc R.",
+      "role": "Senior Recruiter, Intern TA-team"
+    },
+    "testimonial3": {
+      "quote": "We herontdekten 40 gekwalificeerde kandidaten uit onze eigen database die onze ATS-zoekopdracht volledig had gemist.",
+      "name": "Ana P.",
+      "role": "Partner, Executive Search Bureau"
+    }
   }
 }

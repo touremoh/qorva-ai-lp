@@ -227,7 +227,7 @@ function Hero() {
                 </Box>
 
                 <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
-                  {['Java', 'Belgium', 'Fintech', 'Senior'].map((tag) => (
+                  {['Java', 'Project Manager', 'Fintech', 'Senior'].map((tag) => (
                     <Box
                       key={tag}
                       sx={{

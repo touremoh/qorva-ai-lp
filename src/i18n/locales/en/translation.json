@@ -210,60 +210,46 @@
   },
   "pricing": {
     "title": "Simple, Transparent Pricing",
-    "subtitle": "Choose the plan that best fits your needs",
+    "subtitle": "Choose the plan that fits your team",
     "monthly": "Monthly",
     "yearly": "Yearly",
     "periodMonthly": "/month",
-    "periodYearly": "/year",
+    "savePercent": "Save 20%",
+    "mostPopular": "Most Popular",
+    "matchingActionNote": "1 matching action = 1 CV extraction or 1 job match report",
     "button": {
       "freeTrial": "Start Free Trial"
     },
     "features": {
-      "freeTrial": "7-days free trial with access to all features",
-      "aiResumeChat": "AI Resume Chat",
-      "accountManager": "Dedicated Account Manager",
+      "freeTrial": "7-day free trial",
+      "brandedCvExport": "Branded CV exports",
+      "brandedMatchReport": "Branded match reports",
+      "accountManager": "Dedicated account manager",
       "sla": "SLA guarantees"
-    },
-    "analytics": {
-      "basic": "Basic analytics dashboard",
-      "advanced": "Advanced analytics dashboard"
-    },
-    "support": {
-      "email24h": "Email support (24 hours guaranteed response)",
-      "priority8h": "Priority email support (8 hours guaranteed response)",
-      "priority4h": "Priority email support (4 hours guaranteed response)"
     },
     "starter": {
       "title": "Starter",
-      "description": "Perfect for individuals or small teams",
-      "cvs": "Up to 500 CVs analyses per month"
+      "description": "For solo recruiters and small teams getting started",
+      "users": "2 users",
+      "matchingActions": "1,000 matching actions / month",
+      "aiChat": "300 AI Resume Chat messages / month",
+      "queries": "500 Talent Intelligence Queries / month"
     },
-    "scout": {
-      "title": "Starter",
-      "description": "Ideal for growing teams",
-      "cvs": "Up to 2,000 CVs analyses per month"
-    },
-    "growth": {
-      "description": "Perfect for small teams getting started with AI hiring",
-      "cvs": "Up to 500 CVs analyses per month"
-    },
-    "matchmaker": {
+    "pro": {
       "title": "Pro",
-      "description": "Great for established teams",
-      "cvs": "Up to 5,000 CVs analyses per month"
+      "description": "For growing agencies with active candidate pipelines",
+      "users": "5 users",
+      "matchingActions": "5,000 matching actions / month",
+      "aiChat": "700 AI Resume Chat messages / month",
+      "queries": "1,500 Talent Intelligence Queries / month"
     },
-    "professional": {
-      "description": "Ideal for growing teams hiring regularly",
-      "cvs": "Up to 2,000 CVs analyses per month"
-    },
-    "visionary": {
+    "scale": {
       "title": "Scale",
-      "description": "Best suited for large organizations",
-      "cvs": "Unlimited CVs analyses per month"
-    },
-    "enterprise": {
-      "description": "Built for high-volume hiring at scale",
-      "cvs": "Up to 6,000 CVs analyses per month"
+      "description": "For established agencies delivering at volume with client-facing outputs",
+      "users": "10 users",
+      "matchingActions": "12,000 matching actions / month",
+      "aiChat": "2,000 AI Resume Chat messages / month",
+      "queries": "4,000 Talent Intelligence Queries / month"
     }
   },
   "footer": {
@@ -288,12 +274,81 @@
       "privacyPolicy": "Privacy Policy",
       "termsOfService": "Terms of Service",
       "security": "Security",
-      "compliance": "Compliance"
+      "compliance": "Compliance",
+      "accessibility": "Accessibility"
     },
     "contact": {
       "title": "Contact",
       "email": "contact@qorva.ai"
     },
-    "copyright": "All rights reserved."
+    "copyright": "All rights reserved.",
+    "legalEntity": "Logicasoft, LLC · EIN 38-4349843",
+    "dataResidency": "United States"
+  },
+  "metrics": {
+    "stat1": { "value": "10×", "label": "Faster Shortlisting", "context": "vs. manual screening" },
+    "stat2": { "value": "85%", "label": "Less Time-to-Shortlist", "context": "across all roles" },
+    "stat3": { "value": "60s", "label": "To First Results", "context": "from your first query" },
+    "stat4": { "value": "3×", "label": "More Candidates Found", "context": "from your existing database" }
+  },
+  "cookieConsent": {
+    "title": "We use cookies",
+    "description": "We use cookies to ensure you get the best experience on our website. Some are essential for the site to function; others help us understand how it is used.",
+    "acceptAll": "Accept All",
+    "essentialOnly": "Essential Only",
+    "learnMore": "Privacy Policy"
+  },
+  "icp": {
+    "label": "Built For",
+    "title": "Designed for Talent Teams That Move Fast.",
+    "subtitle": "Whether you're a boutique recruiter or a global staffing network, Qorva AI adapts to your workflow.",
+    "agency": {
+      "title": "Staffing & Recruitment Agencies",
+      "description": "Turn your existing candidate database into a revenue-generating asset. Stop re-sourcing from scratch and start placing from inventory.",
+      "check1": "Rapid shortlist generation from stored CVs",
+      "check2": "Skills coverage analysis before client pitches",
+      "check3": "Multi-client talent pool management"
+    },
+    "inhouse": {
+      "title": "In-house Talent Acquisition Teams",
+      "description": "Eliminate manual screening bottlenecks and give your recruiters back the time they spend on repetitive, low-value tasks.",
+      "check1": "Automated candidate ranking by role criteria",
+      "check2": "Natural language search across your ATS exports",
+      "check3": "Structured candidate comparisons for hiring panels"
+    },
+    "executive": {
+      "title": "Executive Search Firms",
+      "description": "Surface non-obvious fits from your network and present clients with data-backed shortlists they can trust.",
+      "check1": "Deep candidate profiling across 8 dimensions",
+      "check2": "Head-to-head comparison for final-round decisions",
+      "check3": "Exportable match reports for client presentations"
+    }
+  },
+  "integration": {
+    "eyebrow": "Integrations",
+    "title": "Your AI Brain. Not your ATS replacement.",
+    "subtitle": "Qorva AI sits on top of your existing workflow. Search smarter, rank faster — then push results straight back into your ATS via CSV export. No rip-and-replace.",
+    "worksAlongside": "Works alongside:",
+    "exportNote": "Exports to any ATS via standard CSV — no API contract or IT project required."
+  },
+  "socialProof": {
+    "label": "What Recruiters Say",
+    "title": "Trusted by Talent Teams Worldwide.",
+    "subtitle": "Real results from recruiting teams using Qorva AI to place faster and smarter.",
+    "testimonial1": {
+      "quote": "Qorva AI cut our shortlisting time from two days to under an hour. We now pitch clients with data, not gut feel.",
+      "name": "Sarah C.",
+      "role": "Head of Delivery, Staffing Agency"
+    },
+    "testimonial2": {
+      "quote": "The candidate comparison feature alone changed how we present to hiring managers. Clear, defensible, structured.",
+      "name": "Marc R.",
+      "role": "Senior Recruiter, In-house TA Team"
+    },
+    "testimonial3": {
+      "quote": "We rediscovered 40 qualified candidates from our own database that our ATS search had completely missed.",
+      "name": "Ana P.",
+      "role": "Partner, Executive Search Firm"
+    }
   }
 }

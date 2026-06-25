@@ -26,10 +26,11 @@ function Footer() {
     legal: {
       title: t('footer.legal.title'),
       items: [
-        { name: t('footer.legal.privacyPolicy'), href: '/privacy-policy.md' },
-        { name: t('footer.legal.termsOfService'), href: '/terms-of-service.md' },
-        { name: t('footer.legal.security'), href: '/security.md' },
-        { name: t('footer.legal.compliance'), href: '/compliance.md' },
+        { name: t('footer.legal.privacyPolicy'), href: '/privacy-policy' },
+        { name: t('footer.legal.termsOfService'), href: '/terms-of-service' },
+        { name: t('footer.legal.security'), href: '/security' },
+        { name: t('footer.legal.compliance'), href: '/compliance' },
+        { name: t('footer.legal.accessibility'), href: '/accessibility' },
       ],
     },
   };
@@ -82,8 +83,11 @@ function Footer() {
           </Grid>
 
           <Box sx={{ mt: 8, pt: 4, borderTop: '1px solid', borderColor: 'grey.800' }}>
-            <Typography variant="body2" color="grey.400" align="center">
+            <Typography variant="body2" color="grey.400" align="center" sx={{ mb: 1 }}>
               © {new Date().getFullYear()} Qorva. {t('footer.copyright')}
+            </Typography>
+            <Typography variant="caption" color="grey.600" align="center" display="block">
+              {t('footer.legalEntity')} · {t('footer.dataResidency')}
             </Typography>
           </Box>
         </Container>

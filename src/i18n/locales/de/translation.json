@@ -225,39 +225,121 @@
   },
   "pricing": {
     "title": "Einfache, transparente Preisgestaltung",
-    "subtitle": "Wählen Sie den Plan, der am besten zu Ihnen passt",
+    "subtitle": "Wählen Sie den Plan, der zu Ihrem Team passt",
     "monthly": "Monatlich",
     "yearly": "Jährlich",
     "periodMonthly": "/Monat",
-    "periodYearly": "/Jahr",
+    "savePercent": "20% sparen",
+    "mostPopular": "Beliebteste",
+    "matchingActionNote": "1 Matching-Aktion = 1 Lebenslauf-Extraktion oder 1 Matching-Bericht",
     "button": { "freeTrial": "Kostenlos testen" },
     "features": {
-      "freeTrial": "7 Tage kostenloser Test mit Zugriff auf alle Funktionen",
-      "aiResumeChat": "KI-Lebenslauf-Chat",
-      "accountManager": "Persönlicher Kundenbetreuer",
+      "freeTrial": "7 Tage kostenlose Testversion",
+      "brandedCvExport": "Markierte Lebenslauf-Exporte",
+      "brandedMatchReport": "Markierte Matching-Berichte",
+      "accountManager": "Dedizierter Account Manager",
       "sla": "SLA-Garantien"
     },
-    "analytics": { "basic": "Basis-Analyse Dashboard", "advanced": "Erweitertes Analyse Dashboard" },
-    "support": {
-      "email24h": "E-Mail-Support (Antwort innerhalb 24 Stunden garantiert)",
-      "priority8h": "Priorisierter E-Mail-Support (Antwort innerhalb 8 Stunden garantiert)",
-      "priority4h": "Priorisierter E-Mail-Support (Antwort innerhalb 4 Stunden garantiert)"
+    "starter": {
+      "title": "Starter",
+      "description": "Für Einzelrecruiter und kleine Teams",
+      "users": "2 Benutzer",
+      "matchingActions": "1.000 Matching-Aktionen / Monat",
+      "aiChat": "300 KI-Lebenslauf-Chat-Nachrichten / Monat",
+      "queries": "500 Talent-Intelligence-Abfragen / Monat"
     },
-    "starter": { "title": "Starter", "description": "Ideal für Einzelpersonen oder kleine Teams", "cvs": "Bis zu 500 Lebenslaufanalysen pro Monat" },
-    "scout": { "title": "Starter", "description": "Ideal für wachsende Teams", "cvs": "Bis zu 2 500 Lebenslaufanalysen pro Monat" },
-    "growth": { "description": "Ideal für kleine Teams, die mit KI-Recruiting starten", "cvs": "Bis zu 500 Lebenslaufanalysen pro Monat" },
-    "matchmaker": { "title": "Pro", "description": "Ideal für etablierte Teams", "cvs": "Bis zu 5 000 Lebenslaufanalysen pro Monat" },
-    "professional": { "description": "Ideal für wachsende Teams, die regelmäßig einstellen", "cvs": "Bis zu 2 000 Lebenslaufanalysen pro Monat" },
-    "visionary": { "title": "Scale", "description": "Für große Organisationen", "cvs": "Unbegrenzte Lebenslaufanalysen pro Monat" },
-    "enterprise": { "description": "Für Unternehmen mit hohem Einstellungsvolumen", "cvs": "Bis zu 6 000 Lebenslaufanalysen pro Monat" }
+    "pro": {
+      "title": "Pro",
+      "description": "Für wachsende Agenturen mit aktiven Kandidaten-Pipelines",
+      "users": "5 Benutzer",
+      "matchingActions": "5.000 Matching-Aktionen / Monat",
+      "aiChat": "700 KI-Lebenslauf-Chat-Nachrichten / Monat",
+      "queries": "1.500 Talent-Intelligence-Abfragen / Monat"
+    },
+    "scale": {
+      "title": "Scale",
+      "description": "Für etablierte Agenturen, die in hohem Volumen liefern",
+      "users": "10 Benutzer",
+      "matchingActions": "12.000 Matching-Aktionen / Monat",
+      "aiChat": "2.000 KI-Lebenslauf-Chat-Nachrichten / Monat",
+      "queries": "4.000 Talent-Intelligence-Abfragen / Monat"
+    }
   },
   "footer": {
     "brand": "Qorva",
     "description": "KI-gestützte Talent Intelligence & Matching Plattform. Verwandeln Sie Ihre Lebenslauf-Bibliothek in ein durchsuchbares, umsatzgenerierendes Asset.",
     "product": { "title": "Produkt", "features": "Funktionen", "pricing": "Preise", "documentation": "Dokumentation", "apiReference": "API-Referenz" },
     "company": { "title": "Unternehmen", "aboutUs": "Über uns", "blog": "Blog", "careers": "Karriere", "contact": "Kontakt" },
-    "legal": { "title": "Rechtliches", "privacyPolicy": "Datenschutzrichtlinie", "termsOfService": "Nutzungsbedingungen", "security": "Sicherheit", "compliance": "Compliance" },
+    "legal": { "title": "Rechtliches", "privacyPolicy": "Datenschutzrichtlinie", "termsOfService": "Nutzungsbedingungen", "security": "Sicherheit", "compliance": "Compliance", "accessibility": "Barrierefreiheit" },
     "contact": { "title": "Kontakt", "email": "contact@qorva.ai" },
-    "copyright": "Alle Rechte vorbehalten."
+    "copyright": "Alle Rechte vorbehalten.",
+    "legalEntity": "Logicasoft, LLC · EIN 38-4349843",
+    "dataResidency": "United States"
+  },
+  "metrics": {
+    "stat1": { "value": "10×", "label": "Schnellere Shortlists", "context": "vs. manuelle Vorauswahl" },
+    "stat2": { "value": "85%", "label": "Weniger Zeit", "context": "bis zur fertigen Shortlist" },
+    "stat3": { "value": "60s", "label": "Erste Ergebnisse", "context": "ab Ihrer ersten Anfrage" },
+    "stat4": { "value": "3×", "label": "Mehr Kandidaten", "context": "aus Ihrer bestehenden Datenbank" }
+  },
+  "cookieConsent": {
+    "title": "Wir verwenden Cookies",
+    "description": "Wir verwenden Cookies, um Ihnen das beste Erlebnis auf unserer Website zu bieten. Einige sind für den Betrieb der Website unerlässlich; andere helfen uns zu verstehen, wie sie genutzt wird.",
+    "acceptAll": "Alle akzeptieren",
+    "essentialOnly": "Nur essenzielle",
+    "learnMore": "Datenschutzrichtlinie"
+  },
+  "icp": {
+    "label": "Entwickelt Für",
+    "title": "Entwickelt für Talent-Teams, die schnell handeln.",
+    "subtitle": "Ob Boutique-Agentur oder globales Personalvermittlungsnetzwerk – Qorva AI passt sich Ihrem Workflow an.",
+    "agency": {
+      "title": "Personal- & Recruitingagenturen",
+      "description": "Verwandeln Sie Ihre bestehende Kandidatendatenbank in ein ertragreiches Asset. Hören Sie auf, von Null zu sourfen, und beginnen Sie, aus Ihrem Bestand zu vermitteln.",
+      "check1": "Schnelle Shortlist-Erstellung aus gespeicherten Lebensläufen",
+      "check2": "Skill-Coverage-Analyse vor Kundenpräsentationen",
+      "check3": "Multi-Client-Talentpool-Management"
+    },
+    "inhouse": {
+      "title": "Interne Talent-Acquisition-Teams",
+      "description": "Beseitigen Sie manuelle Screening-Engpässe und geben Sie Ihren Recruitern die Zeit zurück, die sie für repetitive Aufgaben aufwenden.",
+      "check1": "Automatisiertes Kandidatenranking nach Rollenkriterien",
+      "check2": "Natürlichsprachige Suche in Ihren ATS-Exporten",
+      "check3": "Strukturierte Kandidatenvergleiche für Einstellungsgremien"
+    },
+    "executive": {
+      "title": "Executive-Search-Firmen",
+      "description": "Entdecken Sie nicht offensichtliche Matches in Ihrem Netzwerk und präsentieren Sie Kunden datenbasierte Shortlists.",
+      "check1": "Tiefgreifendes Kandidatenprofiling über 8 Dimensionen",
+      "check2": "Direkter Vergleich zweier Kandidaten für Endentscheidungen",
+      "check3": "Exportierbare Match-Berichte für Kundenpräsentationen"
+    }
+  },
+  "integration": {
+    "eyebrow": "Integrationen",
+    "title": "Ihr KI-Gehirn. Kein ATS-Ersatz.",
+    "subtitle": "Qorva AI legt sich über Ihren bestehenden Workflow. Intelligenter suchen, schneller ranken – dann die Ergebnisse per CSV direkt in Ihr ATS exportieren. Ohne Systemwechsel.",
+    "worksAlongside": "Funktioniert mit:",
+    "exportNote": "Export in jedes ATS via Standard-CSV – kein API-Vertrag, kein IT-Projekt erforderlich."
+  },
+  "socialProof": {
+    "label": "Recruiter-Stimmen",
+    "title": "Von Talent-Teams weltweit vertraut.",
+    "subtitle": "Echte Ergebnisse von Recruiting-Teams, die Qorva AI nutzen, um schneller und klüger zu vermitteln.",
+    "testimonial1": {
+      "quote": "Qorva AI hat unsere Vorauswahlzeit von zwei Tagen auf unter eine Stunde reduziert. Wir präsentieren Kunden jetzt mit Daten statt Bauchgefühl.",
+      "name": "Sarah C.",
+      "role": "Head of Delivery, Personalvermittlungsagentur"
+    },
+    "testimonial2": {
+      "quote": "Die Kandidatenvergleichsfunktion hat verändert, wie wir Einstellungsmanagern präsentieren. Klar, nachvollziehbar, strukturiert.",
+      "name": "Marc R.",
+      "role": "Senior Recruiter, Internes TA-Team"
+    },
+    "testimonial3": {
+      "quote": "Wir haben 40 qualifizierte Kandidaten aus unserer eigenen Datenbank wiederentdeckt, die unsere ATS-Suche völlig übersehen hatte.",
+      "name": "Ana P.",
+      "role": "Partnerin, Executive-Search-Firma"
+    }
   }
 }
