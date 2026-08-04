@@ -26,7 +26,8 @@ const NavLink = styled(Link)(({ theme }) => ({
   color: theme.palette.text.primary,
   textDecoration: 'none',
   fontWeight: 500,
-  fontSize: '0.975rem',
+  fontSize: '0.95rem',
+  whiteSpace: 'nowrap',
   transition: 'color 0.2s ease-in-out',
   cursor: 'pointer',
   position: 'relative',
@@ -106,21 +107,22 @@ function Header() {
 
           <Stack
             direction="row"
-            spacing={4}
+            spacing={{ md: 2.5, lg: 3.5 }}
             sx={{
-              display: { xs: 'none', md: 'flex' },
+              display: { xs: 'none', lg: 'flex' },
               alignItems: 'center',
+              mx: 2,
             }}
           >
-            <NavLink onClick={() => scrollToSection('features')}>{t('header.features')}</NavLink>
+            <NavLink onClick={() => scrollToSection('features')}>{t('header.product')}</NavLink>
             <NavLink onClick={() => scrollToSection('how-it-works')}>{t('header.howItWorks')}</NavLink>
+            <NavLink onClick={() => scrollToSection('data-quality')}>{t('header.dataQuality')}</NavLink>
             <NavLink onClick={() => scrollToSection('pricing')}>{t('header.pricing')}</NavLink>
-            <NavLink onClick={() => scrollToSection('hero')}>{t('header.about')}</NavLink>
           </Stack>
 
           <Stack
             direction="row"
-            spacing={2}
+            spacing={1.5}
             sx={{
               display: { xs: 'none', md: 'flex' },
               alignItems: 'center',
@@ -131,7 +133,7 @@ function Header() {
               onChange={handleLanguageChange}
               size="small"
               sx={{
-                minWidth: 120,
+                minWidth: 105,
                 '& .MuiSelect-select': {
                   py: 0.5,
                 },
@@ -152,11 +154,11 @@ function Header() {
                 </MenuItem>
               ))}
             </Select>
-            <Button variant="outlined" color="primary" href={"https://app.qorva.ai/login"}>
+            <Button variant="outlined" color="primary" href={"https://app.qorva.ai/login"} sx={{ whiteSpace: 'nowrap', flexShrink: 0 }}>
               {t('header.signIn')}
             </Button>
-            <Button variant="contained" color="primary" href={"https://app.qorva.ai/register"}>
-              {t('header.startTrial')}
+            <Button variant="contained" color="primary" href={"https://app.qorva.ai/register"} sx={{ whiteSpace: 'nowrap', flexShrink: 0 }}>
+              {t('header.cta')}
             </Button>
           </Stack>
         </Toolbar>

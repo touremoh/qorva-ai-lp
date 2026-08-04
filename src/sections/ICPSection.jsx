@@ -1,15 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import { Box, Container, Grid, Typography, Chip } from '@mui/material';
-import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
-import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
-import StarsIcon from '@mui/icons-material/Stars';
-
-const CHECK_KEYS = ['check1', 'check2', 'check3'];
+import GroupsIcon from '@mui/icons-material/Groups';
+import RepeatIcon from '@mui/icons-material/Repeat';
+import StorageIcon from '@mui/icons-material/Storage';
 
 const PROFILES = [
-  { key: 'agency',    Icon: PeopleAltIcon },
-  { key: 'inhouse',   Icon: BusinessCenterIcon },
-  { key: 'executive', Icon: StarsIcon },
+  { key: 'fit1', Icon: GroupsIcon },
+  { key: 'fit2', Icon: RepeatIcon },
+  { key: 'fit3', Icon: StorageIcon },
 ];
 
 function ICPSection() {
@@ -38,7 +36,7 @@ function ICPSection() {
               mb: 2,
             }}
           />
-          <Typography variant="h2" sx={{ mb: 2 }}>
+          <Typography variant="h2" sx={{ mb: 2, maxWidth: 820, mx: 'auto' }}>
             {t('icp.title')}
           </Typography>
           <Typography
@@ -50,8 +48,10 @@ function ICPSection() {
         </Box>
 
         <Grid container spacing={3}>
-          {PROFILES.map(({ key, Icon }) => (
-            <Grid item xs={12} md={4} key={key}>
+          {PROFILES.map((profile) => {
+            const ProfileIcon = profile.Icon;
+            return (
+            <Grid item xs={12} md={4} key={profile.key}>
               <Box
                 sx={{
                   height: '100%',
@@ -79,44 +79,20 @@ function ICPSection() {
                     mb: 2.5,
                   }}
                 >
-                  <Icon sx={{ color: '#629C44', fontSize: 26 }} />
+                  <ProfileIcon sx={{ color: '#629C44', fontSize: 26 }} />
                 </Box>
 
-                <Typography variant="h6" sx={{ fontWeight: 700, mb: 1.5, color: '#0f2547' }}>
-                  {t(`icp.${key}.title`)}
+                <Typography variant="h6" component="h3" sx={{ fontWeight: 700, mb: 1.5, color: '#0f2547' }}>
+                  {t(`icp.${profile.key}.title`)}
                 </Typography>
 
-                <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2.5, lineHeight: 1.65 }}>
-                  {t(`icp.${key}.description`)}
+                <Typography variant="body2" sx={{ color: 'text.secondary', lineHeight: 1.7 }}>
+                  {t(`icp.${profile.key}.description`)}
                 </Typography>
-
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
-                  {CHECK_KEYS.map((ck) => (
-                    <Box key={ck} sx={{ display: 'flex', alignItems: 'flex-start', gap: 1 }}>
-                      <Box
-                        sx={{
-                          width: 18,
-                          height: 18,
-                          borderRadius: '50%',
-                          background: 'linear-gradient(135deg, #629C44 0%, #3d6b28 100%)',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          flexShrink: 0,
-                          mt: 0.15,
-                        }}
-                      >
-                        <Box component="span" sx={{ color: '#fff', fontSize: '0.65rem', fontWeight: 800 }}>✓</Box>
-                      </Box>
-                      <Typography variant="body2" sx={{ color: '#0f2547', lineHeight: 1.5 }}>
-                        {t(`icp.${key}.${ck}`)}
-                      </Typography>
-                    </Box>
-                  ))}
-                </Box>
               </Box>
             </Grid>
-          ))}
+            );
+          })}
         </Grid>
       </Container>
     </Box>

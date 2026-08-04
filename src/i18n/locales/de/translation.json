@@ -1,345 +1,299 @@
 {
   "header": {
-    "features": "Funktionen",
+    "product": "Produkt",
     "howItWorks": "So funktioniert's",
+    "dataQuality": "Datenqualität",
     "pricing": "Preise",
-    "about": "Über uns",
     "signIn": "Anmelden",
-    "startTrial": "Kostenlos testen"
+    "cta": "Bericht anfordern"
   },
   "hero": {
-    "badge": "KI-gestützte Talent Intelligence Plattform",
-    "title": "Machen Sie Ihre Lebenslauf-Datenbank zum Motor Ihrer",
-    "titleAccent": "Talent Intelligence.",
-    "subtitle": "Extrahieren, strukturieren und analysieren Sie Lebensläufe in großem Maßstab. Erstellen Sie präzise Kandidaten-Matches mit Ihren eigenen Scoring-Regeln und befragen Sie Ihre gesamte Datenbank per konversationeller KI. Null manuelle Dateneingabe.",
+    "badge": "Für IT-, Engineering- und Spezial-Personalagenturen",
+    "title": "Zahlen Sie nicht länger für die Suche nach",
+    "titleAccent": "Kandidaten, die Sie schon haben.",
+    "subtitle": "Qorva prüft, aktualisiert und durchsucht Ihre bestehende Kandidatendatenbank — damit Personalagenturen qualifizierte Kandidaten wiederentdecken, bevor sie die nächste teure Sourcing-Kampagne starten.",
     "cta": {
-      "trial": "Jetzt 7 Tage kostenlos testen",
-      "tour": "2-Minuten-Produkttour ansehen"
+      "primary": "Datenbank-Qualitätsbericht anfordern",
+      "secondary": "Beispielbericht ansehen"
     },
-    "trialNote": "Risikofrei · Sofort einsatzbereit",
-    "splitScreen": {
-      "queryLabel": "Datenbank befragen",
-      "queryText": "Wie viele Senior-Entwickler, die zu Projektmanagern geworden sind, mit Fintech-Erfahrung und Englisch- und Französischkenntnissen haben wir?",
-      "resultsLabel": "Qorva AI Antwort",
-      "candidatesFound": "Kandidaten gefunden",
-      "topMatches": "Top-Matches gerankt",
-      "metric1": { "label": "Senioritätsverteilung", "value": "Senior 67%" },
-      "metric2": { "label": "Fintech-Eignung", "value": "Hoch 83%" }
-    }
-  },
-  "dashboardPreview": {
-    "label": "Plattform-Vorschau",
-    "title": "Ihr gesamter Talentpool, visualisiert.",
-    "subtitle": "Das Qorva AI-Dashboard bietet Ihnen eine sofortige Kommandozentralen-Ansicht Ihrer Kandidatendatenbank — Kompetenzverteilung, Senioritäts-Cluster, Top-Profile und Pipeline-Status auf einen Blick.",
-    "matchReportLabel": "Matching-Report",
-    "matchReportTitle": "Gereikte Shortlists mit vollständiger Scoring-Transparenz.",
-    "matchReportSubtitle": "Jeder Matching-Report schlüsselt die Eignung eines Kandidaten anhand Ihrer individuellen Kriterien auf — Pflichtkompetenzen, Seniorität, Umgebungseignung — damit Ihr Team stets genau nachvollziehen kann, warum jemand so eingestuft wurde."
-  },
-  "featureShowcase": {
-    "label": "In Aktion",
-    "title": "Erleben Sie Qorva AI in Aktion.",
-    "subtitle": "Vom Massen-Upload bis zur gereihten Shortlist — drei Ansichten, die zeigen, wie Qorva AI rohe Lebensläufe in verwertbare Talent Intelligence verwandelt.",
-    "feature1": {
-      "caption": "Kompetenzverteilungsanalyse",
-      "query": "Analysiere die Kompetenzverteilung in unserem Pool aus Machine-Learning-Ingenieuren",
-      "description": "Wissen Sie genau, welche Kompetenzen Sie vor jedem Kundengespräch haben. Qorva AI durchsucht Ihren gesamten Pool und liefert eine gereikte Kompetenzübersicht mit Kandidatenzahlen und Abdeckungsquoten — damit Sie Ihre Besetzungskapazitäten mit Daten belegen, nicht mit Schätzungen."
-    },
-    "feature2": {
-      "caption": "KI-gestütztes Kandidaten-Ranking",
-      "query": "Zeige mir Machine-Learning-Ingenieure, die zu Projektmanagern gewechselt sind, mit Fintech-Erfahrung und Englisch- und Französischkenntnissen",
-      "description": "Kombinieren Sie Seniorität, Karrierewechsel, Branchenexpertise und Sprachanforderungen in einem einzigen Satz. Qorva AI durchsucht Ihre gesamte Datenbank sofort und liefert eine gereikte Shortlist mit Match-Scores und anklickbaren Kandidatenprofilen — ohne Filter, ohne Bool'sche Syntax."
-    },
-    "feature3": {
-      "caption": "Mehrdimensionales Talent-Clustering",
-      "query": "Analysiere die Senioritätsverteilung in unserem Pool aus Machine-Learning-Ingenieuren",
-      "description": "Verstehen Sie auf einen Blick die Senioritätsmischung, Kompetenztiefenprofile, Führungsstile und Lerngeschwindigkeit Ihres Pools. Vier kritische Talent-Dimensionen in einer strukturierten Ansicht visualisiert — damit Sie die wahre Stärke Ihres Bestands stets vor dem Markteintritt kennen."
-    },
-    "feature4": {
-      "caption": "Direkter Kandidatenvergleich",
-      "query": "Welcher der Kandidaten REF-001 und REF-002 ist besser für eine Senior-Stelle als Machine-Learning-Ingenieur geeignet?",
-      "description": "Hören Sie auf, bei Shortlist-Entscheidungen zu zweifeln. Bitten Sie Qorva AI, zwei Kandidaten direkt zu vergleichen — es bewertet Differenzierungskompetenzen, Seniorität, Zertifizierungen und Stelleneignung über mehrere Dimensionen und sagt Ihnen genau, wer besser geeignet ist und warum. Gehen Sie in jedes Kunden-Debriefing mit einer klaren, begründbaren Empfehlung."
-    }
+    "note": "Beginnen Sie mit einer Analyse Ihrer bestehenden Kandidatendatenbank."
   },
   "problem": {
-    "title": "Ihr ATS speichert Kandidaten. Qorva AI hilft Ihnen, diese zu monetarisieren.",
-    "subtitle": "Sie haben jahrelang und tausende Euro in eine Kandidatendatenbank investiert, aber der Großteil ihres Wertes bleibt unsichtbar. Stichwortsuchen sind zu unflexibel und manuelle Vorauswahl frisst Stunden an Recruiter-Produktivität.",
+    "title": "Ihre Kandidatendatenbank ist mehr wert, als Sie denken — aber weniger nutzbar, als sie sein sollte.",
+    "subtitle": "Agenturen bezahlen neue Sourcing-Kampagnen, während qualifizierte Kandidaten bereits in der eigenen Datenbank liegen. Über Jahre angesammelte Profile veralten still, bis sich die Suche darin nicht mehr zu lohnen scheint.",
     "item1": {
-      "title": "Die ‚Schwarzes Loch'-Datenbank",
-      "description": "Gute Kandidaten werden vergessen, sobald eine Stelle besetzt ist. Ihre besten Talente sind unsichtbar in einer Datenbank, die Sie bereits aufgebaut haben."
+      "title": "Veraltete Lebensläufe",
+      "description": "Vor Jahren gesammelte CVs zeigen nicht mehr, was Kandidaten heute können — Ihre Suchen liefern veraltete Antworten."
     },
     "item2": {
-      "title": "Uneinheitliche, unstrukturierte Formate",
-      "description": "Unstrukturierte Lebensläufe machen objektive Vergleiche unmöglich. Jede Bewertung wird zu einem subjektiven, zeitraubenden Ratespiel."
+      "title": "Fehlende Kontakt- und Profildaten",
+      "description": "Profile ohne E-Mail, Telefonnummer, Standort oder Skills lassen sich weder kontaktieren noch matchen, wenn eine Stelle offen ist."
     },
     "item3": {
-      "title": "Datenverschmutzung",
-      "description": "Duplikate und veraltete Dateien verstopfen Suchergebnisse, verschwenden Recruiter-Zeit und verzerren Ihre Talent Intelligence."
+      "title": "Doppelte Kandidatenprofile",
+      "description": "Dieselbe Person existiert dreimal unter leicht unterschiedlichen Namen — das zersplittert ihre Historie und stört jede Suche."
     },
     "item4": {
-      "title": "Subjektives Matching",
-      "description": "Recruiter verlassen sich auf Erinnerung oder unzureichende Stichwortsuche, übersehen nicht offensichtliche Profile und übergehen regelmäßig Top-Talente."
+      "title": "Qualifizierte Kandidaten in alten Daten vergraben",
+      "description": "Die richtige Person für Ihre aktuelle Vakanz ist oft längst in Ihrer Datenbank — unsichtbar hinter Rauschen und veralteten Einträgen."
     }
+  },
+  "dataQuality": {
+    "label": "Datenqualität der CV-Bibliothek",
+    "title": "Wissen Sie genau, was nutzbar ist — und was Aufmerksamkeit braucht.",
+    "subtitle": "Qorva bewertet jedes Profil Ihrer Kandidatenbibliothek anhand von vier Qualitätsdimensionen — so sehen Sie, was einsatzbereit ist, und beheben, was es nicht ist.",
+    "completeness": {
+      "title": "Vollständigkeit",
+      "description": "Erkennen Sie Profile ohne wichtige Informationen — E-Mail, Telefonnummer, Standort, Skills oder Berufserfahrung — bevor sie Sie eine Vermittlung kosten."
+    },
+    "freshness": {
+      "title": "Aktualität",
+      "description": "Sehen Sie, wann jedes Profil zuletzt aktualisiert wurde: innerhalb der letzten sechs Monate, vor sechs bis achtzehn Monaten oder vor mehr als achtzehn Monaten."
+    },
+    "uniqueness": {
+      "title": "Eindeutigkeit",
+      "description": "Erkennen Sie wahrscheinliche Dubletten bei Profilen und CVs, damit jede Suche genau einen sauberen Datensatz pro Person liefert."
+    },
+    "confidence": {
+      "title": "KI-Konfidenz",
+      "description": "Sehen Sie, wie sicher die KI-Extraktion für jeden analysierten CV ist, um Datensätze mit niedriger Konfidenz zur manuellen Prüfung zu markieren."
+    },
+    "action": "Jedes Problem ist direkt lösbar: Filtern Sie die betroffenen Profile und korrigieren, konsolidieren oder aktualisieren Sie sie aus derselben Ansicht."
+  },
+  "refresh": {
+    "label": "Kandidaten-Aktualisierung",
+    "title": "Aktualisieren Sie veraltete Profile ohne manuelles Nachfassen.",
+    "subtitle": "Statt tausende Datensätze von Hand zu pflegen, können Recruiter die Kandidaten bitten, ihre Angaben selbst zu bestätigen und zu aktualisieren.",
+    "step1": {
+      "title": "Veraltete Profile auswählen",
+      "description": "Filtern Sie Kandidaten, deren Angaben seit Monaten oder Jahren nicht aktualisiert wurden."
+    },
+    "step2": {
+      "title": "E-Mail-Vorlage wählen",
+      "description": "Wählen oder personalisieren Sie die Nachricht, mit der Kandidaten um eine Aktualisierung gebeten werden."
+    },
+    "step3": {
+      "title": "Kandidaten aktualisieren sich selbst",
+      "description": "Jeder Kandidat erhält eine Anfrage und aktualisiert sein Profil eigenständig."
+    },
+    "step4": {
+      "title": "Ihre Datenbank bleibt aktuell",
+      "description": "Aktualisierte Profile fließen zurück in Ihre Bibliothek — bereit für Suche und Matching."
+    }
+  },
+  "sampleReport": {
+    "label": "Beispielbericht",
+    "title": "So sieht ein Datenbank-Qualitätsbericht aus.",
+    "subtitle": "Nach der Analyse Ihrer Bibliothek zeigt Ihnen Qorva klar, was Sie tatsächlich besitzen.",
+    "imageAlt": "Qorva Datenqualitäts-Analyse der Kandidatenbibliothek"
   },
   "workflow": {
-    "title": "Von rohen Lebensläufen zu gereihten Shortlists in 4 einfachen Schritten.",
-    "subtitle": "Keine Schulung erforderlich. Kein komplexes Setup. Laden Sie Ihre Lebensläufe hoch und lassen Sie Qorva AI die Intelligenzarbeit erledigen.",
+    "title": "Von der verstaubten Datenbank zu neuen Vermittlungen.",
+    "subtitle": "Fünf Schritte, ein Ziel: mehr Vermittlungen mit Kandidaten, die Sie bereits kennen.",
     "steps": {
-      "upload": {
+      "audit": {
         "label": "Schritt 1",
-        "title": "Massenupload",
-        "description": "Laden Sie bis zu 100 Lebensläufe auf einmal hoch — PDF, Word oder Klartext."
+        "title": "Prüfen",
+        "description": "Analysieren Sie die Qualität Ihrer Bibliothek: Vollständigkeit, Aktualität, Eindeutigkeit und KI-Konfidenz."
       },
-      "enrich": {
+      "clean": {
         "label": "Schritt 2",
-        "title": "Anreichern & Graphen",
-        "description": "Qorva extrahiert tiefe Kandidatenmetriken: Velocity, Seniorität, Umgebungseignung, Cluster und mehr."
+        "title": "Bereinigen",
+        "description": "Identifizieren Sie Dubletten, unvollständige Profile und Datensätze mit niedriger Konfidenz — und lösen Sie sie auf."
       },
-      "interrogate": {
+      "refreshStep": {
         "label": "Schritt 3",
-        "title": "Befragen & Analysieren",
-        "description": "Befragen Sie Ihre gesamte Datenbank in natürlicher Sprache, genau wie ein erfahrener Headhunter."
+        "title": "Aktualisieren",
+        "description": "Laden Sie Kandidaten mit veralteten Profilen ein, ihre Angaben selbst zu aktualisieren."
       },
-      "score": {
+      "rediscover": {
         "label": "Schritt 4",
-        "title": "Bewerten & Exportieren",
-        "description": "Ranken Sie Kandidaten mit Ihren Scoring-Regeln und exportieren Sie strukturierte Shortlists."
+        "title": "Wiederentdecken",
+        "description": "Durchsuchen und matchen Sie die verbesserte Datenbank mit Ihren offenen Stellen."
+      },
+      "place": {
+        "label": "Schritt 5",
+        "title": "Vermitteln",
+        "description": "Erstellen Sie stärkere Shortlists aus Kandidaten, die Ihre Agentur bereits kennt."
       }
     }
   },
-  "pillars": {
-    "title": "Sechs Intelligenzebenen. Eine einheitliche Plattform.",
-    "subtitle": "Qorva AI erstellt aus Ihren vorhandenen Daten einen mehrdimensionalen Talent-Graphen — und liefert eine Matching-Präzision, die reine Stichwortsuche nie erreichen kann.",
-    "a": {
-      "label": "Tiefgehende Lebenslauf-Intelligenz",
-      "title": "Standardisieren und anreichern Sie jeden Lebenslauf automatisch.",
-      "description": "Laden Sie bis zu 100 Lebensläufe auf einmal hoch. Qorva erkennt Duplikate, normalisiert Layouts und leitet erweiterte Kandidatendaten über 8 Dimensionen ab.",
-      "points": "Primäre & Sekundäre Cluster · Kompetenztiefe · Senioritätsniveau · Führungspotenzial · Lerngeschwindigkeit · Funktionale Expertise · Branchendomänen · Umgebungseignung"
+  "capabilities": {
+    "title": "Alles Weitere — rund um Ihre Datenbank gebaut.",
+    "subtitle": "Sobald Ihre Bibliothek sauber und aktuell ist, helfen Ihnen Qorvas Matching- und Analysewerkzeuge, sie in Vermittlungen zu verwandeln.",
+    "understand": {
+      "title": "Ihre Datenbank verstehen",
+      "item1": "Skill-Verteilung für jeden Talentpool",
+      "item2": "Kandidatenzahlen und Abdeckungsquoten",
+      "item3": "Klare Zusammenfassungen mit Diagrammen",
+      "imageAlt": "Qorva-Bericht zur Skill-Verteilung eines Talentpools"
     },
-    "b": {
-      "label": "Strategisches Talent-Dashboard",
-      "title": "Sehen Sie Ihren Talentpool als strategisches Unternehmensgut.",
-      "description": "Verschaffen Sie sich sofortigen Überblick über Ihre gesamte Datenbank. Identifizieren Sie Top-Skills, Talent-Cluster, geografische Dichte und Kandidatenbereitschaft, um Ihre Besetzungskapazitäten gegenüber Kunden überzeugend zu präsentieren."
+    "find": {
+      "title": "Die richtigen Kandidaten finden",
+      "item1": "Durchsuchen Sie Ihre Datenbank in natürlicher Sprache",
+      "item2": "Kombinieren Sie Skills, Werdegänge und Sprachen in einer Frage",
+      "item3": "Sofortige Treffer und passende Profile aus Ihrem eigenen Pool",
+      "imageAlt": "Ergebnis einer konversationellen Talentpool-Suche in Qorva mit passenden Kandidaten"
     },
-    "c": {
-      "label": "Custom-Rule Matching",
-      "title": "Erstellen Sie Shortlists basierend auf Ihren Recruiting-Prioritäten.",
-      "description": "Markieren Sie Fähigkeiten als Pflicht, Wichtig oder Wünschenswert und definieren Sie benutzerdefinierte Scoring-Gewichtungen. Qorva erstellt einen gereihten Matching-Report mit expliziten Aufschlüsselungen von Stärken, Lücken und Gesamtübereinstimmung."
+    "bench": {
+      "title": "Kennen Sie die Stärke Ihres Talentpools",
+      "item1": "Senioritätsverteilung auf einen Blick",
+      "item2": "Kandidaten in klare Spezialisierungen gruppieren",
+      "item3": "Kundenpitches mit echten Zahlen untermauern",
+      "imageAlt": "Qorva-Aufschlüsselung von Seniorität und Talent-Clustern eines Pools"
     },
-    "d": {
-      "label": "Konversationelle KI",
-      "title": "Sprechen Sie direkt mit Ihrer Kandidatendatenbank.",
-      "description": "Vergessen Sie Filter. Nutzen Sie natürliche Sprache, um komplexe Talent-Logik sofort über 8 spezialisierte Absichtskategorien auszuführen.",
-      "intentHeader1": "Absichtskategorie",
-      "intentHeader2": "Was Sie Qorva AI fragen können",
-      "intents": {
-        "talent":      { "category": "Talentpool-Intelligenz",          "example": "\"Sind wir bereit, einen neuen Bankkunden in Brüssel zu besetzen?\"" },
-        "gap":         { "category": "Kompetenzlücken-Analyse",          "example": "\"Welche kritischen Fähigkeiten fehlen in unserem Cybersecurity-Pool?\"" },
-        "ranking":     { "category": "Kandidaten-Ranking",               "example": "\"Wer sind unsere Top-10-Kandidaten für eine Senior-DevOps-Stelle?\"" },
-        "rediscovery": { "category": "Kandidaten-Wiederentdeckung",      "example": "\"Finden Sie Kandidaten, die wir letztes Jahr abgelehnt haben und die zu dieser neuen Stelle passen.\"" },
-        "clustering":  { "category": "Talent-Clustering",                "example": "\"Gruppieren Sie unsere aktiven technischen Kandidaten in Ingenieursspezialisierungen.\"" },
-        "skills":      { "category": "Kompetenzverteilung",              "example": "\"Was sind die häufigsten Tech-Stacks in unserem Luft- und Raumfahrt-Pool?\"" },
-        "comparison":  { "category": "Kandidatenvergleich",              "example": "\"Vergleichen Sie REF-001 und REF-002 hinsichtlich Führung und Umgebungseignung.\"" },
-        "rules":       { "category": "Allgemeine Recruiting-Regeln",     "example": "\"Was sind gute technische Interviewfragen für einen Backend-Ingenieur?\"" }
-      }
+    "exportNote": "Außerdem: detaillierte Matching-Berichte, direkter Kandidatenvergleich und universeller ATS-Export (CSV) für jede Shortlist."
+  },
+  "icp": {
+    "label": "Für wen",
+    "title": "Gebaut für Boutique-Agenturen in IT, Engineering und Spezialbereichen.",
+    "subtitle": "Qorva ist für Agenturen gemacht, die in ihrer Kandidatendatenbank leben — nicht für einmalige Einstellungen.",
+    "fit1": {
+      "title": "Teams mit 2–30 Recruitern",
+      "description": "Groß genug, um über die Jahre tausende Profile angesammelt zu haben — klein genug, dass niemand Zeit hat, sie von Hand zu bereinigen."
     },
-    "e": {
-      "label": "KI-Lebenslauf-Chat",
-      "title": "Führen Sie nie wieder ein unvorbereitetes Vorstellungsgespräch.",
-      "description": "Greifen Sie über das Hauptmenü direkt auf den KI-Lebenslauf-Chat zu, um in den Hintergrund eines beliebigen Kandidaten einzutauchen. Stellen Sie gezielte Fragen in natürlicher Sprache, heben Sie Karriere-Ausreißer ans Licht, hinterfragen Sie technische Lücken und generieren Sie maßgeschneiderte Interviewfragen — bevor Sie sich überhaupt zum Gespräch setzen."
+    "fit2": {
+      "title": "Wiederkehrende, ähnliche Positionen",
+      "description": "Sie besetzen immer wieder ähnliche Profile — frühere Kandidaten sind daher oft der schnellste Weg zur nächsten Vermittlung."
     },
-    "f": {
-      "label": "ATS-Export",
-      "title": "Fügt sich nahtlos in Ihren bestehenden Workflow ein.",
-      "description": "Qorva zwingt Sie nicht, Ihren aktuellen Software-Stack zu ersetzen. Exportieren Sie Ihre Top-Shortlists sofort im Standard-CSV-Format zur direkten Synchronisierung mit Ihrem bevorzugten ATS."
+    "fit3": {
+      "title": "Ein ATS voller Historie",
+      "description": "Jahre an CVs, Notizen und halbfertigen Datensätzen liegen in Ihrem ATS oder Recruiting-CRM. Qorva arbeitet daneben und macht aus dieser Historie ein durchsuchbares Asset."
     }
   },
   "trust": {
-    "title": "Transparente, Recruiter-gesteuerte KI-Workflows.",
-    "subtitle": "Qorva AI fungiert als Engine für augmentierte Intelligenz, nicht als Black Box. Konzipiert für Transparenz und menschlich-validierte Entscheidungen.",
+    "title": "Konzipiert für datenschutzbewusstes, menschlich kontrolliertes Recruiting.",
+    "subtitle": "Qorva unterstützt Recruiter-Entscheidungen — es ersetzt sie nicht. Ihre Kandidatendaten bleiben in jedem Schritt unter Ihrer Kontrolle.",
     "explainability": {
-      "title": "Vollständige Erklärbarkeit",
-      "description": "Jedes Match-Ranking wird durch klare, überprüfbare Begründungen auf Basis Ihrer eigenen Scoring-Regeln gestützt — keine mysteriösen Scores, keine undurchsichtigen Algorithmen."
+      "title": "Nachvollziehbare Ergebnisse",
+      "description": "Jedes Matching und jedes Ranking basiert auf klar begründeten Regeln, die Sie selbst definieren — keine mysteriösen Scores, keine undurchsichtigen Algorithmen."
     },
     "control": {
-      "title": "Recruiter entscheiden",
-      "description": "Das System empfiehlt; Menschen treffen die endgültigen Einstellungsentscheidungen. Die volle Kontrolle verbleibt bei Ihrem Team auf jeder Stufe des Workflows."
+      "title": "Recruiter behalten die Kontrolle",
+      "description": "Qorva empfiehlt; Ihr Team entscheidet. Keine automatisierten Einstellungsentscheidungen ohne Beteiligung eines Recruiters."
     },
     "integrity": {
-      "title": "Datenintegrität",
-      "description": "Alle Kandidatendaten werden organisationsbezogen durch strenge Zugangskontrollen logisch getrennt, sodass Ihre Talent-Daten privat bleiben und nur für autorisierte Teammitglieder sichtbar sind."
+      "title": "Kontrollierter Datenzugriff",
+      "description": "Kandidatendaten sind pro Organisation getrennt und durch strikte Zugriffskontrollen geschützt — sichtbar nur für autorisierte Mitglieder Ihres Teams."
     },
-    "gdpr": {
-      "title": "Compliance-zertifiziert",
-      "description": "Vollständig konform mit DSGVO, CCPA und dem EU-KI-Gesetz. Entwickelt nach Privacy-by-Design-Grundsätzen und transparenten, überprüfbaren Datenverarbeitungsabläufen für heutige Recruiting-Compliance-Anforderungen."
+    "privacy": {
+      "title": "Datenschutz von Anfang an",
+      "description": "Kandidatendaten werden sicher verarbeitet, niemals verkauft oder an Dritte weitergegeben und können auf Anfrage gelöscht werden."
     }
   },
   "finalCta": {
-    "title": "Hören Sie auf, jede Stelle von Grund auf neu zu besetzen.",
-    "titleAccent": "Aktivieren Sie Ihr verstecktes Talentnetzwerk noch heute.",
-    "subtitle": "Erhalten Sie 7 Tage lang vollständigen, uneingeschränkten Zugang zu Qorva AI. Laden Sie Ihren ersten Lebenslauf-Stapel hoch, befragen Sie Ihre Daten und erstellen Sie in Minuten gereikte Shortlists.",
-    "cta": "Meine kostenlose 7-Tage-Testversion starten",
-    "note": "In 60 Sekunden einsatzbereit."
-  },
-  "stats": {
-    "title": "Für Unternehmen gemacht, die schnell handeln",
-    "subtitle": "Kein eigenes HR-Team? Kein Problem. Qorva AI gibt kleinen und wachsenden Unternehmen die Recruiting-Power eines vollständigen Teams — zu einem Bruchteil der Kosten.",
-    "item1": { "value": "90%", "label": "Weniger Zeit für die Vorauswahl", "description": "Hören Sie auf, jeden Lebenslauf manuell zu lesen. Qorva AI rankt Bewerber sofort." },
-    "item2": { "value": "10x", "label": "Schnellere Einstellung", "description": "Von der Stellenausschreibung zur Shortlist in Minuten, nicht Tagen." },
-    "item3": { "value": "500+", "label": "Lebensläufe pro Stunde", "description": "Bewältigen Sie einen Ansturm von Bewerbungen ohne Verzögerung." },
-    "item4": { "value": "100%", "label": "Kriterienbasierte Bewertung", "description": "Objektive, kompetenzbasierte Auswertung — kein Bauchgefühl, keine Vorurteile." }
-  },
-  "features": {
-    "title": "So unterstützt Qorva AI Sie dabei, die besten Kandidaten zu finden",
-    "subtitle": "Alles, was Sie brauchen, um Ihre Personalbeschaffung zu revolutionieren",
-    "parsing": { "title": "Intelligente Lebenslauf-Auswertung", "description": "Einfach Lebensläufe per Drag-and-Drop hochladen und Qorva AI extrahiert sämtliche Bewerberinformationen automatisch." },
-    "matching": { "title": "KI-gestütztes Bewerber-Matching", "description": "Rangieren Sie Bewerber sofort nach tatsächlicher Relevanz für Ihre Stellen." },
-    "aiChat": { "title": "KI-gestützter Lebenslauf-Chat", "description": "Interagieren Sie mit den Profilen Ihrer Kandidaten und gewinnen Sie tiefe Einblicke." },
-    "criteria": { "title": "Individuelle Rollenanforderungen", "description": "Legen Sie fest, was für jede Stelle am wichtigsten ist und Qorva AI rankt entsprechend." },
-    "whyChooseQorva": {
-      "title": "Warum sollten Sie sich für Qorva AI entscheiden?",
-      "saveTime": { "title": "Verkürzen Sie Ihre Einstellungszeit", "description": "Steigern Sie Ihre Produktivität durch Eliminierung des zeitaufwendigen manuellen Screenings." },
-      "reduceCost": { "title": "Senken Sie Ihre Einstellungskosten", "description": "Optimieren Sie Ihren Recruiting-Prozess und reduzieren Sie deutlich Ihre Kosten." },
-      "accuracy": { "title": "Erhöhen Sie Genauigkeit und Qualität", "description": "Unsere KI-gestützte Bewerberanalyse sorgt für präzise und konsistente Ergebnisse." },
-      "fairness": { "title": "Sorgen Sie für Fairness", "description": "Reduzieren Sie unbewusste Vorurteile in Ihrem Recruiting." }
-    },
-    "cta": "Intelligenter einstellen"
-  },
-  "howItWorks": {
-    "title": "So funktioniert's",
-    "subtitle": "Starten Sie mit Qorva in drei einfachen Schritten",
-    "steps": {
-      "account": { "title": "Konto erstellen", "description": "Erstellen Sie ein Konto und nutzen Sie unsere Dienste." },
-      "upload": { "title": "Lebensläufe hochladen", "description": "Laden Sie Lebensläufe hoch und erstellen Sie Ihre CV-Bibliothek." },
-      "insights": { "title": "Einblicke gewinnen", "description": "Beginnen Sie mit der Analyse Ihrer Lebenslauf-Bibliothek." }
-    }
+    "title": "Finden Sie heraus, wie viel Wert in",
+    "titleAccent": "Ihrer Kandidatendatenbank steckt.",
+    "subtitle": "Verschaffen Sie sich einen klaren Überblick über veraltete, unvollständige und doppelte Profile — und entdecken Sie, welche Kandidaten vielleicht schon zu Ihren aktiven Stellen passen.",
+    "primary": "Datenbank-Qualitätsbericht anfordern",
+    "secondary": "Beispielbericht ansehen"
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
     "subtitle": "Alles, was Sie vor dem Start wissen müssen.",
-    "item1": { "question": "Benötige ich ein ATS oder HR-Software, um Qorva AI zu nutzen?", "answer": "Nein. Qorva AI ist eine eigenständige Plattform für Recruiting-Teams, die über ihre ATS-Möglichkeiten hinausgehen möchten. Einfach ein Konto erstellen, Lebensläufe und Stellenbeschreibung hochladen — in Minuten liegt eine priorisierte Shortlist vor." },
-    "item2": { "question": "Wie schnell kann ich mit der Kandidatensichtung beginnen?", "answer": "Sofort. Registrieren, Lebensläufe hochladen, und Qorva AI beginnt direkt mit dem Ranking." },
-    "item3": { "question": "Ist Qorva AI nur für die Massenrekrutierung geeignet?", "answer": "Überhaupt nicht. Qorva AI verwandelt Ihre vorhandene Datenbank in ein aktives, durchsuchbares Asset." },
-    "item4": { "question": "Kann ich festlegen, was für meine Stelle besonders wichtig ist?", "answer": "Ja. Sie definieren die Scoring-Regeln und Qorva AI rankt jeden Kandidaten entsprechend mit klarer Begründung." },
-    "item5": { "question": "Sind Kandidatendaten sicher und DSGVO-konform?", "answer": "Ja. Alle Daten sind verschlüsselt. Qorva AI ist DSGVO-konform — Kandidatendaten werden niemals verkauft oder an Dritte weitergegeben." },
-    "item6": { "question": "Gibt es eine kostenlose Testversion?", "answer": "Ja — 7 Tage, voller Zugang. Echte Kandidaten hochladen und genau sehen, was Qorva AI kann." }
+    "item1": {
+      "question": "Was ist der Datenbank-Qualitätsbericht?",
+      "answer": "Importieren Sie Ihre Kandidatenbibliothek, und Qorva analysiert sie nach Vollständigkeit, Aktualität, Dubletten und KI-Extraktionskonfidenz. Sie sehen klar, welche Profile einsatzbereit sind, welche Aufmerksamkeit brauchen und wo sich mögliche Dubletten verstecken."
+    },
+    "item2": {
+      "question": "Brauche ich ein ATS oder eine HR-Software, um Qorva zu nutzen?",
+      "answer": "Nein. Qorva ist eine eigenständige Plattform, die neben Ihren heutigen Tools arbeitet. Exportieren Sie Ihre CVs aus ATS oder CRM, importieren Sie sie in Qorva und starten Sie die Analyse — ohne Integrationen oder IT-Projekt."
+    },
+    "item3": {
+      "question": "Wie schnell sehe ich Ergebnisse?",
+      "answer": "Sofort. Konto erstellen, Lebensläufe importieren, und Qorva beginnt umgehend mit der Analyse. Die meisten Teams sehen ihre ersten Qualitätsanalysen und Matches wenige Minuten nach dem ersten Import."
+    },
+    "item4": {
+      "question": "Kann ich festlegen, was für jede Position am wichtigsten ist?",
+      "answer": "Ja. Sie definieren die Scoring-Regeln — erforderliche Skills, Senioritätslevel, Erfahrungsbereiche — und Qorva bewertet jeden Kandidaten entsprechend. Jeder Score wird klar begründet."
+    },
+    "item5": {
+      "question": "Sind Kandidatendaten sicher?",
+      "answer": "Alle Daten werden bei Übertragung und Speicherung verschlüsselt und in isolierten Mandantenumgebungen verarbeitet. Kandidatendaten werden niemals verkauft oder an Dritte weitergegeben und können jederzeit auf Anfrage gelöscht werden — zur Unterstützung Ihrer Datenschutzpflichten gegenüber Kandidaten."
+    },
+    "item6": {
+      "question": "Gibt es eine kostenlose Testphase?",
+      "answer": "Ja — 14 Tage, voller Zugriff. Importieren Sie echte Kandidaten aus Ihrer eigenen Datenbank und sehen Sie genau, was Qorva kann, bevor Sie sich für einen Plan entscheiden."
+    }
   },
   "pricing": {
-    "title": "Einfache, transparente Preisgestaltung",
-    "subtitle": "Wählen Sie den Plan, der zu Ihrem Team passt",
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Pläne, die mit Ihrer Agentur wachsen",
     "monthly": "Monatlich",
     "yearly": "Jährlich",
     "periodMonthly": "/Monat",
-    "savePercent": "20% sparen",
-    "mostPopular": "Beliebteste",
-    "matchingActionNote": "1 Matching-Aktion = 1 Lebenslauf-Extraktion oder 1 Matching-Bericht",
-    "button": { "freeTrial": "Kostenlos testen" },
+    "savePercent": "20 % sparen",
+    "mostPopular": "Am beliebtesten",
+    "button": {
+      "freeTrial": "Kostenlos testen"
+    },
     "features": {
-      "freeTrial": "7 Tage kostenlose Testversion",
-      "brandedCvExport": "Markierte Lebenslauf-Exporte",
-      "brandedMatchReport": "Markierte Matching-Berichte",
-      "accountManager": "Dedizierter Account Manager",
+      "freeTrial": "14 Tage kostenlos testen",
+      "brandedCvExport": "CV-Exporte mit Ihrem Branding",
+      "brandedMatchReport": "Matching-Berichte mit Ihrem Branding",
+      "accountManager": "Persönlicher Account-Manager",
       "sla": "SLA-Garantien"
     },
     "starter": {
       "title": "Starter",
-      "description": "Für Einzelrecruiter und kleine Teams",
+      "description": "Für kleine Agenturen, die ihre Datenbank aufräumen wollen",
       "users": "2 Benutzer",
-      "matchingActions": "1.000 Matching-Aktionen / Monat",
-      "aiChat": "300 KI-Lebenslauf-Chat-Nachrichten / Monat",
-      "queries": "500 Talent-Intelligence-Abfragen / Monat"
+      "aiChat": "500 AI-Resume-Chat-Nachrichten / Monat",
+      "queries": "1.000 Talent-Intelligence-Abfragen / Monat",
+      "screeningActions": "2.000 Screening-Aktionen / Monat",
+      "emailTemplates": "3 E-Mail-Vorlagen"
     },
     "pro": {
       "title": "Pro",
       "description": "Für wachsende Agenturen mit aktiven Kandidaten-Pipelines",
       "users": "5 Benutzer",
-      "matchingActions": "5.000 Matching-Aktionen / Monat",
-      "aiChat": "700 KI-Lebenslauf-Chat-Nachrichten / Monat",
-      "queries": "1.500 Talent-Intelligence-Abfragen / Monat"
+      "aiChat": "1.500 AI-Resume-Chat-Nachrichten / Monat",
+      "queries": "3.000 Talent-Intelligence-Abfragen / Monat",
+      "screeningActions": "10.000 Screening-Aktionen / Monat",
+      "emailTemplates": "15 E-Mail-Vorlagen"
     },
     "scale": {
       "title": "Scale",
-      "description": "Für etablierte Agenturen, die in hohem Volumen liefern",
-      "users": "10 Benutzer",
-      "matchingActions": "12.000 Matching-Aktionen / Monat",
-      "aiChat": "2.000 KI-Lebenslauf-Chat-Nachrichten / Monat",
-      "queries": "4.000 Talent-Intelligence-Abfragen / Monat"
-    }
+      "description": "Für etablierte Agenturen mit hohem Volumen und kundenfertigen Berichten",
+      "users": "15 Benutzer",
+      "aiChat": "4.000 AI-Resume-Chat-Nachrichten / Monat",
+      "queries": "8.000 Talent-Intelligence-Abfragen / Monat",
+      "screeningActions": "25.000 Screening-Aktionen / Monat",
+      "emailTemplates": "50 E-Mail-Vorlagen"
+    },
+    "screeningActionNote": "1 Screening-Aktion = Import von 1 CV oder Erstellung von 1 Matching-Bericht"
   },
   "footer": {
     "brand": "Qorva",
-    "description": "KI-gestützte Talent Intelligence & Matching Plattform. Verwandeln Sie Ihre Lebenslauf-Bibliothek in ein durchsuchbares, umsatzgenerierendes Asset.",
-    "product": { "title": "Produkt", "features": "Funktionen", "pricing": "Preise", "documentation": "Dokumentation", "apiReference": "API-Referenz" },
-    "company": { "title": "Unternehmen", "aboutUs": "Über uns", "blog": "Blog", "careers": "Karriere", "contact": "Kontakt" },
-    "legal": { "title": "Rechtliches", "privacyPolicy": "Datenschutzrichtlinie", "termsOfService": "Nutzungsbedingungen", "security": "Sicherheit", "compliance": "Compliance", "accessibility": "Barrierefreiheit" },
-    "contact": { "title": "Kontakt", "email": "contact@qorva.ai" },
+    "description": "Qorva hilft Personalagenturen, veraltete, unvollständige Kandidatendatenbanken in durchsuchbare, umsatzbereite Talentpools zu verwandeln.",
+    "product": {
+      "title": "Produkt",
+      "dataQuality": "Datenqualität",
+      "howItWorks": "So funktioniert's",
+      "pricing": "Preise",
+      "signIn": "Anmelden"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacyPolicy": "Datenschutzerklärung",
+      "termsOfService": "Nutzungsbedingungen",
+      "security": "Sicherheit",
+      "compliance": "Compliance",
+      "accessibility": "Barrierefreiheit"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "contact@qorva.ai"
+    },
     "copyright": "Alle Rechte vorbehalten.",
     "legalEntity": "Logicasoft, LLC · EIN 38-4349843",
     "dataResidency": "United States"
   },
-  "metrics": {
-    "stat1": { "value": "10×", "label": "Schnellere Shortlists", "context": "vs. manuelle Vorauswahl" },
-    "stat2": { "value": "85%", "label": "Weniger Zeit", "context": "bis zur fertigen Shortlist" },
-    "stat3": { "value": "60s", "label": "Erste Ergebnisse", "context": "ab Ihrer ersten Anfrage" },
-    "stat4": { "value": "3×", "label": "Mehr Kandidaten", "context": "aus Ihrer bestehenden Datenbank" }
-  },
   "cookieConsent": {
     "title": "Wir verwenden Cookies",
-    "description": "Wir verwenden Cookies, um Ihnen das beste Erlebnis auf unserer Website zu bieten. Einige sind für den Betrieb der Website unerlässlich; andere helfen uns zu verstehen, wie sie genutzt wird.",
+    "description": "Wir verwenden Cookies, um Ihnen die beste Erfahrung auf unserer Website zu bieten. Einige sind für den Betrieb der Seite unerlässlich; andere helfen uns zu verstehen, wie sie genutzt wird.",
     "acceptAll": "Alle akzeptieren",
     "essentialOnly": "Nur essenzielle",
-    "learnMore": "Datenschutzrichtlinie"
-  },
-  "icp": {
-    "label": "Entwickelt Für",
-    "title": "Entwickelt für Talent-Teams, die schnell handeln.",
-    "subtitle": "Ob Boutique-Agentur oder globales Personalvermittlungsnetzwerk – Qorva AI passt sich Ihrem Workflow an.",
-    "agency": {
-      "title": "Personal- & Recruitingagenturen",
-      "description": "Verwandeln Sie Ihre bestehende Kandidatendatenbank in ein ertragreiches Asset. Hören Sie auf, von Null zu sourfen, und beginnen Sie, aus Ihrem Bestand zu vermitteln.",
-      "check1": "Schnelle Shortlist-Erstellung aus gespeicherten Lebensläufen",
-      "check2": "Skill-Coverage-Analyse vor Kundenpräsentationen",
-      "check3": "Multi-Client-Talentpool-Management"
-    },
-    "inhouse": {
-      "title": "Interne Talent-Acquisition-Teams",
-      "description": "Beseitigen Sie manuelle Screening-Engpässe und geben Sie Ihren Recruitern die Zeit zurück, die sie für repetitive Aufgaben aufwenden.",
-      "check1": "Automatisiertes Kandidatenranking nach Rollenkriterien",
-      "check2": "Natürlichsprachige Suche in Ihren ATS-Exporten",
-      "check3": "Strukturierte Kandidatenvergleiche für Einstellungsgremien"
-    },
-    "executive": {
-      "title": "Executive-Search-Firmen",
-      "description": "Entdecken Sie nicht offensichtliche Matches in Ihrem Netzwerk und präsentieren Sie Kunden datenbasierte Shortlists.",
-      "check1": "Tiefgreifendes Kandidatenprofiling über 8 Dimensionen",
-      "check2": "Direkter Vergleich zweier Kandidaten für Endentscheidungen",
-      "check3": "Exportierbare Match-Berichte für Kundenpräsentationen"
-    }
-  },
-  "integration": {
-    "eyebrow": "Integrationen",
-    "title": "Ihr KI-Gehirn. Kein ATS-Ersatz.",
-    "subtitle": "Qorva AI legt sich über Ihren bestehenden Workflow. Intelligenter suchen, schneller ranken – dann die Ergebnisse per CSV direkt in Ihr ATS exportieren. Ohne Systemwechsel.",
-    "worksAlongside": "Funktioniert mit:",
-    "exportNote": "Export in jedes ATS via Standard-CSV – kein API-Vertrag, kein IT-Projekt erforderlich."
-  },
-  "socialProof": {
-    "label": "Recruiter-Stimmen",
-    "title": "Von Talent-Teams weltweit vertraut.",
-    "subtitle": "Echte Ergebnisse von Recruiting-Teams, die Qorva AI nutzen, um schneller und klüger zu vermitteln.",
-    "testimonial1": {
-      "quote": "Qorva AI hat unsere Vorauswahlzeit von zwei Tagen auf unter eine Stunde reduziert. Wir präsentieren Kunden jetzt mit Daten statt Bauchgefühl.",
-      "name": "Sarah C.",
-      "role": "Head of Delivery, Personalvermittlungsagentur"
-    },
-    "testimonial2": {
-      "quote": "Die Kandidatenvergleichsfunktion hat verändert, wie wir Einstellungsmanagern präsentieren. Klar, nachvollziehbar, strukturiert.",
-      "name": "Marc R.",
-      "role": "Senior Recruiter, Internes TA-Team"
-    },
-    "testimonial3": {
-      "quote": "Wir haben 40 qualifizierte Kandidaten aus unserer eigenen Datenbank wiederentdeckt, die unsere ATS-Suche völlig übersehen hatte.",
-      "name": "Ana P.",
-      "role": "Partnerin, Executive-Search-Firma"
-    }
+    "learnMore": "Datenschutzerklärung"
   }
 }

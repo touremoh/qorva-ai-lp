@@ -53,9 +53,10 @@ const PLANS = [
     features: [
       { key: 'freeTrial',          plan: null,        included: true },
       { key: 'users',              plan: 'starter',   included: true },
-      { key: 'matchingActions',    plan: 'starter',   included: true },
+      { key: 'screeningActions',   plan: 'starter',   included: true },
       { key: 'aiChat',             plan: 'starter',   included: true },
       { key: 'queries',            plan: 'starter',   included: true },
+      { key: 'emailTemplates',     plan: 'starter',   included: true },
       { key: 'brandedCvExport',    plan: null,        included: false },
       { key: 'brandedMatchReport', plan: null,        included: false },
       { key: 'accountManager',     plan: null,        included: false },
@@ -70,9 +71,10 @@ const PLANS = [
     features: [
       { key: 'freeTrial',          plan: null,    included: true },
       { key: 'users',              plan: 'pro',   included: true },
-      { key: 'matchingActions',    plan: 'pro',   included: true },
+      { key: 'screeningActions',   plan: 'pro',   included: true },
       { key: 'aiChat',             plan: 'pro',   included: true },
       { key: 'queries',            plan: 'pro',   included: true },
+      { key: 'emailTemplates',     plan: 'pro',   included: true },
       { key: 'brandedCvExport',    plan: null,    included: false },
       { key: 'brandedMatchReport', plan: null,    included: false },
       { key: 'accountManager',     plan: null,    included: false },
@@ -87,9 +89,10 @@ const PLANS = [
     features: [
       { key: 'freeTrial',          plan: null,      included: true },
       { key: 'users',              plan: 'scale',   included: true },
-      { key: 'matchingActions',    plan: 'scale',   included: true },
+      { key: 'screeningActions',   plan: 'scale',   included: true },
       { key: 'aiChat',             plan: 'scale',   included: true },
       { key: 'queries',            plan: 'scale',   included: true },
+      { key: 'emailTemplates',     plan: 'scale',   included: true },
       { key: 'brandedCvExport',    plan: null,      included: true },
       { key: 'brandedMatchReport', plan: null,      included: true },
       { key: 'accountManager',     plan: null,      included: true },
@@ -319,7 +322,7 @@ const Pricing = () => {
         >
           <InfoOutlinedIcon sx={{ fontSize: 15, color: 'text.disabled' }} />
           <Typography variant="caption" color="text.disabled">
-            {t('pricing.matchingActionNote')}
+            {t('pricing.screeningActionNote')}
           </Typography>
         </Box>
       </Container>
