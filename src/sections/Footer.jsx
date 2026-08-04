@@ -8,19 +8,10 @@ function Footer() {
     product: {
       title: t('footer.product.title'),
       items: [
-        { name: t('footer.product.features'), href: '#features' },
+        { name: t('footer.product.dataQuality'), href: '#data-quality' },
+        { name: t('footer.product.howItWorks'), href: '#how-it-works' },
         { name: t('footer.product.pricing'), href: '#pricing' },
-        { name: t('footer.product.documentation'), href: '#docs' },
-        { name: t('footer.product.apiReference'), href: '#api' },
-      ],
-    },
-    company: {
-      title: t('footer.company.title'),
-      items: [
-        { name: t('footer.company.aboutUs'), href: '#about' },
-        { name: t('footer.company.blog'), href: '#blog' },
-        { name: t('footer.company.careers'), href: '#careers' },
-        { name: t('footer.company.contact'), href: '#contact' },
+        { name: t('footer.product.signIn'), href: 'https://app.qorva.ai/login' },
       ],
     },
     legal: {
@@ -49,7 +40,7 @@ function Footer() {
             </Grid>
 
             {Object.values(footerLinks).map((section) => (
-                <Grid item xs={12} sm={6} md={2} key={section.title}>
+                <Grid item xs={12} sm={6} md={3} key={section.title}>
                   <Typography variant="subtitle1" color="white" gutterBottom>
                     {section.title}
                   </Typography>
@@ -75,9 +66,15 @@ function Footer() {
                 {t('footer.contact.title')}
               </Typography>
               <Stack spacing={2}>
-                <Typography variant="body2" color="grey.400">
+                <Link
+                    href={`mailto:${t('footer.contact.email')}`}
+                    variant="body2"
+                    color="grey.400"
+                    sx={{ '&:hover': { color: 'white' } }}
+                    underline="none"
+                >
                   {t('footer.contact.email')}
-                </Typography>
+                </Link>
               </Stack>
             </Grid>
           </Grid>

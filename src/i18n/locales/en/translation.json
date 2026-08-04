@@ -1,227 +1,234 @@
 {
   "header": {
-    "features": "Features",
-    "howItWorks": "How It Works",
+    "product": "Product",
+    "howItWorks": "How it works",
+    "dataQuality": "Data quality",
     "pricing": "Pricing",
-    "about": "About",
     "signIn": "Sign In",
-    "startTrial": "Start Free Trial"
+    "cta": "Get my health report"
   },
   "hero": {
-    "badge": "AI Talent Intelligence Platform",
-    "title": "Turn Your CV Library Into a",
-    "titleAccent": "Talent Intelligence Engine.",
-    "subtitle": "Extract, structure, and analyze resumes at scale. Build perfect candidate matches using your own custom scoring rules, and interrogate your entire database via conversational AI. Zero manual data entry.",
+    "badge": "For IT, engineering & specialist staffing agencies",
+    "title": "Stop paying to source",
+    "titleAccent": "candidates you already have.",
+    "subtitle": "Qorva audits, refreshes and searches your existing candidate database — helping staffing agencies rediscover qualified candidates before starting another expensive sourcing campaign.",
     "cta": {
-      "trial": "Start Your 7-Day Free Trial",
-      "tour": "Watch 2-Minute Product Tour"
+      "primary": "Get My Database Health Report",
+      "secondary": "See a Sample Report"
     },
-    "trialNote": "Risk-Free · Instant Setup",
-    "splitScreen": {
-      "queryLabel": "Ask your database",
-      "queryText": "How many senior developers turned project managers with fintech experience speaking English and French do we have?",
-      "resultsLabel": "Qorva AI Response",
-      "candidatesFound": "Candidates Found",
-      "topMatches": "Top Matches Ranked",
-      "metric1": { "label": "Seniority Distribution", "value": "Senior 67%" },
-      "metric2": { "label": "Fintech Environment Fit", "value": "High 83%" }
-    }
-  },
-  "dashboardPreview": {
-    "label": "Platform Preview",
-    "title": "Your Entire Talent Pool, Visualized.",
-    "subtitle": "The Qorva AI dashboard gives you an instant command center view of your candidate database — skills distribution, seniority clusters, top profiles, and pipeline health at a glance.",
-    "matchReportLabel": "Match Report",
-    "matchReportTitle": "Ranked Shortlists with Full Scoring Transparency.",
-    "matchReportSubtitle": "Every match report breaks down candidate fit across your custom criteria — mandatory skills, seniority, environment fit — so your team always knows exactly why someone ranked where they did."
-  },
-  "featureShowcase": {
-    "label": "In Action",
-    "title": "See Qorva AI at Work.",
-    "subtitle": "From bulk CV upload to ranked shortlist — three views that show exactly how Qorva AI turns raw resumes into actionable talent intelligence.",
-    "feature1": {
-      "caption": "Skills Distribution Analysis",
-      "query": "Break down skills distribution of our machine learning engineers pool",
-      "description": "Know exactly what skills you have before any client conversation. Qorva AI scans your entire pool and returns a ranked skills breakdown with candidate counts and coverage percentages — so you can pitch staffing capabilities with data, not guesswork."
-    },
-    "feature2": {
-      "caption": "AI-Powered Candidate Ranking",
-      "query": "Show me machine learning engineers turned project managers with fintech experience and speaking English and French",
-      "description": "Combine seniority, career transitions, domain expertise, and language requirements in a single sentence. Qorva AI searches your entire database instantly and returns a ranked shortlist with match scores and clickable candidate profiles — no filters, no Boolean syntax."
-    },
-    "feature3": {
-      "caption": "Multi-Dimensional Talent Clustering",
-      "query": "Break down seniority distribution in our machine learning engineers pool",
-      "description": "Understand your pool's seniority mix, skill depth profiles, leadership styles, and learning velocity at a glance. Four critical talent dimensions visualized in one structured view — so you always know the real strength of your bench before going to market."
-    },
-    "feature4": {
-      "caption": "Head-to-Head Candidate Comparison",
-      "query": "Which one between candidates referenced by REF-001 and REF-002 is better suited for a senior machine learning engineer position?",
-      "description": "Stop second-guessing shortlist decisions. Ask Qorva AI to compare any two candidates directly — it evaluates differentiating skills, seniority, certifications, and role alignment across multiple dimensions, then tells you exactly who is better suited and why. Walk into every client debrief with a clear, defensible recommendation."
-    }
+    "note": "Start with an assessment of your existing candidate database."
   },
   "problem": {
-    "title": "Your ATS stores candidates. Qorva AI helps you monetize them.",
-    "subtitle": "You've spent years and thousands of dollars building a candidate database, but most of its value is invisible. Standard keyword searches are too rigid, and manual screening eats hours of recruiter productivity.",
+    "title": "Your candidate database is worth more than you think — but less usable than it should be.",
+    "subtitle": "Agencies pay for new sourcing campaigns while qualified candidates already sit in their own database. Years of accumulated records quietly decay until searching them stops feeling worth it.",
     "item1": {
-      "title": "The \"Black Hole\" Database",
-      "description": "Great candidates are forgotten the moment a role closes. Your best talent is invisible inside a database you've already paid to build."
+      "title": "Outdated resumes",
+      "description": "CVs collected years ago no longer reflect what candidates can do today — so your searches return stale answers."
     },
     "item2": {
-      "title": "Messy, Inconsistent Formats",
-      "description": "Unstructured resumes make objective comparison impossible. Every review becomes a subjective, time-consuming guessing game."
+      "title": "Missing contact and profile information",
+      "description": "Profiles without an email, phone number, location or skills can't be contacted or matched when a role opens."
     },
     "item3": {
-      "title": "Data Pollution",
-      "description": "Duplicates and outdated files clutter search results, wasting recruiter time and distorting your talent intelligence."
+      "title": "Duplicate candidate records",
+      "description": "The same person exists three times under slightly different names, splitting their history and cluttering every search."
     },
     "item4": {
-      "title": "Subjective Matching",
-      "description": "Recruiters rely on memory or flawed keyword matching, missing non-obvious fits and consistently overlooking top talent."
+      "title": "Qualified candidates buried in old data",
+      "description": "The right person for your current vacancy is often already in your database — invisible behind noise and outdated records."
     }
+  },
+  "dataQuality": {
+    "label": "Library Data Quality",
+    "title": "Know exactly what is usable — and what needs attention.",
+    "subtitle": "Qorva evaluates every profile in your candidate library across four quality dimensions, so you can see what is ready to use and fix what isn't.",
+    "completeness": {
+      "title": "Completeness",
+      "description": "Spot profiles missing critical information — email, phone number, location, skills or employment history — before they cost you a placement."
+    },
+    "freshness": {
+      "title": "Freshness",
+      "description": "See how recently each profile was updated: within the last six months, six to eighteen months ago, or older than eighteen months."
+    },
+    "uniqueness": {
+      "title": "Uniqueness",
+      "description": "Detect likely duplicate candidate profiles and duplicate CVs, so every search returns one clean record per person."
+    },
+    "confidence": {
+      "title": "AI confidence",
+      "description": "See how confident the AI extraction is for each parsed CV, so low-confidence records can be flagged for manual review."
+    },
+    "action": "Every issue is actionable: filter the affected profiles and fix, merge or refresh them from the same view."
+  },
+  "refresh": {
+    "label": "Candidate Refresh",
+    "title": "Refresh outdated profiles without manual follow-up.",
+    "subtitle": "Instead of manually updating thousands of records, recruiters can ask candidates to confirm and refresh their own information.",
+    "step1": {
+      "title": "Select outdated profiles",
+      "description": "Filter candidates whose information hasn't been updated in months or years."
+    },
+    "step2": {
+      "title": "Choose an email template",
+      "description": "Pick or customize the message asking candidates to update their details."
+    },
+    "step3": {
+      "title": "Candidates update themselves",
+      "description": "Each candidate receives a request and updates their own profile."
+    },
+    "step4": {
+      "title": "Your database stays current",
+      "description": "Refreshed profiles flow back into your library, ready to search and match."
+    }
+  },
+  "sampleReport": {
+    "label": "Sample report",
+    "title": "What a database health report looks like.",
+    "subtitle": "After analyzing your library, Qorva gives you a clear picture of what you actually own.",
+    "imageAlt": "Qorva candidate library data-quality insights"
   },
   "workflow": {
-    "title": "From Raw Resumes to Ranked Shortlists in 4 Simple Steps.",
-    "subtitle": "No training required. No complex setup. Just upload your CVs and let Qorva AI do the intelligence work.",
+    "title": "From stale database to new placements.",
+    "subtitle": "Five steps, one goal: make more placements from candidates you already know.",
     "steps": {
-      "upload": {
+      "audit": {
         "label": "Step 1",
-        "title": "Bulk Upload",
-        "description": "Drop up to 100 CVs at once in any format — PDF, Word, or plain text."
+        "title": "Audit",
+        "description": "Analyze your library's quality across completeness, freshness, uniqueness and AI confidence."
       },
-      "enrich": {
+      "clean": {
         "label": "Step 2",
-        "title": "Enrich & Graph",
-        "description": "Qorva extracts deep candidate metrics: Velocity, Seniority, Environment Fit, Clusters, and more."
+        "title": "Clean",
+        "description": "Identify duplicates, incomplete profiles and low-confidence records — and resolve them."
       },
-      "interrogate": {
+      "refreshStep": {
         "label": "Step 3",
-        "title": "Ask & Interrogate",
-        "description": "Query your entire database using natural language, exactly like a human headhunter would."
+        "title": "Refresh",
+        "description": "Invite candidates with outdated profiles to update their own information."
       },
-      "score": {
+      "rediscover": {
         "label": "Step 4",
-        "title": "Score & Export",
-        "description": "Rank candidates with your custom scoring rules and export clean, structured shortlists instantly."
+        "title": "Rediscover",
+        "description": "Search and match the improved database against your live vacancies."
+      },
+      "place": {
+        "label": "Step 5",
+        "title": "Place",
+        "description": "Build stronger shortlists from candidates your agency already knows."
       }
     }
   },
-  "pillars": {
-    "title": "Six Intelligence Layers. One Unified Platform.",
-    "subtitle": "Qorva AI builds a multi-dimensional talent graph out of your existing data — delivering precision matching and insights you can't get from flat keyword searches.",
-    "a": {
-      "label": "Deep Resume Intelligence",
-      "title": "Standardize and enrich every CV automatically.",
-      "description": "Drop up to 100 CVs at once. Qorva automatically flags duplicates, normalizes layouts, and derives advanced candidate data points across 8 dimensions.",
-      "points": "Primary & Secondary Clusters · Skills Depth · Seniority Level · Leadership Potential · Learning Velocity · Functional Expertise · Industry Domains · Environment Fit"
+  "capabilities": {
+    "title": "Everything else you need, built around your database.",
+    "subtitle": "Once your library is clean and current, Qorva's matching and analysis tools help you turn it into placements.",
+    "understand": {
+      "title": "Understand your database",
+      "item1": "Skills distribution across any talent pool",
+      "item2": "Candidate counts and coverage percentages",
+      "item3": "Clear summaries backed by charts",
+      "imageAlt": "Qorva skills distribution report for a talent pool"
     },
-    "b": {
-      "label": "Strategic Talent Dashboard",
-      "title": "See your talent pool like a business asset.",
-      "description": "Gain instant high-level visibility into your entire database. Spot top skills, talent clusters, geographical density, and candidate readiness so your team can confidently pitch staffing capabilities to clients."
+    "find": {
+      "title": "Find the right candidates",
+      "item1": "Search your database in plain language",
+      "item2": "Combine skills, career paths and languages in one question",
+      "item3": "Instant counts and matching profiles from your own pool",
+      "imageAlt": "Qorva conversational talent-pool search result with matching candidates"
     },
-    "c": {
-      "label": "Custom-Rule Matching",
-      "title": "Generate shortlists based on your hiring priorities.",
-      "description": "Mark skills as Mandatory, Important, or Nice-to-Have and define custom scoring weights. Qorva outputs a ranked Matching Report with explicit breakdowns of strengths, gaps, and overall alignment."
+    "bench": {
+      "title": "See the strength of your bench",
+      "item1": "Seniority distribution at a glance",
+      "item2": "Group candidates into clear specializations",
+      "item3": "Back client pitches with real numbers",
+      "imageAlt": "Qorva seniority and talent clustering breakdown for a talent pool"
     },
-    "d": {
-      "label": "Conversational AI",
-      "title": "Speak directly to your candidate database.",
-      "description": "Skip the filters. Use natural language to perform complex talent logic instantly across 8 specialized intent categories.",
-      "intentHeader1": "Intent Category",
-      "intentHeader2": "What You Can Ask Qorva AI",
-      "intents": {
-        "talent":      { "category": "Talent Pool Intelligence", "example": "\"Are we ready to staff a new banking client in Brussels?\"" },
-        "gap":         { "category": "Skill Gap Analysis",       "example": "\"Which critical skills are missing in our cybersecurity pool?\"" },
-        "ranking":     { "category": "Candidate Ranking",        "example": "\"Who are our top 10 candidates for a senior DevOps role?\"" },
-        "rediscovery": { "category": "Candidate Rediscovery",    "example": "\"Find candidates we rejected last year who match this new position.\"" },
-        "clustering":  { "category": "Talent Clustering",        "example": "\"Group our active technical candidates into engineering specializations.\"" },
-        "skills":      { "category": "Skills Distribution",      "example": "\"What are the most common tech stacks in our aerospace pool?\"" },
-        "comparison":  { "category": "Candidate Comparison",     "example": "\"Compare REF-001 and REF-002 on leadership and environment fit.\"" },
-        "rules":       { "category": "General Recruiting Rules", "example": "\"What are good technical interview questions for a backend engineer?\"" }
-      }
+    "exportNote": "Plus: detailed match reports, head-to-head candidate comparison, and universal ATS export (CSV) for every shortlist."
+  },
+  "icp": {
+    "label": "Who it's for",
+    "title": "Built for boutique IT, engineering and specialist staffing agencies.",
+    "subtitle": "Qorva is designed for agencies that live in their candidate database — not for one-off hiring.",
+    "fit1": {
+      "title": "Teams of 2–30 recruiters",
+      "description": "Big enough to have accumulated thousands of profiles over the years, small enough that nobody has time to clean them by hand."
     },
-    "e": {
-      "label": "AI Resume Chat",
-      "title": "Never conduct an unprepared interview again.",
-      "description": "Access AI Resume Chat directly from the main menu to deep-dive into any candidate's background. Ask targeted questions in natural language, surface career edge cases, challenge technical gaps, and generate tailored, high-impact interview questions — before you ever sit down for the interview."
+    "fit2": {
+      "title": "Recurring, similar roles",
+      "description": "You place the same kinds of profiles again and again — which means past candidates are often the fastest route to the next placement."
     },
-    "f": {
-      "label": "ATS Export",
-      "title": "Fits seamlessly into your existing workflow.",
-      "description": "Qorva doesn't force you to rip and replace your current software stack. Instantly export your top-ranked shortlists in standard CSV format to sync directly with your favorite ATS."
+    "fit3": {
+      "title": "An ATS full of history",
+      "description": "Years of CVs, notes and half-complete records sit in your ATS or recruitment CRM. Qorva works alongside it and turns that history into a searchable asset."
     }
   },
   "trust": {
-    "title": "Transparent, Recruiter-Controlled AI Workflows.",
-    "subtitle": "Qorva AI acts as an augmented intelligence engine, not a black box decision-maker. Designed around transparency and human-in-the-loop validation.",
+    "title": "Designed for privacy-conscious, human-controlled recruitment.",
+    "subtitle": "Qorva supports recruiter decisions — it doesn't replace them. Your candidate data stays under your control at every step.",
     "explainability": {
-      "title": "Total Explainability",
-      "description": "Every match ranking is backed by clear, auditable reasoning based on your own scoring rules — no mystery scores, no opaque algorithms."
+      "title": "Explainable results",
+      "description": "Every match and ranking is backed by clear reasoning based on your own scoring rules — no mystery scores, no opaque algorithms."
     },
     "control": {
-      "title": "Recruiters Rule",
-      "description": "The system recommends; humans make the final hiring decisions. Full control stays with your team at every step of the workflow."
+      "title": "Recruiters stay in control",
+      "description": "Qorva recommends; your team decides. No automated hiring decisions are made without recruiter involvement."
     },
     "integrity": {
-      "title": "Data Integrity",
-      "description": "All candidate data is logically segregated by organization using strict access controls, ensuring your talent data stays private and visible only to authorized members of your team."
+      "title": "Controlled data access",
+      "description": "Candidate data is segregated by organization with strict access controls, visible only to authorized members of your team."
     },
-    "gdpr": {
-      "title": "Compliance Certified",
-      "description": "Fully compliant with GDPR, CCPA, and the EU AI Act. Built with privacy-by-design principles and transparent, auditable data processing flows to meet today's recruitment compliance standards."
+    "privacy": {
+      "title": "Privacy-conscious by design",
+      "description": "Candidate data is processed securely, never sold or shared with third parties, and can be deleted on request."
     }
   },
   "finalCta": {
-    "title": "Stop sourcing from scratch.",
-    "titleAccent": "Unlock your hidden talent network today.",
-    "subtitle": "Get full, unrestricted access to Qorva AI for 7 days. Upload your first batch of resumes, query your data, and generate ranked shortlists in minutes.",
-    "cta": "Start My 7-Day Free Trial",
-    "note": "Up and running in 60 seconds."
+    "title": "Find out how much value is hidden in",
+    "titleAccent": "your candidate database.",
+    "subtitle": "Get a clear view of outdated, incomplete and duplicate profiles — and discover which candidates may already match your active roles.",
+    "primary": "Get My Database Health Report",
+    "secondary": "See a Sample Report"
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Everything you need to know before getting started.",
     "item1": {
-      "question": "Do I need an ATS or HR software to use Qorva AI?",
-      "answer": "No. Qorva AI is a standalone platform built for recruiting teams that want intelligence beyond their ATS. Just create an account, upload your resumes and job description, and you'll have a ranked shortlist in minutes — no integrations or IT setup needed."
+      "question": "What is the Database Health Report?",
+      "answer": "Import your candidate library and Qorva analyzes it across completeness, freshness, duplicates and AI-extraction confidence. You get a clear view of which profiles are ready to use, which need attention, and where potential duplicates hide."
     },
     "item2": {
-      "question": "How quickly can I start screening candidates?",
-      "answer": "Immediately. Sign up, upload your resumes, and Qorva AI starts processing candidates right away. Most users have a ranked shortlist ready within minutes of their first login."
+      "question": "Do I need an ATS or HR software to use Qorva?",
+      "answer": "No. Qorva is a standalone platform that works alongside whatever you use today. Export your CVs from your ATS or CRM, import them into Qorva, and start analyzing — no integrations or IT project needed."
     },
     "item3": {
-      "question": "Is Qorva AI only for high-volume hiring?",
-      "answer": "Not at all. Whether you're managing 50 candidates or 5,000, Qorva AI turns your existing database into an active, searchable asset. It's designed for teams that want to make fast, confident placement decisions."
+      "question": "How quickly can I see results?",
+      "answer": "Right away. Create an account, import your resumes, and Qorva starts analyzing them immediately. Most teams see their first quality insights and matches within minutes of their first import."
     },
     "item4": {
       "question": "Can I define what matters most for each specific role?",
-      "answer": "Yes. You define the scoring rules — required skills, seniority level, experience domains — and Qorva AI ranks every candidate accordingly. Each score comes with a clear explanation so you always know why someone ranked where they did."
+      "answer": "Yes. You define the scoring rules — required skills, seniority level, experience domains — and Qorva ranks every candidate accordingly. Each score comes with a clear explanation so you always know why someone ranked where they did."
     },
     "item5": {
-      "question": "Is candidate data secure and GDPR compliant?",
-      "answer": "Yes. All data is encrypted in transit and at rest. Qorva AI is GDPR-compliant — candidate data is never sold or shared with third parties, processed in isolated tenant spaces, and can be deleted at any time on request."
+      "question": "Is candidate data secure?",
+      "answer": "All data is encrypted in transit and at rest and processed in isolated tenant spaces. Candidate data is never sold or shared with third parties, and can be deleted at any time on request — supporting your privacy obligations towards candidates."
     },
     "item6": {
       "question": "Is there a free trial?",
-      "answer": "Yes — 7 days, full access. Upload real candidates for a real role and see exactly what Qorva AI can do before you commit to any plan."
+      "answer": "Yes — 14 days, full access. Import real candidates from your own database and see exactly what Qorva can do before you commit to any plan."
     }
   },
   "pricing": {
     "title": "Simple, Transparent Pricing",
-    "subtitle": "Choose the plan that fits your team",
+    "subtitle": "Plans that grow with your agency",
     "monthly": "Monthly",
     "yearly": "Yearly",
     "periodMonthly": "/month",
     "savePercent": "Save 20%",
     "mostPopular": "Most Popular",
-    "matchingActionNote": "1 matching action = 1 CV extraction or 1 job match report",
     "button": {
       "freeTrial": "Start Free Trial"
     },
     "features": {
-      "freeTrial": "7-day free trial",
+      "freeTrial": "14-day free trial",
       "brandedCvExport": "Branded CV exports",
       "brandedMatchReport": "Branded match reports",
       "accountManager": "Dedicated account manager",
@@ -229,45 +236,42 @@
     },
     "starter": {
       "title": "Starter",
-      "description": "For solo recruiters and small teams getting started",
+      "description": "For small agencies starting to clean up their database",
       "users": "2 users",
-      "matchingActions": "1,000 matching actions / month",
-      "aiChat": "300 AI Resume Chat messages / month",
-      "queries": "500 Talent Intelligence Queries / month"
+      "aiChat": "500 AI Resume Chat messages / month",
+      "queries": "1,000 Talent Intelligence Queries / month",
+      "screeningActions": "2,000 screening actions / month",
+      "emailTemplates": "3 email templates"
     },
     "pro": {
       "title": "Pro",
       "description": "For growing agencies with active candidate pipelines",
       "users": "5 users",
-      "matchingActions": "5,000 matching actions / month",
-      "aiChat": "700 AI Resume Chat messages / month",
-      "queries": "1,500 Talent Intelligence Queries / month"
+      "aiChat": "1,500 AI Resume Chat messages / month",
+      "queries": "3,000 Talent Intelligence Queries / month",
+      "screeningActions": "10,000 screening actions / month",
+      "emailTemplates": "15 email templates"
     },
     "scale": {
       "title": "Scale",
       "description": "For established agencies delivering at volume with client-facing outputs",
-      "users": "10 users",
-      "matchingActions": "12,000 matching actions / month",
-      "aiChat": "2,000 AI Resume Chat messages / month",
-      "queries": "4,000 Talent Intelligence Queries / month"
-    }
+      "users": "15 users",
+      "aiChat": "4,000 AI Resume Chat messages / month",
+      "queries": "8,000 Talent Intelligence Queries / month",
+      "screeningActions": "25,000 screening actions / month",
+      "emailTemplates": "50 email templates"
+    },
+    "screeningActionNote": "1 screening action = importing 1 CV or generating 1 match report"
   },
   "footer": {
     "brand": "Qorva",
-    "description": "AI Talent Intelligence & Matching Platform. Turn your CV library into a searchable, revenue-generating asset.",
+    "description": "Qorva helps staffing agencies turn stale, incomplete candidate databases into searchable, revenue-ready talent pools.",
     "product": {
       "title": "Product",
-      "features": "Features",
+      "dataQuality": "Data quality",
+      "howItWorks": "How it works",
       "pricing": "Pricing",
-      "documentation": "Documentation",
-      "apiReference": "API Reference"
-    },
-    "company": {
-      "title": "Company",
-      "aboutUs": "About Us",
-      "blog": "Blog",
-      "careers": "Careers",
-      "contact": "Contact"
+      "signIn": "Sign In"
     },
     "legal": {
       "title": "Legal",
@@ -285,70 +289,11 @@
     "legalEntity": "Logicasoft, LLC · EIN 38-4349843",
     "dataResidency": "United States"
   },
-  "metrics": {
-    "stat1": { "value": "10×", "label": "Faster Shortlisting", "context": "vs. manual screening" },
-    "stat2": { "value": "85%", "label": "Less Time-to-Shortlist", "context": "across all roles" },
-    "stat3": { "value": "60s", "label": "To First Results", "context": "from your first query" },
-    "stat4": { "value": "3×", "label": "More Candidates Found", "context": "from your existing database" }
-  },
   "cookieConsent": {
     "title": "We use cookies",
     "description": "We use cookies to ensure you get the best experience on our website. Some are essential for the site to function; others help us understand how it is used.",
     "acceptAll": "Accept All",
     "essentialOnly": "Essential Only",
     "learnMore": "Privacy Policy"
-  },
-  "icp": {
-    "label": "Built For",
-    "title": "Designed for Talent Teams That Move Fast.",
-    "subtitle": "Whether you're a boutique recruiter or a global staffing network, Qorva AI adapts to your workflow.",
-    "agency": {
-      "title": "Staffing & Recruitment Agencies",
-      "description": "Turn your existing candidate database into a revenue-generating asset. Stop re-sourcing from scratch and start placing from inventory.",
-      "check1": "Rapid shortlist generation from stored CVs",
-      "check2": "Skills coverage analysis before client pitches",
-      "check3": "Multi-client talent pool management"
-    },
-    "inhouse": {
-      "title": "In-house Talent Acquisition Teams",
-      "description": "Eliminate manual screening bottlenecks and give your recruiters back the time they spend on repetitive, low-value tasks.",
-      "check1": "Automated candidate ranking by role criteria",
-      "check2": "Natural language search across your ATS exports",
-      "check3": "Structured candidate comparisons for hiring panels"
-    },
-    "executive": {
-      "title": "Executive Search Firms",
-      "description": "Surface non-obvious fits from your network and present clients with data-backed shortlists they can trust.",
-      "check1": "Deep candidate profiling across 8 dimensions",
-      "check2": "Head-to-head comparison for final-round decisions",
-      "check3": "Exportable match reports for client presentations"
-    }
-  },
-  "integration": {
-    "eyebrow": "Integrations",
-    "title": "Your AI Brain. Not your ATS replacement.",
-    "subtitle": "Qorva AI sits on top of your existing workflow. Search smarter, rank faster — then push results straight back into your ATS via CSV export. No rip-and-replace.",
-    "worksAlongside": "Works alongside:",
-    "exportNote": "Exports to any ATS via standard CSV — no API contract or IT project required."
-  },
-  "socialProof": {
-    "label": "What Recruiters Say",
-    "title": "Trusted by Talent Teams Worldwide.",
-    "subtitle": "Real results from recruiting teams using Qorva AI to place faster and smarter.",
-    "testimonial1": {
-      "quote": "Qorva AI cut our shortlisting time from two days to under an hour. We now pitch clients with data, not gut feel.",
-      "name": "Sarah C.",
-      "role": "Head of Delivery, Staffing Agency"
-    },
-    "testimonial2": {
-      "quote": "The candidate comparison feature alone changed how we present to hiring managers. Clear, defensible, structured.",
-      "name": "Marc R.",
-      "role": "Senior Recruiter, In-house TA Team"
-    },
-    "testimonial3": {
-      "quote": "We rediscovered 40 qualified candidates from our own database that our ATS search had completely missed.",
-      "name": "Ana P.",
-      "role": "Partner, Executive Search Firm"
-    }
   }
 }

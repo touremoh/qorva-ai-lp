@@ -1,10 +1,11 @@
 import { Box, Container, Typography, Stack, Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
-import CloudUploadIcon from '@mui/icons-material/CloudUpload';
-import AutoGraphIcon from '@mui/icons-material/AutoGraph';
-import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import QueryStatsIcon from '@mui/icons-material/QueryStats';
+import CleaningServicesIcon from '@mui/icons-material/CleaningServices';
+import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';
+import PersonSearchIcon from '@mui/icons-material/PersonSearch';
+import HandshakeIcon from '@mui/icons-material/Handshake';
 
 const StepCard = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(4, 3),
@@ -61,10 +62,11 @@ const StepNumber = styled(Typography)(() => ({
 }));
 
 const steps = [
-  { key: 'upload',      icon: <CloudUploadIcon sx={{ fontSize: 28 }} /> },
-  { key: 'enrich',      icon: <AutoGraphIcon sx={{ fontSize: 28 }} /> },
-  { key: 'interrogate', icon: <QuestionAnswerIcon sx={{ fontSize: 28 }} /> },
-  { key: 'score',       icon: <EmojiEventsIcon sx={{ fontSize: 28 }} /> },
+  { key: 'audit',       icon: <QueryStatsIcon sx={{ fontSize: 28 }} /> },
+  { key: 'clean',       icon: <CleaningServicesIcon sx={{ fontSize: 28 }} /> },
+  { key: 'refreshStep', icon: <MarkEmailReadIcon sx={{ fontSize: 28 }} /> },
+  { key: 'rediscover',  icon: <PersonSearchIcon sx={{ fontSize: 28 }} /> },
+  { key: 'place',       icon: <HandshakeIcon sx={{ fontSize: 28 }} /> },
 ];
 
 function HowItWorks() {

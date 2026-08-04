@@ -1,276 +1,282 @@
 {
   "header": {
-    "features": "Functies",
+    "product": "Product",
     "howItWorks": "Hoe het werkt",
+    "dataQuality": "Datakwaliteit",
     "pricing": "Prijzen",
-    "about": "Over ons",
     "signIn": "Inloggen",
-    "startTrial": "Gratis proberen"
+    "cta": "Rapport aanvragen"
   },
   "hero": {
-    "badge": "AI Talent Intelligence Platform",
-    "title": "Transformeer je CV-database tot een",
-    "titleAccent": "Talent Intelligence Engine.",
-    "subtitle": "Extraheer, structureer en analyseer cv's op schaal. Bouw perfecte kandidaatmatches op basis van je eigen scoringregels en doorzoek je volledige database via conversationele AI. Nul handmatige gegevensinvoer.",
+    "badge": "Voor IT-, engineering- en gespecialiseerde recruitmentbureaus",
+    "title": "Stop met betalen voor het sourcen van",
+    "titleAccent": "kandidaten die u al heeft.",
+    "subtitle": "Qorva controleert, actualiseert en doorzoekt uw bestaande kandidatendatabase — zodat recruitmentbureaus gekwalificeerde kandidaten herontdekken vóór ze weer een dure sourcingcampagne starten.",
     "cta": {
-      "trial": "Start je gratis proefperiode van 7 dagen",
-      "tour": "Bekijk de producttour van 2 minuten"
+      "primary": "Mijn databasekwaliteitsrapport aanvragen",
+      "secondary": "Bekijk een voorbeeldrapport"
     },
-    "trialNote": "Risicovrij · Directe installatie",
-    "splitScreen": {
-      "queryLabel": "Doorzoek je database",
-      "queryText": "Hoeveel senior developers die doorgegroeid zijn naar projectmanager, met fintech-ervaring en die Engels en Frans spreken, hebben wij?",
-      "resultsLabel": "Qorva AI Reactie",
-      "candidatesFound": "Kandidaten Gevonden",
-      "topMatches": "Top Matches Gerangschikt",
-      "metric1": { "label": "Senioriteitsverspreiding", "value": "Senior 67%" },
-      "metric2": { "label": "Fintech Omgeving Fit", "value": "Hoog 83%" }
-    }
-  },
-  "dashboardPreview": {
-    "label": "Platform preview",
-    "title": "Je volledige talentpool, gevisualiseerd.",
-    "subtitle": "Het Qorva AI-dashboard geeft je een directe commandocentrum-weergave van je kandidatendatabase — vaardigheidsverspreiding, senioriteitsclusters, top profielen en pipeline-status in één oogopslag.",
-    "matchReportLabel": "Matching-rapport",
-    "matchReportTitle": "Gerangschikte shortlists met volledige scoringtransparantie.",
-    "matchReportSubtitle": "Elk matching-rapport splitst de geschiktheid van een kandidaat op aan de hand van je aangepaste criteria — verplichte vaardigheden, senioriteit, omgevings-fit — zodat je team altijd precies begrijpt waarom iemand die positie inneemt."
-  },
-  "featureShowcase": {
-    "label": "In actie",
-    "title": "Zie Qorva AI aan het werk.",
-    "subtitle": "Van bulk-upload tot gerangschikte shortlist — drie weergaven die precies laten zien hoe Qorva AI ruwe cv's omzet in bruikbare talent intelligence.",
-    "feature1": {
-      "caption": "Analyse van vaardigheidsverspreiding",
-      "query": "Analyseer de vaardigheidsverspreiding van ons pool van machine learning engineers",
-      "description": "Weet precies welke vaardigheden je hebt vóór elk klantgesprek. Qorva AI scant je volledige pool en geeft een gerangschikt overzicht van vaardigheden met kandidaataantallen en dekkingspercentages — zodat je je staffing-capaciteiten onderbouwt met data, niet met aannames."
-    },
-    "feature2": {
-      "caption": "AI-gestuurde kandidaatrangschikking",
-      "query": "Toon me machine learning engineers die doorgroeiden naar projectmanager met fintech-ervaring en die Engels en Frans spreken",
-      "description": "Combineer senioriteit, carrièretransities, branche-expertise en taaleisen in één zin. Qorva AI doorzoekt je volledige database direct en geeft een gerangschikte shortlist met matchscores en klikbare kandidaatprofielen — zonder filters, zonder booleaanse syntax."
-    },
-    "feature3": {
-      "caption": "Multidimensioneel talentclustering",
-      "query": "Analyseer de senioriteitsverdeling in ons pool van machine learning engineers",
-      "description": "Begrijp in één oogopslag de senioriteitsverdeling, vaardigheidsdiepteprofielen, leiderschapsstijlen en leersnelheid van je pool. Vier kritieke talent-dimensies gevisualiseerd in één overzicht — zodat je altijd de echte kracht van je bench kent vóórdat je naar de markt gaat."
-    },
-    "feature4": {
-      "caption": "Directe kandidaatvergelijking",
-      "query": "Welke van de kandidaten gerefereerd als REF-001 en REF-002 is het meest geschikt voor een senior machine learning engineer positie?",
-      "description": "Stop met twijfelen bij shortlist-beslissingen. Vraag Qorva AI om twee kandidaten direct te vergelijken — het beoordeelt onderscheidende vaardigheden, senioriteit, certificaten en functiegerichtheid over meerdere dimensies en vertelt je precies wie het meest geschikt is en waarom. Loop elk klant-debriefing in met een heldere, onderbouwde aanbeveling."
-    }
+    "note": "Begin met een beoordeling van uw bestaande kandidatendatabase."
   },
   "problem": {
-    "title": "Jouw ATS slaat kandidaten op. Qorva AI helpt je ze te monetiseren.",
-    "subtitle": "Je hebt jarenlang en duizenden euro's besteed aan het opbouwen van een kandidatendatabase, maar het grootste deel van de waarde is onzichtbaar. Standaard zoekwoorden zijn te rigide, en handmatige screening kost recruiters uren productiviteit.",
+    "title": "Uw kandidatendatabase is meer waard dan u denkt — maar minder bruikbaar dan zou moeten.",
+    "subtitle": "Bureaus betalen voor nieuwe sourcingcampagnes terwijl gekwalificeerde kandidaten al in hun eigen database zitten. Jaren aan opgebouwde profielen verouderen stilletjes, tot erin zoeken de moeite niet meer lijkt te lonen.",
     "item1": {
-      "title": "De 'Zwarte Gat' Database",
-      "description": "Geweldige kandidaten worden vergeten op het moment dat een vacature sluit. Je beste talent is onzichtbaar in een database die je al betaald hebt om te bouwen."
+      "title": "Verouderde cv's",
+      "description": "Cv's van jaren geleden laten niet meer zien wat kandidaten vandaag kunnen — uw zoekopdrachten leveren gedateerde antwoorden op."
     },
     "item2": {
-      "title": "Rommelige, Inconsistente Formats",
-      "description": "Ongestructureerde cv's maken objectieve vergelijking onmogelijk. Elke review wordt een subjectief, tijdrovend giswerk."
+      "title": "Ontbrekende contact- en profielgegevens",
+      "description": "Een profiel zonder e-mailadres, telefoonnummer, locatie of skills kan niet worden benaderd of gematcht wanneer een vacature opent."
     },
     "item3": {
-      "title": "Datavervuiling",
-      "description": "Duplicaten en verouderde bestanden vervuilen zoekresultaten, verspillen recruitertijd en vertekenen je talent intelligence."
+      "title": "Dubbele kandidaatrecords",
+      "description": "Dezelfde persoon bestaat drie keer onder net iets andere namen, wat de historie versnippert en elke zoekopdracht vervuilt."
     },
     "item4": {
-      "title": "Subjectieve Matching",
-      "description": "Recruiters vertrouwen op geheugen of gebrekkige zoekwoord-matching, missen niet-voor-de-hand-liggende fits en over het hoofd zien consequent toptalent."
+      "title": "Gekwalificeerde kandidaten begraven in oude data",
+      "description": "De juiste persoon voor uw huidige vacature zit vaak al in uw database — onzichtbaar achter ruis en verouderde records."
     }
+  },
+  "dataQuality": {
+    "label": "Datakwaliteit van de cv-bibliotheek",
+    "title": "Weet precies wat bruikbaar is — en wat aandacht nodig heeft.",
+    "subtitle": "Qorva beoordeelt elk profiel in uw kandidatenbibliotheek op vier kwaliteitsdimensies, zodat u ziet wat klaar is voor gebruik en herstelt wat dat niet is.",
+    "completeness": {
+      "title": "Volledigheid",
+      "description": "Spoor profielen op zonder essentiële informatie — e-mail, telefoonnummer, locatie, skills of werkervaring — voordat ze u een plaatsing kosten."
+    },
+    "freshness": {
+      "title": "Actualiteit",
+      "description": "Zie wanneer elk profiel voor het laatst is bijgewerkt: in de afgelopen zes maanden, zes tot achttien maanden geleden, of langer dan achttien maanden geleden."
+    },
+    "uniqueness": {
+      "title": "Uniciteit",
+      "description": "Detecteer waarschijnlijke dubbele profielen en dubbele cv's, zodat elke zoekopdracht één schoon record per persoon oplevert."
+    },
+    "confidence": {
+      "title": "AI-betrouwbaarheid",
+      "description": "Bekijk hoe zeker de AI-extractie is voor elk verwerkt cv, zodat records met lage betrouwbaarheid gemarkeerd kunnen worden voor handmatige controle."
+    },
+    "action": "Elk probleem is direct aan te pakken: filter de betrokken profielen en herstel, voeg samen of actualiseer ze vanuit dezelfde weergave."
+  },
+  "refresh": {
+    "label": "Kandidaten actualiseren",
+    "title": "Actualiseer verouderde profielen zonder handmatige opvolging.",
+    "subtitle": "In plaats van duizenden records handmatig bij te werken, kunnen recruiters kandidaten vragen hun eigen gegevens te bevestigen en te actualiseren.",
+    "step1": {
+      "title": "Selecteer verouderde profielen",
+      "description": "Filter kandidaten van wie de gegevens al maanden of jaren niet zijn bijgewerkt."
+    },
+    "step2": {
+      "title": "Kies een e-mailsjabloon",
+      "description": "Kies of personaliseer het bericht waarin kandidaten wordt gevraagd hun gegevens bij te werken."
+    },
+    "step3": {
+      "title": "Kandidaten werken zichzelf bij",
+      "description": "Elke kandidaat ontvangt een verzoek en werkt zijn of haar eigen profiel bij."
+    },
+    "step4": {
+      "title": "Uw database blijft actueel",
+      "description": "Bijgewerkte profielen stromen terug in uw bibliotheek, klaar om te doorzoeken en te matchen."
+    }
+  },
+  "sampleReport": {
+    "label": "Voorbeeldrapport",
+    "title": "Zo ziet een databasekwaliteitsrapport eruit.",
+    "subtitle": "Na analyse van uw bibliotheek geeft Qorva u een helder beeld van wat u werkelijk bezit.",
+    "imageAlt": "Qorva datakwaliteitsanalyse van de kandidatenbibliotheek"
   },
   "workflow": {
-    "title": "Van ruwe cv's naar gerangschikte shortlists in 4 eenvoudige stappen.",
-    "subtitle": "Geen training vereist. Geen complexe installatie. Upload gewoon je cv's en laat Qorva AI het intelligentiewerk doen.",
+    "title": "Van slapende database naar nieuwe plaatsingen.",
+    "subtitle": "Vijf stappen, één doel: meer plaatsingen met kandidaten die u al kent.",
     "steps": {
-      "upload": {
+      "audit": {
         "label": "Stap 1",
-        "title": "Bulk Upload",
-        "description": "Drop tot 100 cv's tegelijk in elk formaat — PDF, Word of platte tekst."
+        "title": "Auditeren",
+        "description": "Analyseer de kwaliteit van uw bibliotheek: volledigheid, actualiteit, uniciteit en AI-betrouwbaarheid."
       },
-      "enrich": {
+      "clean": {
         "label": "Stap 2",
-        "title": "Verrijken & Grafen",
-        "description": "Qorva extraheert diepgaande kandidaatstatistieken: Velocity, Senioriteit, Omgeving Fit, Clusters en meer."
+        "title": "Opschonen",
+        "description": "Identificeer duplicaten, onvolledige profielen en records met lage betrouwbaarheid — en los ze op."
       },
-      "interrogate": {
+      "refreshStep": {
         "label": "Stap 3",
-        "title": "Bevragen & Analyseren",
-        "description": "Doorzoek je volledige database met natuurlijke taal, precies zoals een menselijke headhunter dat zou doen."
+        "title": "Actualiseren",
+        "description": "Nodig kandidaten met verouderde profielen uit om hun eigen gegevens bij te werken."
       },
-      "score": {
+      "rediscover": {
         "label": "Stap 4",
-        "title": "Scoren & Exporteren",
-        "description": "Rangschik kandidaten met je eigen scoringregels en exporteer direct schone, gestructureerde shortlists."
+        "title": "Herontdekken",
+        "description": "Doorzoek en match de verbeterde database met uw openstaande vacatures."
+      },
+      "place": {
+        "label": "Stap 5",
+        "title": "Plaatsen",
+        "description": "Bouw sterkere shortlists met kandidaten die uw bureau al kent."
       }
     }
   },
-  "pillars": {
-    "title": "Zes Intelligence Lagen. Één Geïntegreerd Platform.",
-    "subtitle": "Qorva AI bouwt een multidimensionale talent graph uit je bestaande data — en levert precisie-matching en inzichten die je niet kunt halen uit platte zoekopdrachten op sleutelwoorden.",
-    "a": {
-      "label": "Diepgaande CV Intelligence",
-      "title": "Standaardiseer en verrijk elk cv automatisch.",
-      "description": "Drop tot 100 cv's tegelijk. Qorva detecteert automatisch duplicaten, normaliseert lay-outs en leidt geavanceerde kandidaatgegevenspunten af over 8 dimensies.",
-      "points": "Primaire & Secundaire Clusters · Vaardigheidsdiepte · Senioriteitsniveau · Leiderschapspotentieel · Leersnelheid · Functionele Expertise · Sectordomeinen · Omgeving Fit"
+  "capabilities": {
+    "title": "Al het overige, gebouwd rond uw database.",
+    "subtitle": "Zodra uw bibliotheek schoon en actueel is, helpen Qorva's matching- en analysetools u om er plaatsingen van te maken.",
+    "understand": {
+      "title": "Uw database begrijpen",
+      "item1": "Skillsverdeling van elke talentpool",
+      "item2": "Kandidaataantallen en dekkingspercentages",
+      "item3": "Heldere samenvattingen met grafieken",
+      "imageAlt": "Qorva-rapport van de skillsverdeling in een talentpool"
     },
-    "b": {
-      "label": "Strategisch Talent Dashboard",
-      "title": "Bekijk je talentpool als een bedrijfsasset.",
-      "description": "Verkrijg direct hoogwaardig inzicht in je volledige database. Spot topvaardigheden, talentclusters, geografische dichtheid en kandidaatbereidheid zodat je team met vertrouwen staffing-capaciteiten aan klanten kan presenteren."
+    "find": {
+      "title": "De juiste kandidaten vinden",
+      "item1": "Doorzoek uw database in gewone taal",
+      "item2": "Combineer skills, loopbaanpaden en talen in één vraag",
+      "item3": "Directe aantallen en matchende profielen uit uw eigen pool",
+      "imageAlt": "Resultaat van conversationeel zoeken in Qorva met matchende kandidaten"
     },
-    "c": {
-      "label": "Custom-Rule Matching",
-      "title": "Genereer shortlists op basis van je wervingsprioriteiten.",
-      "description": "Markeer vaardigheden als Verplicht, Belangrijk of Nice-to-Have en definieer aangepaste scoringgewichten. Qorva produceert een gerangschikt Matching Rapport met expliciete uitsplitsingen van sterke punten, hiaten en algehele afstemming."
+    "bench": {
+      "title": "Zie de kracht van uw talentpool",
+      "item1": "Senioriteitsverdeling in één oogopslag",
+      "item2": "Groepeer kandidaten in duidelijke specialisaties",
+      "item3": "Onderbouw klantpitches met echte cijfers",
+      "imageAlt": "Qorva-overzicht van senioriteit en clusters in een talentpool"
     },
-    "d": {
-      "label": "Conversationele AI",
-      "title": "Spreek rechtstreeks tot je kandidatendatabase.",
-      "description": "Sla de filters over. Gebruik natuurlijke taal om complexe talentlogica direct toe te passen in 8 gespecialiseerde intentiecategorieën.",
-      "intentHeader1": "Intentiecategorie",
-      "intentHeader2": "Wat je Qorva AI kunt vragen",
-      "intents": {
-        "talent":      { "category": "Talentpool Intelligence",    "example": "\"Zijn we klaar om een nieuwe bankingklant in Brussel te staffing?\"" },
-        "gap":         { "category": "Vaardigheidskloof Analyse",  "example": "\"Welke kritieke vaardigheden ontbreken in onze cybersecurity-pool?\"" },
-        "ranking":     { "category": "Kandidaatrangschikking",     "example": "\"Wie zijn onze top 10 kandidaten voor een senior DevOps-rol?\"" },
-        "rediscovery": { "category": "Kandidaatherontdekking",     "example": "\"Vind kandidaten die we vorig jaar hebben afgewezen en die passen bij deze nieuwe functie.\"" },
-        "clustering":  { "category": "Talentclustering",           "example": "\"Groepeer onze actieve technische kandidaten in technische specialisaties.\"" },
-        "skills":      { "category": "Vaardighedenverspreiding",   "example": "\"Wat zijn de meest voorkomende tech stacks in onze aerospace-pool?\"" },
-        "comparison":  { "category": "Kandidaatvergelijking",      "example": "\"Vergelijk REF-001 en REF-002 op leiderschap en omgeving fit.\"" },
-        "rules":       { "category": "Algemene Wervingsregels",    "example": "\"Wat zijn goede technische interviewvragen voor een backend engineer?\"" }
-      }
+    "exportNote": "Plus: gedetailleerde matchingrapporten, directe kandidaatvergelijking en universele ATS-export (CSV) voor elke shortlist."
+  },
+  "icp": {
+    "label": "Voor wie",
+    "title": "Gebouwd voor boutique recruitmentbureaus in IT, engineering en specialismen.",
+    "subtitle": "Qorva is ontworpen voor bureaus die leven in hun kandidatendatabase — niet voor eenmalige wervingen.",
+    "fit1": {
+      "title": "Teams van 2–30 recruiters",
+      "description": "Groot genoeg om door de jaren heen duizenden profielen te hebben opgebouwd, klein genoeg dat niemand tijd heeft om ze handmatig op te schonen."
     },
-    "e": {
-      "label": "AI CV-Chat",
-      "title": "Voer nooit meer een onvoorbereide sollicitatiegesprek.",
-      "description": "Open AI CV-Chat rechtstreeks vanuit het hoofdmenu om diep in te gaan op de achtergrond van elke kandidaat. Stel gerichte vragen in natuurlijke taal, breng carrière-randgevallen naar voren, daag technische hiaten uit en genereer op maat gemaakte, impactvolle interviewvragen — voordat je ooit plaatsneemt voor het gesprek."
+    "fit2": {
+      "title": "Terugkerende, vergelijkbare vacatures",
+      "description": "U plaatst steeds dezelfde soorten profielen — daardoor zijn eerdere kandidaten vaak de snelste route naar de volgende plaatsing."
     },
-    "f": {
-      "label": "ATS Export",
-      "title": "Naadloos in je bestaande workflow.",
-      "description": "Qorva dwingt je niet om je huidige softwarestack te vervangen. Exporteer direct je best gerangschikte shortlists in standaard CSV-formaat om direct te synchroniseren met je favoriete ATS."
+    "fit3": {
+      "title": "Een ATS vol historie",
+      "description": "Jaren aan cv's, notities en half ingevulde records liggen in uw ATS of recruitment-CRM. Qorva werkt ernaast en maakt van die historie een doorzoekbaar bezit."
     }
   },
   "trust": {
-    "title": "Transparante, Recruiter-Gecontroleerde AI Workflows.",
-    "subtitle": "Qorva AI fungeert als een augmented intelligence engine, niet als een black box beslisser. Ontworpen rond transparantie en menselijke validatie in de loop.",
+    "title": "Ontworpen voor privacybewuste, door mensen gecontroleerde recruitment.",
+    "subtitle": "Qorva ondersteunt de beslissingen van recruiters — het vervangt ze niet. Uw kandidaatgegevens blijven bij elke stap onder uw controle.",
     "explainability": {
-      "title": "Totale Verklaarbaarheid",
-      "description": "Elke matchrangschikking is onderbouwd door heldere, auditeerbare redenering op basis van je eigen scoringregels — geen mysterieuze scores, geen ondoorzichtige algoritmen."
+      "title": "Verklaarbare resultaten",
+      "description": "Elke match en elke ranking is onderbouwd met heldere redenering op basis van uw eigen scoringsregels — geen mysterieuze scores, geen ondoorzichtige algoritmen."
     },
     "control": {
-      "title": "Recruiters Beslissen",
-      "description": "Het systeem adviseert; mensen nemen de uiteindelijke aanwervingsbeslissingen. Volledige controle blijft bij jouw team op elke stap van de workflow."
+      "title": "Recruiters houden de regie",
+      "description": "Qorva beveelt aan; uw team beslist. Geen geautomatiseerde wervingsbeslissingen zonder betrokkenheid van een recruiter."
     },
     "integrity": {
-      "title": "Data-Integriteit",
-      "description": "Alle kandidaatgegevens zijn logisch gesegregeerd per organisatie met strikte toegangscontroles, zodat je talentdata privé blijft en alleen zichtbaar is voor geautoriseerde leden van jouw team."
+      "title": "Gecontroleerde datatoegang",
+      "description": "Kandidaatgegevens zijn per organisatie gescheiden met strikte toegangscontroles, alleen zichtbaar voor geautoriseerde teamleden."
     },
-    "gdpr": {
-      "title": "Compliance Gecertificeerd",
-      "description": "Volledig conform AVG, CCPA en de EU AI Act. Gebouwd met privacy-by-design-principes en transparante, auditeerbare dataverwerkingsprocessen om te voldoen aan de hedendaagse compliancenormen voor werving."
+    "privacy": {
+      "title": "Privacybewust van ontwerp",
+      "description": "Kandidaatgegevens worden veilig verwerkt, nooit verkocht of gedeeld met derden, en kunnen op verzoek worden verwijderd."
     }
   },
   "finalCta": {
-    "title": "Stop met from scratch sourcing.",
-    "titleAccent": "Ontgrendel vandaag nog je verborgen talentnetwerk.",
-    "subtitle": "Krijg volledige, onbeperkte toegang tot Qorva AI gedurende 7 dagen. Upload je eerste batch cv's, doorzoek je data en genereer gerangschikte shortlists in minuten.",
-    "cta": "Start Mijn Gratis Proefperiode van 7 Dagen",
-    "note": "Operationeel binnen 60 seconden."
+    "title": "Ontdek hoeveel waarde er verborgen zit in",
+    "titleAccent": "uw kandidatendatabase.",
+    "subtitle": "Krijg een helder beeld van verouderde, onvolledige en dubbele profielen — en ontdek welke kandidaten mogelijk al matchen met uw actieve vacatures.",
+    "primary": "Mijn databasekwaliteitsrapport aanvragen",
+    "secondary": "Bekijk een voorbeeldrapport"
   },
   "faq": {
     "title": "Veelgestelde vragen",
-    "subtitle": "Alles wat je moet weten voor je begint.",
+    "subtitle": "Alles wat u moet weten voordat u begint.",
     "item1": {
-      "question": "Heb ik een ATS of HR-software nodig om Qorva AI te gebruiken?",
-      "answer": "Nee. Qorva AI is een zelfstandig platform gebouwd voor recruitingteams die meer intelligentie willen dan hun ATS biedt. Maak gewoon een account aan, upload je cv's en de functiebeschrijving, en je hebt binnen minuten een gerangschikte shortlist — geen integraties of IT-installatie nodig."
+      "question": "Wat is het databasekwaliteitsrapport?",
+      "answer": "Importeer uw kandidatenbibliotheek en Qorva analyseert deze op volledigheid, actualiteit, duplicaten en de betrouwbaarheid van de AI-extractie. U krijgt een helder beeld van welke profielen klaar zijn voor gebruik, welke aandacht nodig hebben en waar mogelijke duplicaten schuilen."
     },
     "item2": {
-      "question": "Hoe snel kan ik beginnen met het screenen van kandidaten?",
-      "answer": "Meteen. Registreer je, upload je cv's en Qorva AI begint direct met het verwerken van kandidaten. De meeste gebruikers hebben binnen minuten na hun eerste aanmelding een gerangschikte shortlist klaar."
+      "question": "Heb ik een ATS of HR-software nodig om Qorva te gebruiken?",
+      "answer": "Nee. Qorva is een zelfstandig platform dat naast uw huidige tools werkt. Exporteer uw cv's uit uw ATS of CRM, importeer ze in Qorva en start de analyse — zonder integraties of IT-project."
     },
     "item3": {
-      "question": "Is Qorva AI alleen voor grootschalige werving?",
-      "answer": "Helemaal niet. Of je nu 50 of 5.000 kandidaten beheert, Qorva AI verandert je bestaande database in een actief, doorzoekbaar asset. Het is ontworpen voor teams die snel en zeker plaatsingsbeslissingen willen nemen."
+      "question": "Hoe snel zie ik resultaten?",
+      "answer": "Direct. Maak een account aan, importeer uw cv's en Qorva begint meteen met analyseren. De meeste teams zien hun eerste kwaliteitsinzichten en matches binnen enkele minuten na de eerste import."
     },
     "item4": {
-      "question": "Kan ik bepalen wat het belangrijkst is voor elke specifieke functie?",
-      "answer": "Ja. Jij definieert de scoringregels — vereiste vaardigheden, senioriteitsniveau, ervaringsomeinen — en Qorva AI rangschikt elke kandidaat dienovereenkomstig. Elke score bevat een duidelijke uitleg zodat je altijd weet waarom iemand op die positie staat."
+      "question": "Kan ik bepalen wat voor elke functie het belangrijkst is?",
+      "answer": "Ja. U definieert de scoringsregels — vereiste skills, senioriteitsniveau, ervaringsdomeinen — en Qorva rangschikt elke kandidaat dienovereenkomstig. Elke score komt met een duidelijke uitleg."
     },
     "item5": {
-      "question": "Zijn kandidaatgegevens veilig en AVG-conform?",
-      "answer": "Ja. Alle gegevens zijn versleuteld tijdens overdracht en in rust. Qorva AI voldoet aan de AVG — kandidaatgegevens worden nooit verkocht of gedeeld met derden, verwerkt in geïsoleerde tenantruimtes en kunnen op elk moment op verzoek worden verwijderd."
+      "question": "Zijn kandidaatgegevens veilig?",
+      "answer": "Alle gegevens worden versleuteld tijdens transport en opslag, en verwerkt in geïsoleerde omgevingen per organisatie. Kandidaatgegevens worden nooit verkocht of gedeeld met derden en kunnen op verzoek altijd worden verwijderd — ter ondersteuning van uw privacyverplichtingen richting kandidaten."
     },
     "item6": {
       "question": "Is er een gratis proefperiode?",
-      "answer": "Ja — 7 dagen, volledige toegang. Upload echte kandidaten voor een echte functie en zie precies wat Qorva AI kan doen voordat je je vastlegt op een plan."
+      "answer": "Ja — 14 dagen, volledige toegang. Importeer echte kandidaten uit uw eigen database en zie precies wat Qorva kan voordat u zich aan een plan verbindt."
     }
   },
   "pricing": {
     "title": "Eenvoudige, transparante prijzen",
-    "subtitle": "Kies het plan dat bij uw team past",
+    "subtitle": "Plannen die meegroeien met uw bureau",
     "monthly": "Maandelijks",
     "yearly": "Jaarlijks",
     "periodMonthly": "/maand",
     "savePercent": "Bespaar 20%",
-    "mostPopular": "Meest populair",
-    "matchingActionNote": "1 matchingactie = 1 cv-extractie of 1 matchingrapport",
-    "button": { "freeTrial": "Gratis proefperiode starten" },
+    "mostPopular": "Populairst",
+    "button": {
+      "freeTrial": "Start gratis proefperiode"
+    },
     "features": {
-      "freeTrial": "7 dagen gratis proefperiode",
-      "brandedCvExport": "Merkgebonden cv-exports",
-      "brandedMatchReport": "Merkgebonden matchingrapporten",
-      "accountManager": "Dedicated accountmanager",
+      "freeTrial": "14 dagen gratis proberen",
+      "brandedCvExport": "Cv-exports met uw huisstijl",
+      "brandedMatchReport": "Matchingrapporten met uw huisstijl",
+      "accountManager": "Toegewijde accountmanager",
       "sla": "SLA-garanties"
     },
     "starter": {
       "title": "Starter",
-      "description": "Voor solo-recruiters en kleine teams",
+      "description": "Voor kleine bureaus die hun database beginnen op te schonen",
       "users": "2 gebruikers",
-      "matchingActions": "1.000 matchingacties / maand",
-      "aiChat": "300 AI Resume Chat-berichten / maand",
-      "queries": "500 Talent Intelligence-zoekopdrachten / maand"
+      "aiChat": "500 AI Resume Chat-berichten / maand",
+      "queries": "1.000 Talent Intelligence-query's / maand",
+      "screeningActions": "2.000 screeningacties / maand",
+      "emailTemplates": "3 e-mailsjablonen"
     },
     "pro": {
       "title": "Pro",
-      "description": "Voor groeiende bureaus met actieve kandidatenpipelines",
+      "description": "Voor groeiende bureaus met actieve kandidaatpijplijnen",
       "users": "5 gebruikers",
-      "matchingActions": "5.000 matchingacties / maand",
-      "aiChat": "700 AI Resume Chat-berichten / maand",
-      "queries": "1.500 Talent Intelligence-zoekopdrachten / maand"
+      "aiChat": "1.500 AI Resume Chat-berichten / maand",
+      "queries": "3.000 Talent Intelligence-query's / maand",
+      "screeningActions": "10.000 screeningacties / maand",
+      "emailTemplates": "15 e-mailsjablonen"
     },
     "scale": {
       "title": "Scale",
-      "description": "Voor gevestigde bureaus die op hoog volume leveren",
-      "users": "10 gebruikers",
-      "matchingActions": "12.000 matchingacties / maand",
-      "aiChat": "2.000 AI Resume Chat-berichten / maand",
-      "queries": "4.000 Talent Intelligence-zoekopdrachten / maand"
-    }
+      "description": "Voor gevestigde bureaus die op volume leveren",
+      "users": "15 gebruikers",
+      "aiChat": "4.000 AI Resume Chat-berichten / maand",
+      "queries": "8.000 Talent Intelligence-query's / maand",
+      "screeningActions": "25.000 screeningacties / maand",
+      "emailTemplates": "50 e-mailsjablonen"
+    },
+    "screeningActionNote": "1 screeningactie = 1 cv importeren of 1 matchingrapport genereren"
   },
   "footer": {
     "brand": "Qorva",
-    "description": "AI Talent Intelligence & Matching Platform. Zet je cv-bibliotheek om in een doorzoekbaar, omzet-genererend asset.",
+    "description": "Qorva helpt recruitmentbureaus verouderde, onvolledige kandidatendatabases om te zetten in doorzoekbare talentpools die klaar zijn om omzet te genereren.",
     "product": {
       "title": "Product",
-      "features": "Functies",
+      "dataQuality": "Datakwaliteit",
+      "howItWorks": "Hoe het werkt",
       "pricing": "Prijzen",
-      "documentation": "Documentatie",
-      "apiReference": "API Referentie"
-    },
-    "company": {
-      "title": "Bedrijf",
-      "aboutUs": "Over ons",
-      "blog": "Blog",
-      "careers": "Carrière",
-      "contact": "Contact"
+      "signIn": "Inloggen"
     },
     "legal": {
       "title": "Juridisch",
       "privacyPolicy": "Privacybeleid",
-      "termsOfService": "Algemene voorwaarden",
+      "termsOfService": "Servicevoorwaarden",
       "security": "Beveiliging",
       "compliance": "Compliance",
       "accessibility": "Toegankelijkheid"
@@ -283,70 +289,11 @@
     "legalEntity": "Logicasoft, LLC · EIN 38-4349843",
     "dataResidency": "United States"
   },
-  "metrics": {
-    "stat1": { "value": "10×", "label": "Snellere Shortlists", "context": "vs. handmatige selectie" },
-    "stat2": { "value": "85%", "label": "Minder Tijd", "context": "voor een complete shortlist" },
-    "stat3": { "value": "60s", "label": "Eerste Resultaten", "context": "vanaf uw eerste zoekopdracht" },
-    "stat4": { "value": "3×", "label": "Meer Kandidaten", "context": "uit uw bestaande database" }
-  },
   "cookieConsent": {
     "title": "Wij gebruiken cookies",
-    "description": "Wij gebruiken cookies om u de beste ervaring op onze website te bieden. Sommige zijn essentieel voor het functioneren van de site; andere helpen ons te begrijpen hoe de site wordt gebruikt.",
+    "description": "Wij gebruiken cookies om u de beste ervaring op onze website te bieden. Sommige zijn essentieel voor het functioneren van de site; andere helpen ons te begrijpen hoe deze wordt gebruikt.",
     "acceptAll": "Alles accepteren",
     "essentialOnly": "Alleen essentiële",
     "learnMore": "Privacybeleid"
-  },
-  "icp": {
-    "label": "Gebouwd Voor",
-    "title": "Ontworpen voor talentteams die snel bewegen.",
-    "subtitle": "Of u nu een boutique recruiter of een globaal staffingnetwerk bent, Qorva AI past zich aan uw workflow aan.",
-    "agency": {
-      "title": "Staffing- en Wervingsbureaus",
-      "description": "Zet uw bestaande kandidatendatabase om in een inkomsten genererende asset. Stop met van nul af aan sourcen en begin vanuit uw inventaris te plaatsen.",
-      "check1": "Snelle shortlist-generatie vanuit opgeslagen cv's",
-      "check2": "Analyse van vaardighedendekking voor klantpresentaties",
-      "check3": "Multi-client talentpool beheer"
-    },
-    "inhouse": {
-      "title": "Interne Talent Acquisition Teams",
-      "description": "Elimineer knelpunten bij handmatige screening en geef uw recruiters de tijd terug die ze besteden aan repetitieve taken.",
-      "check1": "Geautomatiseerde kandidaatvolgorde op rolcriteria",
-      "check2": "Zoekopdrachten in natuurlijke taal in uw ATS-exports",
-      "check3": "Gestructureerde kandidaatvergelijkingen voor aanwervingspanels"
-    },
-    "executive": {
-      "title": "Executive Search Bureaus",
-      "description": "Ontdek niet-voor-de-hand-liggende kandidaten in uw netwerk en presenteer klanten datagedreven shortlists.",
-      "check1": "Diepgaande kandidaatprofilering over 8 dimensies",
-      "check2": "Directe vergelijking voor eindbeslissingen",
-      "check3": "Exporteerbare match-rapporten voor klantpresentaties"
-    }
-  },
-  "integration": {
-    "eyebrow": "Integraties",
-    "title": "Uw AI-brein. Geen ATS-vervanging.",
-    "subtitle": "Qorva AI werkt boven op uw bestaande workflow. Zoek slimmer, rangschik sneller — en exporteer resultaten direct naar uw ATS via CSV. Geen systeem-wissel nodig.",
-    "worksAlongside": "Werkt samen met:",
-    "exportNote": "Export naar elk ATS via standaard CSV — geen API-contract of IT-project vereist."
-  },
-  "socialProof": {
-    "label": "Wat Recruiters Zeggen",
-    "title": "Vertrouwd door talentteams wereldwijd.",
-    "subtitle": "Echte resultaten van wervingsteams die Qorva AI gebruiken om sneller en slimmer te plaatsen.",
-    "testimonial1": {
-      "quote": "Qorva AI verkortte onze preselectietijd van twee dagen naar minder dan een uur. We presenteren klanten nu met data, niet met buikgevoel.",
-      "name": "Sarah C.",
-      "role": "Head of Delivery, Wervingsbureau"
-    },
-    "testimonial2": {
-      "quote": "De kandidaatvergelijkingsfunctie veranderde hoe we aan hiring managers presenteren. Helder, verdedigbaar, gestructureerd.",
-      "name": "Marc R.",
-      "role": "Senior Recruiter, Intern TA-team"
-    },
-    "testimonial3": {
-      "quote": "We herontdekten 40 gekwalificeerde kandidaten uit onze eigen database die onze ATS-zoekopdracht volledig had gemist.",
-      "name": "Ana P.",
-      "role": "Partner, Executive Search Bureau"
-    }
   }
 }

@@ -1,10 +1,10 @@
 import { Box, Container, Typography, Grid } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
-import StorageIcon from '@mui/icons-material/Storage';
-import ArticleIcon from '@mui/icons-material/Article';
-import FilterAltOffIcon from '@mui/icons-material/FilterAltOff';
-import PsychologyIcon from '@mui/icons-material/Psychology';
+import HistoryIcon from '@mui/icons-material/History';
+import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import SearchOffIcon from '@mui/icons-material/SearchOff';
 
 const ProblemCard = styled(Box)(({ theme }) => ({
   padding: theme.spacing(4),
@@ -37,13 +37,13 @@ const ProblemIconWrapper = styled(Box)(() => ({
 }));
 
 const problemItems = [
-  { key: 'item1', icon: <StorageIcon sx={{ fontSize: 26 }} /> },
-  { key: 'item2', icon: <ArticleIcon sx={{ fontSize: 26 }} /> },
-  { key: 'item3', icon: <FilterAltOffIcon sx={{ fontSize: 26 }} /> },
-  { key: 'item4', icon: <PsychologyIcon sx={{ fontSize: 26 }} /> },
+  { key: 'item1', icon: <HistoryIcon sx={{ fontSize: 26 }} /> },
+  { key: 'item2', icon: <ContactPageOutlinedIcon sx={{ fontSize: 26 }} /> },
+  { key: 'item3', icon: <ContentCopyIcon sx={{ fontSize: 26 }} /> },
+  { key: 'item4', icon: <SearchOffIcon sx={{ fontSize: 26 }} /> },
 ];
 
-function Stats() {
+function ProblemSection() {
   const { t } = useTranslation();
 
   return (
@@ -105,4 +105,4 @@ function Stats() {
   );
 }
 
-export default Stats;
+export default ProblemSection;

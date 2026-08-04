@@ -4,16 +4,14 @@ import CssBaseline from '@mui/material/CssBaseline';
 import {BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
 import Header from './sections/Header';
 import Hero from './sections/Hero';
-import Stats from './sections/Stats';
-import Features from './sections/Features';
+import ProblemSection from './sections/ProblemSection';
+import DataQuality from './sections/DataQuality';
+import CandidateRefresh from './sections/CandidateRefresh';
+import SampleReport from './sections/SampleReport';
 import HowItWorks from './sections/HowItWorks';
-import DashboardPreview from './sections/DashboardPreview';
-import FeatureShowcase from './sections/FeatureShowcase';
-import TrustCompliance from './sections/TrustCompliance';
-import MetricsStrip from './sections/MetricsStrip';
+import Capabilities from './sections/Capabilities';
 import ICPSection from './sections/ICPSection';
-import IntegrationStrip from './sections/IntegrationStrip';
-import SocialProof from './sections/SocialProof';
+import TrustCompliance from './sections/TrustCompliance';
 import FinalCTA from './sections/FinalCTA';
 import FAQ from './sections/FAQ';
 import Pricing from './sections/Pricing';
@@ -163,19 +161,17 @@ const MainPage = () => {
         <Header />
         <MainContent component="main">
           <Hero />
-          <MetricsStrip />
-          <DashboardPreview />
-          <Stats />
-          <ICPSection />
-          <Features />
-          <FeatureShowcase />
+          <ProblemSection />
+          <DataQuality />
+          <SampleReport />
+          <CandidateRefresh />
           <HowItWorks />
-          <IntegrationStrip />
+          <Capabilities />
+          <ICPSection />
           <TrustCompliance />
-          {false && <SocialProof />}
-          <FinalCTA />
-          <FAQ />
           <Pricing />
+          <FAQ />
+          <FinalCTA />
           <Footer />
         </MainContent>
       </>

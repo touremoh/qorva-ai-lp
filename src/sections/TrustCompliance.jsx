@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import VerifiedIcon from '@mui/icons-material/Verified';
-import GavelIcon from '@mui/icons-material/Gavel';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 const TrustCard = styled(Box)(({ theme }) => ({
   display: 'flex',
@@ -41,7 +41,7 @@ const trustItems = [
   { key: 'explainability', icon: <VisibilityIcon sx={{ fontSize: 26 }} /> },
   { key: 'control',        icon: <AdminPanelSettingsIcon sx={{ fontSize: 26 }} /> },
   { key: 'integrity',      icon: <VerifiedIcon sx={{ fontSize: 26 }} /> },
-  { key: 'gdpr',           icon: <GavelIcon sx={{ fontSize: 26 }} /> },
+  { key: 'privacy',        icon: <LockOutlinedIcon sx={{ fontSize: 26 }} /> },
 ];
 
 function TrustCompliance() {
