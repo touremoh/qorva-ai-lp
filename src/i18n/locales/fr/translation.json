@@ -241,6 +241,7 @@
       "aiChat": "500 messages AI Resume Chat / mois",
       "queries": "1 000 requêtes Talent Intelligence / mois",
       "screeningActions": "2 000 actions de screening / mois",
+      "bulkImport": "Import groupé jusqu’à 100 CV à la fois",
       "emailTemplates": "3 modèles d'email"
     },
     "pro": {
@@ -250,6 +251,7 @@
       "aiChat": "1 500 messages AI Resume Chat / mois",
       "queries": "3 000 requêtes Talent Intelligence / mois",
       "screeningActions": "10 000 actions de screening / mois",
+      "bulkImport": "Import groupé jusqu’à 300 CV à la fois",
       "emailTemplates": "15 modèles d'email"
     },
     "scale": {
@@ -259,6 +261,7 @@
       "aiChat": "4 000 messages AI Resume Chat / mois",
       "queries": "8 000 requêtes Talent Intelligence / mois",
       "screeningActions": "25 000 actions de screening / mois",
+      "bulkImport": "Import groupé jusqu’à 1 000 CV à la fois",
       "emailTemplates": "50 modèles d'email"
     },
     "screeningActionNote": "1 action de screening = l'import d'1 CV ou la génération d'1 rapport de matching"
