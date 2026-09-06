@@ -1,6 +1,7 @@
 import { AppBar, Toolbar, Container, Button, Box, Link, Stack, Typography, MenuItem, Select } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
+import BookDemoButton from '../components/BookDemoButton';
 
 const StyledAppBar = styled(AppBar)(() => ({
   backgroundColor: 'rgba(248, 253, 244, 0.88)',
@@ -157,9 +158,7 @@ function Header() {
             <Button variant="outlined" color="primary" href={"https://app.qorva.ai/login"} sx={{ whiteSpace: 'nowrap', flexShrink: 0 }}>
               {t('header.signIn')}
             </Button>
-            <Button variant="contained" color="primary" href={"https://app.qorva.ai/register"} sx={{ whiteSpace: 'nowrap', flexShrink: 0 }}>
-              {t('header.cta')}
-            </Button>
+            <BookDemoButton size="medium" sx={{ flexShrink: 0 }} />
           </Stack>
         </Toolbar>
       </Container>
