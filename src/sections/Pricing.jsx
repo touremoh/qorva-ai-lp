@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
+import BookDemoButton from '../components/BookDemoButton';
 import {
-  Box, Container, Typography, Button, Grid,
+  Box, Container, Typography, Grid,
   List, ListItem, ListItemIcon, ListItemText,
   Chip, Switch, Stack,
 } from '@mui/material';
@@ -55,6 +56,7 @@ const PLANS = [
       { key: 'users',              plan: 'starter',   included: true },
       { key: 'screeningActions',   plan: 'starter',   included: true },
       { key: 'bulkImport',         plan: 'starter',   included: true },
+      { key: 'atsIntegrations',    plan: 'starter',   included: true },
       { key: 'aiChat',             plan: 'starter',   included: true },
       { key: 'queries',            plan: 'starter',   included: true },
       { key: 'emailTemplates',     plan: 'starter',   included: true },
@@ -74,6 +76,7 @@ const PLANS = [
       { key: 'users',              plan: 'pro',   included: true },
       { key: 'screeningActions',   plan: 'pro',   included: true },
       { key: 'bulkImport',         plan: 'pro',   included: true },
+      { key: 'atsIntegrations',    plan: 'pro',   included: true },
       { key: 'aiChat',             plan: 'pro',   included: true },
       { key: 'queries',            plan: 'pro',   included: true },
       { key: 'emailTemplates',     plan: 'pro',   included: true },
@@ -93,6 +96,7 @@ const PLANS = [
       { key: 'users',              plan: 'scale',   included: true },
       { key: 'screeningActions',   plan: 'scale',   included: true },
       { key: 'bulkImport',         plan: 'scale',   included: true },
+      { key: 'atsIntegrations',    plan: 'scale',   included: true },
       { key: 'aiChat',             plan: 'scale',   included: true },
       { key: 'queries',            plan: 'scale',   included: true },
       { key: 'emailTemplates',     plan: 'scale',   included: true },
@@ -287,27 +291,7 @@ const Pricing = () => {
                     ))}
                   </List>
 
-                  <Button
-                    fullWidth
-                    variant={plan.recommended ? 'contained' : 'outlined'}
-                    size="large"
-                    onClick={() => { location.href = 'https://app.qorva.ai/register'; }}
-                    sx={{
-                      borderRadius: '12px',
-                      py: 1.5,
-                      fontWeight: 600,
-                      ...(plan.recommended && {
-                        background: '#fff',
-                        color: '#2563eb',
-                        '&:hover': { background: 'rgba(255,255,255,0.9)' },
-                      }),
-                      ...(!plan.recommended && {
-                        borderColor: 'rgba(37,99,235,0.4)',
-                      }),
-                    }}
-                  >
-                    {t('pricing.button.freeTrial')}
-                  </Button>
+                  <BookDemoButton fullWidth size="medium" sx={{ mt: 1 }} />
                 </PricingCard>
               </Grid>
             );

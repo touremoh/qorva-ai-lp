@@ -4,18 +4,13 @@
     "howItWorks": "So funktioniert's",
     "dataQuality": "Datenqualität",
     "pricing": "Preise",
-    "signIn": "Anmelden",
-    "cta": "Bericht anfordern"
+    "signIn": "Anmelden"
   },
   "hero": {
     "badge": "Für IT-, Engineering- und Spezial-Personalagenturen",
     "title": "Zahlen Sie nicht länger für die Suche nach",
     "titleAccent": "Kandidaten, die Sie schon haben.",
     "subtitle": "Qorva prüft, aktualisiert und durchsucht Ihre bestehende Kandidatendatenbank — damit Personalagenturen qualifizierte Kandidaten wiederentdecken, bevor sie die nächste teure Sourcing-Kampagne starten.",
-    "cta": {
-      "primary": "Datenbank-Qualitätsbericht anfordern",
-      "secondary": "Beispielbericht ansehen"
-    },
     "note": "Beginnen Sie mit einer Analyse Ihrer bestehenden Kandidatendatenbank."
   },
   "problem": {
@@ -184,9 +179,7 @@
   "finalCta": {
     "title": "Finden Sie heraus, wie viel Wert in",
     "titleAccent": "Ihrer Kandidatendatenbank steckt.",
-    "subtitle": "Verschaffen Sie sich einen klaren Überblick über veraltete, unvollständige und doppelte Profile — und entdecken Sie, welche Kandidaten vielleicht schon zu Ihren aktiven Stellen passen.",
-    "primary": "Datenbank-Qualitätsbericht anfordern",
-    "secondary": "Beispielbericht ansehen"
+    "subtitle": "Verschaffen Sie sich einen klaren Überblick über veraltete, unvollständige und doppelte Profile — und entdecken Sie, welche Kandidaten vielleicht schon zu Ihren aktiven Stellen passen."
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
@@ -224,15 +217,13 @@
     "periodMonthly": "/Monat",
     "savePercent": "20 % sparen",
     "mostPopular": "Am beliebtesten",
-    "button": {
-      "freeTrial": "Kostenlos testen"
-    },
     "features": {
       "freeTrial": "14 Tage kostenlos testen",
       "brandedCvExport": "CV-Exporte mit Ihrem Branding",
       "brandedMatchReport": "Matching-Berichte mit Ihrem Branding",
       "accountManager": "Persönlicher Account-Manager",
-      "sla": "SLA-Garantien"
+      "sla": "SLA-Garantien",
+      "atsIntegrations": "ATS-Integrationen (Greenhouse, Workable, Lever…)"
     },
     "starter": {
       "title": "Starter",
@@ -242,7 +233,8 @@
       "queries": "1.000 Talent-Intelligence-Abfragen / Monat",
       "screeningActions": "2.000 Screening-Aktionen / Monat",
       "bulkImport": "Massenimport von bis zu 100 Lebensläufen auf einmal",
-      "emailTemplates": "3 E-Mail-Vorlagen"
+      "emailTemplates": "3 E-Mail-Vorlagen",
+      "atsIntegrations": "1 ATS-Integration (8 ATS unterstützt)"
     },
     "pro": {
       "title": "Pro",
@@ -252,7 +244,8 @@
       "queries": "3.000 Talent-Intelligence-Abfragen / Monat",
       "screeningActions": "10.000 Screening-Aktionen / Monat",
       "bulkImport": "Massenimport von bis zu 300 Lebensläufen auf einmal",
-      "emailTemplates": "15 E-Mail-Vorlagen"
+      "emailTemplates": "15 E-Mail-Vorlagen",
+      "atsIntegrations": "3 ATS-Integrationen (8 ATS unterstützt)"
     },
     "scale": {
       "title": "Scale",
@@ -262,7 +255,8 @@
       "queries": "8.000 Talent-Intelligence-Abfragen / Monat",
       "screeningActions": "25.000 Screening-Aktionen / Monat",
       "bulkImport": "Massenimport von bis zu 1.000 Lebensläufen auf einmal",
-      "emailTemplates": "50 E-Mail-Vorlagen"
+      "emailTemplates": "50 E-Mail-Vorlagen",
+      "atsIntegrations": "7 ATS-Integrationen (8 ATS unterstützt)"
     },
     "screeningActionNote": "1 Screening-Aktion = Import von 1 CV oder Erstellung von 1 Matching-Bericht"
   },
@@ -298,5 +292,13 @@
     "acceptAll": "Alle akzeptieren",
     "essentialOnly": "Nur essenzielle",
     "learnMore": "Datenschutzerklärung"
+  },
+  "cta": {
+    "bookDemo": "Demo buchen"
+  },
+  "supportedAts": {
+    "title": "Passt zu dem ATS, das Sie bereits nutzen",
+    "subtitle": "Verbinden Sie Ihr ATS in wenigen Klicks. Qorva importiert Kandidaten und offene Stellen automatisch und schreibt die Match-Scores zurück in den Kandidatendatensatz — ohne Exportdateien, ohne IT-Projekt.",
+    "note": "Nicht dabei? Ihre Lebensläufe lassen sich trotzdem als Massenimport laden — sprechen Sie uns auf Ihr System an."
   }
 }

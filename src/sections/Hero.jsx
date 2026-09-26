@@ -1,8 +1,8 @@
 import { Box, Container, Typography, Button, Stack, Chip } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
+import BookDemoButton from '../components/BookDemoButton';
 import GroupsIcon from '@mui/icons-material/Groups';
-import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 
 const HeroSection = styled(Box)(({ theme }) => ({
   display: 'flex',
@@ -98,45 +98,7 @@ function Hero() {
           </Typography>
 
           <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
-            <Button
-              variant="contained"
-              size="large"
-              href="https://app.qorva.ai/register"
-              sx={{
-                px: 4,
-                py: 1.75,
-                fontSize: '1rem',
-                background: 'linear-gradient(135deg, #629C44 0%, #3d6b28 100%)',
-                boxShadow: '0 8px 24px rgba(98,156,68,0.35)',
-                '&:hover': {
-                  background: 'linear-gradient(135deg, #a8d878 0%, #629C44 100%)',
-                  boxShadow: '0 12px 32px rgba(98,156,68,0.45)',
-                },
-              }}
-            >
-              {t('hero.cta.primary')}
-            </Button>
-            <Button
-              variant="outlined"
-              size="large"
-              href="#sample-report"
-              startIcon={<DescriptionOutlinedIcon />}
-              sx={{
-                px: 4,
-                py: 1.75,
-                fontSize: '1rem',
-                color: 'rgba(255,255,255,0.8)',
-                borderColor: 'rgba(255,255,255,0.25)',
-                '&:hover': {
-                  borderColor: '#a8d878',
-                  color: '#a8d878',
-                  background: 'rgba(98,156,68,0.08)',
-                  transform: 'translateY(-2px)',
-                },
-              }}
-            >
-              {t('hero.cta.secondary')}
-            </Button>
+            <BookDemoButton size="large" />
           </Stack>
 
           <Typography variant="body2" sx={{ color: 'rgba(255,255,255,0.38)', mt: -1, fontSize: '0.82rem' }}>

@@ -4,18 +4,13 @@
     "howItWorks": "Fonctionnement",
     "dataQuality": "Qualité des données",
     "pricing": "Tarifs",
-    "signIn": "Se connecter",
-    "cta": "Obtenir mon rapport"
+    "signIn": "Se connecter"
   },
   "hero": {
     "badge": "Pour les cabinets de recrutement IT et spécialisés",
     "title": "Arrêtez de payer pour rechercher des",
     "titleAccent": "candidats que vous avez déjà.",
     "subtitle": "Qorva audite, actualise et interroge votre base de candidats existante — pour aider les cabinets de recrutement à redécouvrir des candidats qualifiés avant de lancer une nouvelle campagne de sourcing coûteuse.",
-    "cta": {
-      "primary": "Obtenir mon rapport de qualité",
-      "secondary": "Voir un exemple de rapport"
-    },
     "note": "Commencez par une évaluation de votre base de candidats existante."
   },
   "problem": {
@@ -184,9 +179,7 @@
   "finalCta": {
     "title": "Découvrez la valeur cachée dans",
     "titleAccent": "votre base de candidats.",
-    "subtitle": "Obtenez une vision claire des profils obsolètes, incomplets et en double — et découvrez quels candidats correspondent peut-être déjà à vos postes ouverts.",
-    "primary": "Obtenir mon rapport de qualité",
-    "secondary": "Voir un exemple de rapport"
+    "subtitle": "Obtenez une vision claire des profils obsolètes, incomplets et en double — et découvrez quels candidats correspondent peut-être déjà à vos postes ouverts."
   },
   "faq": {
     "title": "Questions fréquentes",
@@ -224,15 +217,13 @@
     "periodMonthly": "/mois",
     "savePercent": "Économisez 20%",
     "mostPopular": "Le plus populaire",
-    "button": {
-      "freeTrial": "Démarrer l'essai gratuit"
-    },
     "features": {
       "freeTrial": "14 jours d'essai gratuit",
       "brandedCvExport": "Exports CV à votre marque",
       "brandedMatchReport": "Rapports de matching à votre marque",
       "accountManager": "Gestionnaire de compte dédié",
-      "sla": "Garanties SLA"
+      "sla": "Garanties SLA",
+      "atsIntegrations": "Intégrations ATS (Greenhouse, Workable, Lever…)"
     },
     "starter": {
       "title": "Starter",
@@ -242,7 +233,8 @@
       "queries": "1 000 requêtes Talent Intelligence / mois",
       "screeningActions": "2 000 actions de screening / mois",
       "bulkImport": "Import groupé jusqu’à 100 CV à la fois",
-      "emailTemplates": "3 modèles d'email"
+      "emailTemplates": "3 modèles d'email",
+      "atsIntegrations": "1 intégration ATS (8 ATS pris en charge)"
     },
     "pro": {
       "title": "Pro",
@@ -252,7 +244,8 @@
       "queries": "3 000 requêtes Talent Intelligence / mois",
       "screeningActions": "10 000 actions de screening / mois",
       "bulkImport": "Import groupé jusqu’à 300 CV à la fois",
-      "emailTemplates": "15 modèles d'email"
+      "emailTemplates": "15 modèles d'email",
+      "atsIntegrations": "3 intégrations ATS (8 ATS pris en charge)"
     },
     "scale": {
       "title": "Scale",
@@ -262,7 +255,8 @@
       "queries": "8 000 requêtes Talent Intelligence / mois",
       "screeningActions": "25 000 actions de screening / mois",
       "bulkImport": "Import groupé jusqu’à 1 000 CV à la fois",
-      "emailTemplates": "50 modèles d'email"
+      "emailTemplates": "50 modèles d'email",
+      "atsIntegrations": "7 intégrations ATS (8 ATS pris en charge)"
     },
     "screeningActionNote": "1 action de screening = l'import d'1 CV ou la génération d'1 rapport de matching"
   },
@@ -298,5 +292,13 @@
     "acceptAll": "Tout accepter",
     "essentialOnly": "Essentiels uniquement",
     "learnMore": "Politique de confidentialité"
+  },
+  "cta": {
+    "bookDemo": "Réserver une démo"
+  },
+  "supportedAts": {
+    "title": "Compatible avec l’ATS que vous utilisez déjà",
+    "subtitle": "Connectez votre ATS en quelques clics. Qorva importe automatiquement vos candidats et vos postes ouverts, puis renvoie les scores de correspondance dans la fiche du candidat — sans fichiers d’export ni projet informatique.",
+    "note": "Votre ATS n’est pas dans la liste ? Vos CV peuvent tout de même être importés en masse — parlons de votre environnement."
   }
 }
