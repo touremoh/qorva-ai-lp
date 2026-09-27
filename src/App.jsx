@@ -16,6 +16,7 @@ import FinalCTA from './sections/FinalCTA';
 import FAQ from './sections/FAQ';
 import Pricing from './sections/Pricing';
 import Footer from './sections/Footer';
+import SupportedAts from './components/SupportedAts';
 import CookieConsent from './components/CookieConsent';
 import MarkdownPage from "./sections/MarkdownPage.jsx";
 import {initGA, logPageView} from "./utils/analytics.js";
@@ -171,6 +172,7 @@ const MainPage = () => {
           <TrustCompliance />
           <Pricing />
           <FAQ />
+          <SupportedAts />
           <FinalCTA />
           <Footer />
         </MainContent>

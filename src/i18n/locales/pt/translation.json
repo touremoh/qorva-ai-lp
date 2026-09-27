@@ -2,20 +2,15 @@
   "header": {
     "product": "Produto",
     "howItWorks": "Como funciona",
-    "dataQuality": "Qualidade de dados",
+    "dataQuality": "Saúde dos dados",
     "pricing": "Preços",
-    "signIn": "Entrar",
-    "cta": "Obter meu relatório"
+    "signIn": "Entrar"
   },
   "hero": {
     "badge": "Para agências de recrutamento de TI, engenharia e especializadas",
     "title": "Pare de pagar para buscar",
     "titleAccent": "candidatos que você já tem.",
     "subtitle": "A Qorva audita, atualiza e pesquisa sua base de candidatos existente — ajudando agências de recrutamento a redescobrir candidatos qualificados antes de lançar mais uma cara campanha de sourcing.",
-    "cta": {
-      "primary": "Obter meu relatório de qualidade",
-      "secondary": "Ver um relatório de exemplo"
-    },
     "note": "Comece com uma avaliação da sua base de candidatos existente."
   },
   "problem": {
@@ -39,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Qualidade da biblioteca de CVs",
+    "label": "Saúde dos dados",
     "title": "Saiba exatamente o que é utilizável — e o que precisa de atenção.",
     "subtitle": "A Qorva avalia cada perfil da sua biblioteca de candidatos em quatro dimensões de qualidade, para você ver o que está pronto para uso e corrigir o que não está.",
     "completeness": {
       "title": "Completude",
-      "description": "Identifique perfis sem informações essenciais — e-mail, telefone, localização, competências ou histórico profissional — antes que custem uma colocação."
+      "description": "Identifique perfis sem informações essenciais — e-mail, telefone, cargo, competências ou histórico profissional — antes que custem uma colocação."
     },
     "freshness": {
       "title": "Atualidade",
@@ -58,7 +53,7 @@
       "title": "Confiança da IA",
       "description": "Consulte o nível de confiança da extração por IA de cada CV analisado, para sinalizar registros de baixa confiança para revisão manual."
     },
-    "action": "Cada problema é acionável: filtre os perfis afetados e corrija, mescle ou atualize a partir da mesma tela."
+    "action": "Cada problema é acionável: abra os perfis afetados e volte a analisá-los, peça aos candidatos que os atualizem, arquive-os ou remova os duplicados, tudo a partir da mesma tela."
   },
   "refresh": {
     "label": "Atualização de candidatos",
@@ -83,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Relatório de exemplo",
-    "title": "Como é um relatório de qualidade da base.",
+    "title": "Como é um relatório de Saúde dos dados.",
     "subtitle": "Após analisar sua biblioteca, a Qorva mostra com clareza o que você realmente possui.",
-    "imageAlt": "Análise de qualidade de dados da biblioteca de candidatos Qorva"
+    "imageAlt": "Página Saúde dos dados da Qorva para uma biblioteca de candidatos"
   },
   "workflow": {
     "title": "De base adormecida a novas colocações.",
@@ -184,15 +179,13 @@
   "finalCta": {
     "title": "Descubra quanto valor está escondido na",
     "titleAccent": "sua base de candidatos.",
-    "subtitle": "Tenha uma visão clara dos perfis desatualizados, incompletos e duplicados — e descubra quais candidatos talvez já correspondam às suas vagas ativas.",
-    "primary": "Obter meu relatório de qualidade",
-    "secondary": "Ver um relatório de exemplo"
+    "subtitle": "Tenha uma visão clara dos perfis desatualizados, incompletos e duplicados — e descubra quais candidatos talvez já correspondam às suas vagas ativas."
   },
   "faq": {
     "title": "Perguntas frequentes",
     "subtitle": "Tudo o que você precisa saber antes de começar.",
     "item1": {
-      "question": "O que é o relatório de qualidade da base?",
+      "question": "O que é o relatório de Saúde dos dados?",
       "answer": "Importe sua biblioteca de candidatos e a Qorva a analisa quanto a completude, atualidade, duplicados e confiança da extração por IA. Você obtém uma visão clara de quais perfis estão prontos para uso, quais precisam de atenção e onde se escondem possíveis duplicados."
     },
     "item2": {
@@ -224,15 +217,13 @@
     "periodMonthly": "/mês",
     "savePercent": "Economize 20%",
     "mostPopular": "Mais popular",
-    "button": {
-      "freeTrial": "Iniciar teste grátis"
-    },
     "features": {
       "freeTrial": "14 dias de teste grátis",
       "brandedCvExport": "Exportações de CV com a sua marca",
       "brandedMatchReport": "Relatórios de matching com a sua marca",
       "accountManager": "Gerente de conta dedicado",
-      "sla": "Garantias de SLA"
+      "sla": "Garantias de SLA",
+      "atsIntegrations": "Integrações de ATS (Greenhouse, Workable, Lever…)"
     },
     "starter": {
       "title": "Starter",
@@ -242,7 +233,8 @@
       "queries": "1.000 consultas Talent Intelligence / mês",
       "screeningActions": "2.000 ações de triagem / mês",
       "bulkImport": "Importação em massa até 100 CV de cada vez",
-      "emailTemplates": "3 modelos de e-mail"
+      "emailTemplates": "3 modelos de e-mail",
+      "atsIntegrations": "1 integração de ATS (8 ATS suportados)"
     },
     "pro": {
       "title": "Pro",
@@ -252,7 +244,8 @@
       "queries": "3.000 consultas Talent Intelligence / mês",
       "screeningActions": "10.000 ações de triagem / mês",
       "bulkImport": "Importação em massa até 300 CV de cada vez",
-      "emailTemplates": "15 modelos de e-mail"
+      "emailTemplates": "15 modelos de e-mail",
+      "atsIntegrations": "3 integrações de ATS (8 ATS suportados)"
     },
     "scale": {
       "title": "Scale",
@@ -262,7 +255,8 @@
       "queries": "8.000 consultas Talent Intelligence / mês",
       "screeningActions": "25.000 ações de triagem / mês",
       "bulkImport": "Importação em massa até 1.000 CV de cada vez",
-      "emailTemplates": "50 modelos de e-mail"
+      "emailTemplates": "50 modelos de e-mail",
+      "atsIntegrations": "7 integrações de ATS (8 ATS suportados)"
     },
     "screeningActionNote": "1 ação de triagem = importar 1 CV ou gerar 1 relatório de matching"
   },
@@ -271,7 +265,7 @@
     "description": "A Qorva ajuda agências de recrutamento a transformar bases de candidatos desatualizadas e incompletas em pools de talentos pesquisáveis e prontos para gerar receita.",
     "product": {
       "title": "Produto",
-      "dataQuality": "Qualidade de dados",
+      "dataQuality": "Saúde dos dados",
       "howItWorks": "Como funciona",
       "pricing": "Preços",
       "signIn": "Entrar"
@@ -298,5 +292,13 @@
     "acceptAll": "Aceitar todos",
     "essentialOnly": "Apenas essenciais",
     "learnMore": "Política de privacidade"
+  },
+  "cta": {
+    "bookDemo": "Agendar uma demonstração"
+  },
+  "supportedAts": {
+    "title": "Funciona com o ATS que já utiliza",
+    "subtitle": "Ligue o seu ATS em poucos cliques. A Qorva importa automaticamente os seus candidatos e vagas abertas e devolve as pontuações de correspondência à ficha do candidato — sem ficheiros de exportação nem projeto de TI.",
+    "note": "Não está na lista? Os seus CV podem na mesma ser importados em massa — fale connosco sobre o seu sistema."
   }
 }

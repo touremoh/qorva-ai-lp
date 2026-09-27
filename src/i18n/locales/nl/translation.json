@@ -4,18 +4,13 @@
     "howItWorks": "Hoe het werkt",
     "dataQuality": "Datakwaliteit",
     "pricing": "Prijzen",
-    "signIn": "Inloggen",
-    "cta": "Rapport aanvragen"
+    "signIn": "Inloggen"
   },
   "hero": {
     "badge": "Voor IT-, engineering- en gespecialiseerde recruitmentbureaus",
     "title": "Stop met betalen voor het sourcen van",
     "titleAccent": "kandidaten die u al heeft.",
     "subtitle": "Qorva controleert, actualiseert en doorzoekt uw bestaande kandidatendatabase — zodat recruitmentbureaus gekwalificeerde kandidaten herontdekken vóór ze weer een dure sourcingcampagne starten.",
-    "cta": {
-      "primary": "Mijn databasekwaliteitsrapport aanvragen",
-      "secondary": "Bekijk een voorbeeldrapport"
-    },
     "note": "Begin met een beoordeling van uw bestaande kandidatendatabase."
   },
   "problem": {
@@ -39,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Datakwaliteit van de cv-bibliotheek",
+    "label": "Datakwaliteit",
     "title": "Weet precies wat bruikbaar is — en wat aandacht nodig heeft.",
     "subtitle": "Qorva beoordeelt elk profiel in uw kandidatenbibliotheek op vier kwaliteitsdimensies, zodat u ziet wat klaar is voor gebruik en herstelt wat dat niet is.",
     "completeness": {
       "title": "Volledigheid",
-      "description": "Spoor profielen op zonder essentiële informatie — e-mail, telefoonnummer, locatie, skills of werkervaring — voordat ze u een plaatsing kosten."
+      "description": "Spoor profielen op zonder essentiële informatie — e-mail, telefoonnummer, functie, skills of werkervaring — voordat ze u een plaatsing kosten."
     },
     "freshness": {
       "title": "Actualiteit",
@@ -58,7 +53,7 @@
       "title": "AI-betrouwbaarheid",
       "description": "Bekijk hoe zeker de AI-extractie is voor elk verwerkt cv, zodat records met lage betrouwbaarheid gemarkeerd kunnen worden voor handmatige controle."
     },
-    "action": "Elk probleem is direct aan te pakken: filter de betrokken profielen en herstel, voeg samen of actualiseer ze vanuit dezelfde weergave."
+    "action": "Elk probleem is direct aan te pakken: open de betrokken profielen en analyseer ze opnieuw, vraag kandidaten om een update, archiveer ze of verwijder duplicaten, allemaal vanuit dezelfde weergave."
   },
   "refresh": {
     "label": "Kandidaten actualiseren",
@@ -83,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Voorbeeldrapport",
-    "title": "Zo ziet een databasekwaliteitsrapport eruit.",
+    "title": "Zo ziet een datakwaliteitsrapport eruit.",
     "subtitle": "Na analyse van uw bibliotheek geeft Qorva u een helder beeld van wat u werkelijk bezit.",
-    "imageAlt": "Qorva datakwaliteitsanalyse van de kandidatenbibliotheek"
+    "imageAlt": "Qorva-pagina Datakwaliteit voor een kandidatenbibliotheek"
   },
   "workflow": {
     "title": "Van slapende database naar nieuwe plaatsingen.",
@@ -184,15 +179,13 @@
   "finalCta": {
     "title": "Ontdek hoeveel waarde er verborgen zit in",
     "titleAccent": "uw kandidatendatabase.",
-    "subtitle": "Krijg een helder beeld van verouderde, onvolledige en dubbele profielen — en ontdek welke kandidaten mogelijk al matchen met uw actieve vacatures.",
-    "primary": "Mijn databasekwaliteitsrapport aanvragen",
-    "secondary": "Bekijk een voorbeeldrapport"
+    "subtitle": "Krijg een helder beeld van verouderde, onvolledige en dubbele profielen — en ontdek welke kandidaten mogelijk al matchen met uw actieve vacatures."
   },
   "faq": {
     "title": "Veelgestelde vragen",
     "subtitle": "Alles wat u moet weten voordat u begint.",
     "item1": {
-      "question": "Wat is het databasekwaliteitsrapport?",
+      "question": "Wat is het datakwaliteitsrapport?",
       "answer": "Importeer uw kandidatenbibliotheek en Qorva analyseert deze op volledigheid, actualiteit, duplicaten en de betrouwbaarheid van de AI-extractie. U krijgt een helder beeld van welke profielen klaar zijn voor gebruik, welke aandacht nodig hebben en waar mogelijke duplicaten schuilen."
     },
     "item2": {
@@ -224,15 +217,13 @@
     "periodMonthly": "/maand",
     "savePercent": "Bespaar 20%",
     "mostPopular": "Populairst",
-    "button": {
-      "freeTrial": "Start gratis proefperiode"
-    },
     "features": {
       "freeTrial": "14 dagen gratis proberen",
       "brandedCvExport": "Cv-exports met uw huisstijl",
       "brandedMatchReport": "Matchingrapporten met uw huisstijl",
       "accountManager": "Toegewijde accountmanager",
-      "sla": "SLA-garanties"
+      "sla": "SLA-garanties",
+      "atsIntegrations": "ATS-integraties (Greenhouse, Workable, Lever…)"
     },
     "starter": {
       "title": "Starter",
@@ -242,7 +233,8 @@
       "queries": "1.000 Talent Intelligence-query's / maand",
       "screeningActions": "2.000 screeningacties / maand",
       "bulkImport": "Bulkimport tot 100 CV’s tegelijk",
-      "emailTemplates": "3 e-mailsjablonen"
+      "emailTemplates": "3 e-mailsjablonen",
+      "atsIntegrations": "1 ATS-integratie (8 ATS ondersteund)"
     },
     "pro": {
       "title": "Pro",
@@ -252,7 +244,8 @@
       "queries": "3.000 Talent Intelligence-query's / maand",
       "screeningActions": "10.000 screeningacties / maand",
       "bulkImport": "Bulkimport tot 300 CV’s tegelijk",
-      "emailTemplates": "15 e-mailsjablonen"
+      "emailTemplates": "15 e-mailsjablonen",
+      "atsIntegrations": "3 ATS-integraties (8 ATS ondersteund)"
     },
     "scale": {
       "title": "Scale",
@@ -262,7 +255,8 @@
       "queries": "8.000 Talent Intelligence-query's / maand",
       "screeningActions": "25.000 screeningacties / maand",
       "bulkImport": "Bulkimport tot 1.000 CV’s tegelijk",
-      "emailTemplates": "50 e-mailsjablonen"
+      "emailTemplates": "50 e-mailsjablonen",
+      "atsIntegrations": "7 ATS-integraties (8 ATS ondersteund)"
     },
     "screeningActionNote": "1 screeningactie = 1 cv importeren of 1 matchingrapport genereren"
   },
@@ -298,5 +292,13 @@
     "acceptAll": "Alles accepteren",
     "essentialOnly": "Alleen essentiële",
     "learnMore": "Privacybeleid"
+  },
+  "cta": {
+    "bookDemo": "Demo boeken"
+  },
+  "supportedAts": {
+    "title": "Werkt met het ATS dat u al gebruikt",
+    "subtitle": "Koppel uw ATS in een paar klikken. Qorva importeert automatisch uw kandidaten en openstaande functies en schrijft de matchscores terug naar het kandidaatdossier — zonder exportbestanden of IT-project.",
+    "note": "Staat uw ATS er niet bij? Uw cv’s kunnen nog steeds in bulk worden geïmporteerd — vertel ons over uw systeem."
   }
 }

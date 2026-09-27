@@ -4,18 +4,13 @@
     "howItWorks": "So funktioniert's",
     "dataQuality": "Datenqualität",
     "pricing": "Preise",
-    "signIn": "Anmelden",
-    "cta": "Bericht anfordern"
+    "signIn": "Anmelden"
   },
   "hero": {
     "badge": "Für IT-, Engineering- und Spezial-Personalagenturen",
     "title": "Zahlen Sie nicht länger für die Suche nach",
     "titleAccent": "Kandidaten, die Sie schon haben.",
     "subtitle": "Qorva prüft, aktualisiert und durchsucht Ihre bestehende Kandidatendatenbank — damit Personalagenturen qualifizierte Kandidaten wiederentdecken, bevor sie die nächste teure Sourcing-Kampagne starten.",
-    "cta": {
-      "primary": "Datenbank-Qualitätsbericht anfordern",
-      "secondary": "Beispielbericht ansehen"
-    },
     "note": "Beginnen Sie mit einer Analyse Ihrer bestehenden Kandidatendatenbank."
   },
   "problem": {
@@ -39,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Datenqualität der CV-Bibliothek",
+    "label": "Datenqualität",
     "title": "Wissen Sie genau, was nutzbar ist — und was Aufmerksamkeit braucht.",
     "subtitle": "Qorva bewertet jedes Profil Ihrer Kandidatenbibliothek anhand von vier Qualitätsdimensionen — so sehen Sie, was einsatzbereit ist, und beheben, was es nicht ist.",
     "completeness": {
       "title": "Vollständigkeit",
-      "description": "Erkennen Sie Profile ohne wichtige Informationen — E-Mail, Telefonnummer, Standort, Skills oder Berufserfahrung — bevor sie Sie eine Vermittlung kosten."
+      "description": "Erkennen Sie Profile ohne wichtige Informationen — E-Mail, Telefonnummer, Rolle, Skills oder Berufserfahrung — bevor sie Sie eine Vermittlung kosten."
     },
     "freshness": {
       "title": "Aktualität",
@@ -58,7 +53,7 @@
       "title": "KI-Konfidenz",
       "description": "Sehen Sie, wie sicher die KI-Extraktion für jeden analysierten CV ist, um Datensätze mit niedriger Konfidenz zur manuellen Prüfung zu markieren."
     },
-    "action": "Jedes Problem ist direkt lösbar: Filtern Sie die betroffenen Profile und korrigieren, konsolidieren oder aktualisieren Sie sie aus derselben Ansicht."
+    "action": "Jedes Problem ist direkt lösbar: Öffnen Sie die betroffenen Profile und analysieren Sie sie neu, bitten Sie Kandidaten um eine Aktualisierung, archivieren Sie sie oder entfernen Sie Duplikate – alles aus derselben Ansicht."
   },
   "refresh": {
     "label": "Kandidaten-Aktualisierung",
@@ -83,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Beispielbericht",
-    "title": "So sieht ein Datenbank-Qualitätsbericht aus.",
+    "title": "So sieht ein Datenqualitätsbericht aus.",
     "subtitle": "Nach der Analyse Ihrer Bibliothek zeigt Ihnen Qorva klar, was Sie tatsächlich besitzen.",
-    "imageAlt": "Qorva Datenqualitäts-Analyse der Kandidatenbibliothek"
+    "imageAlt": "Qorva-Seite Datenqualität für eine Kandidatenbibliothek"
   },
   "workflow": {
     "title": "Von der verstaubten Datenbank zu neuen Vermittlungen.",
@@ -184,15 +179,13 @@
   "finalCta": {
     "title": "Finden Sie heraus, wie viel Wert in",
     "titleAccent": "Ihrer Kandidatendatenbank steckt.",
-    "subtitle": "Verschaffen Sie sich einen klaren Überblick über veraltete, unvollständige und doppelte Profile — und entdecken Sie, welche Kandidaten vielleicht schon zu Ihren aktiven Stellen passen.",
-    "primary": "Datenbank-Qualitätsbericht anfordern",
-    "secondary": "Beispielbericht ansehen"
+    "subtitle": "Verschaffen Sie sich einen klaren Überblick über veraltete, unvollständige und doppelte Profile — und entdecken Sie, welche Kandidaten vielleicht schon zu Ihren aktiven Stellen passen."
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
     "subtitle": "Alles, was Sie vor dem Start wissen müssen.",
     "item1": {
-      "question": "Was ist der Datenbank-Qualitätsbericht?",
+      "question": "Was ist der Datenqualitätsbericht?",
       "answer": "Importieren Sie Ihre Kandidatenbibliothek, und Qorva analysiert sie nach Vollständigkeit, Aktualität, Dubletten und KI-Extraktionskonfidenz. Sie sehen klar, welche Profile einsatzbereit sind, welche Aufmerksamkeit brauchen und wo sich mögliche Dubletten verstecken."
     },
     "item2": {
@@ -224,15 +217,13 @@
     "periodMonthly": "/Monat",
     "savePercent": "20 % sparen",
     "mostPopular": "Am beliebtesten",
-    "button": {
-      "freeTrial": "Kostenlos testen"
-    },
     "features": {
       "freeTrial": "14 Tage kostenlos testen",
       "brandedCvExport": "CV-Exporte mit Ihrem Branding",
       "brandedMatchReport": "Matching-Berichte mit Ihrem Branding",
       "accountManager": "Persönlicher Account-Manager",
-      "sla": "SLA-Garantien"
+      "sla": "SLA-Garantien",
+      "atsIntegrations": "ATS-Integrationen (Greenhouse, Workable, Lever…)"
     },
     "starter": {
       "title": "Starter",
@@ -242,7 +233,8 @@
       "queries": "1.000 Talent-Intelligence-Abfragen / Monat",
       "screeningActions": "2.000 Screening-Aktionen / Monat",
       "bulkImport": "Massenimport von bis zu 100 Lebensläufen auf einmal",
-      "emailTemplates": "3 E-Mail-Vorlagen"
+      "emailTemplates": "3 E-Mail-Vorlagen",
+      "atsIntegrations": "1 ATS-Integration (8 ATS unterstützt)"
     },
     "pro": {
       "title": "Pro",
@@ -252,7 +244,8 @@
       "queries": "3.000 Talent-Intelligence-Abfragen / Monat",
       "screeningActions": "10.000 Screening-Aktionen / Monat",
       "bulkImport": "Massenimport von bis zu 300 Lebensläufen auf einmal",
-      "emailTemplates": "15 E-Mail-Vorlagen"
+      "emailTemplates": "15 E-Mail-Vorlagen",
+      "atsIntegrations": "3 ATS-Integrationen (8 ATS unterstützt)"
     },
     "scale": {
       "title": "Scale",
@@ -262,7 +255,8 @@
       "queries": "8.000 Talent-Intelligence-Abfragen / Monat",
       "screeningActions": "25.000 Screening-Aktionen / Monat",
       "bulkImport": "Massenimport von bis zu 1.000 Lebensläufen auf einmal",
-      "emailTemplates": "50 E-Mail-Vorlagen"
+      "emailTemplates": "50 E-Mail-Vorlagen",
+      "atsIntegrations": "7 ATS-Integrationen (8 ATS unterstützt)"
     },
     "screeningActionNote": "1 Screening-Aktion = Import von 1 CV oder Erstellung von 1 Matching-Bericht"
   },
@@ -298,5 +292,13 @@
     "acceptAll": "Alle akzeptieren",
     "essentialOnly": "Nur essenzielle",
     "learnMore": "Datenschutzerklärung"
+  },
+  "cta": {
+    "bookDemo": "Demo buchen"
+  },
+  "supportedAts": {
+    "title": "Passt zu dem ATS, das Sie bereits nutzen",
+    "subtitle": "Verbinden Sie Ihr ATS in wenigen Klicks. Qorva importiert Kandidaten und offene Stellen automatisch und schreibt die Match-Scores zurück in den Kandidatendatensatz — ohne Exportdateien, ohne IT-Projekt.",
+    "note": "Nicht dabei? Ihre Lebensläufe lassen sich trotzdem als Massenimport laden — sprechen Sie uns auf Ihr System an."
   }
 }

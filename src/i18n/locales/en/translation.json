@@ -2,20 +2,15 @@
   "header": {
     "product": "Product",
     "howItWorks": "How it works",
-    "dataQuality": "Data quality",
+    "dataQuality": "Data Health",
     "pricing": "Pricing",
-    "signIn": "Sign In",
-    "cta": "Get my health report"
+    "signIn": "Sign In"
   },
   "hero": {
     "badge": "For IT, engineering & specialist staffing agencies",
     "title": "Stop paying to source",
     "titleAccent": "candidates you already have.",
     "subtitle": "Qorva audits, refreshes and searches your existing candidate database — helping staffing agencies rediscover qualified candidates before starting another expensive sourcing campaign.",
-    "cta": {
-      "primary": "Get My Database Health Report",
-      "secondary": "See a Sample Report"
-    },
     "note": "Start with an assessment of your existing candidate database."
   },
   "problem": {
@@ -39,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Library Data Quality",
+    "label": "Data Health",
     "title": "Know exactly what is usable — and what needs attention.",
     "subtitle": "Qorva evaluates every profile in your candidate library across four quality dimensions, so you can see what is ready to use and fix what isn't.",
     "completeness": {
       "title": "Completeness",
-      "description": "Spot profiles missing critical information — email, phone number, location, skills or employment history — before they cost you a placement."
+      "description": "Spot profiles missing critical information — email, phone number, role, skills or employment history — before they cost you a placement."
     },
     "freshness": {
       "title": "Freshness",
@@ -58,7 +53,7 @@
       "title": "AI confidence",
       "description": "See how confident the AI extraction is for each parsed CV, so low-confidence records can be flagged for manual review."
     },
-    "action": "Every issue is actionable: filter the affected profiles and fix, merge or refresh them from the same view."
+    "action": "Every issue is actionable: open the affected profiles, then re-analyse them, request updates from the candidates, archive them or remove duplicates — all from the same view."
   },
   "refresh": {
     "label": "Candidate Refresh",
@@ -83,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Sample report",
-    "title": "What a database health report looks like.",
+    "title": "What a Data Health report looks like.",
     "subtitle": "After analyzing your library, Qorva gives you a clear picture of what you actually own.",
-    "imageAlt": "Qorva candidate library data-quality insights"
+    "imageAlt": "Qorva Data Health page for a candidate library"
   },
   "workflow": {
     "title": "From stale database to new placements.",
@@ -184,15 +179,13 @@
   "finalCta": {
     "title": "Find out how much value is hidden in",
     "titleAccent": "your candidate database.",
-    "subtitle": "Get a clear view of outdated, incomplete and duplicate profiles — and discover which candidates may already match your active roles.",
-    "primary": "Get My Database Health Report",
-    "secondary": "See a Sample Report"
+    "subtitle": "Get a clear view of outdated, incomplete and duplicate profiles — and discover which candidates may already match your active roles."
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Everything you need to know before getting started.",
     "item1": {
-      "question": "What is the Database Health Report?",
+      "question": "What is the Data Health report?",
       "answer": "Import your candidate library and Qorva analyzes it across completeness, freshness, duplicates and AI-extraction confidence. You get a clear view of which profiles are ready to use, which need attention, and where potential duplicates hide."
     },
     "item2": {
@@ -224,15 +217,13 @@
     "periodMonthly": "/month",
     "savePercent": "Save 20%",
     "mostPopular": "Most Popular",
-    "button": {
-      "freeTrial": "Start Free Trial"
-    },
     "features": {
       "freeTrial": "14-day free trial",
       "brandedCvExport": "Branded CV exports",
       "brandedMatchReport": "Branded match reports",
       "accountManager": "Dedicated account manager",
-      "sla": "SLA guarantees"
+      "sla": "SLA guarantees",
+      "atsIntegrations": "ATS integrations (Greenhouse, Workable, Lever…)"
     },
     "starter": {
       "title": "Starter",
@@ -242,7 +233,8 @@
       "queries": "1,000 Talent Intelligence Queries / month",
       "screeningActions": "2,000 screening actions / month",
       "bulkImport": "Bulk import up to 100 CVs at once",
-      "emailTemplates": "3 email templates"
+      "emailTemplates": "3 email templates",
+      "atsIntegrations": "1 ATS integration (8 ATS supported)"
     },
     "pro": {
       "title": "Pro",
@@ -252,7 +244,8 @@
       "queries": "3,000 Talent Intelligence Queries / month",
       "screeningActions": "10,000 screening actions / month",
       "bulkImport": "Bulk import up to 300 CVs at once",
-      "emailTemplates": "15 email templates"
+      "emailTemplates": "15 email templates",
+      "atsIntegrations": "3 ATS integrations (8 ATS supported)"
     },
     "scale": {
       "title": "Scale",
@@ -262,7 +255,8 @@
       "queries": "8,000 Talent Intelligence Queries / month",
       "screeningActions": "25,000 screening actions / month",
       "bulkImport": "Bulk import up to 1,000 CVs at once",
-      "emailTemplates": "50 email templates"
+      "emailTemplates": "50 email templates",
+      "atsIntegrations": "7 ATS integrations (8 ATS supported)"
     },
     "screeningActionNote": "1 screening action = importing 1 CV or generating 1 match report"
   },
@@ -271,7 +265,7 @@
     "description": "Qorva helps staffing agencies turn stale, incomplete candidate databases into searchable, revenue-ready talent pools.",
     "product": {
       "title": "Product",
-      "dataQuality": "Data quality",
+      "dataQuality": "Data Health",
       "howItWorks": "How it works",
       "pricing": "Pricing",
       "signIn": "Sign In"
@@ -298,5 +292,13 @@
     "acceptAll": "Accept All",
     "essentialOnly": "Essential Only",
     "learnMore": "Privacy Policy"
+  },
+  "cta": {
+    "bookDemo": "Book a demo"
+  },
+  "supportedAts": {
+    "title": "Works with the ATS you already use",
+    "subtitle": "Connect your ATS in a few clicks. Qorva imports your candidates and open roles automatically, then writes match scores back to the candidate record — no export files, no IT project.",
+    "note": "Not on this list? Your CVs can still be imported in bulk — talk to us about your stack."
   }
 }

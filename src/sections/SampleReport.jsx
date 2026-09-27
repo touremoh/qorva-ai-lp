@@ -57,16 +57,16 @@ function SampleReport() {
         >
           <Box
             component="img"
-            src="/library-quality.jpg"
+            src="/data-health.jpg"
             alt={t('sampleReport.imageAlt')}
-            width={2131}
-            height={1197}
+            width={2880}
+            height={1800}
             loading="lazy"
             sx={{
               width: '100%',
               height: 'auto',
               display: 'block',
-              aspectRatio: '2131 / 1197',
+              aspectRatio: '2880 / 1800',
             }}
           />
         </Box>

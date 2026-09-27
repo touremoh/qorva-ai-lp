@@ -2,20 +2,15 @@
   "header": {
     "product": "Prodotto",
     "howItWorks": "Come funziona",
-    "dataQuality": "Qualità dei dati",
+    "dataQuality": "Salute dei dati",
     "pricing": "Prezzi",
-    "signIn": "Accedi",
-    "cta": "Richiedi il report"
+    "signIn": "Accedi"
   },
   "hero": {
     "badge": "Per agenzie di recruiting IT, engineering e specializzate",
     "title": "Smetti di pagare per cercare",
     "titleAccent": "candidati che hai già.",
     "subtitle": "Qorva analizza, aggiorna e interroga il tuo database candidati esistente — aiutando le agenzie di recruiting a riscoprire candidati qualificati prima di lanciare un'altra costosa campagna di sourcing.",
-    "cta": {
-      "primary": "Richiedi il report di qualità",
-      "secondary": "Vedi un report di esempio"
-    },
     "note": "Inizia con una valutazione del tuo database candidati esistente."
   },
   "problem": {
@@ -39,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Qualità della libreria CV",
+    "label": "Salute dei dati",
     "title": "Sappi esattamente cosa è utilizzabile — e cosa richiede attenzione.",
     "subtitle": "Qorva valuta ogni profilo della tua libreria candidati su quattro dimensioni di qualità, per vedere cosa è pronto all'uso e correggere ciò che non lo è.",
     "completeness": {
       "title": "Completezza",
-      "description": "Individua i profili privi di informazioni essenziali — email, telefono, località, competenze o storia lavorativa — prima che ti costino un placement."
+      "description": "Individua i profili privi di informazioni essenziali — email, telefono, ruolo, competenze o storia lavorativa — prima che ti costino un placement."
     },
     "freshness": {
       "title": "Freschezza",
@@ -58,7 +53,7 @@
       "title": "Affidabilità IA",
       "description": "Consulta il livello di affidabilità dell'estrazione IA per ogni CV analizzato, per segnalare i record a bassa affidabilità da verificare manualmente."
     },
-    "action": "Ogni problema è azionabile: filtra i profili interessati e correggili, uniscili o aggiornali dalla stessa vista."
+    "action": "Ogni problema è azionabile: apri i profili interessati e rianalizzali, chiedi ai candidati di aggiornarli, archiviali o elimina i duplicati, tutto dalla stessa vista."
   },
   "refresh": {
     "label": "Aggiornamento candidati",
@@ -83,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Report di esempio",
-    "title": "Ecco come appare un report di qualità del database.",
+    "title": "Ecco come appare un report Salute dei dati.",
     "subtitle": "Dopo l'analisi della tua libreria, Qorva ti dà un quadro chiaro di ciò che possiedi davvero.",
-    "imageAlt": "Analisi della qualità dei dati della libreria candidati Qorva"
+    "imageAlt": "Pagina Salute dei dati di Qorva per una libreria candidati"
   },
   "workflow": {
     "title": "Da database dormiente a nuovi placement.",
@@ -184,15 +179,13 @@
   "finalCta": {
     "title": "Scopri quanto valore si nasconde nel",
     "titleAccent": "tuo database candidati.",
-    "subtitle": "Ottieni una visione chiara dei profili obsoleti, incompleti e duplicati — e scopri quali candidati potrebbero già corrispondere alle tue posizioni attive.",
-    "primary": "Richiedi il report di qualità",
-    "secondary": "Vedi un report di esempio"
+    "subtitle": "Ottieni una visione chiara dei profili obsoleti, incompleti e duplicati — e scopri quali candidati potrebbero già corrispondere alle tue posizioni attive."
   },
   "faq": {
     "title": "Domande frequenti",
     "subtitle": "Tutto quello che devi sapere prima di iniziare.",
     "item1": {
-      "question": "Che cos'è il report di qualità del database?",
+      "question": "Che cos'è il report Salute dei dati?",
       "answer": "Importa la tua libreria candidati e Qorva la analizza per completezza, freschezza, duplicati e affidabilità dell'estrazione IA. Ottieni una visione chiara di quali profili sono pronti all'uso, quali richiedono attenzione e dove si nascondono possibili duplicati."
     },
     "item2": {
@@ -224,15 +217,13 @@
     "periodMonthly": "/mese",
     "savePercent": "Risparmia il 20%",
     "mostPopular": "Più popolare",
-    "button": {
-      "freeTrial": "Inizia la prova gratuita"
-    },
     "features": {
       "freeTrial": "14 giorni di prova gratuita",
       "brandedCvExport": "Export CV con il tuo brand",
       "brandedMatchReport": "Report di matching con il tuo brand",
       "accountManager": "Account manager dedicato",
-      "sla": "Garanzie SLA"
+      "sla": "Garanzie SLA",
+      "atsIntegrations": "Integrazioni ATS (Greenhouse, Workable, Lever…)"
     },
     "starter": {
       "title": "Starter",
@@ -242,7 +233,8 @@
       "queries": "1.000 query Talent Intelligence / mese",
       "screeningActions": "2.000 azioni di screening / mese",
       "bulkImport": "Importazione in blocco fino a 100 CV alla volta",
-      "emailTemplates": "3 modelli di email"
+      "emailTemplates": "3 modelli di email",
+      "atsIntegrations": "1 integrazione ATS (8 ATS supportati)"
     },
     "pro": {
       "title": "Pro",
@@ -252,7 +244,8 @@
       "queries": "3.000 query Talent Intelligence / mese",
       "screeningActions": "10.000 azioni di screening / mese",
       "bulkImport": "Importazione in blocco fino a 300 CV alla volta",
-      "emailTemplates": "15 modelli di email"
+      "emailTemplates": "15 modelli di email",
+      "atsIntegrations": "3 integrazioni ATS (8 ATS supportati)"
     },
     "scale": {
       "title": "Scale",
@@ -262,7 +255,8 @@
       "queries": "8.000 query Talent Intelligence / mese",
       "screeningActions": "25.000 azioni di screening / mese",
       "bulkImport": "Importazione in blocco fino a 1.000 CV alla volta",
-      "emailTemplates": "50 modelli di email"
+      "emailTemplates": "50 modelli di email",
+      "atsIntegrations": "7 integrazioni ATS (8 ATS supportati)"
     },
     "screeningActionNote": "1 azione di screening = importazione di 1 CV o generazione di 1 report di matching"
   },
@@ -271,7 +265,7 @@
     "description": "Qorva aiuta le agenzie di recruiting a trasformare database candidati obsoleti e incompleti in talent pool ricercabili e pronti a generare placement.",
     "product": {
       "title": "Prodotto",
-      "dataQuality": "Qualità dei dati",
+      "dataQuality": "Salute dei dati",
       "howItWorks": "Come funziona",
       "pricing": "Prezzi",
       "signIn": "Accedi"
@@ -298,5 +292,13 @@
     "acceptAll": "Accetta tutti",
     "essentialOnly": "Solo essenziali",
     "learnMore": "Informativa sulla privacy"
+  },
+  "cta": {
+    "bookDemo": "Prenota una demo"
+  },
+  "supportedAts": {
+    "title": "Funziona con l’ATS che già utilizzi",
+    "subtitle": "Collega il tuo ATS in pochi clic. Qorva importa automaticamente candidati e posizioni aperte e riporta i punteggi di corrispondenza nella scheda del candidato — senza file di esportazione né progetti IT.",
+    "note": "Non è in elenco? I tuoi CV possono comunque essere importati in blocco — parliamo del tuo sistema."
   }
 }

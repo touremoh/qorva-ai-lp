@@ -2,20 +2,15 @@
   "header": {
     "product": "Producto",
     "howItWorks": "Cómo funciona",
-    "dataQuality": "Calidad de datos",
+    "dataQuality": "Salud de datos",
     "pricing": "Precios",
-    "signIn": "Iniciar sesión",
-    "cta": "Obtener mi informe"
+    "signIn": "Iniciar sesión"
   },
   "hero": {
     "badge": "Para agencias de selección IT, ingeniería y especializadas",
     "title": "Deje de pagar por buscar",
     "titleAccent": "candidatos que ya tiene.",
     "subtitle": "Qorva audita, actualiza y consulta su base de candidatos existente — ayudando a las agencias de selección a redescubrir candidatos cualificados antes de lanzar otra costosa campaña de sourcing.",
-    "cta": {
-      "primary": "Obtener mi informe de calidad",
-      "secondary": "Ver un informe de ejemplo"
-    },
     "note": "Empiece con una evaluación de su base de candidatos existente."
   },
   "problem": {
@@ -39,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Calidad de la biblioteca de CV",
+    "label": "Salud de datos",
     "title": "Sepa exactamente qué es utilizable — y qué necesita atención.",
     "subtitle": "Qorva evalúa cada perfil de su biblioteca de candidatos en cuatro dimensiones de calidad, para ver qué está listo para usar y corregir lo que no lo está.",
     "completeness": {
       "title": "Completitud",
-      "description": "Detecte perfiles sin información esencial — email, teléfono, ubicación, competencias o historial laboral — antes de que le cuesten una colocación."
+      "description": "Detecte perfiles sin información esencial — email, teléfono, puesto, competencias o historial laboral — antes de que le cuesten una colocación."
     },
     "freshness": {
       "title": "Actualidad",
@@ -58,7 +53,7 @@
       "title": "Confianza de la IA",
       "description": "Consulte el nivel de confianza de la extracción por IA de cada CV analizado, para marcar los registros de baja confianza y revisarlos manualmente."
     },
-    "action": "Cada problema es accionable: filtre los perfiles afectados y corríjalos, fusiónelos o actualícelos desde la misma vista."
+    "action": "Cada problema es accionable: abra los perfiles afectados y vuelva a analizarlos, pida a los candidatos que los actualicen, archívelos o elimine los duplicados, todo desde la misma vista."
   },
   "refresh": {
     "label": "Actualización de candidatos",
@@ -83,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Informe de ejemplo",
-    "title": "Así es un informe de calidad de la base.",
+    "title": "Así es un informe de Salud de datos.",
     "subtitle": "Tras analizar su biblioteca, Qorva le da una imagen clara de lo que realmente posee.",
-    "imageAlt": "Análisis de calidad de datos de la biblioteca de candidatos de Qorva"
+    "imageAlt": "Página Salud de datos de Qorva para una biblioteca de candidatos"
   },
   "workflow": {
     "title": "De una base dormida a nuevas colocaciones.",
@@ -184,15 +179,13 @@
   "finalCta": {
     "title": "Descubra cuánto valor se esconde en",
     "titleAccent": "su base de candidatos.",
-    "subtitle": "Obtenga una visión clara de los perfiles obsoletos, incompletos y duplicados — y descubra qué candidatos podrían encajar ya con sus vacantes activas.",
-    "primary": "Obtener mi informe de calidad",
-    "secondary": "Ver un informe de ejemplo"
+    "subtitle": "Obtenga una visión clara de los perfiles obsoletos, incompletos y duplicados — y descubra qué candidatos podrían encajar ya con sus vacantes activas."
   },
   "faq": {
     "title": "Preguntas frecuentes",
     "subtitle": "Todo lo que necesita saber antes de empezar.",
     "item1": {
-      "question": "¿Qué es el informe de calidad de la base?",
+      "question": "¿Qué es el informe de Salud de datos?",
       "answer": "Importe su biblioteca de candidatos y Qorva la analiza según completitud, actualidad, duplicados y confianza de la extracción por IA. Obtiene una visión clara de qué perfiles están listos para usar, cuáles necesitan atención y dónde se esconden posibles duplicados."
     },
     "item2": {
@@ -224,15 +217,13 @@
     "periodMonthly": "/mes",
     "savePercent": "Ahorre 20%",
     "mostPopular": "Más popular",
-    "button": {
-      "freeTrial": "Comenzar prueba gratuita"
-    },
     "features": {
       "freeTrial": "14 días de prueba gratuita",
       "brandedCvExport": "Exportación de CV con su marca",
       "brandedMatchReport": "Informes de matching con su marca",
       "accountManager": "Gestor de cuenta dedicado",
-      "sla": "Garantías SLA"
+      "sla": "Garantías SLA",
+      "atsIntegrations": "Integraciones de ATS (Greenhouse, Workable, Lever…)"
     },
     "starter": {
       "title": "Starter",
@@ -242,7 +233,8 @@
       "queries": "1.000 consultas Talent Intelligence / mes",
       "screeningActions": "2.000 acciones de screening / mes",
       "bulkImport": "Importación masiva de hasta 100 CV a la vez",
-      "emailTemplates": "3 plantillas de email"
+      "emailTemplates": "3 plantillas de email",
+      "atsIntegrations": "1 integración de ATS (8 ATS compatibles)"
     },
     "pro": {
       "title": "Pro",
@@ -252,7 +244,8 @@
       "queries": "3.000 consultas Talent Intelligence / mes",
       "screeningActions": "10.000 acciones de screening / mes",
       "bulkImport": "Importación masiva de hasta 300 CV a la vez",
-      "emailTemplates": "15 plantillas de email"
+      "emailTemplates": "15 plantillas de email",
+      "atsIntegrations": "3 integraciones de ATS (8 ATS compatibles)"
     },
     "scale": {
       "title": "Scale",
@@ -262,7 +255,8 @@
       "queries": "8.000 consultas Talent Intelligence / mes",
       "screeningActions": "25.000 acciones de screening / mes",
       "bulkImport": "Importación masiva de hasta 1.000 CV a la vez",
-      "emailTemplates": "50 plantillas de email"
+      "emailTemplates": "50 plantillas de email",
+      "atsIntegrations": "7 integraciones de ATS (8 ATS compatibles)"
     },
     "screeningActionNote": "1 acción de screening = importar 1 CV o generar 1 informe de matching"
   },
@@ -271,7 +265,7 @@
     "description": "Qorva ayuda a las agencias de selección a convertir bases de candidatos obsoletas e incompletas en pools de talento consultables y listos para generar ingresos.",
     "product": {
       "title": "Producto",
-      "dataQuality": "Calidad de datos",
+      "dataQuality": "Salud de datos",
       "howItWorks": "Cómo funciona",
       "pricing": "Precios",
       "signIn": "Iniciar sesión"
@@ -298,5 +292,13 @@
     "acceptAll": "Aceptar todas",
     "essentialOnly": "Solo esenciales",
     "learnMore": "Política de privacidad"
+  },
+  "cta": {
+    "bookDemo": "Reservar una demo"
+  },
+  "supportedAts": {
+    "title": "Funciona con el ATS que ya utiliza",
+    "subtitle": "Conecte su ATS en unos clics. Qorva importa automáticamente sus candidatos y vacantes, y devuelve las puntuaciones de coincidencia a la ficha del candidato: sin archivos de exportación ni proyecto informático.",
+    "note": "¿No está en la lista? Sus CV también pueden importarse de forma masiva: hablemos de su sistema."
   }
 }
