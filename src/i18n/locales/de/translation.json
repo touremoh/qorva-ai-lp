@@ -34,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Datenqualität der CV-Bibliothek",
+    "label": "Datenqualität",
     "title": "Wissen Sie genau, was nutzbar ist — und was Aufmerksamkeit braucht.",
     "subtitle": "Qorva bewertet jedes Profil Ihrer Kandidatenbibliothek anhand von vier Qualitätsdimensionen — so sehen Sie, was einsatzbereit ist, und beheben, was es nicht ist.",
     "completeness": {
       "title": "Vollständigkeit",
-      "description": "Erkennen Sie Profile ohne wichtige Informationen — E-Mail, Telefonnummer, Standort, Skills oder Berufserfahrung — bevor sie Sie eine Vermittlung kosten."
+      "description": "Erkennen Sie Profile ohne wichtige Informationen — E-Mail, Telefonnummer, Rolle, Skills oder Berufserfahrung — bevor sie Sie eine Vermittlung kosten."
     },
     "freshness": {
       "title": "Aktualität",
@@ -53,7 +53,7 @@
       "title": "KI-Konfidenz",
       "description": "Sehen Sie, wie sicher die KI-Extraktion für jeden analysierten CV ist, um Datensätze mit niedriger Konfidenz zur manuellen Prüfung zu markieren."
     },
-    "action": "Jedes Problem ist direkt lösbar: Filtern Sie die betroffenen Profile und korrigieren, konsolidieren oder aktualisieren Sie sie aus derselben Ansicht."
+    "action": "Jedes Problem ist direkt lösbar: Öffnen Sie die betroffenen Profile und analysieren Sie sie neu, bitten Sie Kandidaten um eine Aktualisierung, archivieren Sie sie oder entfernen Sie Duplikate – alles aus derselben Ansicht."
   },
   "refresh": {
     "label": "Kandidaten-Aktualisierung",
@@ -78,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Beispielbericht",
-    "title": "So sieht ein Datenbank-Qualitätsbericht aus.",
+    "title": "So sieht ein Datenqualitätsbericht aus.",
     "subtitle": "Nach der Analyse Ihrer Bibliothek zeigt Ihnen Qorva klar, was Sie tatsächlich besitzen.",
-    "imageAlt": "Qorva Datenqualitäts-Analyse der Kandidatenbibliothek"
+    "imageAlt": "Qorva-Seite Datenqualität für eine Kandidatenbibliothek"
   },
   "workflow": {
     "title": "Von der verstaubten Datenbank zu neuen Vermittlungen.",
@@ -185,7 +185,7 @@
     "title": "Häufig gestellte Fragen",
     "subtitle": "Alles, was Sie vor dem Start wissen müssen.",
     "item1": {
-      "question": "Was ist der Datenbank-Qualitätsbericht?",
+      "question": "Was ist der Datenqualitätsbericht?",
       "answer": "Importieren Sie Ihre Kandidatenbibliothek, und Qorva analysiert sie nach Vollständigkeit, Aktualität, Dubletten und KI-Extraktionskonfidenz. Sie sehen klar, welche Profile einsatzbereit sind, welche Aufmerksamkeit brauchen und wo sich mögliche Dubletten verstecken."
     },
     "item2": {

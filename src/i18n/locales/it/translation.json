@@ -2,7 +2,7 @@
   "header": {
     "product": "Prodotto",
     "howItWorks": "Come funziona",
-    "dataQuality": "Qualità dei dati",
+    "dataQuality": "Salute dei dati",
     "pricing": "Prezzi",
     "signIn": "Accedi"
   },
@@ -34,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Qualità della libreria CV",
+    "label": "Salute dei dati",
     "title": "Sappi esattamente cosa è utilizzabile — e cosa richiede attenzione.",
     "subtitle": "Qorva valuta ogni profilo della tua libreria candidati su quattro dimensioni di qualità, per vedere cosa è pronto all'uso e correggere ciò che non lo è.",
     "completeness": {
       "title": "Completezza",
-      "description": "Individua i profili privi di informazioni essenziali — email, telefono, località, competenze o storia lavorativa — prima che ti costino un placement."
+      "description": "Individua i profili privi di informazioni essenziali — email, telefono, ruolo, competenze o storia lavorativa — prima che ti costino un placement."
     },
     "freshness": {
       "title": "Freschezza",
@@ -53,7 +53,7 @@
       "title": "Affidabilità IA",
       "description": "Consulta il livello di affidabilità dell'estrazione IA per ogni CV analizzato, per segnalare i record a bassa affidabilità da verificare manualmente."
     },
-    "action": "Ogni problema è azionabile: filtra i profili interessati e correggili, uniscili o aggiornali dalla stessa vista."
+    "action": "Ogni problema è azionabile: apri i profili interessati e rianalizzali, chiedi ai candidati di aggiornarli, archiviali o elimina i duplicati, tutto dalla stessa vista."
   },
   "refresh": {
     "label": "Aggiornamento candidati",
@@ -78,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Report di esempio",
-    "title": "Ecco come appare un report di qualità del database.",
+    "title": "Ecco come appare un report Salute dei dati.",
     "subtitle": "Dopo l'analisi della tua libreria, Qorva ti dà un quadro chiaro di ciò che possiedi davvero.",
-    "imageAlt": "Analisi della qualità dei dati della libreria candidati Qorva"
+    "imageAlt": "Pagina Salute dei dati di Qorva per una libreria candidati"
   },
   "workflow": {
     "title": "Da database dormiente a nuovi placement.",
@@ -185,7 +185,7 @@
     "title": "Domande frequenti",
     "subtitle": "Tutto quello che devi sapere prima di iniziare.",
     "item1": {
-      "question": "Che cos'è il report di qualità del database?",
+      "question": "Che cos'è il report Salute dei dati?",
       "answer": "Importa la tua libreria candidati e Qorva la analizza per completezza, freschezza, duplicati e affidabilità dell'estrazione IA. Ottieni una visione chiara di quali profili sono pronti all'uso, quali richiedono attenzione e dove si nascondono possibili duplicati."
     },
     "item2": {
@@ -265,7 +265,7 @@
     "description": "Qorva aiuta le agenzie di recruiting a trasformare database candidati obsoleti e incompleti in talent pool ricercabili e pronti a generare placement.",
     "product": {
       "title": "Prodotto",
-      "dataQuality": "Qualità dei dati",
+      "dataQuality": "Salute dei dati",
       "howItWorks": "Come funziona",
       "pricing": "Prezzi",
       "signIn": "Accedi"

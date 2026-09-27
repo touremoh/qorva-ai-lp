@@ -2,7 +2,7 @@
   "header": {
     "product": "Product",
     "howItWorks": "How it works",
-    "dataQuality": "Data quality",
+    "dataQuality": "Data Health",
     "pricing": "Pricing",
     "signIn": "Sign In"
   },
@@ -34,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Library Data Quality",
+    "label": "Data Health",
     "title": "Know exactly what is usable — and what needs attention.",
     "subtitle": "Qorva evaluates every profile in your candidate library across four quality dimensions, so you can see what is ready to use and fix what isn't.",
     "completeness": {
       "title": "Completeness",
-      "description": "Spot profiles missing critical information — email, phone number, location, skills or employment history — before they cost you a placement."
+      "description": "Spot profiles missing critical information — email, phone number, role, skills or employment history — before they cost you a placement."
     },
     "freshness": {
       "title": "Freshness",
@@ -53,7 +53,7 @@
       "title": "AI confidence",
       "description": "See how confident the AI extraction is for each parsed CV, so low-confidence records can be flagged for manual review."
     },
-    "action": "Every issue is actionable: filter the affected profiles and fix, merge or refresh them from the same view."
+    "action": "Every issue is actionable: open the affected profiles, then re-analyse them, request updates from the candidates, archive them or remove duplicates — all from the same view."
   },
   "refresh": {
     "label": "Candidate Refresh",
@@ -78,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Sample report",
-    "title": "What a database health report looks like.",
+    "title": "What a Data Health report looks like.",
     "subtitle": "After analyzing your library, Qorva gives you a clear picture of what you actually own.",
-    "imageAlt": "Qorva candidate library data-quality insights"
+    "imageAlt": "Qorva Data Health page for a candidate library"
   },
   "workflow": {
     "title": "From stale database to new placements.",
@@ -185,7 +185,7 @@
     "title": "Frequently Asked Questions",
     "subtitle": "Everything you need to know before getting started.",
     "item1": {
-      "question": "What is the Database Health Report?",
+      "question": "What is the Data Health report?",
       "answer": "Import your candidate library and Qorva analyzes it across completeness, freshness, duplicates and AI-extraction confidence. You get a clear view of which profiles are ready to use, which need attention, and where potential duplicates hide."
     },
     "item2": {
@@ -265,7 +265,7 @@
     "description": "Qorva helps staffing agencies turn stale, incomplete candidate databases into searchable, revenue-ready talent pools.",
     "product": {
       "title": "Product",
-      "dataQuality": "Data quality",
+      "dataQuality": "Data Health",
       "howItWorks": "How it works",
       "pricing": "Pricing",
       "signIn": "Sign In"

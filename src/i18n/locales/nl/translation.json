@@ -34,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Datakwaliteit van de cv-bibliotheek",
+    "label": "Datakwaliteit",
     "title": "Weet precies wat bruikbaar is — en wat aandacht nodig heeft.",
     "subtitle": "Qorva beoordeelt elk profiel in uw kandidatenbibliotheek op vier kwaliteitsdimensies, zodat u ziet wat klaar is voor gebruik en herstelt wat dat niet is.",
     "completeness": {
       "title": "Volledigheid",
-      "description": "Spoor profielen op zonder essentiële informatie — e-mail, telefoonnummer, locatie, skills of werkervaring — voordat ze u een plaatsing kosten."
+      "description": "Spoor profielen op zonder essentiële informatie — e-mail, telefoonnummer, functie, skills of werkervaring — voordat ze u een plaatsing kosten."
     },
     "freshness": {
       "title": "Actualiteit",
@@ -53,7 +53,7 @@
       "title": "AI-betrouwbaarheid",
       "description": "Bekijk hoe zeker de AI-extractie is voor elk verwerkt cv, zodat records met lage betrouwbaarheid gemarkeerd kunnen worden voor handmatige controle."
     },
-    "action": "Elk probleem is direct aan te pakken: filter de betrokken profielen en herstel, voeg samen of actualiseer ze vanuit dezelfde weergave."
+    "action": "Elk probleem is direct aan te pakken: open de betrokken profielen en analyseer ze opnieuw, vraag kandidaten om een update, archiveer ze of verwijder duplicaten, allemaal vanuit dezelfde weergave."
   },
   "refresh": {
     "label": "Kandidaten actualiseren",
@@ -78,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Voorbeeldrapport",
-    "title": "Zo ziet een databasekwaliteitsrapport eruit.",
+    "title": "Zo ziet een datakwaliteitsrapport eruit.",
     "subtitle": "Na analyse van uw bibliotheek geeft Qorva u een helder beeld van wat u werkelijk bezit.",
-    "imageAlt": "Qorva datakwaliteitsanalyse van de kandidatenbibliotheek"
+    "imageAlt": "Qorva-pagina Datakwaliteit voor een kandidatenbibliotheek"
   },
   "workflow": {
     "title": "Van slapende database naar nieuwe plaatsingen.",
@@ -185,7 +185,7 @@
     "title": "Veelgestelde vragen",
     "subtitle": "Alles wat u moet weten voordat u begint.",
     "item1": {
-      "question": "Wat is het databasekwaliteitsrapport?",
+      "question": "Wat is het datakwaliteitsrapport?",
       "answer": "Importeer uw kandidatenbibliotheek en Qorva analyseert deze op volledigheid, actualiteit, duplicaten en de betrouwbaarheid van de AI-extractie. U krijgt een helder beeld van welke profielen klaar zijn voor gebruik, welke aandacht nodig hebben en waar mogelijke duplicaten schuilen."
     },
     "item2": {

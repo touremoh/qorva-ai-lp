@@ -2,7 +2,7 @@
   "header": {
     "product": "Producto",
     "howItWorks": "Cómo funciona",
-    "dataQuality": "Calidad de datos",
+    "dataQuality": "Salud de datos",
     "pricing": "Precios",
     "signIn": "Iniciar sesión"
   },
@@ -34,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Calidad de la biblioteca de CV",
+    "label": "Salud de datos",
     "title": "Sepa exactamente qué es utilizable — y qué necesita atención.",
     "subtitle": "Qorva evalúa cada perfil de su biblioteca de candidatos en cuatro dimensiones de calidad, para ver qué está listo para usar y corregir lo que no lo está.",
     "completeness": {
       "title": "Completitud",
-      "description": "Detecte perfiles sin información esencial — email, teléfono, ubicación, competencias o historial laboral — antes de que le cuesten una colocación."
+      "description": "Detecte perfiles sin información esencial — email, teléfono, puesto, competencias o historial laboral — antes de que le cuesten una colocación."
     },
     "freshness": {
       "title": "Actualidad",
@@ -53,7 +53,7 @@
       "title": "Confianza de la IA",
       "description": "Consulte el nivel de confianza de la extracción por IA de cada CV analizado, para marcar los registros de baja confianza y revisarlos manualmente."
     },
-    "action": "Cada problema es accionable: filtre los perfiles afectados y corríjalos, fusiónelos o actualícelos desde la misma vista."
+    "action": "Cada problema es accionable: abra los perfiles afectados y vuelva a analizarlos, pida a los candidatos que los actualicen, archívelos o elimine los duplicados, todo desde la misma vista."
   },
   "refresh": {
     "label": "Actualización de candidatos",
@@ -78,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Informe de ejemplo",
-    "title": "Así es un informe de calidad de la base.",
+    "title": "Así es un informe de Salud de datos.",
     "subtitle": "Tras analizar su biblioteca, Qorva le da una imagen clara de lo que realmente posee.",
-    "imageAlt": "Análisis de calidad de datos de la biblioteca de candidatos de Qorva"
+    "imageAlt": "Página Salud de datos de Qorva para una biblioteca de candidatos"
   },
   "workflow": {
     "title": "De una base dormida a nuevas colocaciones.",
@@ -185,7 +185,7 @@
     "title": "Preguntas frecuentes",
     "subtitle": "Todo lo que necesita saber antes de empezar.",
     "item1": {
-      "question": "¿Qué es el informe de calidad de la base?",
+      "question": "¿Qué es el informe de Salud de datos?",
       "answer": "Importe su biblioteca de candidatos y Qorva la analiza según completitud, actualidad, duplicados y confianza de la extracción por IA. Obtiene una visión clara de qué perfiles están listos para usar, cuáles necesitan atención y dónde se esconden posibles duplicados."
     },
     "item2": {
@@ -265,7 +265,7 @@
     "description": "Qorva ayuda a las agencias de selección a convertir bases de candidatos obsoletas e incompletas en pools de talento consultables y listos para generar ingresos.",
     "product": {
       "title": "Producto",
-      "dataQuality": "Calidad de datos",
+      "dataQuality": "Salud de datos",
       "howItWorks": "Cómo funciona",
       "pricing": "Precios",
       "signIn": "Iniciar sesión"

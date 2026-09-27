@@ -2,7 +2,7 @@
   "header": {
     "product": "Produit",
     "howItWorks": "Fonctionnement",
-    "dataQuality": "Qualité des données",
+    "dataQuality": "Santé des données",
     "pricing": "Tarifs",
     "signIn": "Se connecter"
   },
@@ -34,12 +34,12 @@
     }
   },
   "dataQuality": {
-    "label": "Qualité de la CVthèque",
+    "label": "Santé des données",
     "title": "Sachez exactement ce qui est exploitable — et ce qui demande attention.",
     "subtitle": "Qorva évalue chaque profil de votre CVthèque selon quatre dimensions de qualité, pour voir ce qui est prêt à l'emploi et corriger ce qui ne l'est pas.",
     "completeness": {
       "title": "Complétude",
-      "description": "Repérez les profils auxquels il manque des informations essentielles — email, téléphone, localisation, compétences ou parcours professionnel — avant qu'ils ne vous coûtent un placement."
+      "description": "Repérez les profils auxquels il manque des informations essentielles — email, téléphone, poste, compétences ou parcours professionnel — avant qu'ils ne vous coûtent un placement."
     },
     "freshness": {
       "title": "Fraîcheur",
@@ -53,7 +53,7 @@
       "title": "Confiance IA",
       "description": "Consultez le niveau de confiance de l'extraction IA pour chaque CV analysé, afin de signaler les fiches à vérifier manuellement."
     },
-    "action": "Chaque problème est actionnable : filtrez les profils concernés, puis corrigez, fusionnez ou actualisez-les depuis la même vue."
+    "action": "Chaque problème est actionnable : ouvrez les profils concernés, puis réanalysez-les, demandez une mise à jour aux candidats, archivez-les ou supprimez les doublons — depuis la même vue."
   },
   "refresh": {
     "label": "Actualisation des candidats",
@@ -78,9 +78,9 @@
   },
   "sampleReport": {
     "label": "Exemple de rapport",
-    "title": "À quoi ressemble un rapport de qualité.",
+    "title": "À quoi ressemble un rapport Santé des données.",
     "subtitle": "Après l'analyse de votre CVthèque, Qorva vous donne une vision claire de ce que vous possédez réellement.",
-    "imageAlt": "Analyse de la qualité des données de la CVthèque Qorva"
+    "imageAlt": "Page Santé des données de Qorva pour une CVthèque"
   },
   "workflow": {
     "title": "D'une base dormante à de nouveaux placements.",
@@ -185,7 +185,7 @@
     "title": "Questions fréquentes",
     "subtitle": "Tout ce que vous devez savoir avant de commencer.",
     "item1": {
-      "question": "Qu'est-ce que le rapport de qualité de la base ?",
+      "question": "Qu'est-ce que le rapport Santé des données ?",
       "answer": "Importez votre CVthèque et Qorva l'analyse selon la complétude, la fraîcheur, les doublons et la confiance de l'extraction IA. Vous obtenez une vision claire des profils prêts à l'emploi, de ceux qui demandent attention, et des doublons potentiels."
     },
     "item2": {
@@ -265,7 +265,7 @@
     "description": "Qorva aide les cabinets de recrutement à transformer leurs bases de candidats obsolètes et incomplètes en viviers exploitables, prêts à générer des placements.",
     "product": {
       "title": "Produit",
-      "dataQuality": "Qualité des données",
+      "dataQuality": "Santé des données",
       "howItWorks": "Comment ça marche",
       "pricing": "Tarifs",
       "signIn": "Se connecter"
