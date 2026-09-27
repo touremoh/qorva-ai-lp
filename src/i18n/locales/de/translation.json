@@ -47,7 +47,7 @@
     },
     "uniqueness": {
       "title": "Eindeutigkeit",
-      "description": "Erkennen Sie wahrscheinliche Dubletten bei Profilen und CVs, damit jede Suche genau einen sauberen Datensatz pro Person liefert."
+      "description": "Erkennen Sie Lebensläufe mit derselben E-Mail-Adresse oder Telefonnummer, damit Sie Dubletten entfernen und einen sauberen Datensatz pro Person behalten."
     },
     "confidence": {
       "title": "KI-Konfidenz",

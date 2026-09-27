@@ -47,7 +47,7 @@
     },
     "uniqueness": {
       "title": "Uniciteit",
-      "description": "Detecteer waarschijnlijke dubbele profielen en dubbele cv's, zodat elke zoekopdracht één schoon record per persoon oplevert."
+      "description": "Spoor cv's op met hetzelfde e-mailadres of telefoonnummer, zodat u de extra exemplaren verwijdert en één schoon record per persoon overhoudt."
     },
     "confidence": {
       "title": "AI-betrouwbaarheid",

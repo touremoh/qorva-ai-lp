@@ -47,7 +47,7 @@
     },
     "uniqueness": {
       "title": "Unicité",
-      "description": "Détectez les probables doublons de profils et de CV, pour que chaque recherche renvoie une seule fiche propre par personne."
+      "description": "Repérez les CV qui partagent la même adresse e-mail ou le même numéro de téléphone, pour supprimer les doublons et garder une seule fiche propre par personne."
     },
     "confidence": {
       "title": "Confiance IA",
