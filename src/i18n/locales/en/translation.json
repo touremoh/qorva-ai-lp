@@ -47,7 +47,7 @@
     },
     "uniqueness": {
       "title": "Uniqueness",
-      "description": "Detect likely duplicate candidate profiles and duplicate CVs, so every search returns one clean record per person."
+      "description": "Flag resumes that share the same email address or phone number, so you can remove the extras and keep one clean record per person."
     },
     "confidence": {
       "title": "AI confidence",

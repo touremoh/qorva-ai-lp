@@ -47,7 +47,7 @@
     },
     "uniqueness": {
       "title": "Unicidad",
-      "description": "Detecte probables perfiles y CV duplicados, para que cada búsqueda devuelva una única ficha limpia por persona."
+      "description": "Detecte los currículums que comparten el mismo correo electrónico o número de teléfono, para eliminar los sobrantes y conservar una única ficha limpia por persona."
     },
     "confidence": {
       "title": "Confianza de la IA",

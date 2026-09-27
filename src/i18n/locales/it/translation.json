@@ -47,7 +47,7 @@
     },
     "uniqueness": {
       "title": "Unicità",
-      "description": "Rileva probabili profili e CV duplicati, così ogni ricerca restituisce una sola scheda pulita per persona."
+      "description": "Individua i CV che condividono lo stesso indirizzo email o numero di telefono, per eliminare i doppioni e mantenere una sola scheda pulita per persona."
     },
     "confidence": {
       "title": "Affidabilità IA",

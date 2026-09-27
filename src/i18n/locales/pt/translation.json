@@ -47,7 +47,7 @@
     },
     "uniqueness": {
       "title": "Unicidade",
-      "description": "Detecte prováveis perfis e CVs duplicados, para que cada busca retorne um único registro limpo por pessoa."
+      "description": "Identifique os currículos que compartilham o mesmo e-mail ou número de telefone, para remover os excedentes e manter um único registro limpo por pessoa."
     },
     "confidence": {
       "title": "Confiança da IA",
