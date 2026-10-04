@@ -232,6 +232,7 @@
       "aiChat": "500 AI Resume Chat-berichten / maand",
       "queries": "1.000 Talent Intelligence-query's / maand",
       "screeningActions": "2.000 screeningacties / maand",
+      "matchDepth": "Tot de beste 10 kandidaten per vacature bij elke matching",
       "bulkImport": "Bulkimport tot 100 CV’s tegelijk",
       "emailTemplates": "3 e-mailsjablonen",
       "atsIntegrations": "1 ATS-integratie (8 ATS ondersteund)"
@@ -243,6 +244,7 @@
       "aiChat": "1.500 AI Resume Chat-berichten / maand",
       "queries": "3.000 Talent Intelligence-query's / maand",
       "screeningActions": "10.000 screeningacties / maand",
+      "matchDepth": "Tot de beste 20 kandidaten per vacature bij elke matching",
       "bulkImport": "Bulkimport tot 300 CV’s tegelijk",
       "emailTemplates": "15 e-mailsjablonen",
       "atsIntegrations": "3 ATS-integraties (8 ATS ondersteund)"
@@ -254,11 +256,12 @@
       "aiChat": "4.000 AI Resume Chat-berichten / maand",
       "queries": "8.000 Talent Intelligence-query's / maand",
       "screeningActions": "25.000 screeningacties / maand",
+      "matchDepth": "Tot de beste 30 kandidaten per vacature bij elke matching",
       "bulkImport": "Bulkimport tot 1.000 CV’s tegelijk",
       "emailTemplates": "50 e-mailsjablonen",
       "atsIntegrations": "7 ATS-integraties (8 ATS ondersteund)"
     },
-    "screeningActionNote": "1 screeningactie = 1 cv importeren of 1 matchingrapport genereren"
+    "screeningActionNote": "1 screeningactie = 1 cv importeren of 1 matchingrapport genereren. Opnieuw matchen telt alleen nieuwe of gewijzigde rapporten."
   },
   "footer": {
     "brand": "Qorva",
