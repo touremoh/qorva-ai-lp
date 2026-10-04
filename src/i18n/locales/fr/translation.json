@@ -232,6 +232,7 @@
       "aiChat": "500 messages AI Resume Chat / mois",
       "queries": "1 000 requêtes Talent Intelligence / mois",
       "screeningActions": "2 000 actions de screening / mois",
+      "matchDepth": "Jusqu'aux 10 meilleurs candidats par offre analysée",
       "bulkImport": "Import groupé jusqu’à 100 CV à la fois",
       "emailTemplates": "3 modèles d'email",
       "atsIntegrations": "1 intégration ATS (8 ATS pris en charge)"
@@ -243,6 +244,7 @@
       "aiChat": "1 500 messages AI Resume Chat / mois",
       "queries": "3 000 requêtes Talent Intelligence / mois",
       "screeningActions": "10 000 actions de screening / mois",
+      "matchDepth": "Jusqu'aux 20 meilleurs candidats par offre analysée",
       "bulkImport": "Import groupé jusqu’à 300 CV à la fois",
       "emailTemplates": "15 modèles d'email",
       "atsIntegrations": "3 intégrations ATS (8 ATS pris en charge)"
@@ -254,11 +256,12 @@
       "aiChat": "4 000 messages AI Resume Chat / mois",
       "queries": "8 000 requêtes Talent Intelligence / mois",
       "screeningActions": "25 000 actions de screening / mois",
+      "matchDepth": "Jusqu'aux 30 meilleurs candidats par offre analysée",
       "bulkImport": "Import groupé jusqu’à 1 000 CV à la fois",
       "emailTemplates": "50 modèles d'email",
       "atsIntegrations": "7 intégrations ATS (8 ATS pris en charge)"
     },
-    "screeningActionNote": "1 action de screening = l'import d'1 CV ou la génération d'1 rapport de matching"
+    "screeningActionNote": "1 action de screening = l'import d'1 CV ou la génération d'1 rapport de matching. Relancer une analyse ne décompte que les rapports nouveaux ou modifiés."
   },
   "footer": {
     "brand": "Qorva",
