@@ -2,13 +2,14 @@ import { Button } from '@mui/material';
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 import { BOOK_DEMO_URL, CTA_ORANGE, CTA_ORANGE_HOVER } from '../config/cta';
+import { trackEvent } from '../utils/tracking';
 
 /**
  * The page's only call to action. Every placement renders this component, so the label,
  * the destination and the styling cannot drift apart, and no second competing action can
  * creep back in without deleting a usage of it.
  */
-function BookDemoButton({ size, fullWidth, sx }) {
+function BookDemoButton({ size, fullWidth, sx, placement }) {
   const { t } = useTranslation();
 
   return (
@@ -17,6 +18,7 @@ function BookDemoButton({ size, fullWidth, sx }) {
       size={size}
       fullWidth={fullWidth}
       href={BOOK_DEMO_URL}
+      onClick={() => trackEvent('book_demo_click', { placement })}
       sx={{
         px: size === 'large' ? 5 : 3,
         py: size === 'large' ? 2 : 1.25,
@@ -45,6 +47,8 @@ BookDemoButton.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   fullWidth: PropTypes.bool,
   sx: PropTypes.object,
+  /** Where the button sits on the page; reported with the book_demo_click event. */
+  placement: PropTypes.oneOf(['header', 'hero', 'pricing', 'final_cta']).isRequired,
 };
 
 BookDemoButton.defaultProps = {

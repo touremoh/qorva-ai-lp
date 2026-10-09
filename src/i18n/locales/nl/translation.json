@@ -282,7 +282,8 @@
       "termsOfService": "Servicevoorwaarden",
       "security": "Beveiliging",
       "compliance": "Compliance",
-      "accessibility": "Toegankelijkheid"
+      "accessibility": "Toegankelijkheid",
+      "cookieSettings": "Cookie-instellingen"
     },
     "contact": {
       "title": "Contact",
@@ -294,7 +295,7 @@
   },
   "cookieConsent": {
     "title": "Wij gebruiken cookies",
-    "description": "Wij gebruiken cookies om u de beste ervaring op onze website te bieden. Sommige zijn essentieel voor het functioneren van de site; andere helpen ons te begrijpen hoe deze wordt gebruikt.",
+    "description": "Wij gebruiken essentiële cookies om deze site te laten werken. Met uw toestemming gebruiken we ook analytische cookies (Google) en advertentiecookies (Google, Meta) om onze advertenties te meten. U kunt uw keuze altijd wijzigen via Cookie-instellingen.",
     "acceptAll": "Alles accepteren",
     "essentialOnly": "Alleen essentiële",
     "learnMore": "Privacybeleid"

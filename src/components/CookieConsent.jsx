@@ -1,27 +1,47 @@
 import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Box, Button, Typography, Link, Slide } from '@mui/material';
+import { CONSENT_ALL, CONSENT_ESSENTIAL, readStoredConsent, writeConsent } from '../utils/consent';
+import { denyConsent, grantConsent } from '../utils/tracking';
 
-const STORAGE_KEY = 'qorva_cookie_consent';
+/** Any link to this hash reopens the banner (footer "Cookie settings", privacy policy). */
+export const COOKIE_SETTINGS_HASH = '#cookie-settings';
 
 function CookieConsent() {
   const { t } = useTranslation();
+  const location = useLocation();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    if (!localStorage.getItem(STORAGE_KEY)) {
+    if (!readStoredConsent()) {
       setVisible(true);
     }
   }, []);
 
-  const handleAcceptAll = () => {
-    localStorage.setItem(STORAGE_KEY, 'all');
+  useEffect(() => {
+    if (location.hash === COOKIE_SETTINGS_HASH) {
+      setVisible(true);
+    }
+  }, [location]);
+
+  const close = () => {
     setVisible(false);
+    if (window.location.hash === COOKIE_SETTINGS_HASH) {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+  };
+
+  const handleAcceptAll = () => {
+    writeConsent(CONSENT_ALL);
+    grantConsent();
+    close();
   };
 
   const handleEssentialOnly = () => {
-    localStorage.setItem(STORAGE_KEY, 'essential');
-    setVisible(false);
+    writeConsent(CONSENT_ESSENTIAL);
+    denyConsent();
+    close();
   };
 
   return (
