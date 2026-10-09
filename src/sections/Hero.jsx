@@ -98,7 +98,7 @@ function Hero() {
           </Typography>
 
           <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
-            <BookDemoButton size="large" />
+            <BookDemoButton placement="hero" size="large" />
           </Stack>
 
           <Typography variant="body2" sx={{ color: 'rgba(255,255,255,0.38)', mt: -1, fontSize: '0.82rem' }}>

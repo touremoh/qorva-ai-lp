@@ -158,7 +158,7 @@ function Header() {
             <Button variant="outlined" color="primary" href={"https://app.qorva.ai/login"} sx={{ whiteSpace: 'nowrap', flexShrink: 0 }}>
               {t('header.signIn')}
             </Button>
-            <BookDemoButton size="medium" sx={{ flexShrink: 0 }} />
+            <BookDemoButton placement="header" size="medium" sx={{ flexShrink: 0 }} />
           </Stack>
         </Toolbar>
       </Container>

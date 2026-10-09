@@ -282,7 +282,8 @@
       "termsOfService": "Terms of Service",
       "security": "Security",
       "compliance": "Compliance",
-      "accessibility": "Accessibility"
+      "accessibility": "Accessibility",
+      "cookieSettings": "Cookie settings"
     },
     "contact": {
       "title": "Contact",
@@ -294,7 +295,7 @@
   },
   "cookieConsent": {
     "title": "We use cookies",
-    "description": "We use cookies to ensure you get the best experience on our website. Some are essential for the site to function; others help us understand how it is used.",
+    "description": "We use essential cookies to run this site. With your consent, we also use analytics cookies (Google) and advertising cookies (Google, Meta) to measure our ads. You can change your choice at any time under Cookie settings.",
     "acceptAll": "Accept All",
     "essentialOnly": "Essential Only",
     "learnMore": "Privacy Policy"

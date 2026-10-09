@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Box, Container, Grid, Typography, Link, Stack } from '@mui/material';
+import { COOKIE_SETTINGS_HASH } from '../components/CookieConsent';
 
 function Footer() {
   const { t } = useTranslation();
@@ -22,6 +23,7 @@ function Footer() {
         { name: t('footer.legal.security'), href: '/security' },
         { name: t('footer.legal.compliance'), href: '/compliance' },
         { name: t('footer.legal.accessibility'), href: '/accessibility' },
+        { name: t('footer.legal.cookieSettings'), href: COOKIE_SETTINGS_HASH },
       ],
     },
   };

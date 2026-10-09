@@ -75,7 +75,7 @@ function FinalCTA() {
           </Typography>
 
           <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
-            <BookDemoButton size="large" />
+            <BookDemoButton placement="final_cta" size="large" />
           </Stack>
         </Stack>
       </Container>

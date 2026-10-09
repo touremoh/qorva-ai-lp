@@ -297,7 +297,7 @@ const Pricing = () => {
                     ))}
                   </List>
 
-                  <BookDemoButton fullWidth size="medium" sx={{ mt: 1 }} />
+                  <BookDemoButton placement="pricing" fullWidth size="medium" sx={{ mt: 1 }} />
                 </PricingCard>
               </Grid>
             );

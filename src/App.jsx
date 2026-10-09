@@ -19,7 +19,7 @@ import Footer from './sections/Footer';
 import SupportedAts from './components/SupportedAts';
 import CookieConsent from './components/CookieConsent';
 import MarkdownPage from "./sections/MarkdownPage.jsx";
-import {initGA, logPageView} from "./utils/analytics.js";
+import {initTracking, trackPageView} from "./utils/tracking.js";
 import {useEffect} from "react";
 
 const theme = createTheme({
@@ -181,18 +181,18 @@ const MainPage = () => {
 }
 
 const Analytics = () => {
-  const location = useLocation();
+  const { pathname } = useLocation();
 
   useEffect(() => {
-    logPageView();
-  }, [location]);
+    trackPageView(pathname);
+  }, [pathname]);
 
   return null;
 };
 
 function App() {
   useEffect(() => {
-    initGA();
+    initTracking();
   }, []);
 
   return (
